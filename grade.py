@@ -1,0 +1,11649 @@
+<!DOCTYPE html>
+<!-- saved from url=(0068)https://www.geeksforgeeks.org/python/python-oops-exercise-questions/ -->
+<html lang="en-US"><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=3.0"> 
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1"><link rel="shortcut icon" href="https://media.geeksforgeeks.org/wp-content/cdn-uploads/gfg_favicon.png" type="image/x-icon">
+
+<link rel="preconnect" href="https://fonts.googleapis.com/">
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+
+
+<meta name="theme-color" content="#308D46">
+<!-- <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1' /> -->
+
+<meta name="image" property="og:image" content="https://media.geeksforgeeks.org/wp-content/cdn-uploads/gfg_200x200-min.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="200">
+<meta property="og:image:height" content="200">
+<meta name="facebook-domain-verification" content="xo7t4ve2wn3ywfkjdvwbrk01pvdond">
+
+<meta property="og:title" content="Python OOPs Exercise Questions - GeeksforGeeks">
+<meta name="description" content="Your All-in-One Learning Portal: GeeksforGeeks is a comprehensive educational platform that empowers learners across domains-spanning computer science and programming, school education, upskilling, commerce, software tools, competitive exams, and more.">
+<meta property="og:url" content="https://www.geeksforgeeks.org/python/python-oops-exercise-questions/">
+<meta name="keywords" content="Python OOP exercises, object-oriented programming, encapsulation, inheritance, polymorphism, abstraction, class methods, static methods, dynamic attribute addition, composition over inheritance, operator overloading, private attributes management, Student Grade Calculator, Animal Kingdom inheritance, interface implementation">
+<meta property="og:site_name" content="GeeksforGeeks">
+<meta property="og:image" content="https://media.geeksforgeeks.org/wp-content/cdn-uploads/gfg_200x200-min.png">
+<meta property="article:section" content="Python">
+<meta property="article:tag" content="Python Oops-programs">
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2025-01-21 12:20:35+00:00">
+<meta property="article:modified_time" content="2025-01-21 12:20:35+00:00">
+<meta property="og:updated_time" content="2025-01-21 12:20:35+00:00">
+<meta property="og:image:secure_url" content="https://media.geeksforgeeks.org/wp-content/cdn-uploads/gfg_200x200-min.png">
+<meta property="og:description" content="Your All-in-One Learning Portal: GeeksforGeeks is a comprehensive educational platform that empowers learners across domains-spanning computer science and programming, school education, upskilling, commerce, software tools, competitive exams, and more.">
+<script type="text/javascript" async="" src="./grade_files/js"></script><script async="" src="./grade_files/apstag.js.download"></script><script async="" src="./grade_files/gtm.js.download"></script><script type="text/javascript" async="" src="./grade_files/6si.min.js.download"></script><script src="./grade_files/synchronously_gfg_ads.min.js.download"></script><script id="6senseWebTag" src="./grade_files/1776538f-6649-4839-8792-50339a772c95.js.download"></script>
+<script defer="" src="./grade_files/platform.js.download" gapi_processed="true"></script>
+<!-- earlier require.js -->
+<!-- <script src="//cdnjs.cloudflare.com/ajax/libs/require.js/2.1.14/require.min.js"></script> -->
+<!-- <script src="https://assets.geeksforgeeks.org/codetabs-dev/require.js"></script> -->
+<!-- Removed the below script from here to prevent loading google translate js at initial load
+<script async src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script> -->
+
+<!-- FIXME:-  To be finalised whether we need to put this gpt script in header or footer  -->
+<!-- //gpt.js script -->
+<!-- <script async src='https://www.googletagservices.com/tag/js/gpt.js'></script> -->
+      <script defer="" src="./grade_files/f(9).txt"></script>
+  <script defer="" src="./grade_files/gfg_ads.min.js.download"></script>
+<script defer="" src="./grade_files/prebid.js.download"></script>
+
+                    <script> 
+                        var video_api_response = JSON.parse("[]");
+                    </script>
+                                    <script> 
+                        var quizData = JSON.parse("{}");
+                    </script>
+                
+<!-- gfg tabs compatablity bundled js -->
+  <script defer="" src="./grade_files/codetabs.js.download" environment="production" domain="gfg" no-scroll=""></script>
+
+<title>Python OOPs Exercise Questions - GeeksforGeeks</title>
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="https://www.geeksforgeeks.org/python/python-oops-exercise-questions/">
+<!--[if lt IE 9]>
+<script src="https://www.geeksforgeeks.org/wp-content/themes/iconic-one/js/html5.js" type="text/javascript"></script>
+<![endif]-->
+
+
+<!-- Video Schema for posts only -->
+
+<!-- adding article schema markup -->
+
+
+<!--POST SCHEMA through API-->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "id": "https://www.geeksforgeeks.org/python/python-oops-exercise-questions/"
+  },
+  "headline": "Python OOPs Exercise Questions",
+  "datePublished": "2025-01-21 12:20:35",
+  "dateModified": "2025-07-23 06:12:11",
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://media.geeksforgeeks.org/wp-content/uploads/gfg_200X200-100x100.png",
+    "width": "100",
+    "height": "100"
+  },
+  "author": {
+    "@type": "Organization",
+    "name": "GeeksforGeeks",
+    "url": "https://www.geeksforgeeks.org/",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/logo-new-2.svg",
+      "width": "301",
+      "height": "40"
+    }
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "GeeksforGeeks",
+    "url": "https://www.geeksforgeeks.org/",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/logo-new-2.svg",
+      "width": "301",
+      "height": "40"
+    }
+  },
+  "description": "Ready to level up your Python object-oriented programming skills? Explore our collection of Python OOP exercises, packed with over 25 engaging problems to help you master core concepts like encapsulation, inheritance, polymorphism and abstraction. Let&rsquo;s turn theory into practice!Python OOPs Practice ProgramsThis Python OOP exercise is crafted to strengthen your",
+  "about": [
+    {
+      "@type": "Thing",
+      "name": "Python"
+    },
+    {
+      "@type": "Thing",
+      "name": "PythonPrograms"
+    },
+    {
+      "@type": "Thing",
+      "name": "WebTechnologies"
+    },
+    {
+      "@type": "Thing",
+      "name": "PythonOopsPrograms"
+    }
+  ]
+}</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "GeeksforGeeks",
+  "url": "https://www.geeksforgeeks.org/",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://www.geeksforgeeks.org/search/{search_term_string}/",
+    "query-input": "required name=search_term_string"
+  }
+}</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "GeeksforGeeks",
+  "url": "https://www.geeksforgeeks.org/",
+  "logo": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20200817185016/gfg_complete_logo_2x-min.png",
+  "description": "Your All-in-One Learning Portal: GeeksforGeeks is a comprehensive educational platform that empowers learners across domains-spanning computer science and programming, school education, upskilling, commerce, software tools, competitive exams, and more.",
+  "founder": [
+    {
+      "@type": "Person",
+      "name": "Sandeep Jain",
+      "url": "https://in.linkedin.com/in/sandeep-jain-b3940815"
+    }
+  ],
+  "sameAs": [
+    "https://www.facebook.com/geeksforgeeks.org/",
+    "https://twitter.com/geeksforgeeks",
+    "https://www.linkedin.com/company/1299009",
+    "https://www.youtube.com/geeksforgeeksvideos/"
+  ]
+}</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Python",
+      "item": {
+        "@type": "Thing",
+        "@id": "https://www.geeksforgeeks.org/category/python/"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "python-oops-exercise-questions",
+      "item": {
+        "@type": "Thing",
+        "@id": "https://www.geeksforgeeks.org/python/python-oops-exercise-questions/"
+      }
+    }
+  ]
+}</script>
+<script>
+    var arrPostCat = new Array();
+    var arrPostCatName="Python";
+            arrPostCat.push('1789');
+            arrPostCat.push('2601');
+            arrPostCat.push('2628');
+        var tIds = "1789,2601,2628,4798";
+    var termsNames = "Python,PythonPrograms,WebTechnologies,PythonOopsprograms,ProgrammingLanguage";
+    var tIdsInclusiveParents = "1789,2601,2628,4798,2056";
+    var domain = 1;
+    var arrPost = new Array();
+    var post_id = "1359550";
+    var post_type = "post";
+    var post_slug = window.location.href;
+    var ip = "64.252.72.167";
+    var post_title = `Python OOPs Exercise Questions`;
+    var post_status = "publish";
+    var practiceAPIURL="https://practiceapi.geeksforgeeks.org/";
+    var practiceURL="https://practice.geeksforgeeks.org/";
+    var post_date = "2025-01-21 11:26:26";
+    var commentSysUrl = "https://discuss.geeksforgeeks.org/commentEmbedV2.js";
+    //var postAdApiUrlString = "";
+    var link_on_code_run = '';
+    var link_search_modal_top = '';
+    var country_code_cf = "IN";
+    
+    
+        var postAdApiUrlString = '2056/1789/1789/2601/2628/4798/';
+</script>
+
+
+<link rel="canonical" href="https://www.geeksforgeeks.org/python/python-oops-exercise-questions/">
+<link rel="dns-prefetch" href="https://cdn.geeksforgeeks.org/">
+<link rel="dns-prefetch" href="https://s.w.org/">
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.geeksforgeeks.org\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.8"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script><script src="./grade_files/wp-emoji-release.min.js.download" type="text/javascript" defer=""></script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel="stylesheet" id="custom-style-css" href="./grade_files/gfg.min.css" type="text/css" media="all">
+<script type="text/javascript" src="./grade_files/jquery-3.7.1.min.js.download"></script>
+<script type="text/javascript" src="./grade_files/jquery-migrate-3.5.2.min.js.download"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var gfgObject = {"authUrl":"https:\/\/auth.geeksforgeeks.org\/","writeApiUrl":"https:\/\/apiwrite.geeksforgeeks.org\/","writeUrl":"https:\/\/write.geeksforgeeks.org\/","utilUrl":"https:\/\/util.geeksforgeeks.org\/","apiUrl":"https:\/\/api.geeksforgeeks.org\/","cfApiUrl":"https:\/\/gfgapi.geeksforgeeks.org\/","baseCompilerURL":"https:\/\/codejudge.geeksforgeeks.org\/","idePageBaseUrl":"https:\/\/ide.geeksforgeeks.org\/","gfgApiScriptUrl":"https:\/\/apiscript.geeksforgeeks.org\/","gfgSiteUrl":"https:\/\/www.geeksforgeeks.org\/","curatedListId":"1","curatedListTitle":"SDE Sheet Problems","utilDjangoCfUrl":"https:\/\/utilapi.geeksforgeeks.org\/","premiumCheckoutSlug":"premium-plans-payment\/","premiumLandingSlug":"premium-plans\/","premiumCssUrl":"https:\/\/www.geeksforgeeks.org\/wp-content\/themes\/iconic-one\/css\/gfgpremium.min.css?ver=1.7","premiumJsUrl":"https:\/\/www.geeksforgeeks.org\/wp-content\/themes\/iconic-one\/js\/gfgpremium.min.js?ver=1.6","utilGoogleUrl":"https:\/\/ugprod.geeksforgeeks.org\/","communityApiUrl":"https:\/\/communityapi.geeksforgeeks.org\/","utilDjangoUrl":"https:\/\/gfgutil.geeksforgeeks.org\/","gfgPracticeUrl":"https:\/\/practiceapi.geeksforgeeks.org\/","gfgMediaUrl":"https:\/\/media.geeksforgeeks.org\/","authDjangoApiUrl":"https:\/\/authapi.geeksforgeeks.org\/","gfgMlApiUrl":"https:\/\/recommendations.geeksforgeeks.org\/","is_home":"","is_category":"","userlevelPremiumPlus":"2","practiceUrl":"https:\/\/practice.geeksforgeeks.org\/","gfgNotificationsApiUrl":"https:\/\/notificationsapi.geeksforgeeks.org\/"};
+/* ]]> */
+</script>
+<script type="text/javascript" async="async" src="./grade_files/gfg.min.js.download"></script>
+
+<style>
+#wpadminbar{
+background: #ff0000 !important;
+}
+</style>
+<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #ffffff; }
+</style>
+<link rel="icon" href="https://www.geeksforgeeks.org/wp-content/uploads/gfg_200X200-100x100.png" sizes="32x32">
+<link rel="icon" href="https://www.geeksforgeeks.org/wp-content/uploads/gfg_200X200.png" sizes="192x192">
+<link rel="apple-touch-icon-precomposed" href="https://www.geeksforgeeks.org/wp-content/uploads/gfg_200X200.png">
+<meta name="msapplication-TileImage" content="https://www.geeksforgeeks.org/wp-content/uploads/gfg_200X200.png">
+
+<!--
+<script type='text/javascript'>
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+  (function() {
+    var gads = document.createElement('script');
+    gads.async = true;
+    gads.type = 'text/javascript';
+    var useSSL = 'https:' == document.location.protocol;
+    gads.src = (useSSL ? 'https:' : 'http:') +
+      '//www.googletagservices.com/tag/js/gpt.js';
+    var node = document.getElementsByTagName('script')[0];
+    node.parentNode.insertBefore(gads, node);
+  })();
+</script>
+
+ AutoAds
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({
+google_ad_client: "ca-pub-9465609616171866",
+enable_page_level_ads: true
+});
+</script>
+-->
+
+
+
+
+<style>
+
+
+@media (max-width:1043px) and (min-width:992px) {
+ .hide-1043992 {
+   display: none!important;
+ }
+}
+
+.mobile-header-list-item{
+    padding-left:30px; 
+    padding-right:10px;
+    margin-top:5px;
+}
+
+.mobile-header-list{
+    border-bottom: 1px solid rgba(158, 158, 158, 0.3) !important;
+}
+
+.mobile-header-list .dropdown-title{
+    border-bottom: none !important;
+    font-size: 16px!important; 
+    padding: 0px!important; 
+    padding-left: 45px!important; 
+    font-weight: normal;
+}
+
+.mobile-header-list .upside::after{
+    transform: rotate(180deg);
+}
+
+</style>
+<!-- End Google Tag Manager -->
+<!-- Global site tag (gtag.js) - Google Ads: 474915276 -->
+<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=AW-474915276"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'AW-474915276');
+</script> -->
+
+<meta http-equiv="origin-trial" content="AlK2UR5SkAlj8jjdEc9p3F3xuFYlF6LYjAML3EOqw1g26eCwWPjdmecULvBH5MVPoqKYrOfPhYVL71xAXI1IBQoAAAB8eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ=="><meta http-equiv="origin-trial" content="Amm8/NmvvQfhwCib6I7ZsmUxiSCfOxWxHayJwyU1r3gRIItzr7bNQid6O8ZYaE1GSQTa69WwhPC9flq/oYkRBwsAAACCeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ=="><meta http-equiv="origin-trial" content="A9wSqI5i0iwGdf6L1CERNdmsTPgVu44ewj8QxTBYgsv1LCPUVF7YmWOvTappqB1139jAymxUW/RO8zmMqo4zlAAAAACNeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiRmxlZGdlQmlkZGluZ0FuZEF1Y3Rpb25TZXJ2ZXIiLCJleHBpcnkiOjE3MzY4MTI4MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A+d7vJfYtay4OUbdtRPZA3y7bKQLsxaMEPmxgfhBGqKXNrdkCQeJlUwqa6EBbSfjwFtJWTrWIioXeMW+y8bWAgQAAACTeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiRmxlZGdlQmlkZGluZ0FuZEF1Y3Rpb25TZXJ2ZXIiLCJleHBpcnkiOjE3MzY4MTI4MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><script src="./grade_files/f(10).txt" async=""></script><link href="https://securepubads.g.doubleclick.net/pagead/managed/dict/m202507220101/gpt" rel="compression-dictionary"><style>div#GFG_AD_Desktop_Stickyunit_1x1{display:none;text-align:center;justify-content:center;align-items:center;flex-wrap:wrap;position:fixed;bottom:0;z-index:1024;gap:1.5em;height:90px;width:100%;background:#cacaca;}</style><script src="./grade_files/require.js.download" type="text/javascript" environment="production" domain="gfg" no-scroll=""></script><script async="" src="./grade_files/27823234"></script><script src="./grade_files/ea747225-5f2f-4971-b80e-e7cf7cdd1e7b" type="text/javascript" async="async"></script><script type="text/javascript" async="" src="./grade_files/f(11).txt"></script><script src="./grade_files/pubcid.min.js.download"></script><script src="./grade_files/sync.min.js.download"></script><script src="./grade_files/id5-api.js.download"></script><link rel="stylesheet" href="./grade_files/index.css"><link rel="stylesheet" href="./grade_files/codemirror.css"><script src="./grade_files/index.js.download" type="text/javascript" environment="production" domain="gfg" no-scroll=""></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="codemirror/lib/codemirror" src="./grade_files/codemirror.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="codemirror/addon/mode/loadmode" src="./grade_files/loadmode.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="codemirror/addon/selection/active-line" src="./grade_files/active-line.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="codemirror/addon/fold/foldcode" src="./grade_files/foldcode.js.download"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="codemirror/mode/python/python" src="./grade_files/python.js.download"></script><script async="" src="./grade_files/AGSKWxXcod43p_OfCu6EOzZsEhjs81Ai3HiVKmgxJe4eTSIUdFOKKj-N2nUJgSd55d-pK9EAF_6I396asxIfpW6nyxNC2gPYwdztfS2_ENdzCabp-d78FiVu5hGh2nD3Rav4PS6CVNzIaQ=="></script><script esp-signal="true" src="./grade_files/google-esp.js.download"></script><style id="_6si-shortening">/* This stylesheet is created by 6sense */
+            .mktoForm .mktoFormRow:has(._6si_sff_filled) {
+                display: none;
+            }
+            .mktoForm .mktoFormRow ._6si_sff_filled {
+                display: none;
+            }
+            .hs-form .hs-form-field:has(._6si_sff_filled) {
+                display: none;
+            }
+            .hs-form .hs-form-field ._6si_sff_filled {
+                display: none;
+            }
+            form .form-field:not(.error):has(._6si_sff_filled) {
+                display: none;
+            }
+            form .form-field:not(.error) ._6si_sff_filled {
+                display: none;
+            }
+            .elq-form .row:has(._6si_sff_filled) {
+                display: none;
+            }
+            .elq-form .row ._6si_sff_filled {
+                display: none;
+            }
+            .elq-form .field-wrapper:has(._6si_sff_filled) {
+                display: none;
+            }
+            .elq-form .field-wrapper ._6si_sff_filled {
+                display: none;
+            }</style><script async="" src="./grade_files/AGSKWxUu62HkTmmaOhjQcGiRBZu2UPW2hKC0tQj0W7pESpXTzQrSdVO0f5G5oh96LQWSEVQBBodBp8mhKRruhbaongwOjZaea4W3bjq8z0KRxJUpoqe_xVVUUZCqwk1IOxxSQ6Nk6ubdsA=="></script><script async="" src="./grade_files/AGSKWxVp7bVNiFX_9F2DMLrj4lzEAt4T87FJXEd9L89Of8aZ5_On5zc6Lvzwuuk-474_0ftQkMCgH09m7mRpgmmcpLxyVlbDLQas_gmlDHDzxD-N2OAtQXK91Xai2TQvhf6dB_65gHBXKQ=="></script><script async="" src="./grade_files/AGSKWxWYLxrVUGFNUFld-u4kqt1tHfKtFtLdNV9NLOTiStSDqn7c3UZwQWeinrGGFLbkiF0ukyIycJ5RWptcUm1xvpvPSoWYYs3Oy0wZZM16fKeJvwLPftzWWYehJiwhThykQo5HxnJHDw=="></script></head>
+
+<body class="post-template-default single single-post postid-1359550 single-format-standard custom-background custom-background-white" data-dark-mode="false">
+
+    <script>
+        // Dark mode script
+
+        const gfgThemeList = Object.freeze({
+            LIGHT: "gfgThemeLight",
+            DARK: "gfgThemeDark"
+        })
+        const getThemeFromCookie = () => {
+            let gfg_def_theme = "";
+            let cookies = document.cookie;
+            let cooks = cookies.split(";");
+        
+            for (let i = 0; i < cooks.length; i++) {   
+                let icook = cooks[i].split("=");
+                if (icook[0].trim() == "gfg_theme") {
+                    gfg_def_theme = icook[1].trim();
+                }
+            }
+            return gfg_def_theme
+        }
+        if(!(post_slug.includes('premium-plans-payment/') || post_slug.includes('premium-plans/'))){
+            var isDarkMode = getThemeFromCookie() == gfgThemeList.DARK ? true : false;
+            document.querySelector("body").setAttribute("data-dark-mode", isDarkMode);
+        }
+ 
+
+        function setSearchBarFocus() {
+          const myTimeout = setTimeout(searchBarFocus, 0);
+          function searchBarFocus() {
+            document.getElementById("gcse-search-input").focus();
+          }
+        }
+
+        
+    </script>
+
+    <!-- <div class="header-main__wrapper not-fixed"> -->
+    <nav>
+    <div class="header-main__wrapper">
+
+        <a class="gfg-stc" style="top:0" href="https://www.geeksforgeeks.org/python/python-oops-exercise-questions/#main">Skip to content</a>
+
+        <a href="https://www.geeksforgeeks.org/" aria-label="Logo" class="header-main__logo">
+            <div class="_logo">
+                <!-- Original Logo -->
+                <img class="gfg_logo_img" style="height: 30px; width: 80px; max-width: fit-content;" src="./grade_files/gfg-gg-logo.svg" alt="geeksforgeeks">
+            </div>
+        </a>
+        <div class="header-main__container">
+            <!-- for mobile only -->
+            
+        <!-- For Web view only -->
+        <ul class="header-main__list"><li class="header-main__list-item Header_1" data-parent="false" aria-expanded="false" data-expandable="true"><span>Courses</span><i class="gfg-icon gfg-icon_arrow-down gfg-icon_header"></i><ul class="mega-dropdown Screen_1"><li class="mega-dropdown__list-item" data-child="true" aria-expanded="false" data-expandable="false"><a href="https://www.geeksforgeeks.org/courses/dsa-to-development-coding-guide/" target="_self">DSA to Development</a></li><li class="mega-dropdown__list-item" data-child="true" aria-expanded="false" data-expandable="false"><a href="https://www.geeksforgeeks.org/courses/category/gate/" target="_self">GATE 2026 Prep</a></li><li class="mega-dropdown__list-item" data-child="true" aria-expanded="false" data-expandable="false"><a href="https://www.geeksforgeeks.org/courses/category/ibm-certification/" target="_self">Get 3 IBM Certifications</a></li><li class="mega-dropdown__list-item" data-parent="false" aria-expanded="true" data-expandable="true"><span>For Working Professionals</span><i class="gfg-icon gfg-icon_arrow-right"></i><ul class="mega-dropdown Screen_2"><li class="mega-dropdown__list-item" data-child="true" aria-expanded="false" data-expandable="false"><a href="https://www.geeksforgeeks.org/courses/interviewe-101-data-structures-algorithm-system-design" target="_self">Interview 101: DSA &amp; System Design</a></li><li class="mega-dropdown__list-item" data-child="true" aria-expanded="false" data-expandable="false"><a href="https://www.geeksforgeeks.org/courses/full-stack-applied-data-science-program/" target="_self">Data Science Training Program</a></li><li class="mega-dropdown__list-item" data-child="true" aria-expanded="false" data-expandable="false"><a href="https://www.geeksforgeeks.org/courses/Java-backend-live/" target="_self">JAVA Backend Development (Live)</a></li><li class="mega-dropdown__list-item" data-child="true" aria-expanded="false" data-expandable="false"><a href="https://www.geeksforgeeks.org/courses/data-analytics-training-program-excel-sql-python-powerbi" target="_self">Data Analytics Training</a></li><li class="mega-dropdown__list-item" data-child="true" aria-expanded="false" data-expandable="false"><a href="https://www.geeksforgeeks.org/courses/devops-live/" target="_self">DevOps Engineering (LIVE)</a></li><li class="mega-dropdown__list-item" data-child="true" aria-expanded="false" data-expandable="false"><a href="https://www.geeksforgeeks.org/courses/Data-Structures-With-Python/" target="_self">Data Structures &amp; Algorithms in Python</a></li></ul></li><li class="mega-dropdown__list-item" data-parent="false" aria-expanded="true" data-expandable="true"><span>For Students</span><i class="gfg-icon gfg-icon_arrow-right"></i><ul class="mega-dropdown Screen_2"><li class="mega-dropdown__list-item" data-child="true" aria-expanded="false" data-expandable="false"><a href="https://www.geeksforgeeks.org/courses/placement-prep-programming-data-structures-algorithm" target="_self">Placement Preparation with DSA</a></li><li class="mega-dropdown__list-item" data-child="true" aria-expanded="false" data-expandable="false"><a href="https://www.geeksforgeeks.org/courses/data-science-live/" target="_self">Data Science (Live)</a></li><li class="mega-dropdown__list-item" data-child="true" aria-expanded="false" data-expandable="false"><a href="https://www.geeksforgeeks.org/courses/dsa-self-paced/" target="_self">Data Structure &amp; Algorithm-Self Paced (C++/JAVA)</a></li><li class="mega-dropdown__list-item" data-child="true" aria-expanded="false" data-expandable="false"><a href="https://www.geeksforgeeks.org/courses/competitive-programming-cp/" target="_self">Master Competitive Programming</a></li><li class="mega-dropdown__list-item" data-child="true" aria-expanded="false" data-expandable="false"><a href="https://www.geeksforgeeks.org/courses/full-stack-node/" target="_self">Full Stack Development with React &amp; Node JS (Live)</a></li></ul></li><li class="mega-dropdown__list-item" data-child="true" aria-expanded="false" data-expandable="false"><a href="https://www.geeksforgeeks.org/courses/digital-marketing-training" target="_self">(NEW) Digital Marketing Program</a></li><li class="mega-dropdown__list-item" data-child="true" aria-expanded="false" data-expandable="false"><a href="https://www.geeksforgeeks.org/courses/full-stack-node/" target="_self">Full Stack Development</a></li><li class="mega-dropdown__list-item" data-child="true" aria-expanded="false" data-expandable="false"><a href="https://www.geeksforgeeks.org/courses/data-science-live/" target="_self">Data Science &amp; ML Program</a></li><li class="mega-dropdown__list-item" data-child="true" aria-expanded="false" data-expandable="false"><a href="https://www.geeksforgeeks.org/courses" target="_self">All Courses</a></li></ul></li><li class="header-main__list-item Header_2" data-parent="false" aria-expanded="false" data-expandable="true"><span>Tutorials</span><i class="gfg-icon gfg-icon_arrow-down gfg-icon_header"></i><ul class="mega-dropdown Screen_1"><li class="mega-dropdown__list-item" data-child="true" aria-expanded="false" data-expandable="false"><a href="https://www.geeksforgeeks.org/python/python-programming-language-tutorial/" target="_self">Python</a></li><li class="mega-dropdown__list-item" data-child="true" aria-expanded="false" data-expandable="false"><a href="https://www.geeksforgeeks.org/java/java/" target="_self">Java</a></li><li class="mega-dropdown__list-item" data-child="true" aria-expanded="false" data-expandable="false"><a href="https://www.geeksforgeeks.org/learn-data-structures-and-algorithms-dsa-tutorial/" target="_self">Data Structures &amp; Algorithms</a></li><li class="mega-dropdown__list-item" data-child="true" aria-expanded="false" data-expandable="false"><a href="https://www.geeksforgeeks.org/ai-ml-and-data-science-tutorial-learn-ai-ml-and-data-science/" target="_self">ML &amp; Data Science</a></li><li class="mega-dropdown__list-item" data-child="true" aria-expanded="false" data-expandable="false"><a href="https://www.geeksforgeeks.org/interview-corner/" target="_self">Interview Corner</a></li><li class="mega-dropdown__list-item" data-child="true" aria-expanded="false" data-expandable="false"><a href="https://www.geeksforgeeks.org/programming-language-tutorials/" target="_self">Programming Languages</a></li><li class="mega-dropdown__list-item" data-child="true" aria-expanded="false" data-expandable="false"><a href="https://www.geeksforgeeks.org/web-technology/" target="_self">Web Development</a></li><li class="mega-dropdown__list-item" data-child="true" aria-expanded="false" data-expandable="false"><a href="https://www.geeksforgeeks.org/gate-exam-tutorial/" target="_self">GATE</a></li><li class="mega-dropdown__list-item" data-child="true" aria-expanded="false" data-expandable="false"><a href="https://www.geeksforgeeks.org/articles-on-computer-science-subjects-gq/" target="_self">CS Subjects</a></li><li class="mega-dropdown__list-item" data-child="true" aria-expanded="false" data-expandable="false"><a href="https://www.geeksforgeeks.org/devops-and-linux-tutorial/" target="_self">DevOps And Linux</a></li><li class="mega-dropdown__list-item" data-child="true" aria-expanded="false" data-expandable="false"><a href="https://www.geeksforgeeks.org/geeksforgeeks-school/" target="_self">School Learning</a></li><li class="mega-dropdown__list-item" data-child="true" aria-expanded="false" data-expandable="false"><a href="https://www.geeksforgeeks.org/websites-apps/software-and-tools-a-to-z-list/" target="_self">Software and Tools</a></li></ul></li><li class="header-main__list-item Header_3" data-parent="false" aria-expanded="false" data-expandable="true"><span>Practice</span><i class="gfg-icon gfg-icon_arrow-down gfg-icon_header"></i><ul class="mega-dropdown Screen_1"><li class="mega-dropdown__list-item" data-child="true" aria-expanded="false" data-expandable="false"><a href="https://www.geeksforgeeks.org/geeksforgeeks-practice-best-online-coding-platform/" target="_self">Practice Coding Problems</a></li><li class="mega-dropdown__list-item" data-child="true" aria-expanded="false" data-expandable="false"><a href="https://www.geeksforgeeks.org/nation-skill-up/" target="_self">Nation Skillup- Free Courses</a></li><li class="mega-dropdown__list-item" data-child="true" aria-expanded="false" data-expandable="false"><a href="https://www.geeksforgeeks.org/problem-of-the-day" target="_self">Problem of the Day</a></li><li class="mega-dropdown__list-item" data-child="true" aria-expanded="false" data-expandable="false"><a href="https://www.geeksforgeeks.org/ets-toefl-global-scholar-challenge-2025" target="_self">ETS TOEFL: Scholarship Contest</a></li></ul></li><li class="header-main__list-item Header_4" data-parent="false" aria-expanded="false" data-expandable="true"><span>Jobs</span><i class="gfg-icon gfg-icon_arrow-down gfg-icon_header"></i><ul class="mega-dropdown Screen_1"><li class="mega-dropdown__list-item" data-child="true" aria-expanded="false" data-expandable="false"><a href="https://connect.geeksforgeeks.org/" target="_self">Become a Mentor</a></li><li class="mega-dropdown__list-item" data-child="true" aria-expanded="false" data-expandable="false"><a href="https://www.geeksforgeeks.org/jobs" target="_self">Apply Now!</a></li><li class="mega-dropdown__list-item" data-child="true" aria-expanded="false" data-expandable="false"><a href="https://www.geeksforgeeks.org/gfg-hiring-solutions-for-recruiters/" target="_self">Post Jobs</a></li><li class="mega-dropdown__list-item" data-child="true" aria-expanded="false" data-expandable="false"><a href="https://practice.geeksforgeeks.org/events/rec/job-a-thon" target="_self">Job-A-Thon: Hiring Challenge</a></li></ul></li></ul>
+        <!-- right now only search is visible for mobile view because of css and all are visible for web view -->
+            <ul class="header-main__left-list" data-nl="false">
+                <li class="header-main__left-list-item gcse-search_li p-relative" aria-expanded="false" data-expandable="false">
+                    <div class="gcse-form-search-suggestion_wrapper">
+                                            <form id="gcse-form" class="gcse-form_class p-relative closeChatScreen gcse-form-web" data-sm="true">
+                            <span class="front-search-icon" style="display: block;"><i class="gfg-icon gfg-icon_search gfg-icon_white gcse-search__icon gcse-search-icon_grey"></i> </span>
+                            <input class="gcse-search-input__wrapper" id="gcse-search-input" aria-expanded="true" placeholder="Search..." autocomplete="off">
+                            <i class="gfg-icon gfg-icon_times gfg-icon_white hide-search"></i>
+                            <button aria-label="search" type="submit" class="gcse-search__btn" style="display: none;">
+                                <i class="gfg-icon gfg-icon_search gfg-icon_white gcse-search__icon"></i>
+                            </button>
+                        </form>
+                                            <div class="gfg-search-suggestion_wrapper" style="display:none"></div>
+                    <div>
+                </div></div></li>
+                                <li>
+                    <div class="darkMode-wrap" data-mode="Switch to Dark Mode">
+                        <button aria-label="toggle theme" data-gfg-action="toggleGFGTheme">
+                            <div id="darkMode-wrap-red-dot" style="height: 12px; width: 12px; background-color: rgb(235, 34, 34); border-radius: 999999px; position: absolute; top: 4px; right: 0px;"></div>
+                            <i class="gfg-icon gfg-icon_dark-mode"></i>
+                        </button>
+                        <span id="darkModeTooltipText">Switch to Dark Mode</span>
+                    </div>
+                </li>
+                
+                    <style type="text/css">
+                    .hidden{
+                        display:none !important; 
+                      }
+
+                    .notification-bell-icon::after {
+                    background-position: -43px -2992px;
+                    }
+                        
+                    #toggleButton{
+                        display:block !important;
+                    }
+                    </style>
+
+                <li class="header-main__left-list-item notification-button" style="width: 38px;">
+                    <div id="toggleButton" class="notification-main">
+                        <div class="button" style="padding: 2px 5px;">
+                            <i id="notification-bell-icon" class="gfg-icon notification-bell-icon"></i>
+                            <span class="notification-count" style="">20</span>
+                        </div>
+                        <div id="toast-container" style="position: fixed; top: 20px; right: 20px; z-index: 9999;"></div>
+                        <div id="notification" class="notification-container-main" style="display: none;">
+                            <div class="notification-header">
+                                <p>Notifications</p>
+                                <div class="mark_all_read">
+                                    <span>Mark all as read</span>
+                                </div>
+                            </div>
+                            <div class="notification-category_container">
+                                <div class="notification_categories">
+                                    <div id="all-notifications" class="notification_categories-inner-container notification-category active active-category" style="margin-left:11px">
+                                        <span id="all-notifications-inner">All</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div id="notification-content">
+                                <div id="loader" class="loader"></div>
+                                <div class="notification-scroll"> </div>
+                                    <div class="notification-footer">
+                                        <span id="view-all" class="">View All</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="notification-modal" class="notification-modal">
+                                <div class="notification_modal_close">
+                                    <span id="notification_close_button" class="notification_close_button"></span>
+                                </div>
+                                <div class="notification-modal-content">
+                                    <div class="notification-modal-content-header">
+                                        <span class="heading_notification">Notifications</span>
+                                        <div class="sorting">
+                                            <div class="mark_all_read">
+                                                <span class="mark_icon gfg-icon"></span>
+                                                <span>Mark all as read</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                <div class="notification-category_container">
+                                    <div class="notification_categories">
+                                        <div id="all-notifications-modal" class="notification_categories-inner-container notification-category active-category">
+                                            <span id="all-notifications-inner-modal">All</span>
+                                        </div>
+                                        <div id="unread-notifications-modal" class="notification_categories-inner-container notification-category ">
+                                            <span>Unread</span>
+                                        </div>
+                                        <div id="read-notifications-modal" class="notification_categories-inner-container notification-category ">
+                                            <span>Read</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="zero_notification_content">
+                                    <span class="notifications-text">
+                                        You're all caught up!!
+                                    </span>
+                                </div>
+                                <div id="loader_modal" class="loader_modal"></div>
+                                <div id="notification-content-container">
+                                    <div class="notification-modal-scroll">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                                
+                <li class="header-main__left-list-item google-translate-parent-element" aria-expanded="false" data-expanded="true">
+                    <div class="translate" id="g_translater">
+                        <div id="google_translate_element" data-show="false"></div>
+                    </div>
+                    <i class="gfg-icon gfg-icon_translate googleTranslateToggle" data-gfg-action="google_translate_element"></i>
+                    <!-- removed below code from here to load google translate js dynamically -->
+                    <!-- <script>
+                        var m = false;
+                        function googleTranslateElementInit() {
+                            new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+                            setTimeout(function(){
+                                if (jQuery( window ).width() < 768){
+                                    m = true;
+                                     jQuery('#g_translater').detach().appendTo('#google_translate_mobile');                            
+                                }
+                            }, 7000);
+                        }
+                        jQuery( window ).resize(function() {
+                            if (jQuery( window ).width() < 768 && m == false){
+                                m = true;
+                                jQuery('#g_translater').detach().appendTo('#google_translate_mobile');  
+                            } else if (jQuery( window ).width() >= 768 && m == true){
+                                m = false;
+                                jQuery('#g_translater').detach().prependTo('.google-translate-parent-element');                            
+                            }
+                        });
+                    </script> -->
+                </li>
+                <li id="userProfileId" class="header-main__left-list-item p-relative" aria-expanded="false" data-expandable="false"><div class="header-main__profile"> <p class="profileCard-profile-picture" style="background-color: #E7E7E7 ; width:30px; height:30px; font-size:25px;"> S</p> </div>
+        <ul class="mega-dropdown">
+            <li>
+                <a href="https://www.geeksforgeeks.org/user/sriramth1pig/" class="remove-anchor__decoration">
+                    <span class="gfg-icon gfg-icon_user"></span>
+                    <span>My Profile</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.geeksforgeeks.org/myCourses/" class="remove-anchor__decoration">
+                    <span class="gfg-icon gfg-icon_courses"></span>
+                    <span>My Courses</span>
+                </a>
+            </li>
+            <li>
+                <a class="remove-anchor__decoration" href="https://practice.geeksforgeeks.org/transactions">
+                    <span class="gfg-icon gfg-icon_transaction"></span>
+                    <span>Transaction History</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.geeksforgeeks.org/videos/watchlist/" class="remove-anchor__decoration">
+                    <span class="gfg-icon gfg-icon_video dropdown"></span>
+                    <span>Saved Videos</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://auth.geeksforgeeks.org/edit-profile.php/" class="remove-anchor__decoration">
+                    <span class="gfg-icon gfg-icon_edit"></span>
+                    <span>Edit Profile</span>
+                </a>
+            </li>
+            <li>
+                <a class="remove-anchor__decoration" href="https://authapi.geeksforgeeks.org/logout/?to=https://www.geeksforgeeks.org/python/python-oops-exercise-questions/">
+                    <span class="gfg-icon gfg-icon_logout"></span>
+                    <span>Logout</span>
+                </a>
+            </li>
+        </ul>
+        </li>
+                            </ul>
+        </div>
+
+        <!-- for mobile only -->
+        
+        <!-- for mobile only -->
+               
+       </div>
+    </nav>
+    <div style="display: none;"></div><div id="header-main__slider-outer-div">
+        <div class="header-main__slider">
+            <button aria-label="sub header slider previous" class="header-main__slider-arrow previous hideIt" style="top: 44%;">
+                <i class="gfg-icon gfg-icon_arrow-left gicon-centered"></i>
+            </button>
+            <!-- main content for leftbar -->
+            <ul id="hslider">
+            <li><a href="https://www.geeksforgeeks.org/courses/master-python-complete-beginner-to-advanced">Python Course</a></li><li><a href="https://www.geeksforgeeks.org/python-programming-language-tutorial/">Python Tutorial</a></li><li><a href="https://www.geeksforgeeks.org/python-interview-questions/">Interview Questions</a></li><li><a href="https://www.geeksforgeeks.org/python-quizzes/">Python Quiz</a></li><li><a href="https://www.geeksforgeeks.org/python-glossary/">Python Glossary</a></li><li><a href="https://www.geeksforgeeks.org/python-projects-beginner-to-advanced/">Python Projects</a></li><li><a href="https://www.geeksforgeeks.org/python-exercises-practice-questions-and-solutions/">Practice Python</a></li><li><a href="https://www.geeksforgeeks.org/data-science-with-python-tutorial/">Data Science With Python</a></li><li><a href="https://www.geeksforgeeks.org/python-web-development-django/">Python Web Dev</a></li><li><a href="https://www.geeksforgeeks.org/python-data-structures-and-algorithms/">DSA with Python</a></li><li><a href="https://www.geeksforgeeks.org/python-oops-concepts/">Python OOPs</a></li>            </ul>
+            <button aria-label="sub header slider next" class="header-main__slider-arrow next hideIt" style="left: 100%; top: 44%;">
+                <i class="gfg-icon gfg-icon_arrow-right gicon-centered"></i>
+            </button>
+            <!-- <a type="button" class="header-main__signup login-modal-btn" href="https://www.geeksforgeeks.org/merge-sort/">Sign In</a> -->
+        </div>
+         <div class="gcse-form-search-shm" style="display: block;">
+    <form id="gcse-form-shm" class="gcse-form_class-shm p-relative " data-sm="false">
+        <span class="front-search-shm-icon">
+            <i class="gfg-icon gfg-icon_search gfg-icon_white gcse-search__icon gcse-search-icon_grey" style="display: none"></i>
+        </span>
+        <input class="gcse-search-input-shm" id="gcse-search-input-shm" aria-expanded="false" placeholder="Search..." autocomplete="off" style="display: none">
+        <i class="gfg-icon gfg-icon_times gfg-icon_white hide-search-shm" style="display: none"></i>
+        <button id="sub-header__search" aria-label="search" type="button" class="gcse-search-shm__btn not-expanded " style="display: block;">
+            <i class="gfg-icon gfg-icon_search gfg-icon_white gcse-search__icon"></i>
+        </button>
+    </form>
+    <div class="gcse-form-search-shm-modal" style="display: none"></div>
+</div>
+
+        <div id="sub-header__signup-outer-div">
+            <button id="sub-header__signup" class="">Sign In</button>
+        </div>
+    </div>
+    
+    <button id="scrollTopBtn" title="Scroll to Top" type="button" class="btn btn-success" style="display: inline-block; opacity: 1;">▲</button>
+    <!-- .top-spacing to give space on single pages-->
+    <div id="main" class="wrapper single-page">
+
+<script>
+    if(post_slug.includes('premium-plans-payment/') || post_slug.includes('premium-plans/')){
+        $(".header-main__slider").remove();
+    }
+    //getting tags for the page type data
+    let mobileView = false;
+    let pageTags = JSON.parse('null');
+    let allTags = JSON.parse('["Python","PythonPrograms","WebTechnologies","PythonOopsprograms","ProgrammingLanguage"]');
+</script>
+
+<script>
+    window.have_dsa_term = false;
+    // var practiceTab = ; 
+</script>
+
+<style>
+    .wrapper {
+        flex-direction: column !important;
+    }
+    /* spinner css */
+    @keyframes spinner {
+        to {transform: rotate(360deg);}
+    }
+    
+    .spinner:before {
+        content: '';
+        box-sizing: border-box;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 20px;
+        height: 20px;
+        margin-top: -10px;
+        margin-left: -10px;
+        border-radius: 50%;
+        border: 2px solid #ccc;
+        border-top-color: #000;
+        animation: spinner .6s linear infinite;
+    }
+
+    .report-loader{
+        position: relative;
+        
+    }
+
+    .report-loader.spinner{
+        margin-left: 16px;
+    }
+    .badges{
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+    .badges .gfg-badge-icon.md::after{
+        transform: scale(0.25);
+        position:relative;
+        top: 2px;
+        left: -2px;
+    }
+    .sep{
+        margin: 0px 5px;
+        font-size: 20px;
+        color: var(--badge-name-color);
+    }
+    .pub-count{
+        font-size: 14px;
+        font-family: var(--font-secondary);
+    }
+    .badge-details{
+        display:none;
+    }
+    .badges{
+        cursor: pointer;
+        position: relative;
+        /* width: 0px;
+        height: 20px;
+        top: -32px; */
+    }
+    .badge-icon{
+        display: flex;
+        align-items: center;
+    }
+    .badge-content{
+        margin-left: 9px;
+    }
+    .badge-name{
+        color: var(--badge-nam-color);
+        font-weight: 600;
+        font-size: 16px;
+        text-transform: capitalize;
+    }
+    .badge-data{
+        color: #A5A4A4;
+        font-size: 10px;
+    }
+    .badges:hover .badge-details{
+        display: block;
+        background: var(--badge-bg);
+        padding: 10px 18px 10px 18px;
+        position: absolute;
+        width: 175px;
+        top: -10px;
+        z-index: 10;
+        left: 112%;
+        box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+        border-radius: 5px;
+        /* transform-origin: top right; */
+    }
+    .badge-details::before {
+        content: "";
+        position: absolute;
+        transform: rotate(90deg);
+        /* transform-origin: right; */
+        left: -6px;
+        top: 50%;
+        margin-left: -17px;
+        border-width: 12px;
+        border-style: solid;
+        border-color: var(--badge-bg) transparent transparent transparent;
+        margin-top: -12px;
+    }
+    .badge-icon .icon{
+        border: 1px solid var(--icon-border-color);
+        padding: 4px 3px;
+        border-radius: 4px;
+        width: 22px;
+        height: 24px;
+        position: relative;
+    }
+    .b-icon-pos{
+        position: relative;
+        top: -34px;
+        left: -34px;
+    }
+    /* article viewer */
+    .article--viewer .a-wrapper{
+        margin-top: 0px !important;
+    }
+    .content{
+        padding-top: 10px !important;
+    }
+    .u-name{
+        font-size: 14px;
+    }
+    .article--viewer_content .a-wrapper .content{
+        padding-bottom: 10px !important;
+    }
+    .likeTooltipBottom{
+        font-size: 14px;
+    }
+    @media (max-width: 434px) {
+        .article-buttons.show-bg{
+            margin-top: 56px !important;
+        }
+    }
+    @media (max-width: 730px),
+            ((min-width: 992px) and (max-width:1100px))  {
+        .article--viewer .media{
+            position: relative;
+        }
+        .article--viewer .media{
+            margin-bottom: 0px !important;
+        }
+        .badges:hover .badge-details{
+            top: -56px;
+            left: 62px;
+        }
+        .badge-details::before{
+            transform: rotate(0deg);
+            left: 10%;
+            top: 117%;
+        }
+        .article-buttons.show-bg{
+            margin-top: 22px;
+            top: 0px !important;
+        }
+    }
+    @media ((min-width:731px) and (max-width:1223px)) {
+        .article-buttons.show-bg{
+            top: 18px;
+        }
+    }
+    @media ((min-width:993px) and (max-width:1190px)) {
+        .article--viewer .media{
+            position: relative;
+        }
+        .article--viewer .media{
+            margin-bottom: 25px !important;
+        }
+    }
+</style>
+<!-- Survey modal implementation -->
+<script>
+    function getCookie(name) {
+        function escape(s) { return s.replace(/([.*+?\^$(){}|\[\]\/\\])/g, '\\$1'); }
+        var match = document.cookie.match(RegExp('(?:^|;\\s*)' + escape(name) + '=([^;]*)'));
+        return match ? match[1] : null;
+    }
+</script>
+
+<!-- END Survey modal implementation-->
+
+<!-- Open in App Button and CSS-->
+
+<!-- Above code is for old openInApp pop-up with open in app and continue buttons-->
+
+<div id="openInApp-modal" class="openInApp">
+    <a href="https://geeksforgeeksapp.page.link/?link=https://www.geeksforgeeks.org/python-oops-exercise-questions/?type%3Darticle%26id%3D1359550&amp;apn=free.programming.programming&amp;isi=1641848816&amp;ibi=org.geeksforgeeks.GeeksforGeeksDev&amp;efr=1" class="openInAppLink">
+        <span style="color: #fff;">Open In App</span>
+    </a>
+</div>
+    <script>
+        var consentValue = localStorage.getItem("gfg_cc");
+        var isIOS = !!navigator.platform && /iPad|iPhone|iPod|MacIntel/.test(navigator.platform) && navigator.maxTouchPoints > 0;
+        const isSafari = navigator.userAgent.indexOf("Safari") > -1;
+        const isMozilla = navigator.userAgent.indexOf("Mozilla") > -1;
+        if(consentValue){
+            if(window.innerHeight > window.innerWidth && navigator.maxTouchPoints > 1 && (isSafari || isMozilla || navigator.userAgentData.mobile)){
+                $('.openInApp').css({
+                    display: "block"
+                });
+                $('#scrollTopBtn').css({
+                    bottom: "44px"
+                });
+                //adding a new class to check stats for clicks on iOS and Android
+                isIOS ? jQuery('.openInAppLink').addClass("oia-iOS") : $('.openInAppLink').addClass("oia-android");      //for openInApp Link
+            }
+        }
+        
+    </script>
+    <style>
+        .openInApp{
+            display: none;
+            bottom: 0px;
+            width: 100%;
+            position: fixed;
+            z-index: 1025;
+            opacity: 0.93;
+        }
+        .openInAppLink{
+            height: 44px;
+            background: var(--color-gfg);
+            font-weight: bold;
+            display: block;
+            text-align: center;
+            padding: 12px;
+            font-size: large;
+        }
+        .openInAppLink, .openInAppLink:hover, .openInAppLink:active, .openInAppLink:visited, .openInAppLink:focus {
+            text-decoration:none;
+        }
+    </style>
+<!-- END Open in App Button and CSS-->
+
+            <script>
+                companyTagsArray = JSON.parse('[]');
+                categoryTagsArray = JSON.parse('[]');
+            </script>
+            <div class="container-fluid bg-light" id="home-page" style="position: relative; max-width:100%;">
+    <div class="article-page_flex">
+            <div class="sidebar_wrapper  auto_leftbar ">
+                      <div class="sideBar sticky">
+                <!-- <div class="sideBar--wrap newLeftbar  "> -->
+                <div class="sideBar--wrap newLeftbar ">
+                <ul class="leftBarList"><div class="first"><li id="premium-leftbar-cta" style="background-color: var(--leftbar-explore-section-color) !important;"><a href="https://www.geeksforgeeks.org/courses" style="cursor:pointer;display: block;border-bottom: 1px solid var(--gfg-body-color-alternate);" target="_blank">Explore GfG Courses</a></li><li style="background-color: var(--leftbar-explore-section-color) !important;"><a class="share-experience-modal" href="https://write.geeksforgeeks.org/#experiences" style="cursor:pointer;display: block;border-bottom: 1px solid var(--gfg-body-color-alternate);">Share Your Experiences</a></li></div><div class="second"><a href="https://www.geeksforgeeks.org/python-exercises-practice-questions-and-solutions/">Python Exercise with Practice Questions and Solutions</a><a href="https://www.geeksforgeeks.org/python-string-input-output/">Python String Input Output</a><a href="https://www.geeksforgeeks.org/python-basics-quizzes/">Python Basics Quizzes</a><a href="https://www.geeksforgeeks.org/python-set-coding-practice-problems/">Python Set Coding Practice Problems</a><a href="https://www.geeksforgeeks.org/python-data-structures-practice-problems-1/">Python Data Structures Practice Problems</a><a href="https://www.geeksforgeeks.org/output-python-programs-set-8/">Output of Python programs | Set 8</a></div><li style="
+     background: #33a5f159 !important; font-weight: bolder;"><a href="https://www.geeksforgeeks.org/nation-skill-up/"><span style="
+    font-size: large; ">Nation SkillUp</span> <span style="background: #085CA0;float: right;padding: 1px 14px;color: #fff !important;border-radius: 10px;">Explore</span></a></li></ul></div><div id="GFG_AD_Desktop_LeftSideBar_Docked_300x250"></div>            </div>
+             <div id="GFG_AD_Desktop_LeftSideBar_Docked_160x600" style="margin-bottom: 5px !important"></div>
+        </div>
+                <div class="leftBar">
+            <div class="article--viewer">
+                <div class="article--viewer_content">
+                    <div class="a-wrapper">
+                        <div class="" style="z-index:9999 !important;position:relative;">
+                        </div>
+                         <article class="content post-1359550 post type-post status-publish format-standard hentry category-python category-python-programs category-web-technologies tag-python-oops-programs" id="post-1359550">
+                                                                                    <div style="width:100%; display:flex; justify-content:center;margin: 5px 0;">
+                              <div id="GFG_AD_gfg_direct_728x90"></div>
+                            </div>
+                                                       <!-- when comment system will be scalable from practice side then we will display  Article/Discussion tab-->
+                            <div class="main_wrapper" style="display:flex;">
+                                                                <div style="width: 100%;">
+                                        <div class="article-title">
+                                            <h1>Python OOPs Exercise Questions</h1>
+                                        </div>
+                                                                                    <div class="last_updated_parent">
+                                                <div>
+                                                    <span class="strong">Last Updated : </span>
+                                                    <span>23 Jul, 2025</span>
+                                                </div>
+
+                                                 <!-- three dot menu -->
+                                                <div class="three_dot_dropdown"> 
+                                                        <div style="display: flex;">
+                                                                                        
+                                         <div pid="1359550" class="article--viewer_share tooltip">
+                                                <div class="three_dot_dropdown_div three_dot_dropdown_share" onmouseleave="closeShareModal()" onmouseenter="openShareModal()">
+                                                    <div style="display: flex;align-items: center;" class="three_dot_dropdown_inner_div_share" data-gfg-action="share-article" data-bookmark-value="0">
+                                                        <i class="gfg-share-icon"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                                                                                                                                                                        <div pid="1359550" ptitle="Python OOPs Exercise Questions" class="article--viewer_comment tooltip top-comment-icon-div">
+                                                                    <span class="comment_tooltiptext">Comments</span>
+                                                                    <div class="three_dot_dropdown_div" data-gfg-action="loadComments">
+                                                                        <div class="comment_header">
+                                                                        <i class="discussion_button" style="position: relative; transform: scale(0.9);"></i>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div pid="1359550" ptitle="Python OOPs Exercise Questions" class="article--viewer_improve tooltip">
+                                                                <span class="improve_tooltiptext">Improve</span>
+                                                                <div class="three_dot_dropdown_div three_dot_dropdown_improve" onclick="improveArticleCall()">
+                                                                    <div class="improve_wrapper_top">
+                                                                    <i class="gfg-icon gfg-icon-pencil  gfg-icon_edit" style="position: relative; z-index: 3;"></i>
+                                                                    </div>
+                                                                </div>
+                                                            </div> 
+                                                                                                                    <!-- three dots -->
+                                                        <ul class="dropbtn icons btn-right showLeft" onclick="showDropdown()">
+                                                            <li>
+                                                                                                                            </li>
+                                                            <li></li>
+                                                            <li></li>
+                                                        </ul>
+                                                    </div>
+                                                </div> 
+                                            </div>
+                                                                            </div>
+                                                            </div>
+                            <!-- menu -->
+                            <div id="myDropdown" class="three_dot_dropdown_content">
+                            <div class="article-buttons drop" onmouseleave="closeKebabMenu()" style="position: absolute !important; right: 0px;">
+                                            <!-- If the status of the summary API is true than we are showing the summarize button otherwise not  -->
+                                            <!--  -->
+                                            <div pid="1359550" ptitle="Python OOPs Exercise Questions" class="improve_article--viewer tooltip">
+                                                <div class="three_dot_dropdown_div three_dot_dropdown_improve" onclick="suggestionArticleCall()" style="margin-top: 1px;">
+                                                    <div class="three_dot_dropdown_inner_div improve_dot_dropdown_inner_div">
+                                                        <i class="gfg-icon gfg-icon_suggest_changes gfg-icon_edit"></i>
+                                                        <span>Suggest changes</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                                                                        <div pid="1359550" class="article--viewer_like tooltip">
+                                            <div class="three_dot_dropdown_div three_dot_dropdown_likearticle" onmouseleave="toggleLikeElementVisibility(&quot;showLikesContainer&quot;, false)" onmouseenter="toggleLikeElementVisibility(&quot;showLikesContainer&quot;, true)">
+                                                    <div class="showLikesContainer"> 
+                                                        <span class="likeTooltip">5 Likes</span>
+                                                    </div>
+                                                    <div class="three_dot_dropdown_inner_div" data-gfg-action="like-article" data-bookmark-value="0">
+                                                        <i class="gfg-icon gfg-icon_thumbs"></i>
+                                                        <span>Like</span>
+                                                    </div>
+                                                </div>
+<!-- <button data-gfg-action="like-article" data-bookmark-value="0">
+                                                    <i class="gfg-icon gfg-icon_thumbs"></i>
+                                                </button> -->
+                                            </div>
+                                            
+                                            <!-- share button is removed from here for web view and placed at the place of summarize on 03/04/25 for task T1G-3293 -->
+
+                                            <!-- <div pid="1359550" class="article--viewer_share tooltip">
+                                                <div class="three_dot_dropdown_div three_dot_dropdown_share" onmouseleave="closeShareModal()" onmouseenter="openShareModal()">
+                                                    <div style="display: flex;align-items: center;" class="three_dot_dropdown_inner_div" data-gfg-action="share-article" data-bookmark-value="0">
+                                                        <i class="gfg-share-icon"></i>
+                                                        <span>Share</span>
+                                                    </div>
+                                                </div>
+                                            </div> -->
+                                            <div class="article--viewer_report tooltip">
+                                                <div class="three_dot_dropdown_div three_dot_dropdown_reportarticle">
+                                                    <div class="three_dot_dropdown_inner_div" data-gfg-action="report-article" onclick="report_article();">
+                                                        <i class="gfg-icon gfg-icon_report"></i>
+                                                        <span>Report</span>
+                                                    </div>
+                                                </div>
+<!-- <button data-gfg-action="like-article" data-bookmark-value="0">
+                                                    <i class="gfg-icon gfg-icon_thumbs"></i>
+                                                </button> -->
+                                            </div>
+                                            <!-- follow button is removed on 07/04/25 for task T1G-3307 -->
+                                            <!-- <div class="article--viewer_Gnews tooltip">
+                                                <a class="three_dot_dropdown_inner_div Gnews_wrapper" href ='https://news.google.com/publications/CAAqBwgKMLTrzwsw44bnAw?hl=en-IN&gl=IN&ceid=IN%3Aen' target="_blank">
+                                                    <img class="gfg-icon_Gnews no-zoom-in-cursor" src=https://media.geeksforgeeks.org/auth-dashboard-uploads/Google-news.svg  loading="lazy" alt="News"></img>
+                                                    <span class='kebab_menu_news_text'>Follow</span>
+                                                </a>
+                                            </div> -->
+                                        </div>
+                                    </div>
+                            <div class="text">
+                                                                                    <script> 
+                        var video_api_response = JSON.parse("[]");
+                    </script>
+                <p dir="ltr"><span>Ready to level up your Python object-oriented programming skills? Explore our collection of Python OOP exercises, packed with over 25 engaging problems to help you master core concepts like </span><a href="https://www.geeksforgeeks.org/python/encapsulation-in-python/" target="_blank" rel="noopener"><span>encapsulation</span></a><span>, </span><a href="https://www.geeksforgeeks.org/python/inheritance-in-python/" target="_blank" rel="noopener"><span>inheritance</span></a><span>, </span><a href="https://www.geeksforgeeks.org/python/polymorphism-in-python/" target="_blank" rel="noopener"><span>polymorphism</span></a><span> and </span><a href="https://www.geeksforgeeks.org/python/data-abstraction-in-python/" target="_blank" rel="noopener"><span>abstraction</span></a><span>. Let’s turn theory into practice!</span></p><h2 style="text-align:left"><span>Python OOPs Practice Programs</span></h2><p dir="ltr"><span>This Python OOP exercise is crafted to strengthen your understanding of </span><a href="https://www.geeksforgeeks.org/python/python-oops-concepts/" target="_blank" rel="noopener"><span>Python Object-Oriented Programming (OOP) concepts</span></a><span> and sharpen your coding skills. These programs provide practical experience in solving real-world problems using OOP principles, reinforcing essential concepts like encapsulation, inheritance, polymorphism, and abstraction. Whether you're a beginner building a strong foundation in OOP or a seasoned developer looking to refine your expertise, our practice exercises offer an excellent opportunity to enhance your skills and excel in object-oriented design and programming with Python.</span></p><h3 style="text-align:left"><span>Exercise 1: Create a class Greeter with a method greet(name) that prints a greeting for the provided name.</span></h3><p dir="ltr"><b><strong>Solution:</strong></b></p><gfg-tabs allow-code-exec="true" data-run-ide="true" data-mode="light" role="tablist"><template shadowrootmode="open">
+    <style>
+      :host {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      ::slotted(gfg-panel) {
+        flex-basis: 100%;
+      }
+      .codeblock-container[data-content]::after,
+      .codeblock-container[data-danger-content]::after {
+        content: attr(data-content);
+        display: block;
+        position: absolute;
+        bottom: 0px;
+        right: 0;
+        padding: 4px 12px;
+        font-size: 12px;
+        letter-spacing: 0.05em;
+        font-family: inherit;
+        background-color: rgb(217, 217, 217);
+        color: #424242 !important;
+      }
+      .codeblock-container[data-danger-content]::after {
+        color: rgb(132, 5, 5) !important;
+        content: attr(data-danger-content);
+      }
+      .codeblock-container{
+        position: relative;
+        width: 100%;
+        font-family: sans-serif;
+      }
+      .code-container{
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #ddd;
+        clear: left;
+      }
+      
+      #slot-panel::-webkit-scrollbar-track {
+        border-radius: 10px;
+        background-color: transparent;
+        width: 0px !important;
+      }
+
+      #slot-panel::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        background-color: #999;
+        width: 5px ; 
+      }
+      #slot-panel::-webkit-scrollbar {
+        width: 5px; 
+      }
+      #slot-panel::-webkit-scrollbar-thumb:hover {
+        cursor: pointer;
+      }
+      .editor-buttons-div,
+      .w-56 {
+        min-width: 46px;
+      }
+        .editor-buttons-div{
+            display: flex;
+            margin-left: auto;
+            height: 40px;
+            position: sticky; 
+            position: -webkit-sticky;
+            top: 60px;
+            z-index: 4;
+            width: fit-content;
+            justify-content: flex-end;
+            align-items: start;
+        }
+      .gfg-code{
+        padding: 0;
+        width: 100%;
+        display: block;
+      }
+      .editor-buttons{
+        display:flex;
+        width: fit-content;
+        gap: 8px;
+        margin-top: 8px;
+        padding-right: 11px;
+        position: relative;
+        margin-bottom: 4px;
+      }
+      .editor-buttons.output-box {
+        margin-top: 0px;
+      }
+      .editor-buttons.output-box button {
+        margin-bottom: 0 !important;
+      }
+        .output-box {
+            margin-left: 8px;
+        }
+      .code-button{
+        background: white;
+        margin-bottom: 10px;
+        border: 2px;
+        background: #e5e5e5;
+        border-radius: 50px;
+        width: 28px !important;
+        height: 28px !important;
+        cursor: pointer;
+        padding: 6px;
+      }
+        #expand-code-button{
+            margin-bottom: 0px;
+        }
+        #expand-driver-code {
+            transform: rotate(90deg);
+            transform-origin: center;
+        }
+      .code-output{
+        background: #efefef;
+        border-radius: 8px;
+        width: 100%;
+        margin: 10px 2px 5px 2px;
+      }
+      .close-output-button{
+        margin-bottom: 10px;
+      }
+      .code-output-content{
+        padding: 8px 16px;
+        margin: 0;
+        position: sticky;
+        position: -webkit-sticky;
+        margin-top: 10px;
+      }
+      .code-box {
+        display: flex;
+        flex-direction: column;
+        position: relative !important;
+      }
+      .code-output-box {
+        display: flex;
+        align-items: center;
+      }
+     .compiled-message-box {
+        background-color: #308d46;
+        border-radius: 6px;
+        color: white;
+        width: fit-content;
+        margin: 10px auto;
+        text-align: center;
+        flex-basis: 100%;
+        display: none;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: 700;
+        padding-inline: 10px;
+    }
+    .compiled-message-box p {
+        margin-block: 5px;
+    }
+    .compiled-message-box-active {
+        display: flex;
+    }
+    .compiled-mess-content {
+        font-size: 10px;
+        padding-left: 5px;
+    }
+      .generated-output{
+        font-size: 15px;
+        white-space: pre-wrap;
+      }
+      .row-output{
+        color: black;
+        font-size: 16px;
+        padding : 10px;
+      }
+      .border {
+        width: 28px !important;
+        height: 28px !important;
+        position: absolute;
+        background: transparent;
+        border-radius: 50%;
+        border: 2px dashed #000;
+        margin-left: -8px;
+        margin-top: -7px;
+        animation-name: rotate;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+      }
+      .codeblock-container[data-mode=dark] .border {
+        border-color: white !important;
+      }
+      #icon-tabler-copy{
+        margin-bottom: -4px;
+        cursor: pointer;
+      }
+      .gfg-icon{
+        margin-left: auto;
+        margin-right: auto;
+        display: block !important;
+      }
+      
+        @keyframes rotate {
+            from{ transform: rotate(-360deg); }
+            to{ transform: rotate(360deg); }
+        }
+        #code-output-element #jsFrame {
+            background-color: transparent;
+            border: unset;
+            width: 100%;
+        }
+        .loading-container.active {
+            width: 150px; 
+            height: 50px; 
+            background-color: lightgrey; 
+            opacity: 70%;
+            color: black; 
+            position: absolute; 
+            display: flex !important;
+            justify-content: center;
+            align-items: center;
+            top: 30%;
+            left: 40%;
+            z-index: 1;
+            white-space: nowrap !important;
+            text-align: center; 
+            font-size: 13px; 
+            border-radius: 8px; 
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            margin: 2rem;
+        }
+        .loading-container {
+            display: none;
+        }
+        .playground-loading {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+        }
+        
+    @media screen and (max-width: 700px) {
+        .editor-buttons-div {
+            position: sticky; 
+            top: 10px;  
+            z-index: 4;
+            width: fit-content;
+            margin-left: auto;
+            height: 38px;
+            padding-right: 5px;
+        }
+
+        .editor-buttons {
+            display: flex;
+            width: fit-content;
+            flex-direction: row;
+            gap: 8px;
+        }
+        .code-box {
+            position: relative;
+            flex-direction: column;
+        }
+        .code-button {
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        .compiled-message-box svg {
+            display: none;
+        }
+    }
+
+    @media screen and (max-width: 375px) {
+        .compiled-message-box {
+            margin-inline: 5px;
+        }
+    }
+    </style>
+
+    <div class="codeblock-container" data-mode="light">
+        <slot name="tab"></slot>
+        <div class="code-container">
+            <div class="code-box">    
+                <div id="editor-buttons-div" class="editor-buttons-div" style="top: 40px;">
+                    <div id="editor-buttons" class="editor-buttons">
+                        <button id="expand-driver-code" class="expand-driver-code code-button" title="Expand all Diver Codes" style="display: none;"><svg id="expand-icon" width="17" height="17" viewBox="1 5 47 6" stroke-width="1" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
+            <path d="M44.4507 7.91963C44.7062 8.18159 44.8496 8.53199 44.8496 8.89419C44.8496 9.25639 44.7062 9.60088 44.4507 9.8523L38.9862 15.2053C38.8593 15.3296 38.7087 15.4272 38.5429 15.4924C38.3771 15.5577 38.1995 15.5894 38.02 15.5857C37.6577 15.5782 37.3101 15.427 37.0539 15.1655C36.7977 14.9039 36.6537 14.5533 36.6537 14.1909C36.6537 13.8284 36.7977 13.4838 37.0539 13.2328L40.1862 10.1645L30.3697 9.96203C30.0073 9.95456 29.6599 9.80343 29.4037 9.54189C29.1475 9.28035 29.0035 8.92983 29.0035 8.56743C29.0035 8.20503 29.1475 7.86044 29.4037 7.60947C29.6599 7.3585 30.0073 7.22171 30.3697 7.22918L40.1862 7.4316L37.0539 4.23407C36.927 4.10455 36.8264 3.95182 36.7577 3.7846C36.6891 3.61738 36.6537 3.43894 36.6537 3.25948C36.6537 3.08001 36.6891 2.90304 36.7577 2.73865C36.8264 2.57426 36.927 2.42568 37.0539 2.30139C37.1808 2.17711 37.3314 2.07955 37.4972 2.01429C37.6629 1.94903 37.8406 1.91735 38.02 1.92105C38.1995 1.92475 38.3771 1.96376 38.5429 2.03586C38.7087 2.10795 38.8593 2.21172 38.9862 2.34124L44.4507 7.91963Z" fill="black"></path>
+            <rect x="24.5859" y="16.8309" width="3.31306" height="16.5653" rx="1.65653" transform="rotate(-180 24.5859 16.8309)" fill="black"></rect>
+            <path d="M0.884258 7.91957C0.62878 8.18152 0.485352 8.53193 0.485352 8.89413C0.485352 9.25632 0.62878 9.60082 0.884258 9.85224L6.3488 15.2053C6.47567 15.3295 6.6263 15.4271 6.79207 15.4924C6.95783 15.5576 7.1355 15.5893 7.31493 15.5856C7.6773 15.5781 8.02483 15.427 8.28106 15.1654C8.5373 14.9038 8.68125 14.5533 8.68125 14.1908C8.68125 13.8284 8.5373 13.4837 8.28106 13.2327L5.14879 10.1644L14.9653 9.96197C15.3276 9.9545 15.6751 9.80337 15.9313 9.54183C16.1875 9.28029 16.3314 8.92977 16.3314 8.56737C16.3314 8.20497 16.1875 7.86038 15.9313 7.60941C15.6751 7.35844 15.3276 7.22164 14.9653 7.22912L5.14879 7.43154L8.28106 4.23401C8.40794 4.10449 8.50858 3.95176 8.57724 3.78454C8.64591 3.61732 8.68125 3.43888 8.68125 3.25942C8.68125 3.07995 8.64591 2.90298 8.57724 2.73859C8.50858 2.5742 8.40794 2.42562 8.28106 2.30133C8.15419 2.17705 8.00357 2.07949 7.8378 2.01423C7.67203 1.94897 7.49436 1.91729 7.31493 1.92099C7.1355 1.92469 6.95783 1.9637 6.79207 2.03579C6.6263 2.10789 6.47567 2.21166 6.3488 2.34118L0.884258 7.91957Z" fill="black"></path>
+        </svg></button>
+                        <button class="code-button" id="edit-close-button" title="Close Editor" buttontype="edit"><svg xmlns="http://www.w3.org/2000/svg" id="edit-close-icon" class="gfg-icon" width="17" height="17" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+        <path d="M18 6l-12 12"></path>
+        <path d="M6 6l12 12"></path>
+    </svg></button>
+                        <button class="code-button" id="run-code-button" title="Run Code and See Output">
+                            <div class="border" id="run-code-loader" hidden=""></div>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="gfg-icon" width="17" height="17" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M7 4v16l13 -8z"></path>
+                            </svg>
+                        </button>
+                        <button class="code-button" id="copy-code-button" title="Copy Code"> <svg xmlns="http://www.w3.org/2000/svg" class="gfg-icon" width="17" height="17" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M8 8m0 2a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2z"></path>
+                                <path d="M16 8v-2a2 2 0 0 0 -2 -2h-8a2 2 0 0 0 -2 2v8a2 2 0 0 0 2 2h2"></path>
+                        </svg></button>
+                        <button class="code-button" id="mode-button" title="Dark Mode" hidden="true" mode="light"><svg xmlns="http://www.w3.org/2000/svg" class="gfg-icon" width="20" height="20" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+        <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z"></path>
+    </svg> </button>
+                        
+                    </div>
+                </div>
+                <div id="slot-panel" class="gfg-code" style="width: calc(100% + 0px); margin-top: -35px;">
+                     <div id="playground-loader" class="loading-container">
+                        <span class="playground-loading">Loading Playground...</span>
+                    </div>
+                    <slot name="panel"></slot>
+                </div>
+            </div>
+            <div class="code-output-box" id="code-output-box">
+                <div class="editor-buttons w-56 output-box" title="Close Output">
+                    <button class="code-button" id="close-output-button" hidden="">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="gfg-icon" width="17" height="17" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                            <path d="M9 12h-3.586a1 1 0 0 1 -.707 -1.707l6.586 -6.586a1 1 0 0 1 1.414 0l6.586 6.586a1 1 0 0 1 -.707 1.707h-3.586v6h-6v-6z"></path>
+                            <path d="M9 21h6"></path>
+                        </svg>
+                    </button>
+                </div> 
+                <div class="code-output" id="code-output" hidden="">
+                    <div class="row-output">
+                        <pre class="generated-output" id="code-output-element"></pre>
+                    </div> 
+                </div>
+            </div>
+            </div>
+        </div>
+    
+    </template>
+            <gfg-tab slot="tab" hidden="" role="tab" id="gfg-tab-generated-0" aria-selected="true" tabindex="0" aria-controls="gfg-panel-generated-0" selected="">Python</gfg-tab>
+<gfg-panel slot="panel" data-code-lang="python3" data-main-code-start="None" data-main-code-end="None" role="tabpanel" id="gfg-panel-generated-0" aria-labelledby="gfg-tab-generated-0">
+    <code class="language-python3"><div class="highlight"><pre hidden=""><span></span><span class="k">class</span> <span class="nc">Greeter</span><span class="p">:</span>
+    <span class="k">def</span> <span class="nf">greet</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">name</span><span class="p">):</span>
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Hello, </span><span class="si">{</span><span class="n">name</span><span class="si">}</span><span class="s2">!"</span><span class="p">)</span>
+
+<span class="c1"># Example usage:</span>
+<span class="n">g</span> <span class="o">=</span> <span class="n">Greeter</span><span class="p">()</span>
+<span class="n">g</span><span class="o">.</span><span class="n">greet</span><span class="p">(</span><span class="s2">"Anurag"</span><span class="p">)</span>
+</pre></div></code>
+<div class="CodeMirror cm-s-default"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 4px; left: 15px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-vscrollbar" tabindex="-1" cm-not-content="true"><div style="min-width: 1px; height: 0px;"></div></div><div class="CodeMirror-hscrollbar" tabindex="-1" cm-not-content="true"><div style="height: 100%; min-height: 1px; width: 0px;"></div></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; margin-bottom: -15px; border-right-width: 15px; min-height: 171px; min-width: 304.75px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-cursors"><div class="CodeMirror-cursor" style="left: 15px; top: 0px; height: 23.2188px;">&nbsp;</div></div><div class="CodeMirror-code" role="presentation" style=""><div class="CodeMirror-activeline" style="position: relative;"><div class="CodeMirror-activeline-background CodeMirror-linebackground"></div><div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" style="left: 0px; width: 0px;"></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-keyword">class</span> <span class="cm-def">Greeter</span>:</span></pre></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">    <span class="cm-keyword">def</span> <span class="cm-def">greet</span>(<span class="cm-variable-2">self</span>, <span class="cm-variable">name</span>):</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-builtin">print</span>(<span class="cm-string">f"Hello, </span>{<span class="cm-variable">name</span>}<span class="cm-string">!"</span>)</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-comment"># Example usage:</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">g</span> <span class="cm-operator">=</span> <span class="cm-variable">Greeter</span>()</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">g</span>.<span class="cm-property">greet</span>(<span class="cm-string">"Anurag"</span>)</span></pre></div></div></div></div></div><div style="position: absolute; height: 15px; width: 1px; border-bottom: 0px solid transparent; top: 171px;"></div><div class="CodeMirror-gutters" style="display: none; height: 186px;"></div></div></div></gfg-panel></gfg-tabs><div class="code-output"><br><strong>Output</strong><pre>Hello, Anurag!
+</pre></div><h3 style="text-align:left"><span>Exercise 2: Develop a class </span><code><span>Calculator</span></code><span> with methods to add and subtract two numbers.</span></h3><gfg-tabs allow-code-exec="true" data-run-ide="true" data-mode="light" role="tablist"><template shadowrootmode="open">
+    <style>
+      :host {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      ::slotted(gfg-panel) {
+        flex-basis: 100%;
+      }
+      .codeblock-container[data-content]::after,
+      .codeblock-container[data-danger-content]::after {
+        content: attr(data-content);
+        display: block;
+        position: absolute;
+        bottom: 0px;
+        right: 0;
+        padding: 4px 12px;
+        font-size: 12px;
+        letter-spacing: 0.05em;
+        font-family: inherit;
+        background-color: rgb(217, 217, 217);
+        color: #424242 !important;
+      }
+      .codeblock-container[data-danger-content]::after {
+        color: rgb(132, 5, 5) !important;
+        content: attr(data-danger-content);
+      }
+      .codeblock-container{
+        position: relative;
+        width: 100%;
+        font-family: sans-serif;
+      }
+      .code-container{
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #ddd;
+        clear: left;
+      }
+      
+      #slot-panel::-webkit-scrollbar-track {
+        border-radius: 10px;
+        background-color: transparent;
+        width: 0px !important;
+      }
+
+      #slot-panel::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        background-color: #999;
+        width: 5px ; 
+      }
+      #slot-panel::-webkit-scrollbar {
+        width: 5px; 
+      }
+      #slot-panel::-webkit-scrollbar-thumb:hover {
+        cursor: pointer;
+      }
+      .editor-buttons-div,
+      .w-56 {
+        min-width: 46px;
+      }
+        .editor-buttons-div{
+            display: flex;
+            margin-left: auto;
+            height: 40px;
+            position: sticky; 
+            position: -webkit-sticky;
+            top: 60px;
+            z-index: 4;
+            width: fit-content;
+            justify-content: flex-end;
+            align-items: start;
+        }
+      .gfg-code{
+        padding: 0;
+        width: 100%;
+        display: block;
+      }
+      .editor-buttons{
+        display:flex;
+        width: fit-content;
+        gap: 8px;
+        margin-top: 8px;
+        padding-right: 11px;
+        position: relative;
+        margin-bottom: 4px;
+      }
+      .editor-buttons.output-box {
+        margin-top: 0px;
+      }
+      .editor-buttons.output-box button {
+        margin-bottom: 0 !important;
+      }
+        .output-box {
+            margin-left: 8px;
+        }
+      .code-button{
+        background: white;
+        margin-bottom: 10px;
+        border: 2px;
+        background: #e5e5e5;
+        border-radius: 50px;
+        width: 28px !important;
+        height: 28px !important;
+        cursor: pointer;
+        padding: 6px;
+      }
+        #expand-code-button{
+            margin-bottom: 0px;
+        }
+        #expand-driver-code {
+            transform: rotate(90deg);
+            transform-origin: center;
+        }
+      .code-output{
+        background: #efefef;
+        border-radius: 8px;
+        width: 100%;
+        margin: 10px 2px 5px 2px;
+      }
+      .close-output-button{
+        margin-bottom: 10px;
+      }
+      .code-output-content{
+        padding: 8px 16px;
+        margin: 0;
+        position: sticky;
+        position: -webkit-sticky;
+        margin-top: 10px;
+      }
+      .code-box {
+        display: flex;
+        flex-direction: column;
+        position: relative !important;
+      }
+      .code-output-box {
+        display: flex;
+        align-items: center;
+      }
+     .compiled-message-box {
+        background-color: #308d46;
+        border-radius: 6px;
+        color: white;
+        width: fit-content;
+        margin: 10px auto;
+        text-align: center;
+        flex-basis: 100%;
+        display: none;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: 700;
+        padding-inline: 10px;
+    }
+    .compiled-message-box p {
+        margin-block: 5px;
+    }
+    .compiled-message-box-active {
+        display: flex;
+    }
+    .compiled-mess-content {
+        font-size: 10px;
+        padding-left: 5px;
+    }
+      .generated-output{
+        font-size: 15px;
+        white-space: pre-wrap;
+      }
+      .row-output{
+        color: black;
+        font-size: 16px;
+        padding : 10px;
+      }
+      .border {
+        width: 28px !important;
+        height: 28px !important;
+        position: absolute;
+        background: transparent;
+        border-radius: 50%;
+        border: 2px dashed #000;
+        margin-left: -8px;
+        margin-top: -7px;
+        animation-name: rotate;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+      }
+      .codeblock-container[data-mode=dark] .border {
+        border-color: white !important;
+      }
+      #icon-tabler-copy{
+        margin-bottom: -4px;
+        cursor: pointer;
+      }
+      .gfg-icon{
+        margin-left: auto;
+        margin-right: auto;
+        display: block !important;
+      }
+      
+        @keyframes rotate {
+            from{ transform: rotate(-360deg); }
+            to{ transform: rotate(360deg); }
+        }
+        #code-output-element #jsFrame {
+            background-color: transparent;
+            border: unset;
+            width: 100%;
+        }
+        .loading-container.active {
+            width: 150px; 
+            height: 50px; 
+            background-color: lightgrey; 
+            opacity: 70%;
+            color: black; 
+            position: absolute; 
+            display: flex !important;
+            justify-content: center;
+            align-items: center;
+            top: 30%;
+            left: 40%;
+            z-index: 1;
+            white-space: nowrap !important;
+            text-align: center; 
+            font-size: 13px; 
+            border-radius: 8px; 
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            margin: 2rem;
+        }
+        .loading-container {
+            display: none;
+        }
+        .playground-loading {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+        }
+        
+    @media screen and (max-width: 700px) {
+        .editor-buttons-div {
+            position: sticky; 
+            top: 10px;  
+            z-index: 4;
+            width: fit-content;
+            margin-left: auto;
+            height: 38px;
+            padding-right: 5px;
+        }
+
+        .editor-buttons {
+            display: flex;
+            width: fit-content;
+            flex-direction: row;
+            gap: 8px;
+        }
+        .code-box {
+            position: relative;
+            flex-direction: column;
+        }
+        .code-button {
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        .compiled-message-box svg {
+            display: none;
+        }
+    }
+
+    @media screen and (max-width: 375px) {
+        .compiled-message-box {
+            margin-inline: 5px;
+        }
+    }
+    </style>
+
+    <div class="codeblock-container" data-mode="light">
+        <slot name="tab"></slot>
+        <div class="code-container">
+            <div class="code-box">    
+                <div id="editor-buttons-div" class="editor-buttons-div" style="top: 40px;">
+                    <div id="editor-buttons" class="editor-buttons">
+                        <button id="expand-driver-code" class="expand-driver-code code-button" title="Expand all Diver Codes" style="display: none;"><svg id="expand-icon" width="17" height="17" viewBox="1 5 47 6" stroke-width="1" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
+            <path d="M44.4507 7.91963C44.7062 8.18159 44.8496 8.53199 44.8496 8.89419C44.8496 9.25639 44.7062 9.60088 44.4507 9.8523L38.9862 15.2053C38.8593 15.3296 38.7087 15.4272 38.5429 15.4924C38.3771 15.5577 38.1995 15.5894 38.02 15.5857C37.6577 15.5782 37.3101 15.427 37.0539 15.1655C36.7977 14.9039 36.6537 14.5533 36.6537 14.1909C36.6537 13.8284 36.7977 13.4838 37.0539 13.2328L40.1862 10.1645L30.3697 9.96203C30.0073 9.95456 29.6599 9.80343 29.4037 9.54189C29.1475 9.28035 29.0035 8.92983 29.0035 8.56743C29.0035 8.20503 29.1475 7.86044 29.4037 7.60947C29.6599 7.3585 30.0073 7.22171 30.3697 7.22918L40.1862 7.4316L37.0539 4.23407C36.927 4.10455 36.8264 3.95182 36.7577 3.7846C36.6891 3.61738 36.6537 3.43894 36.6537 3.25948C36.6537 3.08001 36.6891 2.90304 36.7577 2.73865C36.8264 2.57426 36.927 2.42568 37.0539 2.30139C37.1808 2.17711 37.3314 2.07955 37.4972 2.01429C37.6629 1.94903 37.8406 1.91735 38.02 1.92105C38.1995 1.92475 38.3771 1.96376 38.5429 2.03586C38.7087 2.10795 38.8593 2.21172 38.9862 2.34124L44.4507 7.91963Z" fill="black"></path>
+            <rect x="24.5859" y="16.8309" width="3.31306" height="16.5653" rx="1.65653" transform="rotate(-180 24.5859 16.8309)" fill="black"></rect>
+            <path d="M0.884258 7.91957C0.62878 8.18152 0.485352 8.53193 0.485352 8.89413C0.485352 9.25632 0.62878 9.60082 0.884258 9.85224L6.3488 15.2053C6.47567 15.3295 6.6263 15.4271 6.79207 15.4924C6.95783 15.5576 7.1355 15.5893 7.31493 15.5856C7.6773 15.5781 8.02483 15.427 8.28106 15.1654C8.5373 14.9038 8.68125 14.5533 8.68125 14.1908C8.68125 13.8284 8.5373 13.4837 8.28106 13.2327L5.14879 10.1644L14.9653 9.96197C15.3276 9.9545 15.6751 9.80337 15.9313 9.54183C16.1875 9.28029 16.3314 8.92977 16.3314 8.56737C16.3314 8.20497 16.1875 7.86038 15.9313 7.60941C15.6751 7.35844 15.3276 7.22164 14.9653 7.22912L5.14879 7.43154L8.28106 4.23401C8.40794 4.10449 8.50858 3.95176 8.57724 3.78454C8.64591 3.61732 8.68125 3.43888 8.68125 3.25942C8.68125 3.07995 8.64591 2.90298 8.57724 2.73859C8.50858 2.5742 8.40794 2.42562 8.28106 2.30133C8.15419 2.17705 8.00357 2.07949 7.8378 2.01423C7.67203 1.94897 7.49436 1.91729 7.31493 1.92099C7.1355 1.92469 6.95783 1.9637 6.79207 2.03579C6.6263 2.10789 6.47567 2.21166 6.3488 2.34118L0.884258 7.91957Z" fill="black"></path>
+        </svg></button>
+                        <button class="code-button" id="edit-close-button" title="Close Editor" buttontype="edit"><svg xmlns="http://www.w3.org/2000/svg" id="edit-close-icon" class="gfg-icon" width="17" height="17" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+        <path d="M18 6l-12 12"></path>
+        <path d="M6 6l12 12"></path>
+    </svg></button>
+                        <button class="code-button" id="run-code-button" title="Run Code and See Output">
+                            <div class="border" id="run-code-loader" hidden=""></div>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="gfg-icon" width="17" height="17" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M7 4v16l13 -8z"></path>
+                            </svg>
+                        </button>
+                        <button class="code-button" id="copy-code-button" title="Copy Code"> <svg xmlns="http://www.w3.org/2000/svg" class="gfg-icon" width="17" height="17" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M8 8m0 2a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2z"></path>
+                                <path d="M16 8v-2a2 2 0 0 0 -2 -2h-8a2 2 0 0 0 -2 2v8a2 2 0 0 0 2 2h2"></path>
+                        </svg></button>
+                        <button class="code-button" id="mode-button" title="Dark Mode" hidden="true" mode="light"><svg xmlns="http://www.w3.org/2000/svg" class="gfg-icon" width="20" height="20" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+        <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z"></path>
+    </svg> </button>
+                        
+                    </div>
+                </div>
+                <div id="slot-panel" class="gfg-code" style="width: calc(100% + 0px); margin-top: -35px;">
+                     <div id="playground-loader" class="loading-container">
+                        <span class="playground-loading">Loading Playground...</span>
+                    </div>
+                    <slot name="panel"></slot>
+                </div>
+            </div>
+            <div class="code-output-box" id="code-output-box">
+                <div class="editor-buttons w-56 output-box" title="Close Output">
+                    <button class="code-button" id="close-output-button" hidden="">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="gfg-icon" width="17" height="17" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                            <path d="M9 12h-3.586a1 1 0 0 1 -.707 -1.707l6.586 -6.586a1 1 0 0 1 1.414 0l6.586 6.586a1 1 0 0 1 -.707 1.707h-3.586v6h-6v-6z"></path>
+                            <path d="M9 21h6"></path>
+                        </svg>
+                    </button>
+                </div> 
+                <div class="code-output" id="code-output" hidden="">
+                    <div class="row-output">
+                        <pre class="generated-output" id="code-output-element"></pre>
+                    </div> 
+                </div>
+            </div>
+            </div>
+        </div>
+    
+    </template>
+            <gfg-tab slot="tab" hidden="" role="tab" id="gfg-tab-generated-1" aria-selected="true" tabindex="0" aria-controls="gfg-panel-generated-1" selected="">Python</gfg-tab>
+<gfg-panel slot="panel" data-code-lang="python3" data-main-code-start="None" data-main-code-end="None" role="tabpanel" id="gfg-panel-generated-1" aria-labelledby="gfg-tab-generated-1">
+    <code class="language-python3"><div class="highlight"><pre hidden=""><span></span><span class="k">class</span> <span class="nc">Calculator</span><span class="p">:</span>
+    <span class="k">def</span> <span class="nf">add</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">):</span>
+        <span class="k">return</span> <span class="n">a</span> <span class="o">+</span> <span class="n">b</span>
+
+    <span class="k">def</span> <span class="nf">subtract</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">):</span>
+        <span class="k">return</span> <span class="n">a</span> <span class="o">-</span> <span class="n">b</span>
+
+<span class="c1"># Testing the calculator</span>
+<span class="n">calc</span> <span class="o">=</span> <span class="n">Calculator</span><span class="p">()</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"Sum:"</span><span class="p">,</span> <span class="n">calc</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span> <span class="mi">3</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"Difference:"</span><span class="p">,</span> <span class="n">calc</span><span class="o">.</span><span class="n">subtract</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span> <span class="mi">3</span><span class="p">))</span>
+</pre></div></code>
+<div class="CodeMirror cm-s-default"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 4px; left: 15px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-vscrollbar" tabindex="-1" cm-not-content="true"><div style="min-width: 1px; height: 0px;"></div></div><div class="CodeMirror-hscrollbar" tabindex="-1" cm-not-content="true"><div style="height: 100%; min-height: 1px; width: 0px;"></div></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; margin-bottom: -15px; border-right-width: 15px; min-height: 263px; min-width: 385.391px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-cursors"><div class="CodeMirror-cursor" style="left: 15px; top: 0px; height: 23.2188px;">&nbsp;</div></div><div class="CodeMirror-code" role="presentation" style=""><div class="CodeMirror-activeline" style="position: relative;"><div class="CodeMirror-activeline-background CodeMirror-linebackground"></div><div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" style="left: 0px; width: 0px;"></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-keyword">class</span> <span class="cm-def">Calculator</span>:</span></pre></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">    <span class="cm-keyword">def</span> <span class="cm-def">add</span>(<span class="cm-variable-2">self</span>, <span class="cm-variable">a</span>, <span class="cm-variable">b</span>):</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-keyword">return</span> <span class="cm-variable">a</span> <span class="cm-operator">+</span> <span class="cm-variable">b</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">    <span class="cm-keyword">def</span> <span class="cm-def">subtract</span>(<span class="cm-variable-2">self</span>, <span class="cm-variable">a</span>, <span class="cm-variable">b</span>):</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-keyword">return</span> <span class="cm-variable">a</span> <span class="cm-operator">-</span> <span class="cm-variable">b</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-comment"># Testing the calculator</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">calc</span> <span class="cm-operator">=</span> <span class="cm-variable">Calculator</span>()</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-builtin">print</span>(<span class="cm-string">"Sum:"</span>, <span class="cm-variable">calc</span>.<span class="cm-property">add</span>(<span class="cm-number">5</span>, <span class="cm-number">3</span>))</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-builtin">print</span>(<span class="cm-string">"Difference:"</span>, <span class="cm-variable">calc</span>.<span class="cm-property">subtract</span>(<span class="cm-number">5</span>, <span class="cm-number">3</span>))</span></pre></div></div></div></div></div><div style="position: absolute; height: 15px; width: 1px; border-bottom: 0px solid transparent; top: 263px;"></div><div class="CodeMirror-gutters" style="display: none; height: 278px;"></div></div></div></gfg-panel></gfg-tabs><div class="code-output"><br><strong>Output</strong><pre>Sum: 8
+Difference: 2
+</pre></div><h3 style="text-align:left"><span>Exercise 3: Build a class Employee with multiple constructors that can initialize an employee object in different ways.</span></h3><gfg-tabs allow-code-exec="true" data-run-ide="true" data-mode="light" role="tablist"><template shadowrootmode="open">
+    <style>
+      :host {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      ::slotted(gfg-panel) {
+        flex-basis: 100%;
+      }
+      .codeblock-container[data-content]::after,
+      .codeblock-container[data-danger-content]::after {
+        content: attr(data-content);
+        display: block;
+        position: absolute;
+        bottom: 0px;
+        right: 0;
+        padding: 4px 12px;
+        font-size: 12px;
+        letter-spacing: 0.05em;
+        font-family: inherit;
+        background-color: rgb(217, 217, 217);
+        color: #424242 !important;
+      }
+      .codeblock-container[data-danger-content]::after {
+        color: rgb(132, 5, 5) !important;
+        content: attr(data-danger-content);
+      }
+      .codeblock-container{
+        position: relative;
+        width: 100%;
+        font-family: sans-serif;
+      }
+      .code-container{
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #ddd;
+        clear: left;
+      }
+      
+      #slot-panel::-webkit-scrollbar-track {
+        border-radius: 10px;
+        background-color: transparent;
+        width: 0px !important;
+      }
+
+      #slot-panel::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        background-color: #999;
+        width: 5px ; 
+      }
+      #slot-panel::-webkit-scrollbar {
+        width: 5px; 
+      }
+      #slot-panel::-webkit-scrollbar-thumb:hover {
+        cursor: pointer;
+      }
+      .editor-buttons-div,
+      .w-56 {
+        min-width: 46px;
+      }
+        .editor-buttons-div{
+            display: flex;
+            margin-left: auto;
+            height: 40px;
+            position: sticky; 
+            position: -webkit-sticky;
+            top: 60px;
+            z-index: 4;
+            width: fit-content;
+            justify-content: flex-end;
+            align-items: start;
+        }
+      .gfg-code{
+        padding: 0;
+        width: 100%;
+        display: block;
+      }
+      .editor-buttons{
+        display:flex;
+        width: fit-content;
+        gap: 8px;
+        margin-top: 8px;
+        padding-right: 11px;
+        position: relative;
+        margin-bottom: 4px;
+      }
+      .editor-buttons.output-box {
+        margin-top: 0px;
+      }
+      .editor-buttons.output-box button {
+        margin-bottom: 0 !important;
+      }
+        .output-box {
+            margin-left: 8px;
+        }
+      .code-button{
+        background: white;
+        margin-bottom: 10px;
+        border: 2px;
+        background: #e5e5e5;
+        border-radius: 50px;
+        width: 28px !important;
+        height: 28px !important;
+        cursor: pointer;
+        padding: 6px;
+      }
+        #expand-code-button{
+            margin-bottom: 0px;
+        }
+        #expand-driver-code {
+            transform: rotate(90deg);
+            transform-origin: center;
+        }
+      .code-output{
+        background: #efefef;
+        border-radius: 8px;
+        width: 100%;
+        margin: 10px 2px 5px 2px;
+      }
+      .close-output-button{
+        margin-bottom: 10px;
+      }
+      .code-output-content{
+        padding: 8px 16px;
+        margin: 0;
+        position: sticky;
+        position: -webkit-sticky;
+        margin-top: 10px;
+      }
+      .code-box {
+        display: flex;
+        flex-direction: column;
+        position: relative !important;
+      }
+      .code-output-box {
+        display: flex;
+        align-items: center;
+      }
+     .compiled-message-box {
+        background-color: #308d46;
+        border-radius: 6px;
+        color: white;
+        width: fit-content;
+        margin: 10px auto;
+        text-align: center;
+        flex-basis: 100%;
+        display: none;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: 700;
+        padding-inline: 10px;
+    }
+    .compiled-message-box p {
+        margin-block: 5px;
+    }
+    .compiled-message-box-active {
+        display: flex;
+    }
+    .compiled-mess-content {
+        font-size: 10px;
+        padding-left: 5px;
+    }
+      .generated-output{
+        font-size: 15px;
+        white-space: pre-wrap;
+      }
+      .row-output{
+        color: black;
+        font-size: 16px;
+        padding : 10px;
+      }
+      .border {
+        width: 28px !important;
+        height: 28px !important;
+        position: absolute;
+        background: transparent;
+        border-radius: 50%;
+        border: 2px dashed #000;
+        margin-left: -8px;
+        margin-top: -7px;
+        animation-name: rotate;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+      }
+      .codeblock-container[data-mode=dark] .border {
+        border-color: white !important;
+      }
+      #icon-tabler-copy{
+        margin-bottom: -4px;
+        cursor: pointer;
+      }
+      .gfg-icon{
+        margin-left: auto;
+        margin-right: auto;
+        display: block !important;
+      }
+      
+        @keyframes rotate {
+            from{ transform: rotate(-360deg); }
+            to{ transform: rotate(360deg); }
+        }
+        #code-output-element #jsFrame {
+            background-color: transparent;
+            border: unset;
+            width: 100%;
+        }
+        .loading-container.active {
+            width: 150px; 
+            height: 50px; 
+            background-color: lightgrey; 
+            opacity: 70%;
+            color: black; 
+            position: absolute; 
+            display: flex !important;
+            justify-content: center;
+            align-items: center;
+            top: 30%;
+            left: 40%;
+            z-index: 1;
+            white-space: nowrap !important;
+            text-align: center; 
+            font-size: 13px; 
+            border-radius: 8px; 
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            margin: 2rem;
+        }
+        .loading-container {
+            display: none;
+        }
+        .playground-loading {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+        }
+        
+    @media screen and (max-width: 700px) {
+        .editor-buttons-div {
+            position: sticky; 
+            top: 10px;  
+            z-index: 4;
+            width: fit-content;
+            margin-left: auto;
+            height: 38px;
+            padding-right: 5px;
+        }
+
+        .editor-buttons {
+            display: flex;
+            width: fit-content;
+            flex-direction: row;
+            gap: 8px;
+        }
+        .code-box {
+            position: relative;
+            flex-direction: column;
+        }
+        .code-button {
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        .compiled-message-box svg {
+            display: none;
+        }
+    }
+
+    @media screen and (max-width: 375px) {
+        .compiled-message-box {
+            margin-inline: 5px;
+        }
+    }
+    </style>
+
+    <div class="codeblock-container" data-mode="light">
+        <slot name="tab"></slot>
+        <div class="code-container">
+            <div class="code-box">    
+                <div id="editor-buttons-div" class="editor-buttons-div" style="top: 40px;">
+                    <div id="editor-buttons" class="editor-buttons">
+                        <button id="expand-driver-code" class="expand-driver-code code-button" title="Expand all Diver Codes" style="display: none;"><svg id="expand-icon" width="17" height="17" viewBox="1 5 47 6" stroke-width="1" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
+            <path d="M44.4507 7.91963C44.7062 8.18159 44.8496 8.53199 44.8496 8.89419C44.8496 9.25639 44.7062 9.60088 44.4507 9.8523L38.9862 15.2053C38.8593 15.3296 38.7087 15.4272 38.5429 15.4924C38.3771 15.5577 38.1995 15.5894 38.02 15.5857C37.6577 15.5782 37.3101 15.427 37.0539 15.1655C36.7977 14.9039 36.6537 14.5533 36.6537 14.1909C36.6537 13.8284 36.7977 13.4838 37.0539 13.2328L40.1862 10.1645L30.3697 9.96203C30.0073 9.95456 29.6599 9.80343 29.4037 9.54189C29.1475 9.28035 29.0035 8.92983 29.0035 8.56743C29.0035 8.20503 29.1475 7.86044 29.4037 7.60947C29.6599 7.3585 30.0073 7.22171 30.3697 7.22918L40.1862 7.4316L37.0539 4.23407C36.927 4.10455 36.8264 3.95182 36.7577 3.7846C36.6891 3.61738 36.6537 3.43894 36.6537 3.25948C36.6537 3.08001 36.6891 2.90304 36.7577 2.73865C36.8264 2.57426 36.927 2.42568 37.0539 2.30139C37.1808 2.17711 37.3314 2.07955 37.4972 2.01429C37.6629 1.94903 37.8406 1.91735 38.02 1.92105C38.1995 1.92475 38.3771 1.96376 38.5429 2.03586C38.7087 2.10795 38.8593 2.21172 38.9862 2.34124L44.4507 7.91963Z" fill="black"></path>
+            <rect x="24.5859" y="16.8309" width="3.31306" height="16.5653" rx="1.65653" transform="rotate(-180 24.5859 16.8309)" fill="black"></rect>
+            <path d="M0.884258 7.91957C0.62878 8.18152 0.485352 8.53193 0.485352 8.89413C0.485352 9.25632 0.62878 9.60082 0.884258 9.85224L6.3488 15.2053C6.47567 15.3295 6.6263 15.4271 6.79207 15.4924C6.95783 15.5576 7.1355 15.5893 7.31493 15.5856C7.6773 15.5781 8.02483 15.427 8.28106 15.1654C8.5373 14.9038 8.68125 14.5533 8.68125 14.1908C8.68125 13.8284 8.5373 13.4837 8.28106 13.2327L5.14879 10.1644L14.9653 9.96197C15.3276 9.9545 15.6751 9.80337 15.9313 9.54183C16.1875 9.28029 16.3314 8.92977 16.3314 8.56737C16.3314 8.20497 16.1875 7.86038 15.9313 7.60941C15.6751 7.35844 15.3276 7.22164 14.9653 7.22912L5.14879 7.43154L8.28106 4.23401C8.40794 4.10449 8.50858 3.95176 8.57724 3.78454C8.64591 3.61732 8.68125 3.43888 8.68125 3.25942C8.68125 3.07995 8.64591 2.90298 8.57724 2.73859C8.50858 2.5742 8.40794 2.42562 8.28106 2.30133C8.15419 2.17705 8.00357 2.07949 7.8378 2.01423C7.67203 1.94897 7.49436 1.91729 7.31493 1.92099C7.1355 1.92469 6.95783 1.9637 6.79207 2.03579C6.6263 2.10789 6.47567 2.21166 6.3488 2.34118L0.884258 7.91957Z" fill="black"></path>
+        </svg></button>
+                        <button class="code-button" id="edit-close-button" title="Close Editor" buttontype="edit"><svg xmlns="http://www.w3.org/2000/svg" id="edit-close-icon" class="gfg-icon" width="17" height="17" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+        <path d="M18 6l-12 12"></path>
+        <path d="M6 6l12 12"></path>
+    </svg></button>
+                        <button class="code-button" id="run-code-button" title="Run Code and See Output">
+                            <div class="border" id="run-code-loader" hidden=""></div>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="gfg-icon" width="17" height="17" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M7 4v16l13 -8z"></path>
+                            </svg>
+                        </button>
+                        <button class="code-button" id="copy-code-button" title="Copy Code"> <svg xmlns="http://www.w3.org/2000/svg" class="gfg-icon" width="17" height="17" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M8 8m0 2a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2z"></path>
+                                <path d="M16 8v-2a2 2 0 0 0 -2 -2h-8a2 2 0 0 0 -2 2v8a2 2 0 0 0 2 2h2"></path>
+                        </svg></button>
+                        <button class="code-button" id="mode-button" title="Dark Mode" hidden="true" mode="light"><svg xmlns="http://www.w3.org/2000/svg" class="gfg-icon" width="20" height="20" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+        <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z"></path>
+    </svg> </button>
+                        
+                    </div>
+                </div>
+                <div id="slot-panel" class="gfg-code" style="width: calc(100% + 0px); margin-top: -35px;">
+                     <div id="playground-loader" class="loading-container">
+                        <span class="playground-loading">Loading Playground...</span>
+                    </div>
+                    <slot name="panel"></slot>
+                </div>
+            </div>
+            <div class="code-output-box" id="code-output-box">
+                <div class="editor-buttons w-56 output-box" title="Close Output">
+                    <button class="code-button" id="close-output-button" hidden="">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="gfg-icon" width="17" height="17" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                            <path d="M9 12h-3.586a1 1 0 0 1 -.707 -1.707l6.586 -6.586a1 1 0 0 1 1.414 0l6.586 6.586a1 1 0 0 1 -.707 1.707h-3.586v6h-6v-6z"></path>
+                            <path d="M9 21h6"></path>
+                        </svg>
+                    </button>
+                </div> 
+                <div class="code-output" id="code-output" hidden="">
+                    <div class="row-output">
+                        <pre class="generated-output" id="code-output-element"></pre>
+                    </div> 
+                </div>
+            </div>
+            </div>
+        </div>
+    
+    </template>
+            <gfg-tab slot="tab" hidden="" role="tab" id="gfg-tab-generated-2" aria-selected="true" tabindex="0" aria-controls="gfg-panel-generated-2" selected="">Python</gfg-tab>
+<gfg-panel slot="panel" data-code-lang="python3" data-main-code-start="None" data-main-code-end="None" role="tabpanel" id="gfg-panel-generated-2" aria-labelledby="gfg-tab-generated-2">
+    <code class="language-python3"><div class="highlight"><pre hidden=""><span></span><span class="k">class</span> <span class="nc">Employee</span><span class="p">:</span>
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">name</span><span class="p">,</span> <span class="nb">id</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">department</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="n">name</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">id</span> <span class="o">=</span> <span class="nb">id</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">department</span> <span class="o">=</span> <span class="n">department</span>
+
+    <span class="k">def</span> <span class="nf">display_details</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Name: </span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">name</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">id</span><span class="p">:</span>
+            <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"ID: </span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">id</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">department</span><span class="p">:</span>
+            <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Department: </span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">department</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+
+<span class="c1"># Examples</span>
+<span class="n">emp1</span> <span class="o">=</span> <span class="n">Employee</span><span class="p">(</span><span class="s2">"John"</span><span class="p">)</span>
+<span class="n">emp1</span><span class="o">.</span><span class="n">display_details</span><span class="p">()</span>
+
+<span class="n">emp2</span> <span class="o">=</span> <span class="n">Employee</span><span class="p">(</span><span class="s2">"Doe"</span><span class="p">,</span> <span class="mi">101</span><span class="p">)</span>
+<span class="n">emp2</span><span class="o">.</span><span class="n">display_details</span><span class="p">()</span>
+
+<span class="n">emp3</span> <span class="o">=</span> <span class="n">Employee</span><span class="p">(</span><span class="s2">"Jane"</span><span class="p">,</span> <span class="mi">102</span><span class="p">,</span> <span class="s2">"HR"</span><span class="p">)</span>
+<span class="n">emp3</span><span class="o">.</span><span class="n">display_details</span><span class="p">()</span>
+</pre></div></code>
+<div class="CodeMirror cm-s-default"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 96.875px; left: 274.859px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-vscrollbar" tabindex="-1" cm-not-content="true" style="bottom: 0px;"><div style="min-width: 1px; height: 0px;"></div></div><div class="CodeMirror-hscrollbar" tabindex="-1" cm-not-content="true"><div style="height: 100%; min-height: 1px; width: 0px;"></div></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; margin-bottom: -15px; border-right-width: 15px; min-height: 519px; min-width: 510.859px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-cursors" style=""><div class="CodeMirror-cursor" style="left: 274.859px; top: 92.875px; height: 23.2188px;">&nbsp;</div></div><div class="CodeMirror-code" role="presentation" style=""><div class="" style="position: relative;"><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-keyword">class</span> <span class="cm-def">Employee</span>:</span></pre></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">    <span class="cm-keyword">def</span> <span class="cm-def">__init__</span>(<span class="cm-variable-2">self</span>, <span class="cm-variable">name</span>, <span class="cm-builtin">id</span><span class="cm-operator">=</span><span class="cm-keyword">None</span>, <span class="cm-variable">department</span><span class="cm-operator">=</span><span class="cm-keyword">None</span>):</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-variable-2">self</span>.<span class="cm-property">name</span> <span class="cm-operator">=</span> <span class="cm-variable">name</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-variable-2">self</span>.<span class="cm-property">id</span> <span class="cm-operator">=</span> <span class="cm-builtin">id</span></span></pre><div class="CodeMirror-activeline" style="position: relative;"><div class="CodeMirror-activeline-background CodeMirror-linebackground"></div><div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" style="left: 0px; width: 0px;"></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-variable-2">self</span>.<span class="cm-property">department</span> <span class="cm-operator">=</span> <span class="cm-variable">department</span></span></pre></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">    <span class="cm-keyword">def</span> <span class="cm-def">display_details</span>(<span class="cm-variable-2">self</span>):</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-builtin">print</span>(<span class="cm-string">f"Name: </span>{<span class="cm-variable-2">self</span>.<span class="cm-property">name</span>}<span class="cm-string">"</span>)</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-keyword">if</span> <span class="cm-variable-2">self</span>.<span class="cm-property">id</span>:</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">            <span class="cm-builtin">print</span>(<span class="cm-string">f"ID: </span>{<span class="cm-variable-2">self</span>.<span class="cm-property">id</span>}<span class="cm-string">"</span>)</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-keyword">if</span> <span class="cm-variable-2">self</span>.<span class="cm-property">department</span>:</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">            <span class="cm-builtin">print</span>(<span class="cm-string">f"Department: </span>{<span class="cm-variable-2">self</span>.<span class="cm-property">department</span>}<span class="cm-string">"</span>)</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-comment"># Examples</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">emp1</span> <span class="cm-operator">=</span> <span class="cm-variable">Employee</span>(<span class="cm-string">"John"</span>)</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">emp1</span>.<span class="cm-property">display_details</span>()</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">emp2</span> <span class="cm-operator">=</span> <span class="cm-variable">Employee</span>(<span class="cm-string">"Doe"</span>, <span class="cm-number">101</span>)</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">emp2</span>.<span class="cm-property">display_details</span>()</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">emp3</span> <span class="cm-operator">=</span> <span class="cm-variable">Employee</span>(<span class="cm-string">"Jane"</span>, <span class="cm-number">102</span>, <span class="cm-string">"HR"</span>)</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">emp3</span>.<span class="cm-property">display_details</span>()</span></pre></div></div></div></div></div><div style="position: absolute; height: 15px; width: 1px; border-bottom: 0px solid transparent; top: 519px;"></div><div class="CodeMirror-gutters" style="display: none; height: 534px;"></div></div></div></gfg-panel></gfg-tabs><div class="code-output"><br><strong>Output</strong><pre>Name: John
+Name: Doe
+ID: 101
+Name: Jane
+ID: 102
+Department: HR
+</pre></div><h3 style="text-align:left"><span>Exercise 4: Design a class SeriesCalculator that calculates the sum of an arithmetic series.</span></h3><gfg-tabs allow-code-exec="true" data-run-ide="true" data-mode="light" role="tablist"><template shadowrootmode="open">
+    <style>
+      :host {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      ::slotted(gfg-panel) {
+        flex-basis: 100%;
+      }
+      .codeblock-container[data-content]::after,
+      .codeblock-container[data-danger-content]::after {
+        content: attr(data-content);
+        display: block;
+        position: absolute;
+        bottom: 0px;
+        right: 0;
+        padding: 4px 12px;
+        font-size: 12px;
+        letter-spacing: 0.05em;
+        font-family: inherit;
+        background-color: rgb(217, 217, 217);
+        color: #424242 !important;
+      }
+      .codeblock-container[data-danger-content]::after {
+        color: rgb(132, 5, 5) !important;
+        content: attr(data-danger-content);
+      }
+      .codeblock-container{
+        position: relative;
+        width: 100%;
+        font-family: sans-serif;
+      }
+      .code-container{
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #ddd;
+        clear: left;
+      }
+      
+      #slot-panel::-webkit-scrollbar-track {
+        border-radius: 10px;
+        background-color: transparent;
+        width: 0px !important;
+      }
+
+      #slot-panel::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        background-color: #999;
+        width: 5px ; 
+      }
+      #slot-panel::-webkit-scrollbar {
+        width: 5px; 
+      }
+      #slot-panel::-webkit-scrollbar-thumb:hover {
+        cursor: pointer;
+      }
+      .editor-buttons-div,
+      .w-56 {
+        min-width: 46px;
+      }
+        .editor-buttons-div{
+            display: flex;
+            margin-left: auto;
+            height: 40px;
+            position: sticky; 
+            position: -webkit-sticky;
+            top: 60px;
+            z-index: 4;
+            width: fit-content;
+            justify-content: flex-end;
+            align-items: start;
+        }
+      .gfg-code{
+        padding: 0;
+        width: 100%;
+        display: block;
+      }
+      .editor-buttons{
+        display:flex;
+        width: fit-content;
+        gap: 8px;
+        margin-top: 8px;
+        padding-right: 11px;
+        position: relative;
+        margin-bottom: 4px;
+      }
+      .editor-buttons.output-box {
+        margin-top: 0px;
+      }
+      .editor-buttons.output-box button {
+        margin-bottom: 0 !important;
+      }
+        .output-box {
+            margin-left: 8px;
+        }
+      .code-button{
+        background: white;
+        margin-bottom: 10px;
+        border: 2px;
+        background: #e5e5e5;
+        border-radius: 50px;
+        width: 28px !important;
+        height: 28px !important;
+        cursor: pointer;
+        padding: 6px;
+      }
+        #expand-code-button{
+            margin-bottom: 0px;
+        }
+        #expand-driver-code {
+            transform: rotate(90deg);
+            transform-origin: center;
+        }
+      .code-output{
+        background: #efefef;
+        border-radius: 8px;
+        width: 100%;
+        margin: 10px 2px 5px 2px;
+      }
+      .close-output-button{
+        margin-bottom: 10px;
+      }
+      .code-output-content{
+        padding: 8px 16px;
+        margin: 0;
+        position: sticky;
+        position: -webkit-sticky;
+        margin-top: 10px;
+      }
+      .code-box {
+        display: flex;
+        flex-direction: column;
+        position: relative !important;
+      }
+      .code-output-box {
+        display: flex;
+        align-items: center;
+      }
+     .compiled-message-box {
+        background-color: #308d46;
+        border-radius: 6px;
+        color: white;
+        width: fit-content;
+        margin: 10px auto;
+        text-align: center;
+        flex-basis: 100%;
+        display: none;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: 700;
+        padding-inline: 10px;
+    }
+    .compiled-message-box p {
+        margin-block: 5px;
+    }
+    .compiled-message-box-active {
+        display: flex;
+    }
+    .compiled-mess-content {
+        font-size: 10px;
+        padding-left: 5px;
+    }
+      .generated-output{
+        font-size: 15px;
+        white-space: pre-wrap;
+      }
+      .row-output{
+        color: black;
+        font-size: 16px;
+        padding : 10px;
+      }
+      .border {
+        width: 28px !important;
+        height: 28px !important;
+        position: absolute;
+        background: transparent;
+        border-radius: 50%;
+        border: 2px dashed #000;
+        margin-left: -8px;
+        margin-top: -7px;
+        animation-name: rotate;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+      }
+      .codeblock-container[data-mode=dark] .border {
+        border-color: white !important;
+      }
+      #icon-tabler-copy{
+        margin-bottom: -4px;
+        cursor: pointer;
+      }
+      .gfg-icon{
+        margin-left: auto;
+        margin-right: auto;
+        display: block !important;
+      }
+      
+        @keyframes rotate {
+            from{ transform: rotate(-360deg); }
+            to{ transform: rotate(360deg); }
+        }
+        #code-output-element #jsFrame {
+            background-color: transparent;
+            border: unset;
+            width: 100%;
+        }
+        .loading-container.active {
+            width: 150px; 
+            height: 50px; 
+            background-color: lightgrey; 
+            opacity: 70%;
+            color: black; 
+            position: absolute; 
+            display: flex !important;
+            justify-content: center;
+            align-items: center;
+            top: 30%;
+            left: 40%;
+            z-index: 1;
+            white-space: nowrap !important;
+            text-align: center; 
+            font-size: 13px; 
+            border-radius: 8px; 
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            margin: 2rem;
+        }
+        .loading-container {
+            display: none;
+        }
+        .playground-loading {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+        }
+        
+    @media screen and (max-width: 700px) {
+        .editor-buttons-div {
+            position: sticky; 
+            top: 10px;  
+            z-index: 4;
+            width: fit-content;
+            margin-left: auto;
+            height: 38px;
+            padding-right: 5px;
+        }
+
+        .editor-buttons {
+            display: flex;
+            width: fit-content;
+            flex-direction: row;
+            gap: 8px;
+        }
+        .code-box {
+            position: relative;
+            flex-direction: column;
+        }
+        .code-button {
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        .compiled-message-box svg {
+            display: none;
+        }
+    }
+
+    @media screen and (max-width: 375px) {
+        .compiled-message-box {
+            margin-inline: 5px;
+        }
+    }
+    </style>
+
+    <div class="codeblock-container" data-mode="light">
+        <slot name="tab"></slot>
+        <div class="code-container">
+            <div class="code-box">    
+                <div id="editor-buttons-div" class="editor-buttons-div" style="top: 40px;">
+                    <div id="editor-buttons" class="editor-buttons">
+                        <button id="expand-driver-code" class="expand-driver-code code-button" title="Expand all Diver Codes" style="display: none;"><svg id="expand-icon" width="17" height="17" viewBox="1 5 47 6" stroke-width="1" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
+            <path d="M44.4507 7.91963C44.7062 8.18159 44.8496 8.53199 44.8496 8.89419C44.8496 9.25639 44.7062 9.60088 44.4507 9.8523L38.9862 15.2053C38.8593 15.3296 38.7087 15.4272 38.5429 15.4924C38.3771 15.5577 38.1995 15.5894 38.02 15.5857C37.6577 15.5782 37.3101 15.427 37.0539 15.1655C36.7977 14.9039 36.6537 14.5533 36.6537 14.1909C36.6537 13.8284 36.7977 13.4838 37.0539 13.2328L40.1862 10.1645L30.3697 9.96203C30.0073 9.95456 29.6599 9.80343 29.4037 9.54189C29.1475 9.28035 29.0035 8.92983 29.0035 8.56743C29.0035 8.20503 29.1475 7.86044 29.4037 7.60947C29.6599 7.3585 30.0073 7.22171 30.3697 7.22918L40.1862 7.4316L37.0539 4.23407C36.927 4.10455 36.8264 3.95182 36.7577 3.7846C36.6891 3.61738 36.6537 3.43894 36.6537 3.25948C36.6537 3.08001 36.6891 2.90304 36.7577 2.73865C36.8264 2.57426 36.927 2.42568 37.0539 2.30139C37.1808 2.17711 37.3314 2.07955 37.4972 2.01429C37.6629 1.94903 37.8406 1.91735 38.02 1.92105C38.1995 1.92475 38.3771 1.96376 38.5429 2.03586C38.7087 2.10795 38.8593 2.21172 38.9862 2.34124L44.4507 7.91963Z" fill="black"></path>
+            <rect x="24.5859" y="16.8309" width="3.31306" height="16.5653" rx="1.65653" transform="rotate(-180 24.5859 16.8309)" fill="black"></rect>
+            <path d="M0.884258 7.91957C0.62878 8.18152 0.485352 8.53193 0.485352 8.89413C0.485352 9.25632 0.62878 9.60082 0.884258 9.85224L6.3488 15.2053C6.47567 15.3295 6.6263 15.4271 6.79207 15.4924C6.95783 15.5576 7.1355 15.5893 7.31493 15.5856C7.6773 15.5781 8.02483 15.427 8.28106 15.1654C8.5373 14.9038 8.68125 14.5533 8.68125 14.1908C8.68125 13.8284 8.5373 13.4837 8.28106 13.2327L5.14879 10.1644L14.9653 9.96197C15.3276 9.9545 15.6751 9.80337 15.9313 9.54183C16.1875 9.28029 16.3314 8.92977 16.3314 8.56737C16.3314 8.20497 16.1875 7.86038 15.9313 7.60941C15.6751 7.35844 15.3276 7.22164 14.9653 7.22912L5.14879 7.43154L8.28106 4.23401C8.40794 4.10449 8.50858 3.95176 8.57724 3.78454C8.64591 3.61732 8.68125 3.43888 8.68125 3.25942C8.68125 3.07995 8.64591 2.90298 8.57724 2.73859C8.50858 2.5742 8.40794 2.42562 8.28106 2.30133C8.15419 2.17705 8.00357 2.07949 7.8378 2.01423C7.67203 1.94897 7.49436 1.91729 7.31493 1.92099C7.1355 1.92469 6.95783 1.9637 6.79207 2.03579C6.6263 2.10789 6.47567 2.21166 6.3488 2.34118L0.884258 7.91957Z" fill="black"></path>
+        </svg></button>
+                        <button class="code-button" id="edit-close-button" title="Close Editor" buttontype="edit"><svg xmlns="http://www.w3.org/2000/svg" id="edit-close-icon" class="gfg-icon" width="17" height="17" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+        <path d="M18 6l-12 12"></path>
+        <path d="M6 6l12 12"></path>
+    </svg></button>
+                        <button class="code-button" id="run-code-button" title="Run Code and See Output">
+                            <div class="border" id="run-code-loader" hidden=""></div>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="gfg-icon" width="17" height="17" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M7 4v16l13 -8z"></path>
+                            </svg>
+                        </button>
+                        <button class="code-button" id="copy-code-button" title="Copy Code"> <svg xmlns="http://www.w3.org/2000/svg" class="gfg-icon" width="17" height="17" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M8 8m0 2a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2z"></path>
+                                <path d="M16 8v-2a2 2 0 0 0 -2 -2h-8a2 2 0 0 0 -2 2v8a2 2 0 0 0 2 2h2"></path>
+                        </svg></button>
+                        <button class="code-button" id="mode-button" title="Dark Mode" hidden="true" mode="light"><svg xmlns="http://www.w3.org/2000/svg" class="gfg-icon" width="20" height="20" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+        <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z"></path>
+    </svg> </button>
+                        
+                    </div>
+                </div>
+                <div id="slot-panel" class="gfg-code" style="width: calc(100% + 0px); margin-top: -35px;">
+                     <div id="playground-loader" class="loading-container">
+                        <span class="playground-loading">Loading Playground...</span>
+                    </div>
+                    <slot name="panel"></slot>
+                </div>
+            </div>
+            <div class="code-output-box" id="code-output-box">
+                <div class="editor-buttons w-56 output-box" title="Close Output">
+                    <button class="code-button" id="close-output-button" hidden="">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="gfg-icon" width="17" height="17" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                            <path d="M9 12h-3.586a1 1 0 0 1 -.707 -1.707l6.586 -6.586a1 1 0 0 1 1.414 0l6.586 6.586a1 1 0 0 1 -.707 1.707h-3.586v6h-6v-6z"></path>
+                            <path d="M9 21h6"></path>
+                        </svg>
+                    </button>
+                </div> 
+                <div class="code-output" id="code-output" hidden="">
+                    <div class="row-output">
+                        <pre class="generated-output" id="code-output-element"></pre>
+                    </div> 
+                </div>
+            </div>
+            </div>
+        </div>
+    
+    </template>
+            <gfg-tab slot="tab" hidden="" role="tab" id="gfg-tab-generated-3" aria-selected="true" tabindex="0" aria-controls="gfg-panel-generated-3" selected="">Python</gfg-tab>
+<gfg-panel slot="panel" data-code-lang="python3" data-main-code-start="None" data-main-code-end="None" role="tabpanel" id="gfg-panel-generated-3" aria-labelledby="gfg-tab-generated-3">
+    <code class="language-python3"><div class="highlight"><pre hidden=""><span></span><span class="k">class</span> <span class="nc">SeriesCalculator</span><span class="p">:</span>
+    <span class="k">def</span> <span class="nf">calculate_sum</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">n</span><span class="p">,</span> <span class="n">a</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">d</span><span class="o">=</span><span class="mi">2</span><span class="p">):</span>
+        <span class="c1"># Sum of the first n terms of an arithmetic series</span>
+        <span class="k">return</span> <span class="n">n</span> <span class="o">*</span> <span class="p">(</span><span class="mi">2</span> <span class="o">*</span> <span class="n">a</span> <span class="o">+</span> <span class="p">(</span><span class="n">n</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span> <span class="o">*</span> <span class="n">d</span><span class="p">)</span> <span class="o">//</span> <span class="mi">2</span>
+
+<span class="c1"># Test the calculator</span>
+<span class="n">sc</span> <span class="o">=</span> <span class="n">SeriesCalculator</span><span class="p">()</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"Sum of series:"</span><span class="p">,</span> <span class="n">sc</span><span class="o">.</span><span class="n">calculate_sum</span><span class="p">(</span><span class="mi">5</span><span class="p">))</span>
+</pre></div></code>
+<div class="CodeMirror cm-s-default"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 4px; left: 15px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-vscrollbar" tabindex="-1" cm-not-content="true"><div style="min-width: 1px; height: 0px;"></div></div><div class="CodeMirror-hscrollbar" tabindex="-1" cm-not-content="true"><div style="height: 100%; min-height: 1px; width: 0px;"></div></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; margin-bottom: -15px; border-right-width: 15px; min-height: 194px; min-width: 537.625px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-cursors"><div class="CodeMirror-cursor" style="left: 15px; top: 0px; height: 23.2188px;">&nbsp;</div></div><div class="CodeMirror-code" role="presentation" style=""><div class="CodeMirror-activeline" style="position: relative;"><div class="CodeMirror-activeline-background CodeMirror-linebackground"></div><div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" style="left: 0px; width: 0px;"></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-keyword">class</span> <span class="cm-def">SeriesCalculator</span>:</span></pre></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">    <span class="cm-keyword">def</span> <span class="cm-def">calculate_sum</span>(<span class="cm-variable-2">self</span>, <span class="cm-variable">n</span>, <span class="cm-variable">a</span><span class="cm-operator">=</span><span class="cm-number">1</span>, <span class="cm-variable">d</span><span class="cm-operator">=</span><span class="cm-number">2</span>):</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-comment"># Sum of the first n terms of an arithmetic series</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-keyword">return</span> <span class="cm-variable">n</span> <span class="cm-operator">*</span> (<span class="cm-number">2</span> <span class="cm-operator">*</span> <span class="cm-variable">a</span> <span class="cm-operator">+</span> (<span class="cm-variable">n</span> <span class="cm-operator">-</span> <span class="cm-number">1</span>) <span class="cm-operator">*</span> <span class="cm-variable">d</span>) <span class="cm-operator">//</span> <span class="cm-number">2</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-comment"># Test the calculator</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">sc</span> <span class="cm-operator">=</span> <span class="cm-variable">SeriesCalculator</span>()</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-builtin">print</span>(<span class="cm-string">"Sum of series:"</span>, <span class="cm-variable">sc</span>.<span class="cm-property">calculate_sum</span>(<span class="cm-number">5</span>))</span></pre></div></div></div></div></div><div style="position: absolute; height: 15px; width: 1px; border-bottom: 0px solid transparent; top: 194px;"></div><div class="CodeMirror-gutters" style="display: none; height: 209px;"></div></div></div></gfg-panel></gfg-tabs><div class="code-output"><br><strong>Output</strong><pre>Sum of series: 25
+</pre></div><h3 style="text-align:left"><span>Exercise 5: Create a class MaxFinder that identifies the largest number in a list.</span></h3><gfg-tabs allow-code-exec="true" data-run-ide="true" data-mode="light" role="tablist"><template shadowrootmode="open">
+    <style>
+      :host {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      ::slotted(gfg-panel) {
+        flex-basis: 100%;
+      }
+      .codeblock-container[data-content]::after,
+      .codeblock-container[data-danger-content]::after {
+        content: attr(data-content);
+        display: block;
+        position: absolute;
+        bottom: 0px;
+        right: 0;
+        padding: 4px 12px;
+        font-size: 12px;
+        letter-spacing: 0.05em;
+        font-family: inherit;
+        background-color: rgb(217, 217, 217);
+        color: #424242 !important;
+      }
+      .codeblock-container[data-danger-content]::after {
+        color: rgb(132, 5, 5) !important;
+        content: attr(data-danger-content);
+      }
+      .codeblock-container{
+        position: relative;
+        width: 100%;
+        font-family: sans-serif;
+      }
+      .code-container{
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #ddd;
+        clear: left;
+      }
+      
+      #slot-panel::-webkit-scrollbar-track {
+        border-radius: 10px;
+        background-color: transparent;
+        width: 0px !important;
+      }
+
+      #slot-panel::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        background-color: #999;
+        width: 5px ; 
+      }
+      #slot-panel::-webkit-scrollbar {
+        width: 5px; 
+      }
+      #slot-panel::-webkit-scrollbar-thumb:hover {
+        cursor: pointer;
+      }
+      .editor-buttons-div,
+      .w-56 {
+        min-width: 46px;
+      }
+        .editor-buttons-div{
+            display: flex;
+            margin-left: auto;
+            height: 40px;
+            position: sticky; 
+            position: -webkit-sticky;
+            top: 60px;
+            z-index: 4;
+            width: fit-content;
+            justify-content: flex-end;
+            align-items: start;
+        }
+      .gfg-code{
+        padding: 0;
+        width: 100%;
+        display: block;
+      }
+      .editor-buttons{
+        display:flex;
+        width: fit-content;
+        gap: 8px;
+        margin-top: 8px;
+        padding-right: 11px;
+        position: relative;
+        margin-bottom: 4px;
+      }
+      .editor-buttons.output-box {
+        margin-top: 0px;
+      }
+      .editor-buttons.output-box button {
+        margin-bottom: 0 !important;
+      }
+        .output-box {
+            margin-left: 8px;
+        }
+      .code-button{
+        background: white;
+        margin-bottom: 10px;
+        border: 2px;
+        background: #e5e5e5;
+        border-radius: 50px;
+        width: 28px !important;
+        height: 28px !important;
+        cursor: pointer;
+        padding: 6px;
+      }
+        #expand-code-button{
+            margin-bottom: 0px;
+        }
+        #expand-driver-code {
+            transform: rotate(90deg);
+            transform-origin: center;
+        }
+      .code-output{
+        background: #efefef;
+        border-radius: 8px;
+        width: 100%;
+        margin: 10px 2px 5px 2px;
+      }
+      .close-output-button{
+        margin-bottom: 10px;
+      }
+      .code-output-content{
+        padding: 8px 16px;
+        margin: 0;
+        position: sticky;
+        position: -webkit-sticky;
+        margin-top: 10px;
+      }
+      .code-box {
+        display: flex;
+        flex-direction: column;
+        position: relative !important;
+      }
+      .code-output-box {
+        display: flex;
+        align-items: center;
+      }
+     .compiled-message-box {
+        background-color: #308d46;
+        border-radius: 6px;
+        color: white;
+        width: fit-content;
+        margin: 10px auto;
+        text-align: center;
+        flex-basis: 100%;
+        display: none;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: 700;
+        padding-inline: 10px;
+    }
+    .compiled-message-box p {
+        margin-block: 5px;
+    }
+    .compiled-message-box-active {
+        display: flex;
+    }
+    .compiled-mess-content {
+        font-size: 10px;
+        padding-left: 5px;
+    }
+      .generated-output{
+        font-size: 15px;
+        white-space: pre-wrap;
+      }
+      .row-output{
+        color: black;
+        font-size: 16px;
+        padding : 10px;
+      }
+      .border {
+        width: 28px !important;
+        height: 28px !important;
+        position: absolute;
+        background: transparent;
+        border-radius: 50%;
+        border: 2px dashed #000;
+        margin-left: -8px;
+        margin-top: -7px;
+        animation-name: rotate;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+      }
+      .codeblock-container[data-mode=dark] .border {
+        border-color: white !important;
+      }
+      #icon-tabler-copy{
+        margin-bottom: -4px;
+        cursor: pointer;
+      }
+      .gfg-icon{
+        margin-left: auto;
+        margin-right: auto;
+        display: block !important;
+      }
+      
+        @keyframes rotate {
+            from{ transform: rotate(-360deg); }
+            to{ transform: rotate(360deg); }
+        }
+        #code-output-element #jsFrame {
+            background-color: transparent;
+            border: unset;
+            width: 100%;
+        }
+        .loading-container.active {
+            width: 150px; 
+            height: 50px; 
+            background-color: lightgrey; 
+            opacity: 70%;
+            color: black; 
+            position: absolute; 
+            display: flex !important;
+            justify-content: center;
+            align-items: center;
+            top: 30%;
+            left: 40%;
+            z-index: 1;
+            white-space: nowrap !important;
+            text-align: center; 
+            font-size: 13px; 
+            border-radius: 8px; 
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            margin: 2rem;
+        }
+        .loading-container {
+            display: none;
+        }
+        .playground-loading {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+        }
+        
+    @media screen and (max-width: 700px) {
+        .editor-buttons-div {
+            position: sticky; 
+            top: 10px;  
+            z-index: 4;
+            width: fit-content;
+            margin-left: auto;
+            height: 38px;
+            padding-right: 5px;
+        }
+
+        .editor-buttons {
+            display: flex;
+            width: fit-content;
+            flex-direction: row;
+            gap: 8px;
+        }
+        .code-box {
+            position: relative;
+            flex-direction: column;
+        }
+        .code-button {
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        .compiled-message-box svg {
+            display: none;
+        }
+    }
+
+    @media screen and (max-width: 375px) {
+        .compiled-message-box {
+            margin-inline: 5px;
+        }
+    }
+    </style>
+
+    <div class="codeblock-container" data-mode="light">
+        <slot name="tab"></slot>
+        <div class="code-container">
+            <div class="code-box">    
+                <div id="editor-buttons-div" class="editor-buttons-div" style="top: 40px;">
+                    <div id="editor-buttons" class="editor-buttons">
+                        <button id="expand-driver-code" class="expand-driver-code code-button" title="Expand all Diver Codes" style="display: none;"><svg id="expand-icon" width="17" height="17" viewBox="1 5 47 6" stroke-width="1" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
+            <path d="M44.4507 7.91963C44.7062 8.18159 44.8496 8.53199 44.8496 8.89419C44.8496 9.25639 44.7062 9.60088 44.4507 9.8523L38.9862 15.2053C38.8593 15.3296 38.7087 15.4272 38.5429 15.4924C38.3771 15.5577 38.1995 15.5894 38.02 15.5857C37.6577 15.5782 37.3101 15.427 37.0539 15.1655C36.7977 14.9039 36.6537 14.5533 36.6537 14.1909C36.6537 13.8284 36.7977 13.4838 37.0539 13.2328L40.1862 10.1645L30.3697 9.96203C30.0073 9.95456 29.6599 9.80343 29.4037 9.54189C29.1475 9.28035 29.0035 8.92983 29.0035 8.56743C29.0035 8.20503 29.1475 7.86044 29.4037 7.60947C29.6599 7.3585 30.0073 7.22171 30.3697 7.22918L40.1862 7.4316L37.0539 4.23407C36.927 4.10455 36.8264 3.95182 36.7577 3.7846C36.6891 3.61738 36.6537 3.43894 36.6537 3.25948C36.6537 3.08001 36.6891 2.90304 36.7577 2.73865C36.8264 2.57426 36.927 2.42568 37.0539 2.30139C37.1808 2.17711 37.3314 2.07955 37.4972 2.01429C37.6629 1.94903 37.8406 1.91735 38.02 1.92105C38.1995 1.92475 38.3771 1.96376 38.5429 2.03586C38.7087 2.10795 38.8593 2.21172 38.9862 2.34124L44.4507 7.91963Z" fill="black"></path>
+            <rect x="24.5859" y="16.8309" width="3.31306" height="16.5653" rx="1.65653" transform="rotate(-180 24.5859 16.8309)" fill="black"></rect>
+            <path d="M0.884258 7.91957C0.62878 8.18152 0.485352 8.53193 0.485352 8.89413C0.485352 9.25632 0.62878 9.60082 0.884258 9.85224L6.3488 15.2053C6.47567 15.3295 6.6263 15.4271 6.79207 15.4924C6.95783 15.5576 7.1355 15.5893 7.31493 15.5856C7.6773 15.5781 8.02483 15.427 8.28106 15.1654C8.5373 14.9038 8.68125 14.5533 8.68125 14.1908C8.68125 13.8284 8.5373 13.4837 8.28106 13.2327L5.14879 10.1644L14.9653 9.96197C15.3276 9.9545 15.6751 9.80337 15.9313 9.54183C16.1875 9.28029 16.3314 8.92977 16.3314 8.56737C16.3314 8.20497 16.1875 7.86038 15.9313 7.60941C15.6751 7.35844 15.3276 7.22164 14.9653 7.22912L5.14879 7.43154L8.28106 4.23401C8.40794 4.10449 8.50858 3.95176 8.57724 3.78454C8.64591 3.61732 8.68125 3.43888 8.68125 3.25942C8.68125 3.07995 8.64591 2.90298 8.57724 2.73859C8.50858 2.5742 8.40794 2.42562 8.28106 2.30133C8.15419 2.17705 8.00357 2.07949 7.8378 2.01423C7.67203 1.94897 7.49436 1.91729 7.31493 1.92099C7.1355 1.92469 6.95783 1.9637 6.79207 2.03579C6.6263 2.10789 6.47567 2.21166 6.3488 2.34118L0.884258 7.91957Z" fill="black"></path>
+        </svg></button>
+                        <button class="code-button" id="edit-close-button" title="Close Editor" buttontype="edit"><svg xmlns="http://www.w3.org/2000/svg" id="edit-close-icon" class="gfg-icon" width="17" height="17" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+        <path d="M18 6l-12 12"></path>
+        <path d="M6 6l12 12"></path>
+    </svg></button>
+                        <button class="code-button" id="run-code-button" title="Run Code and See Output">
+                            <div class="border" id="run-code-loader" hidden=""></div>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="gfg-icon" width="17" height="17" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M7 4v16l13 -8z"></path>
+                            </svg>
+                        </button>
+                        <button class="code-button" id="copy-code-button" title="Copy Code"> <svg xmlns="http://www.w3.org/2000/svg" class="gfg-icon" width="17" height="17" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M8 8m0 2a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2z"></path>
+                                <path d="M16 8v-2a2 2 0 0 0 -2 -2h-8a2 2 0 0 0 -2 2v8a2 2 0 0 0 2 2h2"></path>
+                        </svg></button>
+                        <button class="code-button" id="mode-button" title="Dark Mode" hidden="true" mode="light"><svg xmlns="http://www.w3.org/2000/svg" class="gfg-icon" width="20" height="20" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+        <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z"></path>
+    </svg> </button>
+                        
+                    </div>
+                </div>
+                <div id="slot-panel" class="gfg-code" style="width: calc(100% + 0px); margin-top: -35px;">
+                     <div id="playground-loader" class="loading-container">
+                        <span class="playground-loading">Loading Playground...</span>
+                    </div>
+                    <slot name="panel"></slot>
+                </div>
+            </div>
+            <div class="code-output-box" id="code-output-box">
+                <div class="editor-buttons w-56 output-box" title="Close Output">
+                    <button class="code-button" id="close-output-button" hidden="">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="gfg-icon" width="17" height="17" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                            <path d="M9 12h-3.586a1 1 0 0 1 -.707 -1.707l6.586 -6.586a1 1 0 0 1 1.414 0l6.586 6.586a1 1 0 0 1 -.707 1.707h-3.586v6h-6v-6z"></path>
+                            <path d="M9 21h6"></path>
+                        </svg>
+                    </button>
+                </div> 
+                <div class="code-output" id="code-output" hidden="">
+                    <div class="row-output">
+                        <pre class="generated-output" id="code-output-element"></pre>
+                    </div> 
+                </div>
+            </div>
+            </div>
+        </div>
+    
+    </template>
+            <gfg-tab slot="tab" hidden="" role="tab" id="gfg-tab-generated-4" aria-selected="true" tabindex="0" aria-controls="gfg-panel-generated-4" selected="">Python</gfg-tab>
+<gfg-panel slot="panel" data-code-lang="python3" data-main-code-start="None" data-main-code-end="None" role="tabpanel" id="gfg-panel-generated-4" aria-labelledby="gfg-tab-generated-4">
+    <code class="language-python3"><div class="highlight"><pre hidden=""><span></span><span class="k">class</span> <span class="nc">MaxFinder</span><span class="p">:</span>
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">numbers</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">numbers</span> <span class="o">=</span> <span class="n">numbers</span>
+
+    <span class="k">def</span> <span class="nf">find_max</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">numbers</span><span class="p">:</span>
+            <span class="k">return</span> <span class="s2">"List is empty"</span>
+        <span class="k">return</span> <span class="nb">max</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">numbers</span><span class="p">)</span>
+
+<span class="c1"># Example</span>
+<span class="n">finder</span> <span class="o">=</span> <span class="n">MaxFinder</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">4</span><span class="p">])</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"The largest number is:"</span><span class="p">,</span> <span class="n">finder</span><span class="o">.</span><span class="n">find_max</span><span class="p">())</span>
+</pre></div></code>
+<div class="CodeMirror cm-s-default"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 259.406px; left: 463px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-vscrollbar" tabindex="-1" cm-not-content="true" style="bottom: 0px;"><div style="min-width: 1px; height: 0px;"></div></div><div class="CodeMirror-hscrollbar" tabindex="-1" cm-not-content="true"><div style="height: 100%; min-height: 1px; width: 0px;"></div></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; margin-bottom: -15px; border-right-width: 15px; min-height: 287px; min-width: 466px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"><pre>x</pre></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"><div class="CodeMirror-selected" style="position: absolute; left: 15px; top: 0px; width: 681px; height: 23px;"></div><div class="CodeMirror-selected" style="position: absolute; left: 20px; top: 255px; width: 443px; height: 24px;"></div><div class="CodeMirror-selected" style="position: absolute; left: 20px; top: 23px; width: 676px; height: 232px;"></div></div><div class="CodeMirror-cursors" style="visibility: hidden;"></div><div class="CodeMirror-code" role="presentation" style=""><div class="" style="position: relative;"><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-keyword">class</span> <span class="cm-def">MaxFinder</span>:</span></pre></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">    <span class="cm-keyword">def</span> <span class="cm-def">__init__</span>(<span class="cm-variable-2">self</span>, <span class="cm-variable">numbers</span>):</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-variable-2">self</span>.<span class="cm-property">numbers</span> <span class="cm-operator">=</span> <span class="cm-variable">numbers</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">    <span class="cm-keyword">def</span> <span class="cm-def">find_max</span>(<span class="cm-variable-2">self</span>):</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-keyword">if</span> <span class="cm-keyword">not</span> <span class="cm-variable-2">self</span>.<span class="cm-property">numbers</span>:</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">            <span class="cm-keyword">return</span> <span class="cm-string">"List is empty"</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-keyword">return</span> <span class="cm-builtin">max</span>(<span class="cm-variable-2">self</span>.<span class="cm-property">numbers</span>)</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-comment"># Example</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">finder</span> <span class="cm-operator">=</span> <span class="cm-variable">MaxFinder</span>([<span class="cm-number">1</span>, <span class="cm-number">3</span>, <span class="cm-number">2</span>, <span class="cm-number">5</span>, <span class="cm-number">4</span>])</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-builtin">print</span>(<span class="cm-string">"The largest number is:"</span>, <span class="cm-variable">finder</span>.<span class="cm-property">find_max</span>())</span></pre></div></div></div></div></div><div style="position: absolute; height: 15px; width: 1px; border-bottom: 0px solid transparent; top: 287px;"></div><div class="CodeMirror-gutters" style="display: none; height: 302px;"></div></div></div></gfg-panel></gfg-tabs><div class="code-output"><br><strong>Output</strong><pre>The largest number is: 5
+</pre></div><h3 style="text-align:left"><span>Exercise 6: Design a Rectangle class with default attributes for length and width set to 1. Include methods to set these attributes and calculate the area.</span></h3><gfg-tabs allow-code-exec="true" data-run-ide="true" data-mode="light" role="tablist"><template shadowrootmode="open">
+    <style>
+      :host {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      ::slotted(gfg-panel) {
+        flex-basis: 100%;
+      }
+      .codeblock-container[data-content]::after,
+      .codeblock-container[data-danger-content]::after {
+        content: attr(data-content);
+        display: block;
+        position: absolute;
+        bottom: 0px;
+        right: 0;
+        padding: 4px 12px;
+        font-size: 12px;
+        letter-spacing: 0.05em;
+        font-family: inherit;
+        background-color: rgb(217, 217, 217);
+        color: #424242 !important;
+      }
+      .codeblock-container[data-danger-content]::after {
+        color: rgb(132, 5, 5) !important;
+        content: attr(data-danger-content);
+      }
+      .codeblock-container{
+        position: relative;
+        width: 100%;
+        font-family: sans-serif;
+      }
+      .code-container{
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #ddd;
+        clear: left;
+      }
+      
+      #slot-panel::-webkit-scrollbar-track {
+        border-radius: 10px;
+        background-color: transparent;
+        width: 0px !important;
+      }
+
+      #slot-panel::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        background-color: #999;
+        width: 5px ; 
+      }
+      #slot-panel::-webkit-scrollbar {
+        width: 5px; 
+      }
+      #slot-panel::-webkit-scrollbar-thumb:hover {
+        cursor: pointer;
+      }
+      .editor-buttons-div,
+      .w-56 {
+        min-width: 46px;
+      }
+        .editor-buttons-div{
+            display: flex;
+            margin-left: auto;
+            height: 40px;
+            position: sticky; 
+            position: -webkit-sticky;
+            top: 60px;
+            z-index: 4;
+            width: fit-content;
+            justify-content: flex-end;
+            align-items: start;
+        }
+      .gfg-code{
+        padding: 0;
+        width: 100%;
+        display: block;
+      }
+      .editor-buttons{
+        display:flex;
+        width: fit-content;
+        gap: 8px;
+        margin-top: 8px;
+        padding-right: 11px;
+        position: relative;
+        margin-bottom: 4px;
+      }
+      .editor-buttons.output-box {
+        margin-top: 0px;
+      }
+      .editor-buttons.output-box button {
+        margin-bottom: 0 !important;
+      }
+        .output-box {
+            margin-left: 8px;
+        }
+      .code-button{
+        background: white;
+        margin-bottom: 10px;
+        border: 2px;
+        background: #e5e5e5;
+        border-radius: 50px;
+        width: 28px !important;
+        height: 28px !important;
+        cursor: pointer;
+        padding: 6px;
+      }
+        #expand-code-button{
+            margin-bottom: 0px;
+        }
+        #expand-driver-code {
+            transform: rotate(90deg);
+            transform-origin: center;
+        }
+      .code-output{
+        background: #efefef;
+        border-radius: 8px;
+        width: 100%;
+        margin: 10px 2px 5px 2px;
+      }
+      .close-output-button{
+        margin-bottom: 10px;
+      }
+      .code-output-content{
+        padding: 8px 16px;
+        margin: 0;
+        position: sticky;
+        position: -webkit-sticky;
+        margin-top: 10px;
+      }
+      .code-box {
+        display: flex;
+        flex-direction: column;
+        position: relative !important;
+      }
+      .code-output-box {
+        display: flex;
+        align-items: center;
+      }
+     .compiled-message-box {
+        background-color: #308d46;
+        border-radius: 6px;
+        color: white;
+        width: fit-content;
+        margin: 10px auto;
+        text-align: center;
+        flex-basis: 100%;
+        display: none;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: 700;
+        padding-inline: 10px;
+    }
+    .compiled-message-box p {
+        margin-block: 5px;
+    }
+    .compiled-message-box-active {
+        display: flex;
+    }
+    .compiled-mess-content {
+        font-size: 10px;
+        padding-left: 5px;
+    }
+      .generated-output{
+        font-size: 15px;
+        white-space: pre-wrap;
+      }
+      .row-output{
+        color: black;
+        font-size: 16px;
+        padding : 10px;
+      }
+      .border {
+        width: 28px !important;
+        height: 28px !important;
+        position: absolute;
+        background: transparent;
+        border-radius: 50%;
+        border: 2px dashed #000;
+        margin-left: -8px;
+        margin-top: -7px;
+        animation-name: rotate;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+      }
+      .codeblock-container[data-mode=dark] .border {
+        border-color: white !important;
+      }
+      #icon-tabler-copy{
+        margin-bottom: -4px;
+        cursor: pointer;
+      }
+      .gfg-icon{
+        margin-left: auto;
+        margin-right: auto;
+        display: block !important;
+      }
+      
+        @keyframes rotate {
+            from{ transform: rotate(-360deg); }
+            to{ transform: rotate(360deg); }
+        }
+        #code-output-element #jsFrame {
+            background-color: transparent;
+            border: unset;
+            width: 100%;
+        }
+        .loading-container.active {
+            width: 150px; 
+            height: 50px; 
+            background-color: lightgrey; 
+            opacity: 70%;
+            color: black; 
+            position: absolute; 
+            display: flex !important;
+            justify-content: center;
+            align-items: center;
+            top: 30%;
+            left: 40%;
+            z-index: 1;
+            white-space: nowrap !important;
+            text-align: center; 
+            font-size: 13px; 
+            border-radius: 8px; 
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            margin: 2rem;
+        }
+        .loading-container {
+            display: none;
+        }
+        .playground-loading {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+        }
+        
+    @media screen and (max-width: 700px) {
+        .editor-buttons-div {
+            position: sticky; 
+            top: 10px;  
+            z-index: 4;
+            width: fit-content;
+            margin-left: auto;
+            height: 38px;
+            padding-right: 5px;
+        }
+
+        .editor-buttons {
+            display: flex;
+            width: fit-content;
+            flex-direction: row;
+            gap: 8px;
+        }
+        .code-box {
+            position: relative;
+            flex-direction: column;
+        }
+        .code-button {
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        .compiled-message-box svg {
+            display: none;
+        }
+    }
+
+    @media screen and (max-width: 375px) {
+        .compiled-message-box {
+            margin-inline: 5px;
+        }
+    }
+    </style>
+
+    <div class="codeblock-container" data-mode="light">
+        <slot name="tab"></slot>
+        <div class="code-container">
+            <div class="code-box">    
+                <div id="editor-buttons-div" class="editor-buttons-div" style="top: 40px;">
+                    <div id="editor-buttons" class="editor-buttons">
+                        <button id="expand-driver-code" class="expand-driver-code code-button" title="Expand all Diver Codes" style="display: none;"><svg id="expand-icon" width="17" height="17" viewBox="1 5 47 6" stroke-width="1" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
+            <path d="M44.4507 7.91963C44.7062 8.18159 44.8496 8.53199 44.8496 8.89419C44.8496 9.25639 44.7062 9.60088 44.4507 9.8523L38.9862 15.2053C38.8593 15.3296 38.7087 15.4272 38.5429 15.4924C38.3771 15.5577 38.1995 15.5894 38.02 15.5857C37.6577 15.5782 37.3101 15.427 37.0539 15.1655C36.7977 14.9039 36.6537 14.5533 36.6537 14.1909C36.6537 13.8284 36.7977 13.4838 37.0539 13.2328L40.1862 10.1645L30.3697 9.96203C30.0073 9.95456 29.6599 9.80343 29.4037 9.54189C29.1475 9.28035 29.0035 8.92983 29.0035 8.56743C29.0035 8.20503 29.1475 7.86044 29.4037 7.60947C29.6599 7.3585 30.0073 7.22171 30.3697 7.22918L40.1862 7.4316L37.0539 4.23407C36.927 4.10455 36.8264 3.95182 36.7577 3.7846C36.6891 3.61738 36.6537 3.43894 36.6537 3.25948C36.6537 3.08001 36.6891 2.90304 36.7577 2.73865C36.8264 2.57426 36.927 2.42568 37.0539 2.30139C37.1808 2.17711 37.3314 2.07955 37.4972 2.01429C37.6629 1.94903 37.8406 1.91735 38.02 1.92105C38.1995 1.92475 38.3771 1.96376 38.5429 2.03586C38.7087 2.10795 38.8593 2.21172 38.9862 2.34124L44.4507 7.91963Z" fill="black"></path>
+            <rect x="24.5859" y="16.8309" width="3.31306" height="16.5653" rx="1.65653" transform="rotate(-180 24.5859 16.8309)" fill="black"></rect>
+            <path d="M0.884258 7.91957C0.62878 8.18152 0.485352 8.53193 0.485352 8.89413C0.485352 9.25632 0.62878 9.60082 0.884258 9.85224L6.3488 15.2053C6.47567 15.3295 6.6263 15.4271 6.79207 15.4924C6.95783 15.5576 7.1355 15.5893 7.31493 15.5856C7.6773 15.5781 8.02483 15.427 8.28106 15.1654C8.5373 14.9038 8.68125 14.5533 8.68125 14.1908C8.68125 13.8284 8.5373 13.4837 8.28106 13.2327L5.14879 10.1644L14.9653 9.96197C15.3276 9.9545 15.6751 9.80337 15.9313 9.54183C16.1875 9.28029 16.3314 8.92977 16.3314 8.56737C16.3314 8.20497 16.1875 7.86038 15.9313 7.60941C15.6751 7.35844 15.3276 7.22164 14.9653 7.22912L5.14879 7.43154L8.28106 4.23401C8.40794 4.10449 8.50858 3.95176 8.57724 3.78454C8.64591 3.61732 8.68125 3.43888 8.68125 3.25942C8.68125 3.07995 8.64591 2.90298 8.57724 2.73859C8.50858 2.5742 8.40794 2.42562 8.28106 2.30133C8.15419 2.17705 8.00357 2.07949 7.8378 2.01423C7.67203 1.94897 7.49436 1.91729 7.31493 1.92099C7.1355 1.92469 6.95783 1.9637 6.79207 2.03579C6.6263 2.10789 6.47567 2.21166 6.3488 2.34118L0.884258 7.91957Z" fill="black"></path>
+        </svg></button>
+                        <button class="code-button" id="edit-close-button" title="Close Editor" buttontype="edit"><svg xmlns="http://www.w3.org/2000/svg" id="edit-close-icon" class="gfg-icon" width="17" height="17" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+        <path d="M18 6l-12 12"></path>
+        <path d="M6 6l12 12"></path>
+    </svg></button>
+                        <button class="code-button" id="run-code-button" title="Run Code and See Output">
+                            <div class="border" id="run-code-loader" hidden=""></div>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="gfg-icon" width="17" height="17" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M7 4v16l13 -8z"></path>
+                            </svg>
+                        </button>
+                        <button class="code-button" id="copy-code-button" title="Copy Code"> <svg xmlns="http://www.w3.org/2000/svg" class="gfg-icon" width="17" height="17" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M8 8m0 2a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2z"></path>
+                                <path d="M16 8v-2a2 2 0 0 0 -2 -2h-8a2 2 0 0 0 -2 2v8a2 2 0 0 0 2 2h2"></path>
+                        </svg></button>
+                        <button class="code-button" id="mode-button" title="Dark Mode" hidden="true" mode="light"><svg xmlns="http://www.w3.org/2000/svg" class="gfg-icon" width="20" height="20" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+        <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z"></path>
+    </svg> </button>
+                        
+                    </div>
+                </div>
+                <div id="slot-panel" class="gfg-code" style="width: calc(100% + 0px); margin-top: -35px;">
+                     <div id="playground-loader" class="loading-container">
+                        <span class="playground-loading">Loading Playground...</span>
+                    </div>
+                    <slot name="panel"></slot>
+                </div>
+            </div>
+            <div class="code-output-box" id="code-output-box">
+                <div class="editor-buttons w-56 output-box" title="Close Output">
+                    <button class="code-button" id="close-output-button">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="gfg-icon" width="17" height="17" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                            <path d="M9 12h-3.586a1 1 0 0 1 -.707 -1.707l6.586 -6.586a1 1 0 0 1 1.414 0l6.586 6.586a1 1 0 0 1 -.707 1.707h-3.586v6h-6v-6z"></path>
+                            <path d="M9 21h6"></path>
+                        </svg>
+                    </button>
+                </div> 
+                <div class="code-output" id="code-output">
+                    <div class="row-output">
+                        <pre class="generated-output" id="code-output-element">Default area: 1
+</pre>
+                    </div> 
+                </div>
+            </div>
+            </div>
+        </div>
+    
+    </template>
+            <gfg-tab slot="tab" hidden="" role="tab" id="gfg-tab-generated-5" aria-selected="true" tabindex="0" aria-controls="gfg-panel-generated-5" selected="">Python</gfg-tab>
+<gfg-panel slot="panel" data-code-lang="python3" data-main-code-start="None" data-main-code-end="None" role="tabpanel" id="gfg-panel-generated-5" aria-labelledby="gfg-tab-generated-5">
+    <code class="language-python3"><div class="highlight"><pre hidden=""><span></span><span class="k">class</span> <span class="nc">Rectangle</span><span class="p">:</span>
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">length</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">width</span><span class="o">=</span><span class="mi">1</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">length</span> <span class="o">=</span> <span class="n">length</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">width</span> <span class="o">=</span> <span class="n">width</span>
+
+    <span class="k">def</span> <span class="nf">set_dimensions</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">length</span><span class="p">,</span> <span class="n">width</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">length</span> <span class="o">=</span> <span class="n">length</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">width</span> <span class="o">=</span> <span class="n">width</span>
+
+    <span class="k">def</span> <span class="nf">area</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">length</span> <span class="o">*</span> <span class="bp">self</span><span class="o">.</span><span class="n">width</span>
+
+<span class="c1"># Example usage:</span>
+<span class="n">rect</span> <span class="o">=</span> <span class="n">Rectangle</span><span class="p">()</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"Default area:"</span><span class="p">,</span> <span class="n">rect</span><span class="o">.</span><span class="n">area</span><span class="p">())</span>
+<span class="n">rect</span><span class="o">.</span><span class="n">set_dimensions</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"Updated area:"</span><span class="p">,</span> <span class="n">rect</span><span class="o">.</span><span class="n">area</span><span class="p">())</span>
+</pre></div></code>
+<div class="CodeMirror cm-s-default"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 282.625px; left: 328.625px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-vscrollbar" tabindex="-1" cm-not-content="true" style="bottom: 0px;"><div style="min-width: 1px; height: 0px;"></div></div><div class="CodeMirror-hscrollbar" tabindex="-1" cm-not-content="true"><div style="height: 100%; min-height: 1px; width: 0px;"></div></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; margin-bottom: -15px; border-right-width: 15px; min-height: 310px; min-width: 394.391px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"><pre>x</pre></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"><div class="CodeMirror-selected" style="position: absolute; left: 15px; top: 0px; width: 681px; height: 23px;"></div><div class="CodeMirror-selected" style="position: absolute; left: 20px; top: 279px; width: 308.625px; height: 23px;"></div><div class="CodeMirror-selected" style="position: absolute; left: 20px; top: 23px; width: 676px; height: 256px;"></div></div><div class="CodeMirror-cursors" style=""></div><div class="CodeMirror-code" role="presentation" style=""><div class="" style="position: relative;"><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-keyword">class</span> <span class="cm-def">Rectangle</span>:</span></pre></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">    <span class="cm-keyword">def</span> <span class="cm-def">__init__</span>(<span class="cm-variable-2">self</span>, <span class="cm-variable">length</span><span class="cm-operator">=</span><span class="cm-number">1</span>, <span class="cm-variable">width</span><span class="cm-operator">=</span><span class="cm-number">1</span>):</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-variable-2">self</span>.<span class="cm-property">length</span> <span class="cm-operator">=</span> <span class="cm-variable">length</span></span></pre><div class="" style="position: relative;"><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-variable-2">self</span>.<span class="cm-property">width</span> <span class="cm-operator">=</span> <span class="cm-variable">width</span></span></pre></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">    <span class="cm-keyword">def</span> <span class="cm-def">area</span>(<span class="cm-variable-2">self</span>):</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-keyword">return</span> <span class="cm-variable-2">self</span>.<span class="cm-property">length</span> <span class="cm-operator">*</span> <span class="cm-variable-2">self</span>.<span class="cm-property">width</span></span></pre><div class="" style="position: relative;"><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-comment"># Example usage:</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">rect</span> <span class="cm-operator">=</span> <span class="cm-variable">Rectangle</span>()</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-builtin">print</span>(<span class="cm-string">"Default area:"</span>, <span class="cm-variable">rect</span>.<span class="cm-property">area</span>())</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">rect</span>.<span class="cm-property">set_dimensions</span>(<span class="cm-number">4</span>, <span class="cm-number">5</span>)</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-builtin">print</span>(<span class="cm-string">"Updated area:"</span>, <span class="cm-variable">rect</span>.<span class="cm-property">area</span>())</span></pre></div></div></div></div></div><div style="position: absolute; height: 15px; width: 1px; border-bottom: 0px solid transparent; top: 310px;"></div><div class="CodeMirror-gutters" style="display: none; height: 325px;"></div></div></div></gfg-panel></gfg-tabs><div class="code-output"><br><strong>Output</strong><pre>Default area: 1
+Updated area: 20
+</pre></div><h3 style="text-align:left"><span>Exercise 7: Person Class with __str__ Method: Create a Person class with first and last name attributes and override the __str__ method to return the full name.</span></h3><gfg-tabs allow-code-exec="true" data-run-ide="true" data-mode="light" role="tablist"><template shadowrootmode="open">
+    <style>
+      :host {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      ::slotted(gfg-panel) {
+        flex-basis: 100%;
+      }
+      .codeblock-container[data-content]::after,
+      .codeblock-container[data-danger-content]::after {
+        content: attr(data-content);
+        display: block;
+        position: absolute;
+        bottom: 0px;
+        right: 0;
+        padding: 4px 12px;
+        font-size: 12px;
+        letter-spacing: 0.05em;
+        font-family: inherit;
+        background-color: rgb(217, 217, 217);
+        color: #424242 !important;
+      }
+      .codeblock-container[data-danger-content]::after {
+        color: rgb(132, 5, 5) !important;
+        content: attr(data-danger-content);
+      }
+      .codeblock-container{
+        position: relative;
+        width: 100%;
+        font-family: sans-serif;
+      }
+      .code-container{
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #ddd;
+        clear: left;
+      }
+      
+      #slot-panel::-webkit-scrollbar-track {
+        border-radius: 10px;
+        background-color: transparent;
+        width: 0px !important;
+      }
+
+      #slot-panel::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        background-color: #999;
+        width: 5px ; 
+      }
+      #slot-panel::-webkit-scrollbar {
+        width: 5px; 
+      }
+      #slot-panel::-webkit-scrollbar-thumb:hover {
+        cursor: pointer;
+      }
+      .editor-buttons-div,
+      .w-56 {
+        min-width: 46px;
+      }
+        .editor-buttons-div{
+            display: flex;
+            margin-left: auto;
+            height: 40px;
+            position: sticky; 
+            position: -webkit-sticky;
+            top: 60px;
+            z-index: 4;
+            width: fit-content;
+            justify-content: flex-end;
+            align-items: start;
+        }
+      .gfg-code{
+        padding: 0;
+        width: 100%;
+        display: block;
+      }
+      .editor-buttons{
+        display:flex;
+        width: fit-content;
+        gap: 8px;
+        margin-top: 8px;
+        padding-right: 11px;
+        position: relative;
+        margin-bottom: 4px;
+      }
+      .editor-buttons.output-box {
+        margin-top: 0px;
+      }
+      .editor-buttons.output-box button {
+        margin-bottom: 0 !important;
+      }
+        .output-box {
+            margin-left: 8px;
+        }
+      .code-button{
+        background: white;
+        margin-bottom: 10px;
+        border: 2px;
+        background: #e5e5e5;
+        border-radius: 50px;
+        width: 28px !important;
+        height: 28px !important;
+        cursor: pointer;
+        padding: 6px;
+      }
+        #expand-code-button{
+            margin-bottom: 0px;
+        }
+        #expand-driver-code {
+            transform: rotate(90deg);
+            transform-origin: center;
+        }
+      .code-output{
+        background: #efefef;
+        border-radius: 8px;
+        width: 100%;
+        margin: 10px 2px 5px 2px;
+      }
+      .close-output-button{
+        margin-bottom: 10px;
+      }
+      .code-output-content{
+        padding: 8px 16px;
+        margin: 0;
+        position: sticky;
+        position: -webkit-sticky;
+        margin-top: 10px;
+      }
+      .code-box {
+        display: flex;
+        flex-direction: column;
+        position: relative !important;
+      }
+      .code-output-box {
+        display: flex;
+        align-items: center;
+      }
+     .compiled-message-box {
+        background-color: #308d46;
+        border-radius: 6px;
+        color: white;
+        width: fit-content;
+        margin: 10px auto;
+        text-align: center;
+        flex-basis: 100%;
+        display: none;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: 700;
+        padding-inline: 10px;
+    }
+    .compiled-message-box p {
+        margin-block: 5px;
+    }
+    .compiled-message-box-active {
+        display: flex;
+    }
+    .compiled-mess-content {
+        font-size: 10px;
+        padding-left: 5px;
+    }
+      .generated-output{
+        font-size: 15px;
+        white-space: pre-wrap;
+      }
+      .row-output{
+        color: black;
+        font-size: 16px;
+        padding : 10px;
+      }
+      .border {
+        width: 28px !important;
+        height: 28px !important;
+        position: absolute;
+        background: transparent;
+        border-radius: 50%;
+        border: 2px dashed #000;
+        margin-left: -8px;
+        margin-top: -7px;
+        animation-name: rotate;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+      }
+      .codeblock-container[data-mode=dark] .border {
+        border-color: white !important;
+      }
+      #icon-tabler-copy{
+        margin-bottom: -4px;
+        cursor: pointer;
+      }
+      .gfg-icon{
+        margin-left: auto;
+        margin-right: auto;
+        display: block !important;
+      }
+      
+        @keyframes rotate {
+            from{ transform: rotate(-360deg); }
+            to{ transform: rotate(360deg); }
+        }
+        #code-output-element #jsFrame {
+            background-color: transparent;
+            border: unset;
+            width: 100%;
+        }
+        .loading-container.active {
+            width: 150px; 
+            height: 50px; 
+            background-color: lightgrey; 
+            opacity: 70%;
+            color: black; 
+            position: absolute; 
+            display: flex !important;
+            justify-content: center;
+            align-items: center;
+            top: 30%;
+            left: 40%;
+            z-index: 1;
+            white-space: nowrap !important;
+            text-align: center; 
+            font-size: 13px; 
+            border-radius: 8px; 
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            margin: 2rem;
+        }
+        .loading-container {
+            display: none;
+        }
+        .playground-loading {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+        }
+        
+    @media screen and (max-width: 700px) {
+        .editor-buttons-div {
+            position: sticky; 
+            top: 10px;  
+            z-index: 4;
+            width: fit-content;
+            margin-left: auto;
+            height: 38px;
+            padding-right: 5px;
+        }
+
+        .editor-buttons {
+            display: flex;
+            width: fit-content;
+            flex-direction: row;
+            gap: 8px;
+        }
+        .code-box {
+            position: relative;
+            flex-direction: column;
+        }
+        .code-button {
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        .compiled-message-box svg {
+            display: none;
+        }
+    }
+
+    @media screen and (max-width: 375px) {
+        .compiled-message-box {
+            margin-inline: 5px;
+        }
+    }
+    </style>
+
+    <div class="codeblock-container" data-mode="light">
+        <slot name="tab"></slot>
+        <div class="code-container">
+            <div class="code-box">    
+                <div id="editor-buttons-div" class="editor-buttons-div" style="top: 40px;">
+                    <div id="editor-buttons" class="editor-buttons">
+                        <button id="expand-driver-code" class="expand-driver-code code-button" title="Expand all Diver Codes" style="display: none;"><svg id="expand-icon" width="17" height="17" viewBox="1 5 47 6" stroke-width="1" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
+            <path d="M44.4507 7.91963C44.7062 8.18159 44.8496 8.53199 44.8496 8.89419C44.8496 9.25639 44.7062 9.60088 44.4507 9.8523L38.9862 15.2053C38.8593 15.3296 38.7087 15.4272 38.5429 15.4924C38.3771 15.5577 38.1995 15.5894 38.02 15.5857C37.6577 15.5782 37.3101 15.427 37.0539 15.1655C36.7977 14.9039 36.6537 14.5533 36.6537 14.1909C36.6537 13.8284 36.7977 13.4838 37.0539 13.2328L40.1862 10.1645L30.3697 9.96203C30.0073 9.95456 29.6599 9.80343 29.4037 9.54189C29.1475 9.28035 29.0035 8.92983 29.0035 8.56743C29.0035 8.20503 29.1475 7.86044 29.4037 7.60947C29.6599 7.3585 30.0073 7.22171 30.3697 7.22918L40.1862 7.4316L37.0539 4.23407C36.927 4.10455 36.8264 3.95182 36.7577 3.7846C36.6891 3.61738 36.6537 3.43894 36.6537 3.25948C36.6537 3.08001 36.6891 2.90304 36.7577 2.73865C36.8264 2.57426 36.927 2.42568 37.0539 2.30139C37.1808 2.17711 37.3314 2.07955 37.4972 2.01429C37.6629 1.94903 37.8406 1.91735 38.02 1.92105C38.1995 1.92475 38.3771 1.96376 38.5429 2.03586C38.7087 2.10795 38.8593 2.21172 38.9862 2.34124L44.4507 7.91963Z" fill="black"></path>
+            <rect x="24.5859" y="16.8309" width="3.31306" height="16.5653" rx="1.65653" transform="rotate(-180 24.5859 16.8309)" fill="black"></rect>
+            <path d="M0.884258 7.91957C0.62878 8.18152 0.485352 8.53193 0.485352 8.89413C0.485352 9.25632 0.62878 9.60082 0.884258 9.85224L6.3488 15.2053C6.47567 15.3295 6.6263 15.4271 6.79207 15.4924C6.95783 15.5576 7.1355 15.5893 7.31493 15.5856C7.6773 15.5781 8.02483 15.427 8.28106 15.1654C8.5373 14.9038 8.68125 14.5533 8.68125 14.1908C8.68125 13.8284 8.5373 13.4837 8.28106 13.2327L5.14879 10.1644L14.9653 9.96197C15.3276 9.9545 15.6751 9.80337 15.9313 9.54183C16.1875 9.28029 16.3314 8.92977 16.3314 8.56737C16.3314 8.20497 16.1875 7.86038 15.9313 7.60941C15.6751 7.35844 15.3276 7.22164 14.9653 7.22912L5.14879 7.43154L8.28106 4.23401C8.40794 4.10449 8.50858 3.95176 8.57724 3.78454C8.64591 3.61732 8.68125 3.43888 8.68125 3.25942C8.68125 3.07995 8.64591 2.90298 8.57724 2.73859C8.50858 2.5742 8.40794 2.42562 8.28106 2.30133C8.15419 2.17705 8.00357 2.07949 7.8378 2.01423C7.67203 1.94897 7.49436 1.91729 7.31493 1.92099C7.1355 1.92469 6.95783 1.9637 6.79207 2.03579C6.6263 2.10789 6.47567 2.21166 6.3488 2.34118L0.884258 7.91957Z" fill="black"></path>
+        </svg></button>
+                        <button class="code-button" id="edit-close-button" title="Close Editor" buttontype="edit"><svg xmlns="http://www.w3.org/2000/svg" id="edit-close-icon" class="gfg-icon" width="17" height="17" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+        <path d="M18 6l-12 12"></path>
+        <path d="M6 6l12 12"></path>
+    </svg></button>
+                        <button class="code-button" id="run-code-button" title="Run Code and See Output">
+                            <div class="border" id="run-code-loader" hidden=""></div>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="gfg-icon" width="17" height="17" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M7 4v16l13 -8z"></path>
+                            </svg>
+                        </button>
+                        <button class="code-button" id="copy-code-button" title="Copy Code"> <svg xmlns="http://www.w3.org/2000/svg" class="gfg-icon" width="17" height="17" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M8 8m0 2a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2z"></path>
+                                <path d="M16 8v-2a2 2 0 0 0 -2 -2h-8a2 2 0 0 0 -2 2v8a2 2 0 0 0 2 2h2"></path>
+                        </svg></button>
+                        <button class="code-button" id="mode-button" title="Dark Mode" hidden="true" mode="light"><svg xmlns="http://www.w3.org/2000/svg" class="gfg-icon" width="20" height="20" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+        <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z"></path>
+    </svg> </button>
+                        
+                    </div>
+                </div>
+                <div id="slot-panel" class="gfg-code" style="width: calc(100% + 0px); margin-top: -35px;">
+                     <div id="playground-loader" class="loading-container">
+                        <span class="playground-loading">Loading Playground...</span>
+                    </div>
+                    <slot name="panel"></slot>
+                </div>
+            </div>
+            <div class="code-output-box" id="code-output-box">
+                <div class="editor-buttons w-56 output-box" title="Close Output">
+                    <button class="code-button" id="close-output-button">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="gfg-icon" width="17" height="17" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                            <path d="M9 12h-3.586a1 1 0 0 1 -.707 -1.707l6.586 -6.586a1 1 0 0 1 1.414 0l6.586 6.586a1 1 0 0 1 -.707 1.707h-3.586v6h-6v-6z"></path>
+                            <path d="M9 21h6"></path>
+                        </svg>
+                    </button>
+                </div> 
+                <div class="code-output" id="code-output">
+                    <div class="row-output">
+                        <pre class="generated-output" id="code-output-element">Sri Ram
+</pre>
+                    </div> 
+                </div>
+            </div>
+            </div>
+        </div>
+    
+    </template>
+            <gfg-tab slot="tab" hidden="" role="tab" id="gfg-tab-generated-6" aria-selected="true" tabindex="0" aria-controls="gfg-panel-generated-6" selected="">Python</gfg-tab>
+<gfg-panel slot="panel" data-code-lang="python3" data-main-code-start="None" data-main-code-end="None" role="tabpanel" id="gfg-panel-generated-6" aria-labelledby="gfg-tab-generated-6">
+    <code class="language-python3"><div class="highlight"><pre hidden=""><span></span><span class="k">class</span> <span class="nc">Person</span><span class="p">:</span>
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">first_name</span><span class="p">,</span> <span class="n">last_name</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">first_name</span> <span class="o">=</span> <span class="n">first_name</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">last_name</span> <span class="o">=</span> <span class="n">last_name</span>
+
+    <span class="k">def</span> <span class="fm">__str__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">first_name</span><span class="si">}</span><span class="s2"> </span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">last_name</span><span class="si">}</span><span class="s2">"</span>
+
+<span class="c1"># Example usage:</span>
+<span class="n">person</span> <span class="o">=</span> <span class="n">Person</span><span class="p">(</span><span class="s2">"John"</span><span class="p">,</span> <span class="s2">"Doe"</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">person</span><span class="p">)</span>
+</pre></div></code>
+<div class="CodeMirror cm-s-default"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 236.188px; left: 131.5px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-vscrollbar" tabindex="-1" cm-not-content="true"><div style="min-width: 1px; height: 0px;"></div></div><div class="CodeMirror-hscrollbar" tabindex="-1" cm-not-content="true"><div style="height: 100%; min-height: 1px; width: 0px;"></div></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; margin-bottom: -15px; border-right-width: 15px; min-height: 263px; min-width: 484px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"><pre>x</pre></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"><div class="CodeMirror-selected" style="position: absolute; left: 15px; top: 0px; width: 681px; height: 23px;"></div><div class="CodeMirror-selected" style="position: absolute; left: 20px; top: 232px; width: 111.5px; height: 23px;"></div><div class="CodeMirror-selected" style="position: absolute; left: 20px; top: 23px; width: 676px; height: 209px;"></div></div><div class="CodeMirror-cursors" style=""></div><div class="CodeMirror-code" role="presentation" style=""><div class="" style="position: relative;"><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-keyword">class</span> <span class="cm-def">Person</span>:</span></pre></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">    <span class="cm-keyword">def</span> <span class="cm-def">__init__</span>(<span class="cm-variable-2">self</span>, <span class="cm-variable">first_name</span>, <span class="cm-variable">last_name</span>):</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-variable-2">self</span>.<span class="cm-property">first_name</span> <span class="cm-operator">=</span> <span class="cm-variable">first_name</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-variable-2">self</span>.<span class="cm-property">last_name</span> <span class="cm-operator">=</span> <span class="cm-variable">last_name</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">    <span class="cm-keyword">def</span> <span class="cm-def">__str__</span>(<span class="cm-variable-2">self</span>):</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-keyword">return</span> <span class="cm-string">f"</span>{<span class="cm-variable-2">self</span>.<span class="cm-property">first_name</span>}<span class="cm-string"> </span>{<span class="cm-variable-2">self</span>.<span class="cm-property">last_name</span>}<span class="cm-string">"</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-comment"># Example usage:</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">person</span> <span class="cm-operator">=</span> <span class="cm-variable">Person</span>(<span class="cm-string">"Sri"</span>, <span class="cm-string">"Ram"</span>)</span></pre><div class="" style="position: relative;"><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-builtin">print</span>(<span class="cm-variable">person</span>)</span></pre></div></div></div></div></div></div><div style="position: absolute; height: 15px; width: 1px; border-bottom: 0px solid transparent; top: 263px;"></div><div class="CodeMirror-gutters" style="height: 278px; left: 0px; display: none;"></div></div></div></gfg-panel></gfg-tabs><div class="code-output"><br><strong>Output</strong><pre>John Doe
+</pre></div><h3 style="text-align:left"><span>Exercise 8: Student Grade Calculator: Implement a Student class with attributes for name and a list of marks. Include a method to calculate the average and determine the grade.</span></h3><gfg-tabs allow-code-exec="true" data-run-ide="true" data-mode="light" role="tablist"><template shadowrootmode="open">
+    <style>
+      :host {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      ::slotted(gfg-panel) {
+        flex-basis: 100%;
+      }
+      .codeblock-container[data-content]::after,
+      .codeblock-container[data-danger-content]::after {
+        content: attr(data-content);
+        display: block;
+        position: absolute;
+        bottom: 0px;
+        right: 0;
+        padding: 4px 12px;
+        font-size: 12px;
+        letter-spacing: 0.05em;
+        font-family: inherit;
+        background-color: rgb(217, 217, 217);
+        color: #424242 !important;
+      }
+      .codeblock-container[data-danger-content]::after {
+        color: rgb(132, 5, 5) !important;
+        content: attr(data-danger-content);
+      }
+      .codeblock-container{
+        position: relative;
+        width: 100%;
+        font-family: sans-serif;
+      }
+      .code-container{
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #ddd;
+        clear: left;
+      }
+      
+      #slot-panel::-webkit-scrollbar-track {
+        border-radius: 10px;
+        background-color: transparent;
+        width: 0px !important;
+      }
+
+      #slot-panel::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        background-color: #999;
+        width: 5px ; 
+      }
+      #slot-panel::-webkit-scrollbar {
+        width: 5px; 
+      }
+      #slot-panel::-webkit-scrollbar-thumb:hover {
+        cursor: pointer;
+      }
+      .editor-buttons-div,
+      .w-56 {
+        min-width: 46px;
+      }
+        .editor-buttons-div{
+            display: flex;
+            margin-left: auto;
+            height: 40px;
+            position: sticky; 
+            position: -webkit-sticky;
+            top: 60px;
+            z-index: 4;
+            width: fit-content;
+            justify-content: flex-end;
+            align-items: start;
+        }
+      .gfg-code{
+        padding: 0;
+        width: 100%;
+        display: block;
+      }
+      .editor-buttons{
+        display:flex;
+        width: fit-content;
+        gap: 8px;
+        margin-top: 8px;
+        padding-right: 11px;
+        position: relative;
+        margin-bottom: 4px;
+      }
+      .editor-buttons.output-box {
+        margin-top: 0px;
+      }
+      .editor-buttons.output-box button {
+        margin-bottom: 0 !important;
+      }
+        .output-box {
+            margin-left: 8px;
+        }
+      .code-button{
+        background: white;
+        margin-bottom: 10px;
+        border: 2px;
+        background: #e5e5e5;
+        border-radius: 50px;
+        width: 28px !important;
+        height: 28px !important;
+        cursor: pointer;
+        padding: 6px;
+      }
+        #expand-code-button{
+            margin-bottom: 0px;
+        }
+        #expand-driver-code {
+            transform: rotate(90deg);
+            transform-origin: center;
+        }
+      .code-output{
+        background: #efefef;
+        border-radius: 8px;
+        width: 100%;
+        margin: 10px 2px 5px 2px;
+      }
+      .close-output-button{
+        margin-bottom: 10px;
+      }
+      .code-output-content{
+        padding: 8px 16px;
+        margin: 0;
+        position: sticky;
+        position: -webkit-sticky;
+        margin-top: 10px;
+      }
+      .code-box {
+        display: flex;
+        flex-direction: column;
+        position: relative !important;
+      }
+      .code-output-box {
+        display: flex;
+        align-items: center;
+      }
+     .compiled-message-box {
+        background-color: #308d46;
+        border-radius: 6px;
+        color: white;
+        width: fit-content;
+        margin: 10px auto;
+        text-align: center;
+        flex-basis: 100%;
+        display: none;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: 700;
+        padding-inline: 10px;
+    }
+    .compiled-message-box p {
+        margin-block: 5px;
+    }
+    .compiled-message-box-active {
+        display: flex;
+    }
+    .compiled-mess-content {
+        font-size: 10px;
+        padding-left: 5px;
+    }
+      .generated-output{
+        font-size: 15px;
+        white-space: pre-wrap;
+      }
+      .row-output{
+        color: black;
+        font-size: 16px;
+        padding : 10px;
+      }
+      .border {
+        width: 28px !important;
+        height: 28px !important;
+        position: absolute;
+        background: transparent;
+        border-radius: 50%;
+        border: 2px dashed #000;
+        margin-left: -8px;
+        margin-top: -7px;
+        animation-name: rotate;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+      }
+      .codeblock-container[data-mode=dark] .border {
+        border-color: white !important;
+      }
+      #icon-tabler-copy{
+        margin-bottom: -4px;
+        cursor: pointer;
+      }
+      .gfg-icon{
+        margin-left: auto;
+        margin-right: auto;
+        display: block !important;
+      }
+      
+        @keyframes rotate {
+            from{ transform: rotate(-360deg); }
+            to{ transform: rotate(360deg); }
+        }
+        #code-output-element #jsFrame {
+            background-color: transparent;
+            border: unset;
+            width: 100%;
+        }
+        .loading-container.active {
+            width: 150px; 
+            height: 50px; 
+            background-color: lightgrey; 
+            opacity: 70%;
+            color: black; 
+            position: absolute; 
+            display: flex !important;
+            justify-content: center;
+            align-items: center;
+            top: 30%;
+            left: 40%;
+            z-index: 1;
+            white-space: nowrap !important;
+            text-align: center; 
+            font-size: 13px; 
+            border-radius: 8px; 
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            margin: 2rem;
+        }
+        .loading-container {
+            display: none;
+        }
+        .playground-loading {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+        }
+        
+    @media screen and (max-width: 700px) {
+        .editor-buttons-div {
+            position: sticky; 
+            top: 10px;  
+            z-index: 4;
+            width: fit-content;
+            margin-left: auto;
+            height: 38px;
+            padding-right: 5px;
+        }
+
+        .editor-buttons {
+            display: flex;
+            width: fit-content;
+            flex-direction: row;
+            gap: 8px;
+        }
+        .code-box {
+            position: relative;
+            flex-direction: column;
+        }
+        .code-button {
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        .compiled-message-box svg {
+            display: none;
+        }
+    }
+
+    @media screen and (max-width: 375px) {
+        .compiled-message-box {
+            margin-inline: 5px;
+        }
+    }
+    </style>
+
+    <div class="codeblock-container" data-mode="light">
+        <slot name="tab"></slot>
+        <div class="code-container">
+            <div class="code-box">    
+                <div id="editor-buttons-div" class="editor-buttons-div" style="top: 40px;">
+                    <div id="editor-buttons" class="editor-buttons">
+                        <button id="expand-driver-code" class="expand-driver-code code-button" title="Expand all Diver Codes" style="display: none;"><svg id="expand-icon" width="17" height="17" viewBox="1 5 47 6" stroke-width="1" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
+            <path d="M44.4507 7.91963C44.7062 8.18159 44.8496 8.53199 44.8496 8.89419C44.8496 9.25639 44.7062 9.60088 44.4507 9.8523L38.9862 15.2053C38.8593 15.3296 38.7087 15.4272 38.5429 15.4924C38.3771 15.5577 38.1995 15.5894 38.02 15.5857C37.6577 15.5782 37.3101 15.427 37.0539 15.1655C36.7977 14.9039 36.6537 14.5533 36.6537 14.1909C36.6537 13.8284 36.7977 13.4838 37.0539 13.2328L40.1862 10.1645L30.3697 9.96203C30.0073 9.95456 29.6599 9.80343 29.4037 9.54189C29.1475 9.28035 29.0035 8.92983 29.0035 8.56743C29.0035 8.20503 29.1475 7.86044 29.4037 7.60947C29.6599 7.3585 30.0073 7.22171 30.3697 7.22918L40.1862 7.4316L37.0539 4.23407C36.927 4.10455 36.8264 3.95182 36.7577 3.7846C36.6891 3.61738 36.6537 3.43894 36.6537 3.25948C36.6537 3.08001 36.6891 2.90304 36.7577 2.73865C36.8264 2.57426 36.927 2.42568 37.0539 2.30139C37.1808 2.17711 37.3314 2.07955 37.4972 2.01429C37.6629 1.94903 37.8406 1.91735 38.02 1.92105C38.1995 1.92475 38.3771 1.96376 38.5429 2.03586C38.7087 2.10795 38.8593 2.21172 38.9862 2.34124L44.4507 7.91963Z" fill="black"></path>
+            <rect x="24.5859" y="16.8309" width="3.31306" height="16.5653" rx="1.65653" transform="rotate(-180 24.5859 16.8309)" fill="black"></rect>
+            <path d="M0.884258 7.91957C0.62878 8.18152 0.485352 8.53193 0.485352 8.89413C0.485352 9.25632 0.62878 9.60082 0.884258 9.85224L6.3488 15.2053C6.47567 15.3295 6.6263 15.4271 6.79207 15.4924C6.95783 15.5576 7.1355 15.5893 7.31493 15.5856C7.6773 15.5781 8.02483 15.427 8.28106 15.1654C8.5373 14.9038 8.68125 14.5533 8.68125 14.1908C8.68125 13.8284 8.5373 13.4837 8.28106 13.2327L5.14879 10.1644L14.9653 9.96197C15.3276 9.9545 15.6751 9.80337 15.9313 9.54183C16.1875 9.28029 16.3314 8.92977 16.3314 8.56737C16.3314 8.20497 16.1875 7.86038 15.9313 7.60941C15.6751 7.35844 15.3276 7.22164 14.9653 7.22912L5.14879 7.43154L8.28106 4.23401C8.40794 4.10449 8.50858 3.95176 8.57724 3.78454C8.64591 3.61732 8.68125 3.43888 8.68125 3.25942C8.68125 3.07995 8.64591 2.90298 8.57724 2.73859C8.50858 2.5742 8.40794 2.42562 8.28106 2.30133C8.15419 2.17705 8.00357 2.07949 7.8378 2.01423C7.67203 1.94897 7.49436 1.91729 7.31493 1.92099C7.1355 1.92469 6.95783 1.9637 6.79207 2.03579C6.6263 2.10789 6.47567 2.21166 6.3488 2.34118L0.884258 7.91957Z" fill="black"></path>
+        </svg></button>
+                        <button class="code-button" id="edit-close-button" title="Close Editor" buttontype="edit"><svg xmlns="http://www.w3.org/2000/svg" id="edit-close-icon" class="gfg-icon" width="17" height="17" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+        <path d="M18 6l-12 12"></path>
+        <path d="M6 6l12 12"></path>
+    </svg></button>
+                        <button class="code-button" id="run-code-button" title="Run Code and See Output">
+                            <div class="border" id="run-code-loader" hidden=""></div>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="gfg-icon" width="17" height="17" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M7 4v16l13 -8z"></path>
+                            </svg>
+                        </button>
+                        <button class="code-button" id="copy-code-button" title="Copy Code"> <svg xmlns="http://www.w3.org/2000/svg" class="gfg-icon" width="17" height="17" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M8 8m0 2a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2z"></path>
+                                <path d="M16 8v-2a2 2 0 0 0 -2 -2h-8a2 2 0 0 0 -2 2v8a2 2 0 0 0 2 2h2"></path>
+                        </svg></button>
+                        <button class="code-button" id="mode-button" title="Dark Mode" hidden="true" mode="light"><svg xmlns="http://www.w3.org/2000/svg" class="gfg-icon" width="20" height="20" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+        <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z"></path>
+    </svg> </button>
+                        
+                    </div>
+                </div>
+                <div id="slot-panel" class="gfg-code" style="width: calc(100% + 0px); margin-top: -35px;">
+                     <div id="playground-loader" class="loading-container">
+                        <span class="playground-loading">Loading Playground...</span>
+                    </div>
+                    <slot name="panel"></slot>
+                </div>
+            </div>
+            <div class="code-output-box" id="code-output-box">
+                <div class="editor-buttons w-56 output-box" title="Close Output">
+                    <button class="code-button" id="close-output-button" hidden="">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="gfg-icon" width="17" height="17" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                            <path d="M9 12h-3.586a1 1 0 0 1 -.707 -1.707l6.586 -6.586a1 1 0 0 1 1.414 0l6.586 6.586a1 1 0 0 1 -.707 1.707h-3.586v6h-6v-6z"></path>
+                            <path d="M9 21h6"></path>
+                        </svg>
+                    </button>
+                </div> 
+                <div class="code-output" id="code-output" hidden="">
+                    <div class="row-output">
+                        <pre class="generated-output" id="code-output-element"></pre>
+                    </div> 
+                </div>
+            </div>
+            </div>
+        </div>
+    
+    </template>
+            <gfg-tab slot="tab" hidden="" role="tab" id="gfg-tab-generated-7" aria-selected="true" tabindex="0" aria-controls="gfg-panel-generated-7" selected="">Python</gfg-tab>
+<gfg-panel slot="panel" data-code-lang="python3" data-main-code-start="None" data-main-code-end="None" role="tabpanel" id="gfg-panel-generated-7" aria-labelledby="gfg-tab-generated-7">
+    <code class="language-python3"><div class="highlight"><pre hidden=""><span></span><span class="k">class</span> <span class="nc">Student</span><span class="p">:</span>
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">name</span><span class="p">,</span> <span class="n">marks</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="n">name</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">marks</span> <span class="o">=</span> <span class="n">marks</span>
+
+    <span class="k">def</span> <span class="nf">average</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="nb">sum</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">marks</span><span class="p">)</span> <span class="o">/</span> <span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">marks</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">grade</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="n">average</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">average</span><span class="p">()</span>
+        <span class="k">if</span> <span class="n">average</span> <span class="o">&gt;=</span> <span class="mi">90</span><span class="p">:</span>
+            <span class="k">return</span> <span class="s1">'A'</span>
+        <span class="k">elif</span> <span class="n">average</span> <span class="o">&gt;=</span> <span class="mi">80</span><span class="p">:</span>
+            <span class="k">return</span> <span class="s1">'B'</span>
+        <span class="k">elif</span> <span class="n">average</span> <span class="o">&gt;=</span> <span class="mi">70</span><span class="p">:</span>
+            <span class="k">return</span> <span class="s1">'C'</span>
+        <span class="k">elif</span> <span class="n">average</span> <span class="o">&gt;=</span> <span class="mi">60</span><span class="p">:</span>
+            <span class="k">return</span> <span class="s1">'D'</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="k">return</span> <span class="s1">'F'</span>
+
+<span class="c1"># Example usage:</span>
+<span class="n">student</span> <span class="o">=</span> <span class="n">Student</span><span class="p">(</span><span class="s2">"Alice"</span><span class="p">,</span> <span class="p">[</span><span class="mi">92</span><span class="p">,</span> <span class="mi">88</span><span class="p">,</span> <span class="mi">91</span><span class="p">])</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">student</span><span class="o">.</span><span class="n">name</span><span class="si">}</span><span class="s2"> Grade: </span><span class="si">{</span><span class="n">student</span><span class="o">.</span><span class="n">grade</span><span class="p">()</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+</pre></div></code>
+<div class="CodeMirror cm-s-default"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 538.031px; left: 454.109px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-vscrollbar" tabindex="-1" cm-not-content="true" style="bottom: 0px;"><div style="min-width: 1px; height: 0px;"></div></div><div class="CodeMirror-hscrollbar" tabindex="-1" cm-not-content="true"><div style="height: 100%; min-height: 1px; width: 0px;"></div></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; margin-bottom: -15px; border-right-width: 15px; min-height: 565px; min-width: 457.109px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"><pre>x</pre></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-cursors" style=""><div class="CodeMirror-cursor" style="left: 454.109px; top: 534.031px; height: 23.2188px;">&nbsp;</div></div><div class="CodeMirror-code" role="presentation" style=""><div class="" style="position: relative;"><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-keyword">class</span> <span class="cm-def">Student</span>:</span></pre></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">    <span class="cm-keyword">def</span> <span class="cm-def">__init__</span>(<span class="cm-variable-2">self</span>, <span class="cm-variable">name</span>, <span class="cm-variable">marks</span>):</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-variable-2">self</span>.<span class="cm-property">name</span> <span class="cm-operator">=</span> <span class="cm-variable">name</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-variable-2">self</span>.<span class="cm-property">marks</span> <span class="cm-operator">=</span> <span class="cm-variable">marks</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">    <span class="cm-keyword">def</span> <span class="cm-def">average</span>(<span class="cm-variable-2">self</span>):</span></pre><div class="" style="position: relative;"><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-keyword">return</span> <span class="cm-builtin">sum</span>(<span class="cm-variable-2">self</span>.<span class="cm-property">marks</span>) <span class="cm-operator">/</span> <span class="cm-builtin">len</span>(<span class="cm-variable-2">self</span>.<span class="cm-property">marks</span>)</span></pre></div><div class="" style="position: relative;"><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">    <span class="cm-keyword">def</span> <span class="cm-def">grade</span>(<span class="cm-variable-2">self</span>):</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-variable">average</span> <span class="cm-operator">=</span> <span class="cm-variable-2">self</span>.<span class="cm-property">average</span>()</span></pre><div class="" style="position: relative;"><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-keyword">if</span> <span class="cm-variable">average</span> <span class="cm-operator">&gt;=</span> <span class="cm-number">90</span>:</span></pre></div><div class="" style="position: relative;"><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">            <span class="cm-keyword">return</span> <span class="cm-string">'A'</span></span></pre></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-keyword">elif</span> <span class="cm-variable">average</span> <span class="cm-operator">&gt;=</span> <span class="cm-number">80</span>:</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">            <span class="cm-keyword">return</span> <span class="cm-string">'B'</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-keyword">elif</span> <span class="cm-variable">average</span> <span class="cm-operator">&gt;=</span> <span class="cm-number">70</span>:</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">            <span class="cm-keyword">return</span> <span class="cm-string">'C'</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-keyword">elif</span> <span class="cm-variable">average</span> <span class="cm-operator">&gt;=</span> <span class="cm-number">60</span>:</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">            <span class="cm-keyword">return</span> <span class="cm-string">'D'</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-keyword">else</span>:</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">            <span class="cm-keyword">return</span> <span class="cm-string">'F'</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-comment"># Example usage:</span></span></pre><div class="" style="position: relative;"><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">student</span> <span class="cm-operator">=</span> <span class="cm-variable">Student</span>(<span class="cm-string">"Alice"</span>, [<span class="cm-number">92</span>, <span class="cm-number">88</span>, <span class="cm-number">91</span>])</span></pre></div><div class="CodeMirror-activeline" style="position: relative;"><div class="CodeMirror-activeline-background CodeMirror-linebackground"></div><div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" style="left: 0px; width: 0px;"></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-builtin">print</span>(<span class="cm-string">f"</span>{<span class="cm-variable">student</span>.<span class="cm-property">name</span>}<span class="cm-string"> Grade: </span>{<span class="cm-variable">student</span>.<span class="cm-property">grade</span>()}<span class="cm-string">"</span>)</span></pre></div></div></div></div></div></div><div style="position: absolute; height: 15px; width: 1px; border-bottom: 0px solid transparent; top: 565px;"></div><div class="CodeMirror-gutters" style="display: none; height: 580px;"></div></div></div></gfg-panel></gfg-tabs><div class="code-output"><br><strong>Output</strong><pre>Alice Grade: A
+</pre></div><h3 style="text-align:left"><span>Exercise 10: Last Digit in Words: Write a class with a method that takes an integer and prints the last digit of that number in words.</span></h3><gfg-tabs allow-code-exec="true" data-run-ide="true" data-mode="light" role="tablist"><template shadowrootmode="open">
+    <style>
+      :host {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      ::slotted(gfg-panel) {
+        flex-basis: 100%;
+      }
+      .codeblock-container[data-content]::after,
+      .codeblock-container[data-danger-content]::after {
+        content: attr(data-content);
+        display: block;
+        position: absolute;
+        bottom: 0px;
+        right: 0;
+        padding: 4px 12px;
+        font-size: 12px;
+        letter-spacing: 0.05em;
+        font-family: inherit;
+        background-color: rgb(217, 217, 217);
+        color: #424242 !important;
+      }
+      .codeblock-container[data-danger-content]::after {
+        color: rgb(132, 5, 5) !important;
+        content: attr(data-danger-content);
+      }
+      .codeblock-container{
+        position: relative;
+        width: 100%;
+        font-family: sans-serif;
+      }
+      .code-container{
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #ddd;
+        clear: left;
+      }
+      
+      #slot-panel::-webkit-scrollbar-track {
+        border-radius: 10px;
+        background-color: transparent;
+        width: 0px !important;
+      }
+
+      #slot-panel::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        background-color: #999;
+        width: 5px ; 
+      }
+      #slot-panel::-webkit-scrollbar {
+        width: 5px; 
+      }
+      #slot-panel::-webkit-scrollbar-thumb:hover {
+        cursor: pointer;
+      }
+      .editor-buttons-div,
+      .w-56 {
+        min-width: 46px;
+      }
+        .editor-buttons-div{
+            display: flex;
+            margin-left: auto;
+            height: 40px;
+            position: sticky; 
+            position: -webkit-sticky;
+            top: 60px;
+            z-index: 4;
+            width: fit-content;
+            justify-content: flex-end;
+            align-items: start;
+        }
+      .gfg-code{
+        padding: 0;
+        width: 100%;
+        display: block;
+      }
+      .editor-buttons{
+        display:flex;
+        width: fit-content;
+        gap: 8px;
+        margin-top: 8px;
+        padding-right: 11px;
+        position: relative;
+        margin-bottom: 4px;
+      }
+      .editor-buttons.output-box {
+        margin-top: 0px;
+      }
+      .editor-buttons.output-box button {
+        margin-bottom: 0 !important;
+      }
+        .output-box {
+            margin-left: 8px;
+        }
+      .code-button{
+        background: white;
+        margin-bottom: 10px;
+        border: 2px;
+        background: #e5e5e5;
+        border-radius: 50px;
+        width: 28px !important;
+        height: 28px !important;
+        cursor: pointer;
+        padding: 6px;
+      }
+        #expand-code-button{
+            margin-bottom: 0px;
+        }
+        #expand-driver-code {
+            transform: rotate(90deg);
+            transform-origin: center;
+        }
+      .code-output{
+        background: #efefef;
+        border-radius: 8px;
+        width: 100%;
+        margin: 10px 2px 5px 2px;
+      }
+      .close-output-button{
+        margin-bottom: 10px;
+      }
+      .code-output-content{
+        padding: 8px 16px;
+        margin: 0;
+        position: sticky;
+        position: -webkit-sticky;
+        margin-top: 10px;
+      }
+      .code-box {
+        display: flex;
+        flex-direction: column;
+        position: relative !important;
+      }
+      .code-output-box {
+        display: flex;
+        align-items: center;
+      }
+     .compiled-message-box {
+        background-color: #308d46;
+        border-radius: 6px;
+        color: white;
+        width: fit-content;
+        margin: 10px auto;
+        text-align: center;
+        flex-basis: 100%;
+        display: none;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: 700;
+        padding-inline: 10px;
+    }
+    .compiled-message-box p {
+        margin-block: 5px;
+    }
+    .compiled-message-box-active {
+        display: flex;
+    }
+    .compiled-mess-content {
+        font-size: 10px;
+        padding-left: 5px;
+    }
+      .generated-output{
+        font-size: 15px;
+        white-space: pre-wrap;
+      }
+      .row-output{
+        color: black;
+        font-size: 16px;
+        padding : 10px;
+      }
+      .border {
+        width: 28px !important;
+        height: 28px !important;
+        position: absolute;
+        background: transparent;
+        border-radius: 50%;
+        border: 2px dashed #000;
+        margin-left: -8px;
+        margin-top: -7px;
+        animation-name: rotate;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+      }
+      .codeblock-container[data-mode=dark] .border {
+        border-color: white !important;
+      }
+      #icon-tabler-copy{
+        margin-bottom: -4px;
+        cursor: pointer;
+      }
+      .gfg-icon{
+        margin-left: auto;
+        margin-right: auto;
+        display: block !important;
+      }
+      
+        @keyframes rotate {
+            from{ transform: rotate(-360deg); }
+            to{ transform: rotate(360deg); }
+        }
+        #code-output-element #jsFrame {
+            background-color: transparent;
+            border: unset;
+            width: 100%;
+        }
+        .loading-container.active {
+            width: 150px; 
+            height: 50px; 
+            background-color: lightgrey; 
+            opacity: 70%;
+            color: black; 
+            position: absolute; 
+            display: flex !important;
+            justify-content: center;
+            align-items: center;
+            top: 30%;
+            left: 40%;
+            z-index: 1;
+            white-space: nowrap !important;
+            text-align: center; 
+            font-size: 13px; 
+            border-radius: 8px; 
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            margin: 2rem;
+        }
+        .loading-container {
+            display: none;
+        }
+        .playground-loading {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+        }
+        
+    @media screen and (max-width: 700px) {
+        .editor-buttons-div {
+            position: sticky; 
+            top: 10px;  
+            z-index: 4;
+            width: fit-content;
+            margin-left: auto;
+            height: 38px;
+            padding-right: 5px;
+        }
+
+        .editor-buttons {
+            display: flex;
+            width: fit-content;
+            flex-direction: row;
+            gap: 8px;
+        }
+        .code-box {
+            position: relative;
+            flex-direction: column;
+        }
+        .code-button {
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        .compiled-message-box svg {
+            display: none;
+        }
+    }
+
+    @media screen and (max-width: 375px) {
+        .compiled-message-box {
+            margin-inline: 5px;
+        }
+    }
+    </style>
+
+    <div class="codeblock-container" data-mode="light">
+        <slot name="tab"></slot>
+        <div class="code-container">
+            <div class="code-box">    
+                <div id="editor-buttons-div" class="editor-buttons-div" style="top: 40px;">
+                    <div id="editor-buttons" class="editor-buttons">
+                        <button id="expand-driver-code" class="expand-driver-code code-button" title="Expand all Diver Codes" style="display: none;"><svg id="expand-icon" width="17" height="17" viewBox="1 5 47 6" stroke-width="1" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
+            <path d="M44.4507 7.91963C44.7062 8.18159 44.8496 8.53199 44.8496 8.89419C44.8496 9.25639 44.7062 9.60088 44.4507 9.8523L38.9862 15.2053C38.8593 15.3296 38.7087 15.4272 38.5429 15.4924C38.3771 15.5577 38.1995 15.5894 38.02 15.5857C37.6577 15.5782 37.3101 15.427 37.0539 15.1655C36.7977 14.9039 36.6537 14.5533 36.6537 14.1909C36.6537 13.8284 36.7977 13.4838 37.0539 13.2328L40.1862 10.1645L30.3697 9.96203C30.0073 9.95456 29.6599 9.80343 29.4037 9.54189C29.1475 9.28035 29.0035 8.92983 29.0035 8.56743C29.0035 8.20503 29.1475 7.86044 29.4037 7.60947C29.6599 7.3585 30.0073 7.22171 30.3697 7.22918L40.1862 7.4316L37.0539 4.23407C36.927 4.10455 36.8264 3.95182 36.7577 3.7846C36.6891 3.61738 36.6537 3.43894 36.6537 3.25948C36.6537 3.08001 36.6891 2.90304 36.7577 2.73865C36.8264 2.57426 36.927 2.42568 37.0539 2.30139C37.1808 2.17711 37.3314 2.07955 37.4972 2.01429C37.6629 1.94903 37.8406 1.91735 38.02 1.92105C38.1995 1.92475 38.3771 1.96376 38.5429 2.03586C38.7087 2.10795 38.8593 2.21172 38.9862 2.34124L44.4507 7.91963Z" fill="black"></path>
+            <rect x="24.5859" y="16.8309" width="3.31306" height="16.5653" rx="1.65653" transform="rotate(-180 24.5859 16.8309)" fill="black"></rect>
+            <path d="M0.884258 7.91957C0.62878 8.18152 0.485352 8.53193 0.485352 8.89413C0.485352 9.25632 0.62878 9.60082 0.884258 9.85224L6.3488 15.2053C6.47567 15.3295 6.6263 15.4271 6.79207 15.4924C6.95783 15.5576 7.1355 15.5893 7.31493 15.5856C7.6773 15.5781 8.02483 15.427 8.28106 15.1654C8.5373 14.9038 8.68125 14.5533 8.68125 14.1908C8.68125 13.8284 8.5373 13.4837 8.28106 13.2327L5.14879 10.1644L14.9653 9.96197C15.3276 9.9545 15.6751 9.80337 15.9313 9.54183C16.1875 9.28029 16.3314 8.92977 16.3314 8.56737C16.3314 8.20497 16.1875 7.86038 15.9313 7.60941C15.6751 7.35844 15.3276 7.22164 14.9653 7.22912L5.14879 7.43154L8.28106 4.23401C8.40794 4.10449 8.50858 3.95176 8.57724 3.78454C8.64591 3.61732 8.68125 3.43888 8.68125 3.25942C8.68125 3.07995 8.64591 2.90298 8.57724 2.73859C8.50858 2.5742 8.40794 2.42562 8.28106 2.30133C8.15419 2.17705 8.00357 2.07949 7.8378 2.01423C7.67203 1.94897 7.49436 1.91729 7.31493 1.92099C7.1355 1.92469 6.95783 1.9637 6.79207 2.03579C6.6263 2.10789 6.47567 2.21166 6.3488 2.34118L0.884258 7.91957Z" fill="black"></path>
+        </svg></button>
+                        <button class="code-button" id="edit-close-button" title="Close Editor" buttontype="edit"><svg xmlns="http://www.w3.org/2000/svg" id="edit-close-icon" class="gfg-icon" width="17" height="17" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+        <path d="M18 6l-12 12"></path>
+        <path d="M6 6l12 12"></path>
+    </svg></button>
+                        <button class="code-button" id="run-code-button" title="Run Code and See Output">
+                            <div class="border" id="run-code-loader" hidden=""></div>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="gfg-icon" width="17" height="17" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M7 4v16l13 -8z"></path>
+                            </svg>
+                        </button>
+                        <button class="code-button" id="copy-code-button" title="Copy Code"> <svg xmlns="http://www.w3.org/2000/svg" class="gfg-icon" width="17" height="17" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M8 8m0 2a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2z"></path>
+                                <path d="M16 8v-2a2 2 0 0 0 -2 -2h-8a2 2 0 0 0 -2 2v8a2 2 0 0 0 2 2h2"></path>
+                        </svg></button>
+                        <button class="code-button" id="mode-button" title="Dark Mode" hidden="true" mode="light"><svg xmlns="http://www.w3.org/2000/svg" class="gfg-icon" width="20" height="20" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+        <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z"></path>
+    </svg> </button>
+                        
+                    </div>
+                </div>
+                <div id="slot-panel" class="gfg-code" style="width: calc(100% + 0px); margin-top: -35px;">
+                     <div id="playground-loader" class="loading-container">
+                        <span class="playground-loading">Loading Playground...</span>
+                    </div>
+                    <slot name="panel"></slot>
+                </div>
+            </div>
+            <div class="code-output-box" id="code-output-box">
+                <div class="editor-buttons w-56 output-box" title="Close Output">
+                    <button class="code-button" id="close-output-button" hidden="">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="gfg-icon" width="17" height="17" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                            <path d="M9 12h-3.586a1 1 0 0 1 -.707 -1.707l6.586 -6.586a1 1 0 0 1 1.414 0l6.586 6.586a1 1 0 0 1 -.707 1.707h-3.586v6h-6v-6z"></path>
+                            <path d="M9 21h6"></path>
+                        </svg>
+                    </button>
+                </div> 
+                <div class="code-output" id="code-output" hidden="">
+                    <div class="row-output">
+                        <pre class="generated-output" id="code-output-element"></pre>
+                    </div> 
+                </div>
+            </div>
+            </div>
+        </div>
+    
+    </template>
+            <gfg-tab slot="tab" hidden="" role="tab" id="gfg-tab-generated-8" aria-selected="true" tabindex="0" aria-controls="gfg-panel-generated-8" selected="">Python</gfg-tab>
+<gfg-panel slot="panel" data-code-lang="python3" data-main-code-start="None" data-main-code-end="None" role="tabpanel" id="gfg-panel-generated-8" aria-labelledby="gfg-tab-generated-8">
+    <code class="language-python3"><div class="highlight"><pre hidden=""><span></span><span class="k">class</span> <span class="nc">NumberInWords</span><span class="p">:</span>
+    <span class="k">def</span> <span class="nf">last_digit_in_words</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">number</span><span class="p">):</span>
+        <span class="n">last_digit</span> <span class="o">=</span> <span class="n">number</span> <span class="o">%</span> <span class="mi">10</span>
+        <span class="n">words</span> <span class="o">=</span> <span class="p">[</span><span class="s2">"Zero"</span><span class="p">,</span> <span class="s2">"One"</span><span class="p">,</span> <span class="s2">"Two"</span><span class="p">,</span> <span class="s2">"Three"</span><span class="p">,</span> <span class="s2">"Four"</span><span class="p">,</span> <span class="s2">"Five"</span><span class="p">,</span> <span class="s2">"Six"</span><span class="p">,</span> <span class="s2">"Seven"</span><span class="p">,</span> <span class="s2">"Eight"</span><span class="p">,</span> <span class="s2">"Nine"</span><span class="p">]</span>
+        <span class="k">return</span> <span class="n">words</span><span class="p">[</span><span class="n">last_digit</span><span class="p">]</span>
+
+<span class="c1"># Example usage:</span>
+<span class="n">niw</span> <span class="o">=</span> <span class="n">NumberInWords</span><span class="p">()</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">niw</span><span class="o">.</span><span class="n">last_digit_in_words</span><span class="p">(</span><span class="mi">123</span><span class="p">))</span>
+</pre></div></code>
+<div class="CodeMirror cm-s-default"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 4px; left: 15px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-vscrollbar" tabindex="-1" cm-not-content="true"><div style="min-width: 1px; height: 0px;"></div></div><div class="CodeMirror-hscrollbar" tabindex="-1" cm-not-content="true"><div style="height: 100%; min-height: 1px; width: 0px;"></div></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; margin-bottom: -15px; border-right-width: 15px; min-height: 236px; min-width: 242.016px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-cursors"><div class="CodeMirror-cursor" style="left: 15px; top: 0px; height: 23.2188px;">&nbsp;</div></div><div class="CodeMirror-code" role="presentation" style=""><div class="CodeMirror-activeline" style="position: relative;"><div class="CodeMirror-activeline-background CodeMirror-linebackground"></div><div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" style="left: 0px; width: 0px;"></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-keyword">class</span> <span class="cm-def">NumberInWords</span>:</span></pre></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">    <span class="cm-keyword">def</span> <span class="cm-def">last_digit_in_words</span>(<span class="cm-variable-2">self</span>, <span class="cm-variable">number</span>):</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-variable">last_digit</span> <span class="cm-operator">=</span> <span class="cm-variable">number</span> <span class="cm-operator">%</span> <span class="cm-number">10</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-variable">words</span> <span class="cm-operator">=</span> [<span class="cm-string">"Zero"</span>, <span class="cm-string">"One"</span>, <span class="cm-string">"Two"</span>, <span class="cm-string">"Three"</span>, <span class="cm-string">"Four"</span>, <span class="cm-string">"Five"</span>, <span class="cm-string">"Six"</span>, <span class="cm-string">"Seven"</span>, <span class="cm-string">"Eight"</span>, <span class="cm-string">"Nine"</span>]</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-keyword">return</span> <span class="cm-variable">words</span>[<span class="cm-variable">last_digit</span>]</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-comment"># Example usage:</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">niw</span> <span class="cm-operator">=</span> <span class="cm-variable">NumberInWords</span>()</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-builtin">print</span>(<span class="cm-variable">niw</span>.<span class="cm-property">last_digit_in_words</span>(<span class="cm-number">123</span>))</span></pre></div></div></div></div></div><div style="position: absolute; height: 15px; width: 1px; border-bottom: 0px solid transparent; top: 236px;"></div><div class="CodeMirror-gutters" style="display: none; height: 251px;"></div></div></div></gfg-panel></gfg-tabs><div class="code-output"><br><strong>Output</strong><pre>Three
+</pre></div><h3 style="text-align:left"><span>Exercise 11: Object Count Tracker: Design a class that tracks how many objects have been created from it and has a method to display this count.</span></h3><gfg-tabs allow-code-exec="true" data-run-ide="true" data-mode="light" role="tablist"><template shadowrootmode="open">
+    <style>
+      :host {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      ::slotted(gfg-panel) {
+        flex-basis: 100%;
+      }
+      .codeblock-container[data-content]::after,
+      .codeblock-container[data-danger-content]::after {
+        content: attr(data-content);
+        display: block;
+        position: absolute;
+        bottom: 0px;
+        right: 0;
+        padding: 4px 12px;
+        font-size: 12px;
+        letter-spacing: 0.05em;
+        font-family: inherit;
+        background-color: rgb(217, 217, 217);
+        color: #424242 !important;
+      }
+      .codeblock-container[data-danger-content]::after {
+        color: rgb(132, 5, 5) !important;
+        content: attr(data-danger-content);
+      }
+      .codeblock-container{
+        position: relative;
+        width: 100%;
+        font-family: sans-serif;
+      }
+      .code-container{
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #ddd;
+        clear: left;
+      }
+      
+      #slot-panel::-webkit-scrollbar-track {
+        border-radius: 10px;
+        background-color: transparent;
+        width: 0px !important;
+      }
+
+      #slot-panel::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        background-color: #999;
+        width: 5px ; 
+      }
+      #slot-panel::-webkit-scrollbar {
+        width: 5px; 
+      }
+      #slot-panel::-webkit-scrollbar-thumb:hover {
+        cursor: pointer;
+      }
+      .editor-buttons-div,
+      .w-56 {
+        min-width: 46px;
+      }
+        .editor-buttons-div{
+            display: flex;
+            margin-left: auto;
+            height: 40px;
+            position: sticky; 
+            position: -webkit-sticky;
+            top: 60px;
+            z-index: 4;
+            width: fit-content;
+            justify-content: flex-end;
+            align-items: start;
+        }
+      .gfg-code{
+        padding: 0;
+        width: 100%;
+        display: block;
+      }
+      .editor-buttons{
+        display:flex;
+        width: fit-content;
+        gap: 8px;
+        margin-top: 8px;
+        padding-right: 11px;
+        position: relative;
+        margin-bottom: 4px;
+      }
+      .editor-buttons.output-box {
+        margin-top: 0px;
+      }
+      .editor-buttons.output-box button {
+        margin-bottom: 0 !important;
+      }
+        .output-box {
+            margin-left: 8px;
+        }
+      .code-button{
+        background: white;
+        margin-bottom: 10px;
+        border: 2px;
+        background: #e5e5e5;
+        border-radius: 50px;
+        width: 28px !important;
+        height: 28px !important;
+        cursor: pointer;
+        padding: 6px;
+      }
+        #expand-code-button{
+            margin-bottom: 0px;
+        }
+        #expand-driver-code {
+            transform: rotate(90deg);
+            transform-origin: center;
+        }
+      .code-output{
+        background: #efefef;
+        border-radius: 8px;
+        width: 100%;
+        margin: 10px 2px 5px 2px;
+      }
+      .close-output-button{
+        margin-bottom: 10px;
+      }
+      .code-output-content{
+        padding: 8px 16px;
+        margin: 0;
+        position: sticky;
+        position: -webkit-sticky;
+        margin-top: 10px;
+      }
+      .code-box {
+        display: flex;
+        flex-direction: column;
+        position: relative !important;
+      }
+      .code-output-box {
+        display: flex;
+        align-items: center;
+      }
+     .compiled-message-box {
+        background-color: #308d46;
+        border-radius: 6px;
+        color: white;
+        width: fit-content;
+        margin: 10px auto;
+        text-align: center;
+        flex-basis: 100%;
+        display: none;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: 700;
+        padding-inline: 10px;
+    }
+    .compiled-message-box p {
+        margin-block: 5px;
+    }
+    .compiled-message-box-active {
+        display: flex;
+    }
+    .compiled-mess-content {
+        font-size: 10px;
+        padding-left: 5px;
+    }
+      .generated-output{
+        font-size: 15px;
+        white-space: pre-wrap;
+      }
+      .row-output{
+        color: black;
+        font-size: 16px;
+        padding : 10px;
+      }
+      .border {
+        width: 28px !important;
+        height: 28px !important;
+        position: absolute;
+        background: transparent;
+        border-radius: 50%;
+        border: 2px dashed #000;
+        margin-left: -8px;
+        margin-top: -7px;
+        animation-name: rotate;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+      }
+      .codeblock-container[data-mode=dark] .border {
+        border-color: white !important;
+      }
+      #icon-tabler-copy{
+        margin-bottom: -4px;
+        cursor: pointer;
+      }
+      .gfg-icon{
+        margin-left: auto;
+        margin-right: auto;
+        display: block !important;
+      }
+      
+        @keyframes rotate {
+            from{ transform: rotate(-360deg); }
+            to{ transform: rotate(360deg); }
+        }
+        #code-output-element #jsFrame {
+            background-color: transparent;
+            border: unset;
+            width: 100%;
+        }
+        .loading-container.active {
+            width: 150px; 
+            height: 50px; 
+            background-color: lightgrey; 
+            opacity: 70%;
+            color: black; 
+            position: absolute; 
+            display: flex !important;
+            justify-content: center;
+            align-items: center;
+            top: 30%;
+            left: 40%;
+            z-index: 1;
+            white-space: nowrap !important;
+            text-align: center; 
+            font-size: 13px; 
+            border-radius: 8px; 
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            margin: 2rem;
+        }
+        .loading-container {
+            display: none;
+        }
+        .playground-loading {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+        }
+        
+    @media screen and (max-width: 700px) {
+        .editor-buttons-div {
+            position: sticky; 
+            top: 10px;  
+            z-index: 4;
+            width: fit-content;
+            margin-left: auto;
+            height: 38px;
+            padding-right: 5px;
+        }
+
+        .editor-buttons {
+            display: flex;
+            width: fit-content;
+            flex-direction: row;
+            gap: 8px;
+        }
+        .code-box {
+            position: relative;
+            flex-direction: column;
+        }
+        .code-button {
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        .compiled-message-box svg {
+            display: none;
+        }
+    }
+
+    @media screen and (max-width: 375px) {
+        .compiled-message-box {
+            margin-inline: 5px;
+        }
+    }
+    </style>
+
+    <div class="codeblock-container" data-mode="light">
+        <slot name="tab"></slot>
+        <div class="code-container">
+            <div class="code-box">    
+                <div id="editor-buttons-div" class="editor-buttons-div" style="top: 40px;">
+                    <div id="editor-buttons" class="editor-buttons">
+                        <button id="expand-driver-code" class="expand-driver-code code-button" title="Expand all Diver Codes" style="display: none;"><svg id="expand-icon" width="17" height="17" viewBox="1 5 47 6" stroke-width="1" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
+            <path d="M44.4507 7.91963C44.7062 8.18159 44.8496 8.53199 44.8496 8.89419C44.8496 9.25639 44.7062 9.60088 44.4507 9.8523L38.9862 15.2053C38.8593 15.3296 38.7087 15.4272 38.5429 15.4924C38.3771 15.5577 38.1995 15.5894 38.02 15.5857C37.6577 15.5782 37.3101 15.427 37.0539 15.1655C36.7977 14.9039 36.6537 14.5533 36.6537 14.1909C36.6537 13.8284 36.7977 13.4838 37.0539 13.2328L40.1862 10.1645L30.3697 9.96203C30.0073 9.95456 29.6599 9.80343 29.4037 9.54189C29.1475 9.28035 29.0035 8.92983 29.0035 8.56743C29.0035 8.20503 29.1475 7.86044 29.4037 7.60947C29.6599 7.3585 30.0073 7.22171 30.3697 7.22918L40.1862 7.4316L37.0539 4.23407C36.927 4.10455 36.8264 3.95182 36.7577 3.7846C36.6891 3.61738 36.6537 3.43894 36.6537 3.25948C36.6537 3.08001 36.6891 2.90304 36.7577 2.73865C36.8264 2.57426 36.927 2.42568 37.0539 2.30139C37.1808 2.17711 37.3314 2.07955 37.4972 2.01429C37.6629 1.94903 37.8406 1.91735 38.02 1.92105C38.1995 1.92475 38.3771 1.96376 38.5429 2.03586C38.7087 2.10795 38.8593 2.21172 38.9862 2.34124L44.4507 7.91963Z" fill="black"></path>
+            <rect x="24.5859" y="16.8309" width="3.31306" height="16.5653" rx="1.65653" transform="rotate(-180 24.5859 16.8309)" fill="black"></rect>
+            <path d="M0.884258 7.91957C0.62878 8.18152 0.485352 8.53193 0.485352 8.89413C0.485352 9.25632 0.62878 9.60082 0.884258 9.85224L6.3488 15.2053C6.47567 15.3295 6.6263 15.4271 6.79207 15.4924C6.95783 15.5576 7.1355 15.5893 7.31493 15.5856C7.6773 15.5781 8.02483 15.427 8.28106 15.1654C8.5373 14.9038 8.68125 14.5533 8.68125 14.1908C8.68125 13.8284 8.5373 13.4837 8.28106 13.2327L5.14879 10.1644L14.9653 9.96197C15.3276 9.9545 15.6751 9.80337 15.9313 9.54183C16.1875 9.28029 16.3314 8.92977 16.3314 8.56737C16.3314 8.20497 16.1875 7.86038 15.9313 7.60941C15.6751 7.35844 15.3276 7.22164 14.9653 7.22912L5.14879 7.43154L8.28106 4.23401C8.40794 4.10449 8.50858 3.95176 8.57724 3.78454C8.64591 3.61732 8.68125 3.43888 8.68125 3.25942C8.68125 3.07995 8.64591 2.90298 8.57724 2.73859C8.50858 2.5742 8.40794 2.42562 8.28106 2.30133C8.15419 2.17705 8.00357 2.07949 7.8378 2.01423C7.67203 1.94897 7.49436 1.91729 7.31493 1.92099C7.1355 1.92469 6.95783 1.9637 6.79207 2.03579C6.6263 2.10789 6.47567 2.21166 6.3488 2.34118L0.884258 7.91957Z" fill="black"></path>
+        </svg></button>
+                        <button class="code-button" id="edit-close-button" title="Close Editor" buttontype="edit"><svg xmlns="http://www.w3.org/2000/svg" id="edit-close-icon" class="gfg-icon" width="17" height="17" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+        <path d="M18 6l-12 12"></path>
+        <path d="M6 6l12 12"></path>
+    </svg></button>
+                        <button class="code-button" id="run-code-button" title="Run Code and See Output">
+                            <div class="border" id="run-code-loader" hidden=""></div>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="gfg-icon" width="17" height="17" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M7 4v16l13 -8z"></path>
+                            </svg>
+                        </button>
+                        <button class="code-button" id="copy-code-button" title="Copy Code"> <svg xmlns="http://www.w3.org/2000/svg" class="gfg-icon" width="17" height="17" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M8 8m0 2a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2z"></path>
+                                <path d="M16 8v-2a2 2 0 0 0 -2 -2h-8a2 2 0 0 0 -2 2v8a2 2 0 0 0 2 2h2"></path>
+                        </svg></button>
+                        <button class="code-button" id="mode-button" title="Dark Mode" hidden="true" mode="light"><svg xmlns="http://www.w3.org/2000/svg" class="gfg-icon" width="20" height="20" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+        <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z"></path>
+    </svg> </button>
+                        
+                    </div>
+                </div>
+                <div id="slot-panel" class="gfg-code" style="width: calc(100% + 0px); margin-top: -35px;">
+                     <div id="playground-loader" class="loading-container">
+                        <span class="playground-loading">Loading Playground...</span>
+                    </div>
+                    <slot name="panel"></slot>
+                </div>
+            </div>
+            <div class="code-output-box" id="code-output-box">
+                <div class="editor-buttons w-56 output-box" title="Close Output">
+                    <button class="code-button" id="close-output-button" hidden="">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="gfg-icon" width="17" height="17" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                            <path d="M9 12h-3.586a1 1 0 0 1 -.707 -1.707l6.586 -6.586a1 1 0 0 1 1.414 0l6.586 6.586a1 1 0 0 1 -.707 1.707h-3.586v6h-6v-6z"></path>
+                            <path d="M9 21h6"></path>
+                        </svg>
+                    </button>
+                </div> 
+                <div class="code-output" id="code-output" hidden="">
+                    <div class="row-output">
+                        <pre class="generated-output" id="code-output-element"></pre>
+                    </div> 
+                </div>
+            </div>
+            </div>
+        </div>
+    
+    </template>
+            <gfg-tab slot="tab" hidden="" role="tab" id="gfg-tab-generated-9" aria-selected="true" tabindex="0" aria-controls="gfg-panel-generated-9" selected="">Python</gfg-tab>
+<gfg-panel slot="panel" data-code-lang="python3" data-main-code-start="None" data-main-code-end="None" role="tabpanel" id="gfg-panel-generated-9" aria-labelledby="gfg-tab-generated-9">
+    <code class="language-python3"><div class="highlight"><pre hidden=""><span></span><span class="k">class</span> <span class="nc">ObjectCounter</span><span class="p">:</span>
+    <span class="n">count</span> <span class="o">=</span> <span class="mi">0</span>
+
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="n">ObjectCounter</span><span class="o">.</span><span class="n">count</span> <span class="o">+=</span> <span class="mi">1</span>
+
+    <span class="nd">@staticmethod</span>
+    <span class="k">def</span> <span class="nf">display_count</span><span class="p">():</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">"Number of objects created:"</span><span class="p">,</span> <span class="n">ObjectCounter</span><span class="o">.</span><span class="n">count</span><span class="p">)</span>
+
+<span class="c1"># Example usage:</span>
+<span class="n">a</span> <span class="o">=</span> <span class="n">ObjectCounter</span><span class="p">()</span>
+<span class="n">b</span> <span class="o">=</span> <span class="n">ObjectCounter</span><span class="p">()</span>
+<span class="n">ObjectCounter</span><span class="o">.</span><span class="n">display_count</span><span class="p">()</span>
+</pre></div></code>
+<div class="CodeMirror cm-s-default"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 4px; left: 15px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-vscrollbar" tabindex="-1" cm-not-content="true" style="bottom: 0px;"><div style="min-width: 1px; height: 0px;"></div></div><div class="CodeMirror-hscrollbar" tabindex="-1" cm-not-content="true"><div style="height: 100%; min-height: 1px; width: 0px;"></div></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; margin-bottom: -15px; border-right-width: 15px; min-height: 333px; min-width: 591.422px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-cursors"><div class="CodeMirror-cursor" style="left: 15px; top: 0px; height: 23.2188px;">&nbsp;</div></div><div class="CodeMirror-code" role="presentation" style=""><div class="CodeMirror-activeline" style="position: relative;"><div class="CodeMirror-activeline-background CodeMirror-linebackground"></div><div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" style="left: 0px; width: 0px;"></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-keyword">class</span> <span class="cm-def">ObjectCounter</span>:</span></pre></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">    <span class="cm-variable">count</span> <span class="cm-operator">=</span> <span class="cm-number">0</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">    <span class="cm-keyword">def</span> <span class="cm-def">__init__</span>(<span class="cm-variable-2">self</span>):</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-variable">ObjectCounter</span>.<span class="cm-property">count</span> <span class="cm-operator">+=</span> <span class="cm-number">1</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">    <span class="cm-meta">@staticmethod</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">    <span class="cm-keyword">def</span> <span class="cm-def">display_count</span>():</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-builtin">print</span>(<span class="cm-string">"Number of objects created:"</span>, <span class="cm-variable">ObjectCounter</span>.<span class="cm-property">count</span>)</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-comment"># Example usage:</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">a</span> <span class="cm-operator">=</span> <span class="cm-variable">ObjectCounter</span>()</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">b</span> <span class="cm-operator">=</span> <span class="cm-variable">ObjectCounter</span>()</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">ObjectCounter</span>.<span class="cm-property">display_count</span>()</span></pre></div></div></div></div></div><div style="position: absolute; height: 15px; width: 1px; border-bottom: 0px solid transparent; top: 333px;"></div><div class="CodeMirror-gutters" style="display: none; height: 348px;"></div></div></div></gfg-panel></gfg-tabs><div class="code-output"><br><strong>Output</strong><pre>Number of objects created: 2
+</pre></div><h3 style="text-align:left"><span>Exercise 12: Calculating Student Results: Develop a class to accept a student's name and marks in three subjects, then calculate and display the total and average marks.</span></h3><gfg-tabs allow-code-exec="true" data-run-ide="true" data-mode="light" role="tablist"><template shadowrootmode="open">
+    <style>
+      :host {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      ::slotted(gfg-panel) {
+        flex-basis: 100%;
+      }
+      .codeblock-container[data-content]::after,
+      .codeblock-container[data-danger-content]::after {
+        content: attr(data-content);
+        display: block;
+        position: absolute;
+        bottom: 0px;
+        right: 0;
+        padding: 4px 12px;
+        font-size: 12px;
+        letter-spacing: 0.05em;
+        font-family: inherit;
+        background-color: rgb(217, 217, 217);
+        color: #424242 !important;
+      }
+      .codeblock-container[data-danger-content]::after {
+        color: rgb(132, 5, 5) !important;
+        content: attr(data-danger-content);
+      }
+      .codeblock-container{
+        position: relative;
+        width: 100%;
+        font-family: sans-serif;
+      }
+      .code-container{
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #ddd;
+        clear: left;
+      }
+      
+      #slot-panel::-webkit-scrollbar-track {
+        border-radius: 10px;
+        background-color: transparent;
+        width: 0px !important;
+      }
+
+      #slot-panel::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        background-color: #999;
+        width: 5px ; 
+      }
+      #slot-panel::-webkit-scrollbar {
+        width: 5px; 
+      }
+      #slot-panel::-webkit-scrollbar-thumb:hover {
+        cursor: pointer;
+      }
+      .editor-buttons-div,
+      .w-56 {
+        min-width: 46px;
+      }
+        .editor-buttons-div{
+            display: flex;
+            margin-left: auto;
+            height: 40px;
+            position: sticky; 
+            position: -webkit-sticky;
+            top: 60px;
+            z-index: 4;
+            width: fit-content;
+            justify-content: flex-end;
+            align-items: start;
+        }
+      .gfg-code{
+        padding: 0;
+        width: 100%;
+        display: block;
+      }
+      .editor-buttons{
+        display:flex;
+        width: fit-content;
+        gap: 8px;
+        margin-top: 8px;
+        padding-right: 11px;
+        position: relative;
+        margin-bottom: 4px;
+      }
+      .editor-buttons.output-box {
+        margin-top: 0px;
+      }
+      .editor-buttons.output-box button {
+        margin-bottom: 0 !important;
+      }
+        .output-box {
+            margin-left: 8px;
+        }
+      .code-button{
+        background: white;
+        margin-bottom: 10px;
+        border: 2px;
+        background: #e5e5e5;
+        border-radius: 50px;
+        width: 28px !important;
+        height: 28px !important;
+        cursor: pointer;
+        padding: 6px;
+      }
+        #expand-code-button{
+            margin-bottom: 0px;
+        }
+        #expand-driver-code {
+            transform: rotate(90deg);
+            transform-origin: center;
+        }
+      .code-output{
+        background: #efefef;
+        border-radius: 8px;
+        width: 100%;
+        margin: 10px 2px 5px 2px;
+      }
+      .close-output-button{
+        margin-bottom: 10px;
+      }
+      .code-output-content{
+        padding: 8px 16px;
+        margin: 0;
+        position: sticky;
+        position: -webkit-sticky;
+        margin-top: 10px;
+      }
+      .code-box {
+        display: flex;
+        flex-direction: column;
+        position: relative !important;
+      }
+      .code-output-box {
+        display: flex;
+        align-items: center;
+      }
+     .compiled-message-box {
+        background-color: #308d46;
+        border-radius: 6px;
+        color: white;
+        width: fit-content;
+        margin: 10px auto;
+        text-align: center;
+        flex-basis: 100%;
+        display: none;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: 700;
+        padding-inline: 10px;
+    }
+    .compiled-message-box p {
+        margin-block: 5px;
+    }
+    .compiled-message-box-active {
+        display: flex;
+    }
+    .compiled-mess-content {
+        font-size: 10px;
+        padding-left: 5px;
+    }
+      .generated-output{
+        font-size: 15px;
+        white-space: pre-wrap;
+      }
+      .row-output{
+        color: black;
+        font-size: 16px;
+        padding : 10px;
+      }
+      .border {
+        width: 28px !important;
+        height: 28px !important;
+        position: absolute;
+        background: transparent;
+        border-radius: 50%;
+        border: 2px dashed #000;
+        margin-left: -8px;
+        margin-top: -7px;
+        animation-name: rotate;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+      }
+      .codeblock-container[data-mode=dark] .border {
+        border-color: white !important;
+      }
+      #icon-tabler-copy{
+        margin-bottom: -4px;
+        cursor: pointer;
+      }
+      .gfg-icon{
+        margin-left: auto;
+        margin-right: auto;
+        display: block !important;
+      }
+      
+        @keyframes rotate {
+            from{ transform: rotate(-360deg); }
+            to{ transform: rotate(360deg); }
+        }
+        #code-output-element #jsFrame {
+            background-color: transparent;
+            border: unset;
+            width: 100%;
+        }
+        .loading-container.active {
+            width: 150px; 
+            height: 50px; 
+            background-color: lightgrey; 
+            opacity: 70%;
+            color: black; 
+            position: absolute; 
+            display: flex !important;
+            justify-content: center;
+            align-items: center;
+            top: 30%;
+            left: 40%;
+            z-index: 1;
+            white-space: nowrap !important;
+            text-align: center; 
+            font-size: 13px; 
+            border-radius: 8px; 
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            margin: 2rem;
+        }
+        .loading-container {
+            display: none;
+        }
+        .playground-loading {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+        }
+        
+    @media screen and (max-width: 700px) {
+        .editor-buttons-div {
+            position: sticky; 
+            top: 10px;  
+            z-index: 4;
+            width: fit-content;
+            margin-left: auto;
+            height: 38px;
+            padding-right: 5px;
+        }
+
+        .editor-buttons {
+            display: flex;
+            width: fit-content;
+            flex-direction: row;
+            gap: 8px;
+        }
+        .code-box {
+            position: relative;
+            flex-direction: column;
+        }
+        .code-button {
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        .compiled-message-box svg {
+            display: none;
+        }
+    }
+
+    @media screen and (max-width: 375px) {
+        .compiled-message-box {
+            margin-inline: 5px;
+        }
+    }
+    </style>
+
+    <div class="codeblock-container" data-mode="light">
+        <slot name="tab"></slot>
+        <div class="code-container">
+            <div class="code-box">    
+                <div id="editor-buttons-div" class="editor-buttons-div" style="top: 40px;">
+                    <div id="editor-buttons" class="editor-buttons">
+                        <button id="expand-driver-code" class="expand-driver-code code-button" title="Expand all Diver Codes" style="display: none;"><svg id="expand-icon" width="17" height="17" viewBox="1 5 47 6" stroke-width="1" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
+            <path d="M44.4507 7.91963C44.7062 8.18159 44.8496 8.53199 44.8496 8.89419C44.8496 9.25639 44.7062 9.60088 44.4507 9.8523L38.9862 15.2053C38.8593 15.3296 38.7087 15.4272 38.5429 15.4924C38.3771 15.5577 38.1995 15.5894 38.02 15.5857C37.6577 15.5782 37.3101 15.427 37.0539 15.1655C36.7977 14.9039 36.6537 14.5533 36.6537 14.1909C36.6537 13.8284 36.7977 13.4838 37.0539 13.2328L40.1862 10.1645L30.3697 9.96203C30.0073 9.95456 29.6599 9.80343 29.4037 9.54189C29.1475 9.28035 29.0035 8.92983 29.0035 8.56743C29.0035 8.20503 29.1475 7.86044 29.4037 7.60947C29.6599 7.3585 30.0073 7.22171 30.3697 7.22918L40.1862 7.4316L37.0539 4.23407C36.927 4.10455 36.8264 3.95182 36.7577 3.7846C36.6891 3.61738 36.6537 3.43894 36.6537 3.25948C36.6537 3.08001 36.6891 2.90304 36.7577 2.73865C36.8264 2.57426 36.927 2.42568 37.0539 2.30139C37.1808 2.17711 37.3314 2.07955 37.4972 2.01429C37.6629 1.94903 37.8406 1.91735 38.02 1.92105C38.1995 1.92475 38.3771 1.96376 38.5429 2.03586C38.7087 2.10795 38.8593 2.21172 38.9862 2.34124L44.4507 7.91963Z" fill="black"></path>
+            <rect x="24.5859" y="16.8309" width="3.31306" height="16.5653" rx="1.65653" transform="rotate(-180 24.5859 16.8309)" fill="black"></rect>
+            <path d="M0.884258 7.91957C0.62878 8.18152 0.485352 8.53193 0.485352 8.89413C0.485352 9.25632 0.62878 9.60082 0.884258 9.85224L6.3488 15.2053C6.47567 15.3295 6.6263 15.4271 6.79207 15.4924C6.95783 15.5576 7.1355 15.5893 7.31493 15.5856C7.6773 15.5781 8.02483 15.427 8.28106 15.1654C8.5373 14.9038 8.68125 14.5533 8.68125 14.1908C8.68125 13.8284 8.5373 13.4837 8.28106 13.2327L5.14879 10.1644L14.9653 9.96197C15.3276 9.9545 15.6751 9.80337 15.9313 9.54183C16.1875 9.28029 16.3314 8.92977 16.3314 8.56737C16.3314 8.20497 16.1875 7.86038 15.9313 7.60941C15.6751 7.35844 15.3276 7.22164 14.9653 7.22912L5.14879 7.43154L8.28106 4.23401C8.40794 4.10449 8.50858 3.95176 8.57724 3.78454C8.64591 3.61732 8.68125 3.43888 8.68125 3.25942C8.68125 3.07995 8.64591 2.90298 8.57724 2.73859C8.50858 2.5742 8.40794 2.42562 8.28106 2.30133C8.15419 2.17705 8.00357 2.07949 7.8378 2.01423C7.67203 1.94897 7.49436 1.91729 7.31493 1.92099C7.1355 1.92469 6.95783 1.9637 6.79207 2.03579C6.6263 2.10789 6.47567 2.21166 6.3488 2.34118L0.884258 7.91957Z" fill="black"></path>
+        </svg></button>
+                        <button class="code-button" id="edit-close-button" title="Close Editor" buttontype="edit"><svg xmlns="http://www.w3.org/2000/svg" id="edit-close-icon" class="gfg-icon" width="17" height="17" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+        <path d="M18 6l-12 12"></path>
+        <path d="M6 6l12 12"></path>
+    </svg></button>
+                        <button class="code-button" id="run-code-button" title="Run Code and See Output">
+                            <div class="border" id="run-code-loader" hidden=""></div>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="gfg-icon" width="17" height="17" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M7 4v16l13 -8z"></path>
+                            </svg>
+                        </button>
+                        <button class="code-button" id="copy-code-button" title="Copy Code"> <svg xmlns="http://www.w3.org/2000/svg" class="gfg-icon" width="17" height="17" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M8 8m0 2a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2z"></path>
+                                <path d="M16 8v-2a2 2 0 0 0 -2 -2h-8a2 2 0 0 0 -2 2v8a2 2 0 0 0 2 2h2"></path>
+                        </svg></button>
+                        <button class="code-button" id="mode-button" title="Dark Mode" hidden="true" mode="light"><svg xmlns="http://www.w3.org/2000/svg" class="gfg-icon" width="20" height="20" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+        <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z"></path>
+    </svg> </button>
+                        
+                    </div>
+                </div>
+                <div id="slot-panel" class="gfg-code" style="width: calc(100% + 0px); margin-top: -35px;">
+                     <div id="playground-loader" class="loading-container">
+                        <span class="playground-loading">Loading Playground...</span>
+                    </div>
+                    <slot name="panel"></slot>
+                </div>
+            </div>
+            <div class="code-output-box" id="code-output-box">
+                <div class="editor-buttons w-56 output-box" title="Close Output">
+                    <button class="code-button" id="close-output-button" hidden="">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="gfg-icon" width="17" height="17" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                            <path d="M9 12h-3.586a1 1 0 0 1 -.707 -1.707l6.586 -6.586a1 1 0 0 1 1.414 0l6.586 6.586a1 1 0 0 1 -.707 1.707h-3.586v6h-6v-6z"></path>
+                            <path d="M9 21h6"></path>
+                        </svg>
+                    </button>
+                </div> 
+                <div class="code-output" id="code-output" hidden="">
+                    <div class="row-output">
+                        <pre class="generated-output" id="code-output-element"></pre>
+                    </div> 
+                </div>
+            </div>
+            </div>
+        </div>
+    
+    </template>
+            <gfg-tab slot="tab" hidden="" role="tab" id="gfg-tab-generated-10" aria-selected="true" tabindex="0" aria-controls="gfg-panel-generated-10" selected="">Python</gfg-tab>
+<gfg-panel slot="panel" data-code-lang="python3" data-main-code-start="None" data-main-code-end="None" role="tabpanel" id="gfg-panel-generated-10" aria-labelledby="gfg-tab-generated-10">
+    <code class="language-python3"><div class="highlight"><pre hidden=""><span></span><span class="k">class</span> <span class="nc">StudentResult</span><span class="p">:</span>
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">name</span><span class="p">,</span> <span class="n">marks</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="n">name</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">marks</span> <span class="o">=</span> <span class="n">marks</span>
+
+    <span class="k">def</span> <span class="nf">total</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="nb">sum</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">marks</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">average</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">total</span><span class="p">()</span> <span class="o">/</span> <span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">marks</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">display</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Student: </span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">name</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Total Marks: </span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">total</span><span class="p">()</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Average Marks: </span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">average</span><span class="p">()</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+
+<span class="c1"># Example usage:</span>
+<span class="n">sr</span> <span class="o">=</span> <span class="n">StudentResult</span><span class="p">(</span><span class="s2">"Bob"</span><span class="p">,</span> <span class="p">[</span><span class="mi">76</span><span class="p">,</span> <span class="mi">84</span><span class="p">,</span> <span class="mi">90</span><span class="p">])</span>
+<span class="n">sr</span><span class="o">.</span><span class="n">display</span><span class="p">()</span>
+</pre></div></code>
+<div class="CodeMirror cm-s-default"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 4px; left: 15px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-vscrollbar" tabindex="-1" cm-not-content="true" style="bottom: 0px;"><div style="min-width: 1px; height: 0px;"></div></div><div class="CodeMirror-hscrollbar" tabindex="-1" cm-not-content="true"><div style="height: 100%; min-height: 1px; width: 0px;"></div></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; margin-bottom: -15px; border-right-width: 15px; min-height: 449px; min-width: 457.078px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-cursors"><div class="CodeMirror-cursor" style="left: 15px; top: 0px; height: 23.2188px;">&nbsp;</div></div><div class="CodeMirror-code" role="presentation" style=""><div class="CodeMirror-activeline" style="position: relative;"><div class="CodeMirror-activeline-background CodeMirror-linebackground"></div><div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" style="left: 0px; width: 0px;"></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-keyword">class</span> <span class="cm-def">StudentResult</span>:</span></pre></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">    <span class="cm-keyword">def</span> <span class="cm-def">__init__</span>(<span class="cm-variable-2">self</span>, <span class="cm-variable">name</span>, <span class="cm-variable">marks</span>):</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-variable-2">self</span>.<span class="cm-property">name</span> <span class="cm-operator">=</span> <span class="cm-variable">name</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-variable-2">self</span>.<span class="cm-property">marks</span> <span class="cm-operator">=</span> <span class="cm-variable">marks</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">    <span class="cm-keyword">def</span> <span class="cm-def">total</span>(<span class="cm-variable-2">self</span>):</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-keyword">return</span> <span class="cm-builtin">sum</span>(<span class="cm-variable-2">self</span>.<span class="cm-property">marks</span>)</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">    <span class="cm-keyword">def</span> <span class="cm-def">average</span>(<span class="cm-variable-2">self</span>):</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-keyword">return</span> <span class="cm-variable-2">self</span>.<span class="cm-property">total</span>() <span class="cm-operator">/</span> <span class="cm-builtin">len</span>(<span class="cm-variable-2">self</span>.<span class="cm-property">marks</span>)</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">    <span class="cm-keyword">def</span> <span class="cm-def">display</span>(<span class="cm-variable-2">self</span>):</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-builtin">print</span>(<span class="cm-string">f"Student: </span>{<span class="cm-variable-2">self</span>.<span class="cm-property">name</span>}<span class="cm-string">"</span>)</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-builtin">print</span>(<span class="cm-string">f"Total Marks: </span>{<span class="cm-variable-2">self</span>.<span class="cm-property">total</span>()}<span class="cm-string">"</span>)</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-builtin">print</span>(<span class="cm-string">f"Average Marks: </span>{<span class="cm-variable-2">self</span>.<span class="cm-property">average</span>()}<span class="cm-string">"</span>)</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-comment"># Example usage:</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">sr</span> <span class="cm-operator">=</span> <span class="cm-variable">StudentResult</span>(<span class="cm-string">"Bob"</span>, [<span class="cm-number">76</span>, <span class="cm-number">84</span>, <span class="cm-number">90</span>])</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">sr</span>.<span class="cm-property">display</span>()</span></pre></div></div></div></div></div><div style="position: absolute; height: 15px; width: 1px; border-bottom: 0px solid transparent; top: 449px;"></div><div class="CodeMirror-gutters" style="display: none; height: 464px;"></div></div></div></gfg-panel></gfg-tabs><div class="code-output"><br><strong>Output</strong><pre>Student: Bob
+Total Marks: 250
+Average Marks: 83.33333333333333
+</pre></div><h3 style="text-align:left"><span>Exercise 13: Car Class: Create a Car class with attributes make, model, and year. Include a method to display the details of the car.</span></h3><gfg-tabs allow-code-exec="true" data-run-ide="true" data-mode="light" role="tablist"><template shadowrootmode="open">
+    <style>
+      :host {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      ::slotted(gfg-panel) {
+        flex-basis: 100%;
+      }
+      .codeblock-container[data-content]::after,
+      .codeblock-container[data-danger-content]::after {
+        content: attr(data-content);
+        display: block;
+        position: absolute;
+        bottom: 0px;
+        right: 0;
+        padding: 4px 12px;
+        font-size: 12px;
+        letter-spacing: 0.05em;
+        font-family: inherit;
+        background-color: rgb(217, 217, 217);
+        color: #424242 !important;
+      }
+      .codeblock-container[data-danger-content]::after {
+        color: rgb(132, 5, 5) !important;
+        content: attr(data-danger-content);
+      }
+      .codeblock-container{
+        position: relative;
+        width: 100%;
+        font-family: sans-serif;
+      }
+      .code-container{
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #ddd;
+        clear: left;
+      }
+      
+      #slot-panel::-webkit-scrollbar-track {
+        border-radius: 10px;
+        background-color: transparent;
+        width: 0px !important;
+      }
+
+      #slot-panel::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        background-color: #999;
+        width: 5px ; 
+      }
+      #slot-panel::-webkit-scrollbar {
+        width: 5px; 
+      }
+      #slot-panel::-webkit-scrollbar-thumb:hover {
+        cursor: pointer;
+      }
+      .editor-buttons-div,
+      .w-56 {
+        min-width: 46px;
+      }
+        .editor-buttons-div{
+            display: flex;
+            margin-left: auto;
+            height: 40px;
+            position: sticky; 
+            position: -webkit-sticky;
+            top: 60px;
+            z-index: 4;
+            width: fit-content;
+            justify-content: flex-end;
+            align-items: start;
+        }
+      .gfg-code{
+        padding: 0;
+        width: 100%;
+        display: block;
+      }
+      .editor-buttons{
+        display:flex;
+        width: fit-content;
+        gap: 8px;
+        margin-top: 8px;
+        padding-right: 11px;
+        position: relative;
+        margin-bottom: 4px;
+      }
+      .editor-buttons.output-box {
+        margin-top: 0px;
+      }
+      .editor-buttons.output-box button {
+        margin-bottom: 0 !important;
+      }
+        .output-box {
+            margin-left: 8px;
+        }
+      .code-button{
+        background: white;
+        margin-bottom: 10px;
+        border: 2px;
+        background: #e5e5e5;
+        border-radius: 50px;
+        width: 28px !important;
+        height: 28px !important;
+        cursor: pointer;
+        padding: 6px;
+      }
+        #expand-code-button{
+            margin-bottom: 0px;
+        }
+        #expand-driver-code {
+            transform: rotate(90deg);
+            transform-origin: center;
+        }
+      .code-output{
+        background: #efefef;
+        border-radius: 8px;
+        width: 100%;
+        margin: 10px 2px 5px 2px;
+      }
+      .close-output-button{
+        margin-bottom: 10px;
+      }
+      .code-output-content{
+        padding: 8px 16px;
+        margin: 0;
+        position: sticky;
+        position: -webkit-sticky;
+        margin-top: 10px;
+      }
+      .code-box {
+        display: flex;
+        flex-direction: column;
+        position: relative !important;
+      }
+      .code-output-box {
+        display: flex;
+        align-items: center;
+      }
+     .compiled-message-box {
+        background-color: #308d46;
+        border-radius: 6px;
+        color: white;
+        width: fit-content;
+        margin: 10px auto;
+        text-align: center;
+        flex-basis: 100%;
+        display: none;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: 700;
+        padding-inline: 10px;
+    }
+    .compiled-message-box p {
+        margin-block: 5px;
+    }
+    .compiled-message-box-active {
+        display: flex;
+    }
+    .compiled-mess-content {
+        font-size: 10px;
+        padding-left: 5px;
+    }
+      .generated-output{
+        font-size: 15px;
+        white-space: pre-wrap;
+      }
+      .row-output{
+        color: black;
+        font-size: 16px;
+        padding : 10px;
+      }
+      .border {
+        width: 28px !important;
+        height: 28px !important;
+        position: absolute;
+        background: transparent;
+        border-radius: 50%;
+        border: 2px dashed #000;
+        margin-left: -8px;
+        margin-top: -7px;
+        animation-name: rotate;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+      }
+      .codeblock-container[data-mode=dark] .border {
+        border-color: white !important;
+      }
+      #icon-tabler-copy{
+        margin-bottom: -4px;
+        cursor: pointer;
+      }
+      .gfg-icon{
+        margin-left: auto;
+        margin-right: auto;
+        display: block !important;
+      }
+      
+        @keyframes rotate {
+            from{ transform: rotate(-360deg); }
+            to{ transform: rotate(360deg); }
+        }
+        #code-output-element #jsFrame {
+            background-color: transparent;
+            border: unset;
+            width: 100%;
+        }
+        .loading-container.active {
+            width: 150px; 
+            height: 50px; 
+            background-color: lightgrey; 
+            opacity: 70%;
+            color: black; 
+            position: absolute; 
+            display: flex !important;
+            justify-content: center;
+            align-items: center;
+            top: 30%;
+            left: 40%;
+            z-index: 1;
+            white-space: nowrap !important;
+            text-align: center; 
+            font-size: 13px; 
+            border-radius: 8px; 
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            margin: 2rem;
+        }
+        .loading-container {
+            display: none;
+        }
+        .playground-loading {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+        }
+        
+    @media screen and (max-width: 700px) {
+        .editor-buttons-div {
+            position: sticky; 
+            top: 10px;  
+            z-index: 4;
+            width: fit-content;
+            margin-left: auto;
+            height: 38px;
+            padding-right: 5px;
+        }
+
+        .editor-buttons {
+            display: flex;
+            width: fit-content;
+            flex-direction: row;
+            gap: 8px;
+        }
+        .code-box {
+            position: relative;
+            flex-direction: column;
+        }
+        .code-button {
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        .compiled-message-box svg {
+            display: none;
+        }
+    }
+
+    @media screen and (max-width: 375px) {
+        .compiled-message-box {
+            margin-inline: 5px;
+        }
+    }
+    </style>
+
+    <div class="codeblock-container" data-mode="light">
+        <slot name="tab"></slot>
+        <div class="code-container">
+            <div class="code-box">    
+                <div id="editor-buttons-div" class="editor-buttons-div" style="top: 40px;">
+                    <div id="editor-buttons" class="editor-buttons">
+                        <button id="expand-driver-code" class="expand-driver-code code-button" title="Expand all Diver Codes" style="display: none;"><svg id="expand-icon" width="17" height="17" viewBox="1 5 47 6" stroke-width="1" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
+            <path d="M44.4507 7.91963C44.7062 8.18159 44.8496 8.53199 44.8496 8.89419C44.8496 9.25639 44.7062 9.60088 44.4507 9.8523L38.9862 15.2053C38.8593 15.3296 38.7087 15.4272 38.5429 15.4924C38.3771 15.5577 38.1995 15.5894 38.02 15.5857C37.6577 15.5782 37.3101 15.427 37.0539 15.1655C36.7977 14.9039 36.6537 14.5533 36.6537 14.1909C36.6537 13.8284 36.7977 13.4838 37.0539 13.2328L40.1862 10.1645L30.3697 9.96203C30.0073 9.95456 29.6599 9.80343 29.4037 9.54189C29.1475 9.28035 29.0035 8.92983 29.0035 8.56743C29.0035 8.20503 29.1475 7.86044 29.4037 7.60947C29.6599 7.3585 30.0073 7.22171 30.3697 7.22918L40.1862 7.4316L37.0539 4.23407C36.927 4.10455 36.8264 3.95182 36.7577 3.7846C36.6891 3.61738 36.6537 3.43894 36.6537 3.25948C36.6537 3.08001 36.6891 2.90304 36.7577 2.73865C36.8264 2.57426 36.927 2.42568 37.0539 2.30139C37.1808 2.17711 37.3314 2.07955 37.4972 2.01429C37.6629 1.94903 37.8406 1.91735 38.02 1.92105C38.1995 1.92475 38.3771 1.96376 38.5429 2.03586C38.7087 2.10795 38.8593 2.21172 38.9862 2.34124L44.4507 7.91963Z" fill="black"></path>
+            <rect x="24.5859" y="16.8309" width="3.31306" height="16.5653" rx="1.65653" transform="rotate(-180 24.5859 16.8309)" fill="black"></rect>
+            <path d="M0.884258 7.91957C0.62878 8.18152 0.485352 8.53193 0.485352 8.89413C0.485352 9.25632 0.62878 9.60082 0.884258 9.85224L6.3488 15.2053C6.47567 15.3295 6.6263 15.4271 6.79207 15.4924C6.95783 15.5576 7.1355 15.5893 7.31493 15.5856C7.6773 15.5781 8.02483 15.427 8.28106 15.1654C8.5373 14.9038 8.68125 14.5533 8.68125 14.1908C8.68125 13.8284 8.5373 13.4837 8.28106 13.2327L5.14879 10.1644L14.9653 9.96197C15.3276 9.9545 15.6751 9.80337 15.9313 9.54183C16.1875 9.28029 16.3314 8.92977 16.3314 8.56737C16.3314 8.20497 16.1875 7.86038 15.9313 7.60941C15.6751 7.35844 15.3276 7.22164 14.9653 7.22912L5.14879 7.43154L8.28106 4.23401C8.40794 4.10449 8.50858 3.95176 8.57724 3.78454C8.64591 3.61732 8.68125 3.43888 8.68125 3.25942C8.68125 3.07995 8.64591 2.90298 8.57724 2.73859C8.50858 2.5742 8.40794 2.42562 8.28106 2.30133C8.15419 2.17705 8.00357 2.07949 7.8378 2.01423C7.67203 1.94897 7.49436 1.91729 7.31493 1.92099C7.1355 1.92469 6.95783 1.9637 6.79207 2.03579C6.6263 2.10789 6.47567 2.21166 6.3488 2.34118L0.884258 7.91957Z" fill="black"></path>
+        </svg></button>
+                        <button class="code-button" id="edit-close-button" title="Close Editor" buttontype="edit"><svg xmlns="http://www.w3.org/2000/svg" id="edit-close-icon" class="gfg-icon" width="17" height="17" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+        <path d="M18 6l-12 12"></path>
+        <path d="M6 6l12 12"></path>
+    </svg></button>
+                        <button class="code-button" id="run-code-button" title="Run Code and See Output">
+                            <div class="border" id="run-code-loader" hidden=""></div>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="gfg-icon" width="17" height="17" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M7 4v16l13 -8z"></path>
+                            </svg>
+                        </button>
+                        <button class="code-button" id="copy-code-button" title="Copy Code"> <svg xmlns="http://www.w3.org/2000/svg" class="gfg-icon" width="17" height="17" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M8 8m0 2a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2z"></path>
+                                <path d="M16 8v-2a2 2 0 0 0 -2 -2h-8a2 2 0 0 0 -2 2v8a2 2 0 0 0 2 2h2"></path>
+                        </svg></button>
+                        <button class="code-button" id="mode-button" title="Dark Mode" hidden="true" mode="light"><svg xmlns="http://www.w3.org/2000/svg" class="gfg-icon" width="20" height="20" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+        <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z"></path>
+    </svg> </button>
+                        
+                    </div>
+                </div>
+                <div id="slot-panel" class="gfg-code" style="width: calc(100% + 0px); margin-top: -35px;">
+                     <div id="playground-loader" class="loading-container">
+                        <span class="playground-loading">Loading Playground...</span>
+                    </div>
+                    <slot name="panel"></slot>
+                </div>
+            </div>
+            <div class="code-output-box" id="code-output-box">
+                <div class="editor-buttons w-56 output-box" title="Close Output">
+                    <button class="code-button" id="close-output-button" hidden="">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="gfg-icon" width="17" height="17" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                            <path d="M9 12h-3.586a1 1 0 0 1 -.707 -1.707l6.586 -6.586a1 1 0 0 1 1.414 0l6.586 6.586a1 1 0 0 1 -.707 1.707h-3.586v6h-6v-6z"></path>
+                            <path d="M9 21h6"></path>
+                        </svg>
+                    </button>
+                </div> 
+                <div class="code-output" id="code-output" hidden="">
+                    <div class="row-output">
+                        <pre class="generated-output" id="code-output-element"></pre>
+                    </div> 
+                </div>
+            </div>
+            </div>
+        </div>
+    
+    </template>
+            <gfg-tab slot="tab" hidden="" role="tab" id="gfg-tab-generated-11" aria-selected="true" tabindex="0" aria-controls="gfg-panel-generated-11" selected="">Python</gfg-tab>
+<gfg-panel slot="panel" data-code-lang="python3" data-main-code-start="None" data-main-code-end="None" role="tabpanel" id="gfg-panel-generated-11" aria-labelledby="gfg-tab-generated-11">
+    <code class="language-python3"><div class="highlight"><pre hidden=""><span></span><span class="k">class</span> <span class="nc">Car</span><span class="p">:</span>
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">make</span><span class="p">,</span> <span class="n">model</span><span class="p">,</span> <span class="n">year</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">make</span> <span class="o">=</span> <span class="n">make</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">model</span> <span class="o">=</span> <span class="n">model</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">year</span> <span class="o">=</span> <span class="n">year</span>
+
+    <span class="k">def</span> <span class="nf">display_details</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Make: </span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">make</span><span class="si">}</span><span class="s2">, Model: </span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">model</span><span class="si">}</span><span class="s2">, Year: </span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">year</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+
+<span class="c1"># Example usage:</span>
+<span class="n">my_car</span> <span class="o">=</span> <span class="n">Car</span><span class="p">(</span><span class="s2">"Toyota"</span><span class="p">,</span> <span class="s2">"Corolla"</span><span class="p">,</span> <span class="mi">2021</span><span class="p">)</span>
+<span class="n">my_car</span><span class="o">.</span><span class="n">display_details</span><span class="p">()</span>
+</pre></div></code>
+<div class="CodeMirror cm-s-default"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 4px; left: 15px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-vscrollbar" tabindex="-1" cm-not-content="true" style="bottom: 0px;"><div style="min-width: 1px; height: 0px;"></div></div><div class="CodeMirror-hscrollbar" tabindex="-1" cm-not-content="true"><div style="height: 100%; min-height: 1px; width: 0px;"></div></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; margin-bottom: -15px; border-right-width: 15px; min-height: 287px; min-width: 690.094px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-cursors"><div class="CodeMirror-cursor" style="left: 15px; top: 0px; height: 23.2188px;">&nbsp;</div></div><div class="CodeMirror-code" role="presentation" style=""><div class="CodeMirror-activeline" style="position: relative;"><div class="CodeMirror-activeline-background CodeMirror-linebackground"></div><div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" style="left: 0px; width: 0px;"></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-keyword">class</span> <span class="cm-def">Car</span>:</span></pre></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">    <span class="cm-keyword">def</span> <span class="cm-def">__init__</span>(<span class="cm-variable-2">self</span>, <span class="cm-variable">make</span>, <span class="cm-variable">model</span>, <span class="cm-variable">year</span>):</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-variable-2">self</span>.<span class="cm-property">make</span> <span class="cm-operator">=</span> <span class="cm-variable">make</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-variable-2">self</span>.<span class="cm-property">model</span> <span class="cm-operator">=</span> <span class="cm-variable">model</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-variable-2">self</span>.<span class="cm-property">year</span> <span class="cm-operator">=</span> <span class="cm-variable">year</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">    <span class="cm-keyword">def</span> <span class="cm-def">display_details</span>(<span class="cm-variable-2">self</span>):</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-builtin">print</span>(<span class="cm-string">f"Make: </span>{<span class="cm-variable-2">self</span>.<span class="cm-property">make</span>}<span class="cm-string">, Model: </span>{<span class="cm-variable-2">self</span>.<span class="cm-property">model</span>}<span class="cm-string">, Year: </span>{<span class="cm-variable-2">self</span>.<span class="cm-property">year</span>}<span class="cm-string">"</span>)</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-comment"># Example usage:</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">my_car</span> <span class="cm-operator">=</span> <span class="cm-variable">Car</span>(<span class="cm-string">"Toyota"</span>, <span class="cm-string">"Corolla"</span>, <span class="cm-number">2021</span>)</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">my_car</span>.<span class="cm-property">display_details</span>()</span></pre></div></div></div></div></div><div style="position: absolute; height: 15px; width: 1px; border-bottom: 0px solid transparent; top: 287px;"></div><div class="CodeMirror-gutters" style="display: none; height: 302px;"></div></div></div></gfg-panel></gfg-tabs><div class="code-output"><br><strong>Output</strong><pre>Make: Toyota, Model: Corolla, Year: 2021
+</pre></div><h3 style="text-align:left"><span>Exercise 14: Inheritance - Animal Kingdom: Create a base class Animal with a method speak(). Derive two classes Dog and Cat from Animal and override the speak method to reflect their sounds.</span></h3><gfg-tabs allow-code-exec="true" data-run-ide="true" data-mode="light" role="tablist"><template shadowrootmode="open">
+    <style>
+      :host {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      ::slotted(gfg-panel) {
+        flex-basis: 100%;
+      }
+      .codeblock-container[data-content]::after,
+      .codeblock-container[data-danger-content]::after {
+        content: attr(data-content);
+        display: block;
+        position: absolute;
+        bottom: 0px;
+        right: 0;
+        padding: 4px 12px;
+        font-size: 12px;
+        letter-spacing: 0.05em;
+        font-family: inherit;
+        background-color: rgb(217, 217, 217);
+        color: #424242 !important;
+      }
+      .codeblock-container[data-danger-content]::after {
+        color: rgb(132, 5, 5) !important;
+        content: attr(data-danger-content);
+      }
+      .codeblock-container{
+        position: relative;
+        width: 100%;
+        font-family: sans-serif;
+      }
+      .code-container{
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #ddd;
+        clear: left;
+      }
+      
+      #slot-panel::-webkit-scrollbar-track {
+        border-radius: 10px;
+        background-color: transparent;
+        width: 0px !important;
+      }
+
+      #slot-panel::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        background-color: #999;
+        width: 5px ; 
+      }
+      #slot-panel::-webkit-scrollbar {
+        width: 5px; 
+      }
+      #slot-panel::-webkit-scrollbar-thumb:hover {
+        cursor: pointer;
+      }
+      .editor-buttons-div,
+      .w-56 {
+        min-width: 46px;
+      }
+        .editor-buttons-div{
+            display: flex;
+            margin-left: auto;
+            height: 40px;
+            position: sticky; 
+            position: -webkit-sticky;
+            top: 60px;
+            z-index: 4;
+            width: fit-content;
+            justify-content: flex-end;
+            align-items: start;
+        }
+      .gfg-code{
+        padding: 0;
+        width: 100%;
+        display: block;
+      }
+      .editor-buttons{
+        display:flex;
+        width: fit-content;
+        gap: 8px;
+        margin-top: 8px;
+        padding-right: 11px;
+        position: relative;
+        margin-bottom: 4px;
+      }
+      .editor-buttons.output-box {
+        margin-top: 0px;
+      }
+      .editor-buttons.output-box button {
+        margin-bottom: 0 !important;
+      }
+        .output-box {
+            margin-left: 8px;
+        }
+      .code-button{
+        background: white;
+        margin-bottom: 10px;
+        border: 2px;
+        background: #e5e5e5;
+        border-radius: 50px;
+        width: 28px !important;
+        height: 28px !important;
+        cursor: pointer;
+        padding: 6px;
+      }
+        #expand-code-button{
+            margin-bottom: 0px;
+        }
+        #expand-driver-code {
+            transform: rotate(90deg);
+            transform-origin: center;
+        }
+      .code-output{
+        background: #efefef;
+        border-radius: 8px;
+        width: 100%;
+        margin: 10px 2px 5px 2px;
+      }
+      .close-output-button{
+        margin-bottom: 10px;
+      }
+      .code-output-content{
+        padding: 8px 16px;
+        margin: 0;
+        position: sticky;
+        position: -webkit-sticky;
+        margin-top: 10px;
+      }
+      .code-box {
+        display: flex;
+        flex-direction: column;
+        position: relative !important;
+      }
+      .code-output-box {
+        display: flex;
+        align-items: center;
+      }
+     .compiled-message-box {
+        background-color: #308d46;
+        border-radius: 6px;
+        color: white;
+        width: fit-content;
+        margin: 10px auto;
+        text-align: center;
+        flex-basis: 100%;
+        display: none;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: 700;
+        padding-inline: 10px;
+    }
+    .compiled-message-box p {
+        margin-block: 5px;
+    }
+    .compiled-message-box-active {
+        display: flex;
+    }
+    .compiled-mess-content {
+        font-size: 10px;
+        padding-left: 5px;
+    }
+      .generated-output{
+        font-size: 15px;
+        white-space: pre-wrap;
+      }
+      .row-output{
+        color: black;
+        font-size: 16px;
+        padding : 10px;
+      }
+      .border {
+        width: 28px !important;
+        height: 28px !important;
+        position: absolute;
+        background: transparent;
+        border-radius: 50%;
+        border: 2px dashed #000;
+        margin-left: -8px;
+        margin-top: -7px;
+        animation-name: rotate;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+      }
+      .codeblock-container[data-mode=dark] .border {
+        border-color: white !important;
+      }
+      #icon-tabler-copy{
+        margin-bottom: -4px;
+        cursor: pointer;
+      }
+      .gfg-icon{
+        margin-left: auto;
+        margin-right: auto;
+        display: block !important;
+      }
+      
+        @keyframes rotate {
+            from{ transform: rotate(-360deg); }
+            to{ transform: rotate(360deg); }
+        }
+        #code-output-element #jsFrame {
+            background-color: transparent;
+            border: unset;
+            width: 100%;
+        }
+        .loading-container.active {
+            width: 150px; 
+            height: 50px; 
+            background-color: lightgrey; 
+            opacity: 70%;
+            color: black; 
+            position: absolute; 
+            display: flex !important;
+            justify-content: center;
+            align-items: center;
+            top: 30%;
+            left: 40%;
+            z-index: 1;
+            white-space: nowrap !important;
+            text-align: center; 
+            font-size: 13px; 
+            border-radius: 8px; 
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            margin: 2rem;
+        }
+        .loading-container {
+            display: none;
+        }
+        .playground-loading {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+        }
+        
+    @media screen and (max-width: 700px) {
+        .editor-buttons-div {
+            position: sticky; 
+            top: 10px;  
+            z-index: 4;
+            width: fit-content;
+            margin-left: auto;
+            height: 38px;
+            padding-right: 5px;
+        }
+
+        .editor-buttons {
+            display: flex;
+            width: fit-content;
+            flex-direction: row;
+            gap: 8px;
+        }
+        .code-box {
+            position: relative;
+            flex-direction: column;
+        }
+        .code-button {
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        .compiled-message-box svg {
+            display: none;
+        }
+    }
+
+    @media screen and (max-width: 375px) {
+        .compiled-message-box {
+            margin-inline: 5px;
+        }
+    }
+    </style>
+
+    <div class="codeblock-container" data-mode="light">
+        <slot name="tab"></slot>
+        <div class="code-container">
+            <div class="code-box">    
+                <div id="editor-buttons-div" class="editor-buttons-div" style="top: 40px;">
+                    <div id="editor-buttons" class="editor-buttons">
+                        <button id="expand-driver-code" class="expand-driver-code code-button" title="Expand all Diver Codes" style="display: none;"><svg id="expand-icon" width="17" height="17" viewBox="1 5 47 6" stroke-width="1" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
+            <path d="M44.4507 7.91963C44.7062 8.18159 44.8496 8.53199 44.8496 8.89419C44.8496 9.25639 44.7062 9.60088 44.4507 9.8523L38.9862 15.2053C38.8593 15.3296 38.7087 15.4272 38.5429 15.4924C38.3771 15.5577 38.1995 15.5894 38.02 15.5857C37.6577 15.5782 37.3101 15.427 37.0539 15.1655C36.7977 14.9039 36.6537 14.5533 36.6537 14.1909C36.6537 13.8284 36.7977 13.4838 37.0539 13.2328L40.1862 10.1645L30.3697 9.96203C30.0073 9.95456 29.6599 9.80343 29.4037 9.54189C29.1475 9.28035 29.0035 8.92983 29.0035 8.56743C29.0035 8.20503 29.1475 7.86044 29.4037 7.60947C29.6599 7.3585 30.0073 7.22171 30.3697 7.22918L40.1862 7.4316L37.0539 4.23407C36.927 4.10455 36.8264 3.95182 36.7577 3.7846C36.6891 3.61738 36.6537 3.43894 36.6537 3.25948C36.6537 3.08001 36.6891 2.90304 36.7577 2.73865C36.8264 2.57426 36.927 2.42568 37.0539 2.30139C37.1808 2.17711 37.3314 2.07955 37.4972 2.01429C37.6629 1.94903 37.8406 1.91735 38.02 1.92105C38.1995 1.92475 38.3771 1.96376 38.5429 2.03586C38.7087 2.10795 38.8593 2.21172 38.9862 2.34124L44.4507 7.91963Z" fill="black"></path>
+            <rect x="24.5859" y="16.8309" width="3.31306" height="16.5653" rx="1.65653" transform="rotate(-180 24.5859 16.8309)" fill="black"></rect>
+            <path d="M0.884258 7.91957C0.62878 8.18152 0.485352 8.53193 0.485352 8.89413C0.485352 9.25632 0.62878 9.60082 0.884258 9.85224L6.3488 15.2053C6.47567 15.3295 6.6263 15.4271 6.79207 15.4924C6.95783 15.5576 7.1355 15.5893 7.31493 15.5856C7.6773 15.5781 8.02483 15.427 8.28106 15.1654C8.5373 14.9038 8.68125 14.5533 8.68125 14.1908C8.68125 13.8284 8.5373 13.4837 8.28106 13.2327L5.14879 10.1644L14.9653 9.96197C15.3276 9.9545 15.6751 9.80337 15.9313 9.54183C16.1875 9.28029 16.3314 8.92977 16.3314 8.56737C16.3314 8.20497 16.1875 7.86038 15.9313 7.60941C15.6751 7.35844 15.3276 7.22164 14.9653 7.22912L5.14879 7.43154L8.28106 4.23401C8.40794 4.10449 8.50858 3.95176 8.57724 3.78454C8.64591 3.61732 8.68125 3.43888 8.68125 3.25942C8.68125 3.07995 8.64591 2.90298 8.57724 2.73859C8.50858 2.5742 8.40794 2.42562 8.28106 2.30133C8.15419 2.17705 8.00357 2.07949 7.8378 2.01423C7.67203 1.94897 7.49436 1.91729 7.31493 1.92099C7.1355 1.92469 6.95783 1.9637 6.79207 2.03579C6.6263 2.10789 6.47567 2.21166 6.3488 2.34118L0.884258 7.91957Z" fill="black"></path>
+        </svg></button>
+                        <button class="code-button" id="edit-close-button" title="Close Editor" buttontype="edit"><svg xmlns="http://www.w3.org/2000/svg" id="edit-close-icon" class="gfg-icon" width="17" height="17" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+        <path d="M18 6l-12 12"></path>
+        <path d="M6 6l12 12"></path>
+    </svg></button>
+                        <button class="code-button" id="run-code-button" title="Run Code and See Output">
+                            <div class="border" id="run-code-loader" hidden=""></div>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="gfg-icon" width="17" height="17" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M7 4v16l13 -8z"></path>
+                            </svg>
+                        </button>
+                        <button class="code-button" id="copy-code-button" title="Copy Code"> <svg xmlns="http://www.w3.org/2000/svg" class="gfg-icon" width="17" height="17" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M8 8m0 2a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2z"></path>
+                                <path d="M16 8v-2a2 2 0 0 0 -2 -2h-8a2 2 0 0 0 -2 2v8a2 2 0 0 0 2 2h2"></path>
+                        </svg></button>
+                        <button class="code-button" id="mode-button" title="Dark Mode" hidden="true" mode="light"><svg xmlns="http://www.w3.org/2000/svg" class="gfg-icon" width="20" height="20" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+        <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z"></path>
+    </svg> </button>
+                        
+                    </div>
+                </div>
+                <div id="slot-panel" class="gfg-code" style="width: calc(100% + 0px); margin-top: -35px;">
+                     <div id="playground-loader" class="loading-container">
+                        <span class="playground-loading">Loading Playground...</span>
+                    </div>
+                    <slot name="panel"></slot>
+                </div>
+            </div>
+            <div class="code-output-box" id="code-output-box">
+                <div class="editor-buttons w-56 output-box" title="Close Output">
+                    <button class="code-button" id="close-output-button" hidden="">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="gfg-icon" width="17" height="17" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                            <path d="M9 12h-3.586a1 1 0 0 1 -.707 -1.707l6.586 -6.586a1 1 0 0 1 1.414 0l6.586 6.586a1 1 0 0 1 -.707 1.707h-3.586v6h-6v-6z"></path>
+                            <path d="M9 21h6"></path>
+                        </svg>
+                    </button>
+                </div> 
+                <div class="code-output" id="code-output" hidden="">
+                    <div class="row-output">
+                        <pre class="generated-output" id="code-output-element"></pre>
+                    </div> 
+                </div>
+            </div>
+            </div>
+        </div>
+    
+    </template>
+            <gfg-tab slot="tab" hidden="" role="tab" id="gfg-tab-generated-12" aria-selected="true" tabindex="0" aria-controls="gfg-panel-generated-12" selected="">Python</gfg-tab>
+<gfg-panel slot="panel" data-code-lang="python3" data-main-code-start="None" data-main-code-end="None" role="tabpanel" id="gfg-panel-generated-12" aria-labelledby="gfg-tab-generated-12">
+    <code class="language-python3"><div class="highlight"><pre hidden=""><span></span><span class="k">class</span> <span class="nc">Animal</span><span class="p">:</span>
+    <span class="k">def</span> <span class="nf">speak</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">pass</span>
+
+<span class="k">class</span> <span class="nc">Dog</span><span class="p">(</span><span class="n">Animal</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">speak</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">"Woof!"</span><span class="p">)</span>
+
+<span class="k">class</span> <span class="nc">Cat</span><span class="p">(</span><span class="n">Animal</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">speak</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">"Meow!"</span><span class="p">)</span>
+
+<span class="c1"># Example usage:</span>
+<span class="n">dog</span> <span class="o">=</span> <span class="n">Dog</span><span class="p">()</span>
+<span class="n">cat</span> <span class="o">=</span> <span class="n">Cat</span><span class="p">()</span>
+<span class="n">dog</span><span class="o">.</span><span class="n">speak</span><span class="p">()</span>
+<span class="n">cat</span><span class="o">.</span><span class="n">speak</span><span class="p">()</span>
+</pre></div></code>
+<div class="CodeMirror cm-s-default"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 4px; left: 15px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-vscrollbar" tabindex="-1" cm-not-content="true" style="bottom: 0px;"><div style="min-width: 1px; height: 0px;"></div></div><div class="CodeMirror-hscrollbar" tabindex="-1" cm-not-content="true"><div style="height: 100%; min-height: 1px; width: 0px;"></div></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; margin-bottom: -15px; border-right-width: 15px; min-height: 403px; min-width: 215.125px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-cursors"><div class="CodeMirror-cursor" style="left: 15px; top: 0px; height: 23.2188px;">&nbsp;</div></div><div class="CodeMirror-code" role="presentation" style=""><div class="CodeMirror-activeline" style="position: relative;"><div class="CodeMirror-activeline-background CodeMirror-linebackground"></div><div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" style="left: 0px; width: 0px;"></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-keyword">class</span> <span class="cm-def">Animal</span>:</span></pre></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">    <span class="cm-keyword">def</span> <span class="cm-def">speak</span>(<span class="cm-variable-2">self</span>):</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-keyword">pass</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-keyword">class</span> <span class="cm-def">Dog</span>(<span class="cm-variable">Animal</span>):</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">    <span class="cm-keyword">def</span> <span class="cm-def">speak</span>(<span class="cm-variable-2">self</span>):</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-builtin">print</span>(<span class="cm-string">"Woof!"</span>)</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-keyword">class</span> <span class="cm-def">Cat</span>(<span class="cm-variable">Animal</span>):</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">    <span class="cm-keyword">def</span> <span class="cm-def">speak</span>(<span class="cm-variable-2">self</span>):</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-builtin">print</span>(<span class="cm-string">"Meow!"</span>)</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-comment"># Example usage:</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">dog</span> <span class="cm-operator">=</span> <span class="cm-variable">Dog</span>()</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">cat</span> <span class="cm-operator">=</span> <span class="cm-variable">Cat</span>()</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">dog</span>.<span class="cm-property">speak</span>()</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">cat</span>.<span class="cm-property">speak</span>()</span></pre></div></div></div></div></div><div style="position: absolute; height: 15px; width: 1px; border-bottom: 0px solid transparent; top: 403px;"></div><div class="CodeMirror-gutters" style="display: none; height: 418px;"></div></div></div></gfg-panel></gfg-tabs><div class="code-output"><br><strong>Output</strong><pre>Woof!
+Meow!
+</pre></div><h3 style="text-align:left"><span>Exercise 15: Polymorphism with a Function: Create a function describe_pet that takes an object of Animal and calls its speak method, demonstrating polymorphism.</span></h3><gfg-tabs allow-code-exec="true" data-run-ide="true" data-mode="light" role="tablist"><template shadowrootmode="open">
+    <style>
+      :host {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      ::slotted(gfg-panel) {
+        flex-basis: 100%;
+      }
+      .codeblock-container[data-content]::after,
+      .codeblock-container[data-danger-content]::after {
+        content: attr(data-content);
+        display: block;
+        position: absolute;
+        bottom: 0px;
+        right: 0;
+        padding: 4px 12px;
+        font-size: 12px;
+        letter-spacing: 0.05em;
+        font-family: inherit;
+        background-color: rgb(217, 217, 217);
+        color: #424242 !important;
+      }
+      .codeblock-container[data-danger-content]::after {
+        color: rgb(132, 5, 5) !important;
+        content: attr(data-danger-content);
+      }
+      .codeblock-container{
+        position: relative;
+        width: 100%;
+        font-family: sans-serif;
+      }
+      .code-container{
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #ddd;
+        clear: left;
+      }
+      
+      #slot-panel::-webkit-scrollbar-track {
+        border-radius: 10px;
+        background-color: transparent;
+        width: 0px !important;
+      }
+
+      #slot-panel::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        background-color: #999;
+        width: 5px ; 
+      }
+      #slot-panel::-webkit-scrollbar {
+        width: 5px; 
+      }
+      #slot-panel::-webkit-scrollbar-thumb:hover {
+        cursor: pointer;
+      }
+      .editor-buttons-div,
+      .w-56 {
+        min-width: 46px;
+      }
+        .editor-buttons-div{
+            display: flex;
+            margin-left: auto;
+            height: 40px;
+            position: sticky; 
+            position: -webkit-sticky;
+            top: 60px;
+            z-index: 4;
+            width: fit-content;
+            justify-content: flex-end;
+            align-items: start;
+        }
+      .gfg-code{
+        padding: 0;
+        width: 100%;
+        display: block;
+      }
+      .editor-buttons{
+        display:flex;
+        width: fit-content;
+        gap: 8px;
+        margin-top: 8px;
+        padding-right: 11px;
+        position: relative;
+        margin-bottom: 4px;
+      }
+      .editor-buttons.output-box {
+        margin-top: 0px;
+      }
+      .editor-buttons.output-box button {
+        margin-bottom: 0 !important;
+      }
+        .output-box {
+            margin-left: 8px;
+        }
+      .code-button{
+        background: white;
+        margin-bottom: 10px;
+        border: 2px;
+        background: #e5e5e5;
+        border-radius: 50px;
+        width: 28px !important;
+        height: 28px !important;
+        cursor: pointer;
+        padding: 6px;
+      }
+        #expand-code-button{
+            margin-bottom: 0px;
+        }
+        #expand-driver-code {
+            transform: rotate(90deg);
+            transform-origin: center;
+        }
+      .code-output{
+        background: #efefef;
+        border-radius: 8px;
+        width: 100%;
+        margin: 10px 2px 5px 2px;
+      }
+      .close-output-button{
+        margin-bottom: 10px;
+      }
+      .code-output-content{
+        padding: 8px 16px;
+        margin: 0;
+        position: sticky;
+        position: -webkit-sticky;
+        margin-top: 10px;
+      }
+      .code-box {
+        display: flex;
+        flex-direction: column;
+        position: relative !important;
+      }
+      .code-output-box {
+        display: flex;
+        align-items: center;
+      }
+     .compiled-message-box {
+        background-color: #308d46;
+        border-radius: 6px;
+        color: white;
+        width: fit-content;
+        margin: 10px auto;
+        text-align: center;
+        flex-basis: 100%;
+        display: none;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: 700;
+        padding-inline: 10px;
+    }
+    .compiled-message-box p {
+        margin-block: 5px;
+    }
+    .compiled-message-box-active {
+        display: flex;
+    }
+    .compiled-mess-content {
+        font-size: 10px;
+        padding-left: 5px;
+    }
+      .generated-output{
+        font-size: 15px;
+        white-space: pre-wrap;
+      }
+      .row-output{
+        color: black;
+        font-size: 16px;
+        padding : 10px;
+      }
+      .border {
+        width: 28px !important;
+        height: 28px !important;
+        position: absolute;
+        background: transparent;
+        border-radius: 50%;
+        border: 2px dashed #000;
+        margin-left: -8px;
+        margin-top: -7px;
+        animation-name: rotate;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+      }
+      .codeblock-container[data-mode=dark] .border {
+        border-color: white !important;
+      }
+      #icon-tabler-copy{
+        margin-bottom: -4px;
+        cursor: pointer;
+      }
+      .gfg-icon{
+        margin-left: auto;
+        margin-right: auto;
+        display: block !important;
+      }
+      
+        @keyframes rotate {
+            from{ transform: rotate(-360deg); }
+            to{ transform: rotate(360deg); }
+        }
+        #code-output-element #jsFrame {
+            background-color: transparent;
+            border: unset;
+            width: 100%;
+        }
+        .loading-container.active {
+            width: 150px; 
+            height: 50px; 
+            background-color: lightgrey; 
+            opacity: 70%;
+            color: black; 
+            position: absolute; 
+            display: flex !important;
+            justify-content: center;
+            align-items: center;
+            top: 30%;
+            left: 40%;
+            z-index: 1;
+            white-space: nowrap !important;
+            text-align: center; 
+            font-size: 13px; 
+            border-radius: 8px; 
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            margin: 2rem;
+        }
+        .loading-container {
+            display: none;
+        }
+        .playground-loading {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+        }
+        
+    @media screen and (max-width: 700px) {
+        .editor-buttons-div {
+            position: sticky; 
+            top: 10px;  
+            z-index: 4;
+            width: fit-content;
+            margin-left: auto;
+            height: 38px;
+            padding-right: 5px;
+        }
+
+        .editor-buttons {
+            display: flex;
+            width: fit-content;
+            flex-direction: row;
+            gap: 8px;
+        }
+        .code-box {
+            position: relative;
+            flex-direction: column;
+        }
+        .code-button {
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        .compiled-message-box svg {
+            display: none;
+        }
+    }
+
+    @media screen and (max-width: 375px) {
+        .compiled-message-box {
+            margin-inline: 5px;
+        }
+    }
+    </style>
+
+    <div class="codeblock-container" data-mode="light">
+        <slot name="tab"></slot>
+        <div class="code-container">
+            <div class="code-box">    
+                <div id="editor-buttons-div" class="editor-buttons-div" style="top: 40px;">
+                    <div id="editor-buttons" class="editor-buttons">
+                        <button id="expand-driver-code" class="expand-driver-code code-button" title="Expand all Diver Codes" style="display: none;"><svg id="expand-icon" width="17" height="17" viewBox="1 5 47 6" stroke-width="1" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
+            <path d="M44.4507 7.91963C44.7062 8.18159 44.8496 8.53199 44.8496 8.89419C44.8496 9.25639 44.7062 9.60088 44.4507 9.8523L38.9862 15.2053C38.8593 15.3296 38.7087 15.4272 38.5429 15.4924C38.3771 15.5577 38.1995 15.5894 38.02 15.5857C37.6577 15.5782 37.3101 15.427 37.0539 15.1655C36.7977 14.9039 36.6537 14.5533 36.6537 14.1909C36.6537 13.8284 36.7977 13.4838 37.0539 13.2328L40.1862 10.1645L30.3697 9.96203C30.0073 9.95456 29.6599 9.80343 29.4037 9.54189C29.1475 9.28035 29.0035 8.92983 29.0035 8.56743C29.0035 8.20503 29.1475 7.86044 29.4037 7.60947C29.6599 7.3585 30.0073 7.22171 30.3697 7.22918L40.1862 7.4316L37.0539 4.23407C36.927 4.10455 36.8264 3.95182 36.7577 3.7846C36.6891 3.61738 36.6537 3.43894 36.6537 3.25948C36.6537 3.08001 36.6891 2.90304 36.7577 2.73865C36.8264 2.57426 36.927 2.42568 37.0539 2.30139C37.1808 2.17711 37.3314 2.07955 37.4972 2.01429C37.6629 1.94903 37.8406 1.91735 38.02 1.92105C38.1995 1.92475 38.3771 1.96376 38.5429 2.03586C38.7087 2.10795 38.8593 2.21172 38.9862 2.34124L44.4507 7.91963Z" fill="black"></path>
+            <rect x="24.5859" y="16.8309" width="3.31306" height="16.5653" rx="1.65653" transform="rotate(-180 24.5859 16.8309)" fill="black"></rect>
+            <path d="M0.884258 7.91957C0.62878 8.18152 0.485352 8.53193 0.485352 8.89413C0.485352 9.25632 0.62878 9.60082 0.884258 9.85224L6.3488 15.2053C6.47567 15.3295 6.6263 15.4271 6.79207 15.4924C6.95783 15.5576 7.1355 15.5893 7.31493 15.5856C7.6773 15.5781 8.02483 15.427 8.28106 15.1654C8.5373 14.9038 8.68125 14.5533 8.68125 14.1908C8.68125 13.8284 8.5373 13.4837 8.28106 13.2327L5.14879 10.1644L14.9653 9.96197C15.3276 9.9545 15.6751 9.80337 15.9313 9.54183C16.1875 9.28029 16.3314 8.92977 16.3314 8.56737C16.3314 8.20497 16.1875 7.86038 15.9313 7.60941C15.6751 7.35844 15.3276 7.22164 14.9653 7.22912L5.14879 7.43154L8.28106 4.23401C8.40794 4.10449 8.50858 3.95176 8.57724 3.78454C8.64591 3.61732 8.68125 3.43888 8.68125 3.25942C8.68125 3.07995 8.64591 2.90298 8.57724 2.73859C8.50858 2.5742 8.40794 2.42562 8.28106 2.30133C8.15419 2.17705 8.00357 2.07949 7.8378 2.01423C7.67203 1.94897 7.49436 1.91729 7.31493 1.92099C7.1355 1.92469 6.95783 1.9637 6.79207 2.03579C6.6263 2.10789 6.47567 2.21166 6.3488 2.34118L0.884258 7.91957Z" fill="black"></path>
+        </svg></button>
+                        <button class="code-button" id="edit-close-button" title="Close Editor" buttontype="edit"><svg xmlns="http://www.w3.org/2000/svg" id="edit-close-icon" class="gfg-icon" width="17" height="17" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+        <path d="M18 6l-12 12"></path>
+        <path d="M6 6l12 12"></path>
+    </svg></button>
+                        <button class="code-button" id="run-code-button" title="Run Code and See Output">
+                            <div class="border" id="run-code-loader" hidden=""></div>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="gfg-icon" width="17" height="17" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M7 4v16l13 -8z"></path>
+                            </svg>
+                        </button>
+                        <button class="code-button" id="copy-code-button" title="Copy Code"> <svg xmlns="http://www.w3.org/2000/svg" class="gfg-icon" width="17" height="17" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M8 8m0 2a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2z"></path>
+                                <path d="M16 8v-2a2 2 0 0 0 -2 -2h-8a2 2 0 0 0 -2 2v8a2 2 0 0 0 2 2h2"></path>
+                        </svg></button>
+                        <button class="code-button" id="mode-button" title="Dark Mode" hidden="true" mode="light"><svg xmlns="http://www.w3.org/2000/svg" class="gfg-icon" width="20" height="20" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+        <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z"></path>
+    </svg> </button>
+                        
+                    </div>
+                </div>
+                <div id="slot-panel" class="gfg-code" style="width: calc(100% + 0px); margin-top: -35px;">
+                     <div id="playground-loader" class="loading-container">
+                        <span class="playground-loading">Loading Playground...</span>
+                    </div>
+                    <slot name="panel"></slot>
+                </div>
+            </div>
+            <div class="code-output-box" id="code-output-box">
+                <div class="editor-buttons w-56 output-box" title="Close Output">
+                    <button class="code-button" id="close-output-button" hidden="">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="gfg-icon" width="17" height="17" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                            <path d="M9 12h-3.586a1 1 0 0 1 -.707 -1.707l6.586 -6.586a1 1 0 0 1 1.414 0l6.586 6.586a1 1 0 0 1 -.707 1.707h-3.586v6h-6v-6z"></path>
+                            <path d="M9 21h6"></path>
+                        </svg>
+                    </button>
+                </div> 
+                <div class="code-output" id="code-output" hidden="">
+                    <div class="row-output">
+                        <pre class="generated-output" id="code-output-element"></pre>
+                    </div> 
+                </div>
+            </div>
+            </div>
+        </div>
+    
+    </template>
+            <gfg-tab slot="tab" hidden="" role="tab" id="gfg-tab-generated-13" aria-selected="true" tabindex="0" aria-controls="gfg-panel-generated-13" selected="">Python</gfg-tab>
+<gfg-panel slot="panel" data-code-lang="python3" data-main-code-start="None" data-main-code-end="None" role="tabpanel" id="gfg-panel-generated-13" aria-labelledby="gfg-tab-generated-13">
+    <code class="language-python3"><div class="highlight"><pre hidden=""><span></span><span class="k">class</span> <span class="nc">Animal</span><span class="p">:</span>
+    <span class="k">def</span> <span class="nf">speak</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">raise</span> <span class="ne">NotImplementedError</span><span class="p">(</span><span class="s2">"Subclasses must implement this method"</span><span class="p">)</span>
+
+<span class="k">class</span> <span class="nc">Dog</span><span class="p">(</span><span class="n">Animal</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">speak</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">"Woof!"</span><span class="p">)</span>
+
+<span class="k">class</span> <span class="nc">Cat</span><span class="p">(</span><span class="n">Animal</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">speak</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">"Meow!"</span><span class="p">)</span>
+
+<span class="k">class</span> <span class="nc">Parrot</span><span class="p">(</span><span class="n">Animal</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">speak</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">"Squawk!"</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">describe_pet</span><span class="p">(</span><span class="n">animal</span><span class="p">):</span>
+    <span class="n">animal</span><span class="o">.</span><span class="n">speak</span><span class="p">()</span>
+
+<span class="c1"># Example usage:</span>
+<span class="n">dog</span> <span class="o">=</span> <span class="n">Dog</span><span class="p">()</span>
+<span class="n">cat</span> <span class="o">=</span> <span class="n">Cat</span><span class="p">()</span>
+<span class="n">parrot</span> <span class="o">=</span> <span class="n">Parrot</span><span class="p">()</span>
+
+<span class="n">describe_pet</span><span class="p">(</span><span class="n">dog</span><span class="p">)</span>
+<span class="n">describe_pet</span><span class="p">(</span><span class="n">cat</span><span class="p">)</span>
+<span class="n">describe_pet</span><span class="p">(</span><span class="n">parrot</span><span class="p">)</span>
+</pre></div></code>
+<div class="CodeMirror cm-s-default"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 4px; left: 15px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-vscrollbar" tabindex="-1" cm-not-content="true" style="bottom: 0px;"><div style="min-width: 1px; height: 0px;"></div></div><div class="CodeMirror-hscrollbar" tabindex="-1" cm-not-content="true"><div style="height: 100%; min-height: 1px; width: 0px;"></div></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; margin-bottom: -15px; border-right-width: 15px; min-height: 635px; min-width: 681px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-cursors"><div class="CodeMirror-cursor" style="left: 15px; top: 0px; height: 23.2188px;">&nbsp;</div></div><div class="CodeMirror-code" role="presentation" style=""><div class="CodeMirror-activeline" style="position: relative;"><div class="CodeMirror-activeline-background CodeMirror-linebackground"></div><div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" style="left: 0px; width: 0px;"></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-keyword">class</span> <span class="cm-def">Animal</span>:</span></pre></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">    <span class="cm-keyword">def</span> <span class="cm-def">speak</span>(<span class="cm-variable-2">self</span>):</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-keyword">raise</span> <span class="cm-variable">NotImplementedError</span>(<span class="cm-string">"Subclasses must implement this method"</span>)</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-keyword">class</span> <span class="cm-def">Dog</span>(<span class="cm-variable">Animal</span>):</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">    <span class="cm-keyword">def</span> <span class="cm-def">speak</span>(<span class="cm-variable-2">self</span>):</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-builtin">print</span>(<span class="cm-string">"Woof!"</span>)</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-keyword">class</span> <span class="cm-def">Cat</span>(<span class="cm-variable">Animal</span>):</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">    <span class="cm-keyword">def</span> <span class="cm-def">speak</span>(<span class="cm-variable-2">self</span>):</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-builtin">print</span>(<span class="cm-string">"Meow!"</span>)</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-keyword">class</span> <span class="cm-def">Parrot</span>(<span class="cm-variable">Animal</span>):</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">    <span class="cm-keyword">def</span> <span class="cm-def">speak</span>(<span class="cm-variable-2">self</span>):</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-builtin">print</span>(<span class="cm-string">"Squawk!"</span>)</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-keyword">def</span> <span class="cm-def">describe_pet</span>(<span class="cm-variable">animal</span>):</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">    <span class="cm-variable">animal</span>.<span class="cm-property">speak</span>()</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-comment"># Example usage:</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">dog</span> <span class="cm-operator">=</span> <span class="cm-variable">Dog</span>()</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">cat</span> <span class="cm-operator">=</span> <span class="cm-variable">Cat</span>()</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">parrot</span> <span class="cm-operator">=</span> <span class="cm-variable">Parrot</span>()</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">describe_pet</span>(<span class="cm-variable">dog</span>)</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">describe_pet</span>(<span class="cm-variable">cat</span>)</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">describe_pet</span>(<span class="cm-variable">parrot</span>)</span></pre></div></div></div></div></div><div style="position: absolute; height: 15px; width: 1px; border-bottom: 0px solid transparent; top: 635px;"></div><div class="CodeMirror-gutters" style="display: none; height: 650px;"></div></div></div></gfg-panel></gfg-tabs><div class="code-output"><br><strong>Output</strong><pre>Woof!
+Meow!
+Squawk!
+</pre></div><h3 style="text-align:left"><span>Exercise 16: Encapsulation - Protecting Attributes: Implement a class Account with a private attribute balance and provide methods to deposit and withdraw safely, checking for sufficient funds.</span></h3><gfg-tabs allow-code-exec="true" data-run-ide="true" data-mode="light" role="tablist"><template shadowrootmode="open">
+    <style>
+      :host {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      ::slotted(gfg-panel) {
+        flex-basis: 100%;
+      }
+      .codeblock-container[data-content]::after,
+      .codeblock-container[data-danger-content]::after {
+        content: attr(data-content);
+        display: block;
+        position: absolute;
+        bottom: 0px;
+        right: 0;
+        padding: 4px 12px;
+        font-size: 12px;
+        letter-spacing: 0.05em;
+        font-family: inherit;
+        background-color: rgb(217, 217, 217);
+        color: #424242 !important;
+      }
+      .codeblock-container[data-danger-content]::after {
+        color: rgb(132, 5, 5) !important;
+        content: attr(data-danger-content);
+      }
+      .codeblock-container{
+        position: relative;
+        width: 100%;
+        font-family: sans-serif;
+      }
+      .code-container{
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #ddd;
+        clear: left;
+      }
+      
+      #slot-panel::-webkit-scrollbar-track {
+        border-radius: 10px;
+        background-color: transparent;
+        width: 0px !important;
+      }
+
+      #slot-panel::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        background-color: #999;
+        width: 5px ; 
+      }
+      #slot-panel::-webkit-scrollbar {
+        width: 5px; 
+      }
+      #slot-panel::-webkit-scrollbar-thumb:hover {
+        cursor: pointer;
+      }
+      .editor-buttons-div,
+      .w-56 {
+        min-width: 46px;
+      }
+        .editor-buttons-div{
+            display: flex;
+            margin-left: auto;
+            height: 40px;
+            position: sticky; 
+            position: -webkit-sticky;
+            top: 60px;
+            z-index: 4;
+            width: fit-content;
+            justify-content: flex-end;
+            align-items: start;
+        }
+      .gfg-code{
+        padding: 0;
+        width: 100%;
+        display: block;
+      }
+      .editor-buttons{
+        display:flex;
+        width: fit-content;
+        gap: 8px;
+        margin-top: 8px;
+        padding-right: 11px;
+        position: relative;
+        margin-bottom: 4px;
+      }
+      .editor-buttons.output-box {
+        margin-top: 0px;
+      }
+      .editor-buttons.output-box button {
+        margin-bottom: 0 !important;
+      }
+        .output-box {
+            margin-left: 8px;
+        }
+      .code-button{
+        background: white;
+        margin-bottom: 10px;
+        border: 2px;
+        background: #e5e5e5;
+        border-radius: 50px;
+        width: 28px !important;
+        height: 28px !important;
+        cursor: pointer;
+        padding: 6px;
+      }
+        #expand-code-button{
+            margin-bottom: 0px;
+        }
+        #expand-driver-code {
+            transform: rotate(90deg);
+            transform-origin: center;
+        }
+      .code-output{
+        background: #efefef;
+        border-radius: 8px;
+        width: 100%;
+        margin: 10px 2px 5px 2px;
+      }
+      .close-output-button{
+        margin-bottom: 10px;
+      }
+      .code-output-content{
+        padding: 8px 16px;
+        margin: 0;
+        position: sticky;
+        position: -webkit-sticky;
+        margin-top: 10px;
+      }
+      .code-box {
+        display: flex;
+        flex-direction: column;
+        position: relative !important;
+      }
+      .code-output-box {
+        display: flex;
+        align-items: center;
+      }
+     .compiled-message-box {
+        background-color: #308d46;
+        border-radius: 6px;
+        color: white;
+        width: fit-content;
+        margin: 10px auto;
+        text-align: center;
+        flex-basis: 100%;
+        display: none;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: 700;
+        padding-inline: 10px;
+    }
+    .compiled-message-box p {
+        margin-block: 5px;
+    }
+    .compiled-message-box-active {
+        display: flex;
+    }
+    .compiled-mess-content {
+        font-size: 10px;
+        padding-left: 5px;
+    }
+      .generated-output{
+        font-size: 15px;
+        white-space: pre-wrap;
+      }
+      .row-output{
+        color: black;
+        font-size: 16px;
+        padding : 10px;
+      }
+      .border {
+        width: 28px !important;
+        height: 28px !important;
+        position: absolute;
+        background: transparent;
+        border-radius: 50%;
+        border: 2px dashed #000;
+        margin-left: -8px;
+        margin-top: -7px;
+        animation-name: rotate;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+      }
+      .codeblock-container[data-mode=dark] .border {
+        border-color: white !important;
+      }
+      #icon-tabler-copy{
+        margin-bottom: -4px;
+        cursor: pointer;
+      }
+      .gfg-icon{
+        margin-left: auto;
+        margin-right: auto;
+        display: block !important;
+      }
+      
+        @keyframes rotate {
+            from{ transform: rotate(-360deg); }
+            to{ transform: rotate(360deg); }
+        }
+        #code-output-element #jsFrame {
+            background-color: transparent;
+            border: unset;
+            width: 100%;
+        }
+        .loading-container.active {
+            width: 150px; 
+            height: 50px; 
+            background-color: lightgrey; 
+            opacity: 70%;
+            color: black; 
+            position: absolute; 
+            display: flex !important;
+            justify-content: center;
+            align-items: center;
+            top: 30%;
+            left: 40%;
+            z-index: 1;
+            white-space: nowrap !important;
+            text-align: center; 
+            font-size: 13px; 
+            border-radius: 8px; 
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            margin: 2rem;
+        }
+        .loading-container {
+            display: none;
+        }
+        .playground-loading {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+        }
+        
+    @media screen and (max-width: 700px) {
+        .editor-buttons-div {
+            position: sticky; 
+            top: 10px;  
+            z-index: 4;
+            width: fit-content;
+            margin-left: auto;
+            height: 38px;
+            padding-right: 5px;
+        }
+
+        .editor-buttons {
+            display: flex;
+            width: fit-content;
+            flex-direction: row;
+            gap: 8px;
+        }
+        .code-box {
+            position: relative;
+            flex-direction: column;
+        }
+        .code-button {
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        .compiled-message-box svg {
+            display: none;
+        }
+    }
+
+    @media screen and (max-width: 375px) {
+        .compiled-message-box {
+            margin-inline: 5px;
+        }
+    }
+    </style>
+
+    <div class="codeblock-container" data-mode="light">
+        <slot name="tab"></slot>
+        <div class="code-container">
+            <div class="code-box">    
+                <div id="editor-buttons-div" class="editor-buttons-div" style="top: 40px;">
+                    <div id="editor-buttons" class="editor-buttons">
+                        <button id="expand-driver-code" class="expand-driver-code code-button" title="Expand all Diver Codes" style="display: none;"><svg id="expand-icon" width="17" height="17" viewBox="1 5 47 6" stroke-width="1" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
+            <path d="M44.4507 7.91963C44.7062 8.18159 44.8496 8.53199 44.8496 8.89419C44.8496 9.25639 44.7062 9.60088 44.4507 9.8523L38.9862 15.2053C38.8593 15.3296 38.7087 15.4272 38.5429 15.4924C38.3771 15.5577 38.1995 15.5894 38.02 15.5857C37.6577 15.5782 37.3101 15.427 37.0539 15.1655C36.7977 14.9039 36.6537 14.5533 36.6537 14.1909C36.6537 13.8284 36.7977 13.4838 37.0539 13.2328L40.1862 10.1645L30.3697 9.96203C30.0073 9.95456 29.6599 9.80343 29.4037 9.54189C29.1475 9.28035 29.0035 8.92983 29.0035 8.56743C29.0035 8.20503 29.1475 7.86044 29.4037 7.60947C29.6599 7.3585 30.0073 7.22171 30.3697 7.22918L40.1862 7.4316L37.0539 4.23407C36.927 4.10455 36.8264 3.95182 36.7577 3.7846C36.6891 3.61738 36.6537 3.43894 36.6537 3.25948C36.6537 3.08001 36.6891 2.90304 36.7577 2.73865C36.8264 2.57426 36.927 2.42568 37.0539 2.30139C37.1808 2.17711 37.3314 2.07955 37.4972 2.01429C37.6629 1.94903 37.8406 1.91735 38.02 1.92105C38.1995 1.92475 38.3771 1.96376 38.5429 2.03586C38.7087 2.10795 38.8593 2.21172 38.9862 2.34124L44.4507 7.91963Z" fill="black"></path>
+            <rect x="24.5859" y="16.8309" width="3.31306" height="16.5653" rx="1.65653" transform="rotate(-180 24.5859 16.8309)" fill="black"></rect>
+            <path d="M0.884258 7.91957C0.62878 8.18152 0.485352 8.53193 0.485352 8.89413C0.485352 9.25632 0.62878 9.60082 0.884258 9.85224L6.3488 15.2053C6.47567 15.3295 6.6263 15.4271 6.79207 15.4924C6.95783 15.5576 7.1355 15.5893 7.31493 15.5856C7.6773 15.5781 8.02483 15.427 8.28106 15.1654C8.5373 14.9038 8.68125 14.5533 8.68125 14.1908C8.68125 13.8284 8.5373 13.4837 8.28106 13.2327L5.14879 10.1644L14.9653 9.96197C15.3276 9.9545 15.6751 9.80337 15.9313 9.54183C16.1875 9.28029 16.3314 8.92977 16.3314 8.56737C16.3314 8.20497 16.1875 7.86038 15.9313 7.60941C15.6751 7.35844 15.3276 7.22164 14.9653 7.22912L5.14879 7.43154L8.28106 4.23401C8.40794 4.10449 8.50858 3.95176 8.57724 3.78454C8.64591 3.61732 8.68125 3.43888 8.68125 3.25942C8.68125 3.07995 8.64591 2.90298 8.57724 2.73859C8.50858 2.5742 8.40794 2.42562 8.28106 2.30133C8.15419 2.17705 8.00357 2.07949 7.8378 2.01423C7.67203 1.94897 7.49436 1.91729 7.31493 1.92099C7.1355 1.92469 6.95783 1.9637 6.79207 2.03579C6.6263 2.10789 6.47567 2.21166 6.3488 2.34118L0.884258 7.91957Z" fill="black"></path>
+        </svg></button>
+                        <button class="code-button" id="edit-close-button" title="Close Editor" buttontype="edit"><svg xmlns="http://www.w3.org/2000/svg" id="edit-close-icon" class="gfg-icon" width="17" height="17" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+        <path d="M18 6l-12 12"></path>
+        <path d="M6 6l12 12"></path>
+    </svg></button>
+                        <button class="code-button" id="run-code-button" title="Run Code and See Output">
+                            <div class="border" id="run-code-loader" hidden=""></div>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="gfg-icon" width="17" height="17" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M7 4v16l13 -8z"></path>
+                            </svg>
+                        </button>
+                        <button class="code-button" id="copy-code-button" title="Copy Code"> <svg xmlns="http://www.w3.org/2000/svg" class="gfg-icon" width="17" height="17" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M8 8m0 2a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2z"></path>
+                                <path d="M16 8v-2a2 2 0 0 0 -2 -2h-8a2 2 0 0 0 -2 2v8a2 2 0 0 0 2 2h2"></path>
+                        </svg></button>
+                        <button class="code-button" id="mode-button" title="Dark Mode" hidden="true" mode="light"><svg xmlns="http://www.w3.org/2000/svg" class="gfg-icon" width="20" height="20" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+        <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z"></path>
+    </svg> </button>
+                        
+                    </div>
+                </div>
+                <div id="slot-panel" class="gfg-code" style="width: calc(100% + 0px); margin-top: -35px;">
+                     <div id="playground-loader" class="loading-container">
+                        <span class="playground-loading">Loading Playground...</span>
+                    </div>
+                    <slot name="panel"></slot>
+                </div>
+            </div>
+            <div class="code-output-box" id="code-output-box">
+                <div class="editor-buttons w-56 output-box" title="Close Output">
+                    <button class="code-button" id="close-output-button" hidden="">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="gfg-icon" width="17" height="17" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                            <path d="M9 12h-3.586a1 1 0 0 1 -.707 -1.707l6.586 -6.586a1 1 0 0 1 1.414 0l6.586 6.586a1 1 0 0 1 -.707 1.707h-3.586v6h-6v-6z"></path>
+                            <path d="M9 21h6"></path>
+                        </svg>
+                    </button>
+                </div> 
+                <div class="code-output" id="code-output" hidden="">
+                    <div class="row-output">
+                        <pre class="generated-output" id="code-output-element"></pre>
+                    </div> 
+                </div>
+            </div>
+            </div>
+        </div>
+    
+    </template>
+            <gfg-tab slot="tab" hidden="" role="tab" id="gfg-tab-generated-14" aria-selected="true" tabindex="0" aria-controls="gfg-panel-generated-14" selected="">Python</gfg-tab>
+<gfg-panel slot="panel" data-code-lang="python3" data-main-code-start="None" data-main-code-end="None" role="tabpanel" id="gfg-panel-generated-14" aria-labelledby="gfg-tab-generated-14">
+    <code class="language-python3"><div class="highlight"><pre hidden=""><span></span><span class="k">class</span> <span class="nc">Account</span><span class="p">:</span>
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">balance</span><span class="o">=</span><span class="mi">0</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">__balance</span> <span class="o">=</span> <span class="n">balance</span>
+
+    <span class="k">def</span> <span class="nf">deposit</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">amount</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">__balance</span> <span class="o">+=</span> <span class="n">amount</span>
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Deposited: </span><span class="si">{</span><span class="n">amount</span><span class="si">}</span><span class="s2">, New Balance: </span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">__balance</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">withdraw</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">amount</span><span class="p">):</span>
+        <span class="k">if</span> <span class="n">amount</span> <span class="o">&gt;</span> <span class="bp">self</span><span class="o">.</span><span class="n">__balance</span><span class="p">:</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s2">"Insufficient funds"</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">__balance</span> <span class="o">-=</span> <span class="n">amount</span>
+            <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Withdrew: </span><span class="si">{</span><span class="n">amount</span><span class="si">}</span><span class="s2">, Remaining Balance: </span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">__balance</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+
+<span class="c1"># Example usage:</span>
+<span class="n">acc</span> <span class="o">=</span> <span class="n">Account</span><span class="p">(</span><span class="mi">100</span><span class="p">)</span>
+<span class="n">acc</span><span class="o">.</span><span class="n">deposit</span><span class="p">(</span><span class="mi">50</span><span class="p">)</span>
+<span class="n">acc</span><span class="o">.</span><span class="n">withdraw</span><span class="p">(</span><span class="mi">100</span><span class="p">)</span>
+<span class="n">acc</span><span class="o">.</span><span class="n">withdraw</span><span class="p">(</span><span class="mi">100</span><span class="p">)</span>
+</pre></div></code>
+<div class="CodeMirror cm-s-default"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 4px; left: 15px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-vscrollbar" tabindex="-1" cm-not-content="true" style="bottom: 0px;"><div style="min-width: 1px; height: 0px;"></div></div><div class="CodeMirror-hscrollbar" tabindex="-1" cm-not-content="true"><div style="height: 100%; min-height: 1px; width: 0px;"></div></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; margin-bottom: -15px; border-right-width: 15px; min-height: 492px; min-width: 179.328px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-cursors"><div class="CodeMirror-cursor" style="left: 15px; top: 0px; height: 23.2188px;">&nbsp;</div></div><div class="CodeMirror-code" role="presentation" style=""><div class="CodeMirror-activeline" style="position: relative;"><div class="CodeMirror-activeline-background CodeMirror-linebackground"></div><div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" style="left: 0px; width: 0px;"></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-keyword">class</span> <span class="cm-def">Account</span>:</span></pre></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">    <span class="cm-keyword">def</span> <span class="cm-def">__init__</span>(<span class="cm-variable-2">self</span>, <span class="cm-variable">balance</span><span class="cm-operator">=</span><span class="cm-number">0</span>):</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-variable-2">self</span>.<span class="cm-property">__balance</span> <span class="cm-operator">=</span> <span class="cm-variable">balance</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">    <span class="cm-keyword">def</span> <span class="cm-def">deposit</span>(<span class="cm-variable-2">self</span>, <span class="cm-variable">amount</span>):</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-variable-2">self</span>.<span class="cm-property">__balance</span> <span class="cm-operator">+=</span> <span class="cm-variable">amount</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-builtin">print</span>(<span class="cm-string">f"Deposited: </span>{<span class="cm-variable">amount</span>}<span class="cm-string">, New Balance: </span>{<span class="cm-variable-2">self</span>.<span class="cm-property">__balance</span>}<span class="cm-string">"</span>)</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">    <span class="cm-keyword">def</span> <span class="cm-def">withdraw</span>(<span class="cm-variable-2">self</span>, <span class="cm-variable">amount</span>):</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-keyword">if</span> <span class="cm-variable">amount</span> <span class="cm-operator">&gt;</span> <span class="cm-variable-2">self</span>.<span class="cm-property">__balance</span>:</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">            <span class="cm-builtin">print</span>(<span class="cm-string">"Insufficient funds"</span>)</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-keyword">else</span>:</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">            <span class="cm-variable-2">self</span>.<span class="cm-property">__balance</span> <span class="cm-operator">-=</span> <span class="cm-variable">amount</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">            <span class="cm-builtin">print</span>(<span class="cm-string">f"Withdrew: </span>{<span class="cm-variable">amount</span>}<span class="cm-string">, Remaining Balance: </span>{<span class="cm-variable-2">self</span>.<span class="cm-property">__balance</span>}<span class="cm-string">"</span>)</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-comment"># Example usage:</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">acc</span> <span class="cm-operator">=</span> <span class="cm-variable">Account</span>(<span class="cm-number">100</span>)</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">acc</span>.<span class="cm-property">deposit</span>(<span class="cm-number">50</span>)</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">acc</span>.<span class="cm-property">withdraw</span>(<span class="cm-number">100</span>)</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">acc</span>.<span class="cm-property">withdraw</span>(<span class="cm-number">100</span>)</span></pre></div></div></div></div></div><div style="position: absolute; height: 15px; width: 1px; border-bottom: 0px solid transparent; top: 492px;"></div><div class="CodeMirror-gutters" style="display: none; height: 507px;"></div></div></div></gfg-panel></gfg-tabs><div class="code-output"><br><strong>Output</strong><pre>Deposited: 50, New Balance: 150
+Withdrew: 100, Remaining Balance: 50
+Insufficient funds
+</pre></div><h3 style="text-align:left"><span>Exercise 17: Abstract Classes - Polygon Calculator: Define an abstract base class Polygon with an abstract method area. Implement this in derived classes Rectangle and Triangle.</span></h3><gfg-tabs allow-code-exec="true" data-run-ide="true" data-mode="light" role="tablist"><template shadowrootmode="open">
+    <style>
+      :host {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      ::slotted(gfg-panel) {
+        flex-basis: 100%;
+      }
+      .codeblock-container[data-content]::after,
+      .codeblock-container[data-danger-content]::after {
+        content: attr(data-content);
+        display: block;
+        position: absolute;
+        bottom: 0px;
+        right: 0;
+        padding: 4px 12px;
+        font-size: 12px;
+        letter-spacing: 0.05em;
+        font-family: inherit;
+        background-color: rgb(217, 217, 217);
+        color: #424242 !important;
+      }
+      .codeblock-container[data-danger-content]::after {
+        color: rgb(132, 5, 5) !important;
+        content: attr(data-danger-content);
+      }
+      .codeblock-container{
+        position: relative;
+        width: 100%;
+        font-family: sans-serif;
+      }
+      .code-container{
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #ddd;
+        clear: left;
+      }
+      
+      #slot-panel::-webkit-scrollbar-track {
+        border-radius: 10px;
+        background-color: transparent;
+        width: 0px !important;
+      }
+
+      #slot-panel::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        background-color: #999;
+        width: 5px ; 
+      }
+      #slot-panel::-webkit-scrollbar {
+        width: 5px; 
+      }
+      #slot-panel::-webkit-scrollbar-thumb:hover {
+        cursor: pointer;
+      }
+      .editor-buttons-div,
+      .w-56 {
+        min-width: 46px;
+      }
+        .editor-buttons-div{
+            display: flex;
+            margin-left: auto;
+            height: 40px;
+            position: sticky; 
+            position: -webkit-sticky;
+            top: 60px;
+            z-index: 4;
+            width: fit-content;
+            justify-content: flex-end;
+            align-items: start;
+        }
+      .gfg-code{
+        padding: 0;
+        width: 100%;
+        display: block;
+      }
+      .editor-buttons{
+        display:flex;
+        width: fit-content;
+        gap: 8px;
+        margin-top: 8px;
+        padding-right: 11px;
+        position: relative;
+        margin-bottom: 4px;
+      }
+      .editor-buttons.output-box {
+        margin-top: 0px;
+      }
+      .editor-buttons.output-box button {
+        margin-bottom: 0 !important;
+      }
+        .output-box {
+            margin-left: 8px;
+        }
+      .code-button{
+        background: white;
+        margin-bottom: 10px;
+        border: 2px;
+        background: #e5e5e5;
+        border-radius: 50px;
+        width: 28px !important;
+        height: 28px !important;
+        cursor: pointer;
+        padding: 6px;
+      }
+        #expand-code-button{
+            margin-bottom: 0px;
+        }
+        #expand-driver-code {
+            transform: rotate(90deg);
+            transform-origin: center;
+        }
+      .code-output{
+        background: #efefef;
+        border-radius: 8px;
+        width: 100%;
+        margin: 10px 2px 5px 2px;
+      }
+      .close-output-button{
+        margin-bottom: 10px;
+      }
+      .code-output-content{
+        padding: 8px 16px;
+        margin: 0;
+        position: sticky;
+        position: -webkit-sticky;
+        margin-top: 10px;
+      }
+      .code-box {
+        display: flex;
+        flex-direction: column;
+        position: relative !important;
+      }
+      .code-output-box {
+        display: flex;
+        align-items: center;
+      }
+     .compiled-message-box {
+        background-color: #308d46;
+        border-radius: 6px;
+        color: white;
+        width: fit-content;
+        margin: 10px auto;
+        text-align: center;
+        flex-basis: 100%;
+        display: none;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: 700;
+        padding-inline: 10px;
+    }
+    .compiled-message-box p {
+        margin-block: 5px;
+    }
+    .compiled-message-box-active {
+        display: flex;
+    }
+    .compiled-mess-content {
+        font-size: 10px;
+        padding-left: 5px;
+    }
+      .generated-output{
+        font-size: 15px;
+        white-space: pre-wrap;
+      }
+      .row-output{
+        color: black;
+        font-size: 16px;
+        padding : 10px;
+      }
+      .border {
+        width: 28px !important;
+        height: 28px !important;
+        position: absolute;
+        background: transparent;
+        border-radius: 50%;
+        border: 2px dashed #000;
+        margin-left: -8px;
+        margin-top: -7px;
+        animation-name: rotate;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+      }
+      .codeblock-container[data-mode=dark] .border {
+        border-color: white !important;
+      }
+      #icon-tabler-copy{
+        margin-bottom: -4px;
+        cursor: pointer;
+      }
+      .gfg-icon{
+        margin-left: auto;
+        margin-right: auto;
+        display: block !important;
+      }
+      
+        @keyframes rotate {
+            from{ transform: rotate(-360deg); }
+            to{ transform: rotate(360deg); }
+        }
+        #code-output-element #jsFrame {
+            background-color: transparent;
+            border: unset;
+            width: 100%;
+        }
+        .loading-container.active {
+            width: 150px; 
+            height: 50px; 
+            background-color: lightgrey; 
+            opacity: 70%;
+            color: black; 
+            position: absolute; 
+            display: flex !important;
+            justify-content: center;
+            align-items: center;
+            top: 30%;
+            left: 40%;
+            z-index: 1;
+            white-space: nowrap !important;
+            text-align: center; 
+            font-size: 13px; 
+            border-radius: 8px; 
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            margin: 2rem;
+        }
+        .loading-container {
+            display: none;
+        }
+        .playground-loading {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+        }
+        
+    @media screen and (max-width: 700px) {
+        .editor-buttons-div {
+            position: sticky; 
+            top: 10px;  
+            z-index: 4;
+            width: fit-content;
+            margin-left: auto;
+            height: 38px;
+            padding-right: 5px;
+        }
+
+        .editor-buttons {
+            display: flex;
+            width: fit-content;
+            flex-direction: row;
+            gap: 8px;
+        }
+        .code-box {
+            position: relative;
+            flex-direction: column;
+        }
+        .code-button {
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        .compiled-message-box svg {
+            display: none;
+        }
+    }
+
+    @media screen and (max-width: 375px) {
+        .compiled-message-box {
+            margin-inline: 5px;
+        }
+    }
+    </style>
+
+    <div class="codeblock-container" data-mode="light">
+        <slot name="tab"></slot>
+        <div class="code-container">
+            <div class="code-box">    
+                <div id="editor-buttons-div" class="editor-buttons-div" style="top: 40px;">
+                    <div id="editor-buttons" class="editor-buttons">
+                        <button id="expand-driver-code" class="expand-driver-code code-button" title="Expand all Diver Codes" style="display: none;"><svg id="expand-icon" width="17" height="17" viewBox="1 5 47 6" stroke-width="1" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
+            <path d="M44.4507 7.91963C44.7062 8.18159 44.8496 8.53199 44.8496 8.89419C44.8496 9.25639 44.7062 9.60088 44.4507 9.8523L38.9862 15.2053C38.8593 15.3296 38.7087 15.4272 38.5429 15.4924C38.3771 15.5577 38.1995 15.5894 38.02 15.5857C37.6577 15.5782 37.3101 15.427 37.0539 15.1655C36.7977 14.9039 36.6537 14.5533 36.6537 14.1909C36.6537 13.8284 36.7977 13.4838 37.0539 13.2328L40.1862 10.1645L30.3697 9.96203C30.0073 9.95456 29.6599 9.80343 29.4037 9.54189C29.1475 9.28035 29.0035 8.92983 29.0035 8.56743C29.0035 8.20503 29.1475 7.86044 29.4037 7.60947C29.6599 7.3585 30.0073 7.22171 30.3697 7.22918L40.1862 7.4316L37.0539 4.23407C36.927 4.10455 36.8264 3.95182 36.7577 3.7846C36.6891 3.61738 36.6537 3.43894 36.6537 3.25948C36.6537 3.08001 36.6891 2.90304 36.7577 2.73865C36.8264 2.57426 36.927 2.42568 37.0539 2.30139C37.1808 2.17711 37.3314 2.07955 37.4972 2.01429C37.6629 1.94903 37.8406 1.91735 38.02 1.92105C38.1995 1.92475 38.3771 1.96376 38.5429 2.03586C38.7087 2.10795 38.8593 2.21172 38.9862 2.34124L44.4507 7.91963Z" fill="black"></path>
+            <rect x="24.5859" y="16.8309" width="3.31306" height="16.5653" rx="1.65653" transform="rotate(-180 24.5859 16.8309)" fill="black"></rect>
+            <path d="M0.884258 7.91957C0.62878 8.18152 0.485352 8.53193 0.485352 8.89413C0.485352 9.25632 0.62878 9.60082 0.884258 9.85224L6.3488 15.2053C6.47567 15.3295 6.6263 15.4271 6.79207 15.4924C6.95783 15.5576 7.1355 15.5893 7.31493 15.5856C7.6773 15.5781 8.02483 15.427 8.28106 15.1654C8.5373 14.9038 8.68125 14.5533 8.68125 14.1908C8.68125 13.8284 8.5373 13.4837 8.28106 13.2327L5.14879 10.1644L14.9653 9.96197C15.3276 9.9545 15.6751 9.80337 15.9313 9.54183C16.1875 9.28029 16.3314 8.92977 16.3314 8.56737C16.3314 8.20497 16.1875 7.86038 15.9313 7.60941C15.6751 7.35844 15.3276 7.22164 14.9653 7.22912L5.14879 7.43154L8.28106 4.23401C8.40794 4.10449 8.50858 3.95176 8.57724 3.78454C8.64591 3.61732 8.68125 3.43888 8.68125 3.25942C8.68125 3.07995 8.64591 2.90298 8.57724 2.73859C8.50858 2.5742 8.40794 2.42562 8.28106 2.30133C8.15419 2.17705 8.00357 2.07949 7.8378 2.01423C7.67203 1.94897 7.49436 1.91729 7.31493 1.92099C7.1355 1.92469 6.95783 1.9637 6.79207 2.03579C6.6263 2.10789 6.47567 2.21166 6.3488 2.34118L0.884258 7.91957Z" fill="black"></path>
+        </svg></button>
+                        <button class="code-button" id="edit-close-button" title="Close Editor" buttontype="edit"><svg xmlns="http://www.w3.org/2000/svg" id="edit-close-icon" class="gfg-icon" width="17" height="17" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+        <path d="M18 6l-12 12"></path>
+        <path d="M6 6l12 12"></path>
+    </svg></button>
+                        <button class="code-button" id="run-code-button" title="Run Code and See Output">
+                            <div class="border" id="run-code-loader" hidden=""></div>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="gfg-icon" width="17" height="17" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M7 4v16l13 -8z"></path>
+                            </svg>
+                        </button>
+                        <button class="code-button" id="copy-code-button" title="Copy Code"> <svg xmlns="http://www.w3.org/2000/svg" class="gfg-icon" width="17" height="17" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M8 8m0 2a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2z"></path>
+                                <path d="M16 8v-2a2 2 0 0 0 -2 -2h-8a2 2 0 0 0 -2 2v8a2 2 0 0 0 2 2h2"></path>
+                        </svg></button>
+                        <button class="code-button" id="mode-button" title="Dark Mode" hidden="true" mode="light"><svg xmlns="http://www.w3.org/2000/svg" class="gfg-icon" width="20" height="20" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+        <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z"></path>
+    </svg> </button>
+                        
+                    </div>
+                </div>
+                <div id="slot-panel" class="gfg-code" style="width: calc(100% + 0px); margin-top: -35px;">
+                     <div id="playground-loader" class="loading-container">
+                        <span class="playground-loading">Loading Playground...</span>
+                    </div>
+                    <slot name="panel"></slot>
+                </div>
+            </div>
+            <div class="code-output-box" id="code-output-box">
+                <div class="editor-buttons w-56 output-box" title="Close Output">
+                    <button class="code-button" id="close-output-button" hidden="">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="gfg-icon" width="17" height="17" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                            <path d="M9 12h-3.586a1 1 0 0 1 -.707 -1.707l6.586 -6.586a1 1 0 0 1 1.414 0l6.586 6.586a1 1 0 0 1 -.707 1.707h-3.586v6h-6v-6z"></path>
+                            <path d="M9 21h6"></path>
+                        </svg>
+                    </button>
+                </div> 
+                <div class="code-output" id="code-output" hidden="">
+                    <div class="row-output">
+                        <pre class="generated-output" id="code-output-element"></pre>
+                    </div> 
+                </div>
+            </div>
+            </div>
+        </div>
+    
+    </template>
+            <gfg-tab slot="tab" hidden="" role="tab" id="gfg-tab-generated-15" aria-selected="true" tabindex="0" aria-controls="gfg-panel-generated-15" selected="">Python</gfg-tab>
+<gfg-panel slot="panel" data-code-lang="python3" data-main-code-start="None" data-main-code-end="None" role="tabpanel" id="gfg-panel-generated-15" aria-labelledby="gfg-tab-generated-15">
+    <code class="language-python3"><div class="highlight"><pre hidden=""><span></span><span class="kn">from</span> <span class="nn">abc</span> <span class="kn">import</span> <span class="n">ABC</span><span class="p">,</span> <span class="n">abstractmethod</span>
+
+<span class="k">class</span> <span class="nc">Polygon</span><span class="p">(</span><span class="n">ABC</span><span class="p">):</span>
+    <span class="nd">@abstractmethod</span>
+    <span class="k">def</span> <span class="nf">area</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">pass</span>
+
+<span class="k">class</span> <span class="nc">Rectangle</span><span class="p">(</span><span class="n">Polygon</span><span class="p">):</span>
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">width</span><span class="p">,</span> <span class="n">height</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">width</span> <span class="o">=</span> <span class="n">width</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">height</span> <span class="o">=</span> <span class="n">height</span>
+
+    <span class="k">def</span> <span class="nf">area</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">width</span> <span class="o">*</span> <span class="bp">self</span><span class="o">.</span><span class="n">height</span>
+
+<span class="k">class</span> <span class="nc">Triangle</span><span class="p">(</span><span class="n">Polygon</span><span class="p">):</span>
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">base</span><span class="p">,</span> <span class="n">height</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">base</span> <span class="o">=</span> <span class="n">base</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">height</span> <span class="o">=</span> <span class="n">height</span>
+
+    <span class="k">def</span> <span class="nf">area</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="mf">0.5</span> <span class="o">*</span> <span class="bp">self</span><span class="o">.</span><span class="n">base</span> <span class="o">*</span> <span class="bp">self</span><span class="o">.</span><span class="n">height</span>
+
+<span class="c1"># Example usage:</span>
+<span class="n">rect</span> <span class="o">=</span> <span class="n">Rectangle</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">20</span><span class="p">)</span>
+<span class="n">tri</span> <span class="o">=</span> <span class="n">Triangle</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">10</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"Rectangle Area:"</span><span class="p">,</span> <span class="n">rect</span><span class="o">.</span><span class="n">area</span><span class="p">())</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"Triangle Area:"</span><span class="p">,</span> <span class="n">tri</span><span class="o">.</span><span class="n">area</span><span class="p">())</span>
+</pre></div></code>
+<div class="CodeMirror cm-s-default"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 4px; left: 15px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-vscrollbar" tabindex="-1" cm-not-content="true" style="bottom: 0px;"><div style="min-width: 1px; height: 0px;"></div></div><div class="CodeMirror-hscrollbar" tabindex="-1" cm-not-content="true"><div style="height: 100%; min-height: 1px; width: 0px;"></div></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; margin-bottom: -15px; border-right-width: 15px; min-height: 658px; min-width: 412.344px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-cursors"><div class="CodeMirror-cursor" style="left: 15px; top: 0px; height: 23.2188px;">&nbsp;</div></div><div class="CodeMirror-code" role="presentation" style=""><div class="CodeMirror-activeline" style="position: relative;"><div class="CodeMirror-activeline-background CodeMirror-linebackground"></div><div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" style="left: 0px; width: 0px;"></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-keyword">from</span> <span class="cm-variable">abc</span> <span class="cm-keyword">import</span> <span class="cm-variable">ABC</span>, <span class="cm-variable">abstractmethod</span></span></pre></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-keyword">class</span> <span class="cm-def">Polygon</span>(<span class="cm-variable">ABC</span>):</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">    <span class="cm-meta">@abstractmethod</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">    <span class="cm-keyword">def</span> <span class="cm-def">area</span>(<span class="cm-variable-2">self</span>):</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-keyword">pass</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-keyword">class</span> <span class="cm-def">Rectangle</span>(<span class="cm-variable">Polygon</span>):</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">    <span class="cm-keyword">def</span> <span class="cm-def">__init__</span>(<span class="cm-variable-2">self</span>, <span class="cm-variable">width</span>, <span class="cm-variable">height</span>):</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-variable-2">self</span>.<span class="cm-property">width</span> <span class="cm-operator">=</span> <span class="cm-variable">width</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-variable-2">self</span>.<span class="cm-property">height</span> <span class="cm-operator">=</span> <span class="cm-variable">height</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">    <span class="cm-keyword">def</span> <span class="cm-def">area</span>(<span class="cm-variable-2">self</span>):</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-keyword">return</span> <span class="cm-variable-2">self</span>.<span class="cm-property">width</span> <span class="cm-operator">*</span> <span class="cm-variable-2">self</span>.<span class="cm-property">height</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-keyword">class</span> <span class="cm-def">Triangle</span>(<span class="cm-variable">Polygon</span>):</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">    <span class="cm-keyword">def</span> <span class="cm-def">__init__</span>(<span class="cm-variable-2">self</span>, <span class="cm-variable">base</span>, <span class="cm-variable">height</span>):</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-variable-2">self</span>.<span class="cm-property">base</span> <span class="cm-operator">=</span> <span class="cm-variable">base</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-variable-2">self</span>.<span class="cm-property">height</span> <span class="cm-operator">=</span> <span class="cm-variable">height</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">    <span class="cm-keyword">def</span> <span class="cm-def">area</span>(<span class="cm-variable-2">self</span>):</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-keyword">return</span> <span class="cm-number">0.5</span> <span class="cm-operator">*</span> <span class="cm-variable-2">self</span>.<span class="cm-property">base</span> <span class="cm-operator">*</span> <span class="cm-variable-2">self</span>.<span class="cm-property">height</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-comment"># Example usage:</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">rect</span> <span class="cm-operator">=</span> <span class="cm-variable">Rectangle</span>(<span class="cm-number">10</span>, <span class="cm-number">20</span>)</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">tri</span> <span class="cm-operator">=</span> <span class="cm-variable">Triangle</span>(<span class="cm-number">10</span>, <span class="cm-number">10</span>)</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-builtin">print</span>(<span class="cm-string">"Rectangle Area:"</span>, <span class="cm-variable">rect</span>.<span class="cm-property">area</span>())</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-builtin">print</span>(<span class="cm-string">"Triangle Area:"</span>, <span class="cm-variable">tri</span>.<span class="cm-property">area</span>())</span></pre></div></div></div></div></div><div style="position: absolute; height: 15px; width: 1px; border-bottom: 0px solid transparent; top: 658px;"></div><div class="CodeMirror-gutters" style="display: none; height: 673px;"></div></div></div></gfg-panel></gfg-tabs><div class="code-output"><br><strong>Output</strong><pre>Rectangle Area: 200
+Triangle Area: 50.0
+</pre></div><h3 style="text-align:left"><span>Exercise 18: Multiple Inheritance - Battery and GPS Tracker: Create classes Battery and GPS with respective methods charge and location. Derive a SmartPhone class that inherits both functionalities.</span></h3><gfg-tabs allow-code-exec="true" data-run-ide="true" data-mode="light" role="tablist"><template shadowrootmode="open">
+    <style>
+      :host {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      ::slotted(gfg-panel) {
+        flex-basis: 100%;
+      }
+      .codeblock-container[data-content]::after,
+      .codeblock-container[data-danger-content]::after {
+        content: attr(data-content);
+        display: block;
+        position: absolute;
+        bottom: 0px;
+        right: 0;
+        padding: 4px 12px;
+        font-size: 12px;
+        letter-spacing: 0.05em;
+        font-family: inherit;
+        background-color: rgb(217, 217, 217);
+        color: #424242 !important;
+      }
+      .codeblock-container[data-danger-content]::after {
+        color: rgb(132, 5, 5) !important;
+        content: attr(data-danger-content);
+      }
+      .codeblock-container{
+        position: relative;
+        width: 100%;
+        font-family: sans-serif;
+      }
+      .code-container{
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #ddd;
+        clear: left;
+      }
+      
+      #slot-panel::-webkit-scrollbar-track {
+        border-radius: 10px;
+        background-color: transparent;
+        width: 0px !important;
+      }
+
+      #slot-panel::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        background-color: #999;
+        width: 5px ; 
+      }
+      #slot-panel::-webkit-scrollbar {
+        width: 5px; 
+      }
+      #slot-panel::-webkit-scrollbar-thumb:hover {
+        cursor: pointer;
+      }
+      .editor-buttons-div,
+      .w-56 {
+        min-width: 46px;
+      }
+        .editor-buttons-div{
+            display: flex;
+            margin-left: auto;
+            height: 40px;
+            position: sticky; 
+            position: -webkit-sticky;
+            top: 60px;
+            z-index: 4;
+            width: fit-content;
+            justify-content: flex-end;
+            align-items: start;
+        }
+      .gfg-code{
+        padding: 0;
+        width: 100%;
+        display: block;
+      }
+      .editor-buttons{
+        display:flex;
+        width: fit-content;
+        gap: 8px;
+        margin-top: 8px;
+        padding-right: 11px;
+        position: relative;
+        margin-bottom: 4px;
+      }
+      .editor-buttons.output-box {
+        margin-top: 0px;
+      }
+      .editor-buttons.output-box button {
+        margin-bottom: 0 !important;
+      }
+        .output-box {
+            margin-left: 8px;
+        }
+      .code-button{
+        background: white;
+        margin-bottom: 10px;
+        border: 2px;
+        background: #e5e5e5;
+        border-radius: 50px;
+        width: 28px !important;
+        height: 28px !important;
+        cursor: pointer;
+        padding: 6px;
+      }
+        #expand-code-button{
+            margin-bottom: 0px;
+        }
+        #expand-driver-code {
+            transform: rotate(90deg);
+            transform-origin: center;
+        }
+      .code-output{
+        background: #efefef;
+        border-radius: 8px;
+        width: 100%;
+        margin: 10px 2px 5px 2px;
+      }
+      .close-output-button{
+        margin-bottom: 10px;
+      }
+      .code-output-content{
+        padding: 8px 16px;
+        margin: 0;
+        position: sticky;
+        position: -webkit-sticky;
+        margin-top: 10px;
+      }
+      .code-box {
+        display: flex;
+        flex-direction: column;
+        position: relative !important;
+      }
+      .code-output-box {
+        display: flex;
+        align-items: center;
+      }
+     .compiled-message-box {
+        background-color: #308d46;
+        border-radius: 6px;
+        color: white;
+        width: fit-content;
+        margin: 10px auto;
+        text-align: center;
+        flex-basis: 100%;
+        display: none;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: 700;
+        padding-inline: 10px;
+    }
+    .compiled-message-box p {
+        margin-block: 5px;
+    }
+    .compiled-message-box-active {
+        display: flex;
+    }
+    .compiled-mess-content {
+        font-size: 10px;
+        padding-left: 5px;
+    }
+      .generated-output{
+        font-size: 15px;
+        white-space: pre-wrap;
+      }
+      .row-output{
+        color: black;
+        font-size: 16px;
+        padding : 10px;
+      }
+      .border {
+        width: 28px !important;
+        height: 28px !important;
+        position: absolute;
+        background: transparent;
+        border-radius: 50%;
+        border: 2px dashed #000;
+        margin-left: -8px;
+        margin-top: -7px;
+        animation-name: rotate;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+      }
+      .codeblock-container[data-mode=dark] .border {
+        border-color: white !important;
+      }
+      #icon-tabler-copy{
+        margin-bottom: -4px;
+        cursor: pointer;
+      }
+      .gfg-icon{
+        margin-left: auto;
+        margin-right: auto;
+        display: block !important;
+      }
+      
+        @keyframes rotate {
+            from{ transform: rotate(-360deg); }
+            to{ transform: rotate(360deg); }
+        }
+        #code-output-element #jsFrame {
+            background-color: transparent;
+            border: unset;
+            width: 100%;
+        }
+        .loading-container.active {
+            width: 150px; 
+            height: 50px; 
+            background-color: lightgrey; 
+            opacity: 70%;
+            color: black; 
+            position: absolute; 
+            display: flex !important;
+            justify-content: center;
+            align-items: center;
+            top: 30%;
+            left: 40%;
+            z-index: 1;
+            white-space: nowrap !important;
+            text-align: center; 
+            font-size: 13px; 
+            border-radius: 8px; 
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            margin: 2rem;
+        }
+        .loading-container {
+            display: none;
+        }
+        .playground-loading {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+        }
+        
+    @media screen and (max-width: 700px) {
+        .editor-buttons-div {
+            position: sticky; 
+            top: 10px;  
+            z-index: 4;
+            width: fit-content;
+            margin-left: auto;
+            height: 38px;
+            padding-right: 5px;
+        }
+
+        .editor-buttons {
+            display: flex;
+            width: fit-content;
+            flex-direction: row;
+            gap: 8px;
+        }
+        .code-box {
+            position: relative;
+            flex-direction: column;
+        }
+        .code-button {
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        .compiled-message-box svg {
+            display: none;
+        }
+    }
+
+    @media screen and (max-width: 375px) {
+        .compiled-message-box {
+            margin-inline: 5px;
+        }
+    }
+    </style>
+
+    <div class="codeblock-container" data-mode="light">
+        <slot name="tab"></slot>
+        <div class="code-container">
+            <div class="code-box">    
+                <div id="editor-buttons-div" class="editor-buttons-div" style="top: 40px;">
+                    <div id="editor-buttons" class="editor-buttons">
+                        <button id="expand-driver-code" class="expand-driver-code code-button" title="Expand all Diver Codes" style="display: none;"><svg id="expand-icon" width="17" height="17" viewBox="1 5 47 6" stroke-width="1" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
+            <path d="M44.4507 7.91963C44.7062 8.18159 44.8496 8.53199 44.8496 8.89419C44.8496 9.25639 44.7062 9.60088 44.4507 9.8523L38.9862 15.2053C38.8593 15.3296 38.7087 15.4272 38.5429 15.4924C38.3771 15.5577 38.1995 15.5894 38.02 15.5857C37.6577 15.5782 37.3101 15.427 37.0539 15.1655C36.7977 14.9039 36.6537 14.5533 36.6537 14.1909C36.6537 13.8284 36.7977 13.4838 37.0539 13.2328L40.1862 10.1645L30.3697 9.96203C30.0073 9.95456 29.6599 9.80343 29.4037 9.54189C29.1475 9.28035 29.0035 8.92983 29.0035 8.56743C29.0035 8.20503 29.1475 7.86044 29.4037 7.60947C29.6599 7.3585 30.0073 7.22171 30.3697 7.22918L40.1862 7.4316L37.0539 4.23407C36.927 4.10455 36.8264 3.95182 36.7577 3.7846C36.6891 3.61738 36.6537 3.43894 36.6537 3.25948C36.6537 3.08001 36.6891 2.90304 36.7577 2.73865C36.8264 2.57426 36.927 2.42568 37.0539 2.30139C37.1808 2.17711 37.3314 2.07955 37.4972 2.01429C37.6629 1.94903 37.8406 1.91735 38.02 1.92105C38.1995 1.92475 38.3771 1.96376 38.5429 2.03586C38.7087 2.10795 38.8593 2.21172 38.9862 2.34124L44.4507 7.91963Z" fill="black"></path>
+            <rect x="24.5859" y="16.8309" width="3.31306" height="16.5653" rx="1.65653" transform="rotate(-180 24.5859 16.8309)" fill="black"></rect>
+            <path d="M0.884258 7.91957C0.62878 8.18152 0.485352 8.53193 0.485352 8.89413C0.485352 9.25632 0.62878 9.60082 0.884258 9.85224L6.3488 15.2053C6.47567 15.3295 6.6263 15.4271 6.79207 15.4924C6.95783 15.5576 7.1355 15.5893 7.31493 15.5856C7.6773 15.5781 8.02483 15.427 8.28106 15.1654C8.5373 14.9038 8.68125 14.5533 8.68125 14.1908C8.68125 13.8284 8.5373 13.4837 8.28106 13.2327L5.14879 10.1644L14.9653 9.96197C15.3276 9.9545 15.6751 9.80337 15.9313 9.54183C16.1875 9.28029 16.3314 8.92977 16.3314 8.56737C16.3314 8.20497 16.1875 7.86038 15.9313 7.60941C15.6751 7.35844 15.3276 7.22164 14.9653 7.22912L5.14879 7.43154L8.28106 4.23401C8.40794 4.10449 8.50858 3.95176 8.57724 3.78454C8.64591 3.61732 8.68125 3.43888 8.68125 3.25942C8.68125 3.07995 8.64591 2.90298 8.57724 2.73859C8.50858 2.5742 8.40794 2.42562 8.28106 2.30133C8.15419 2.17705 8.00357 2.07949 7.8378 2.01423C7.67203 1.94897 7.49436 1.91729 7.31493 1.92099C7.1355 1.92469 6.95783 1.9637 6.79207 2.03579C6.6263 2.10789 6.47567 2.21166 6.3488 2.34118L0.884258 7.91957Z" fill="black"></path>
+        </svg></button>
+                        <button class="code-button" id="edit-close-button" title="Close Editor" buttontype="edit"><svg xmlns="http://www.w3.org/2000/svg" id="edit-close-icon" class="gfg-icon" width="17" height="17" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+        <path d="M18 6l-12 12"></path>
+        <path d="M6 6l12 12"></path>
+    </svg></button>
+                        <button class="code-button" id="run-code-button" title="Run Code and See Output">
+                            <div class="border" id="run-code-loader" hidden=""></div>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="gfg-icon" width="17" height="17" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M7 4v16l13 -8z"></path>
+                            </svg>
+                        </button>
+                        <button class="code-button" id="copy-code-button" title="Copy Code"> <svg xmlns="http://www.w3.org/2000/svg" class="gfg-icon" width="17" height="17" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M8 8m0 2a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2z"></path>
+                                <path d="M16 8v-2a2 2 0 0 0 -2 -2h-8a2 2 0 0 0 -2 2v8a2 2 0 0 0 2 2h2"></path>
+                        </svg></button>
+                        <button class="code-button" id="mode-button" title="Dark Mode" hidden="true" mode="light"><svg xmlns="http://www.w3.org/2000/svg" class="gfg-icon" width="20" height="20" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+        <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z"></path>
+    </svg> </button>
+                        
+                    </div>
+                </div>
+                <div id="slot-panel" class="gfg-code" style="width: calc(100% + 0px); margin-top: -35px;">
+                     <div id="playground-loader" class="loading-container">
+                        <span class="playground-loading">Loading Playground...</span>
+                    </div>
+                    <slot name="panel"></slot>
+                </div>
+            </div>
+            <div class="code-output-box" id="code-output-box">
+                <div class="editor-buttons w-56 output-box" title="Close Output">
+                    <button class="code-button" id="close-output-button" hidden="">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="gfg-icon" width="17" height="17" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                            <path d="M9 12h-3.586a1 1 0 0 1 -.707 -1.707l6.586 -6.586a1 1 0 0 1 1.414 0l6.586 6.586a1 1 0 0 1 -.707 1.707h-3.586v6h-6v-6z"></path>
+                            <path d="M9 21h6"></path>
+                        </svg>
+                    </button>
+                </div> 
+                <div class="code-output" id="code-output" hidden="">
+                    <div class="row-output">
+                        <pre class="generated-output" id="code-output-element"></pre>
+                    </div> 
+                </div>
+            </div>
+            </div>
+        </div>
+    
+    </template>
+            <gfg-tab slot="tab" hidden="" role="tab" id="gfg-tab-generated-16" aria-selected="true" tabindex="0" aria-controls="gfg-panel-generated-16" selected="">Python</gfg-tab>
+<gfg-panel slot="panel" data-code-lang="python3" data-main-code-start="None" data-main-code-end="None" role="tabpanel" id="gfg-panel-generated-16" aria-labelledby="gfg-tab-generated-16">
+    <code class="language-python3"><div class="highlight"><pre hidden=""><span></span><span class="k">class</span> <span class="nc">Battery</span><span class="p">:</span>
+    <span class="k">def</span> <span class="nf">charge</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">"Charging the battery"</span><span class="p">)</span>
+
+<span class="k">class</span> <span class="nc">GPS</span><span class="p">:</span>
+    <span class="k">def</span> <span class="nf">location</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">"Current location is 123, 456"</span><span class="p">)</span>
+
+<span class="k">class</span> <span class="nc">SmartPhone</span><span class="p">(</span><span class="n">Battery</span><span class="p">,</span> <span class="n">GPS</span><span class="p">):</span>
+    <span class="k">pass</span>
+
+<span class="c1"># Example usage:</span>
+<span class="n">phone</span> <span class="o">=</span> <span class="n">SmartPhone</span><span class="p">()</span>
+<span class="n">phone</span><span class="o">.</span><span class="n">charge</span><span class="p">()</span>
+<span class="n">phone</span><span class="o">.</span><span class="n">location</span><span class="p">()</span>
+</pre></div></code>
+<div class="CodeMirror cm-s-default"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 4px; left: 15px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-vscrollbar" tabindex="-1" cm-not-content="true" style="bottom: 0px;"><div style="min-width: 1px; height: 0px;"></div></div><div class="CodeMirror-hscrollbar" tabindex="-1" cm-not-content="true"><div style="height: 100%; min-height: 1px; width: 0px;"></div></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; margin-bottom: -15px; border-right-width: 15px; min-height: 356px; min-width: 421.188px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-cursors"><div class="CodeMirror-cursor" style="left: 15px; top: 0px; height: 23.2188px;">&nbsp;</div></div><div class="CodeMirror-code" role="presentation" style=""><div class="CodeMirror-activeline" style="position: relative;"><div class="CodeMirror-activeline-background CodeMirror-linebackground"></div><div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" style="left: 0px; width: 0px;"></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-keyword">class</span> <span class="cm-def">Battery</span>:</span></pre></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">    <span class="cm-keyword">def</span> <span class="cm-def">charge</span>(<span class="cm-variable-2">self</span>):</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-builtin">print</span>(<span class="cm-string">"Charging the battery"</span>)</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-keyword">class</span> <span class="cm-def">GPS</span>:</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">    <span class="cm-keyword">def</span> <span class="cm-def">location</span>(<span class="cm-variable-2">self</span>):</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-builtin">print</span>(<span class="cm-string">"Current location is 123, 456"</span>)</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-keyword">class</span> <span class="cm-def">SmartPhone</span>(<span class="cm-variable">Battery</span>, <span class="cm-variable">GPS</span>):</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">    <span class="cm-keyword">pass</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-comment"># Example usage:</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">phone</span> <span class="cm-operator">=</span> <span class="cm-variable">SmartPhone</span>()</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">phone</span>.<span class="cm-property">charge</span>()</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">phone</span>.<span class="cm-property">location</span>()</span></pre></div></div></div></div></div><div style="position: absolute; height: 15px; width: 1px; border-bottom: 0px solid transparent; top: 356px;"></div><div class="CodeMirror-gutters" style="display: none; height: 371px;"></div></div></div></gfg-panel></gfg-tabs><div class="code-output"><br><strong>Output</strong><pre>Charging the battery
+Current location is 123, 456
+</pre></div><h3 style="text-align:left"><span>Exercise 19: Using Property Decorators: Implement a class Circle with a private attribute radius and use property decorators to get and set its value with checks.</span></h3><gfg-tabs allow-code-exec="true" data-run-ide="true" data-mode="light" role="tablist"><template shadowrootmode="open">
+    <style>
+      :host {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      ::slotted(gfg-panel) {
+        flex-basis: 100%;
+      }
+      .codeblock-container[data-content]::after,
+      .codeblock-container[data-danger-content]::after {
+        content: attr(data-content);
+        display: block;
+        position: absolute;
+        bottom: 0px;
+        right: 0;
+        padding: 4px 12px;
+        font-size: 12px;
+        letter-spacing: 0.05em;
+        font-family: inherit;
+        background-color: rgb(217, 217, 217);
+        color: #424242 !important;
+      }
+      .codeblock-container[data-danger-content]::after {
+        color: rgb(132, 5, 5) !important;
+        content: attr(data-danger-content);
+      }
+      .codeblock-container{
+        position: relative;
+        width: 100%;
+        font-family: sans-serif;
+      }
+      .code-container{
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #ddd;
+        clear: left;
+      }
+      
+      #slot-panel::-webkit-scrollbar-track {
+        border-radius: 10px;
+        background-color: transparent;
+        width: 0px !important;
+      }
+
+      #slot-panel::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        background-color: #999;
+        width: 5px ; 
+      }
+      #slot-panel::-webkit-scrollbar {
+        width: 5px; 
+      }
+      #slot-panel::-webkit-scrollbar-thumb:hover {
+        cursor: pointer;
+      }
+      .editor-buttons-div,
+      .w-56 {
+        min-width: 46px;
+      }
+        .editor-buttons-div{
+            display: flex;
+            margin-left: auto;
+            height: 40px;
+            position: sticky; 
+            position: -webkit-sticky;
+            top: 60px;
+            z-index: 4;
+            width: fit-content;
+            justify-content: flex-end;
+            align-items: start;
+        }
+      .gfg-code{
+        padding: 0;
+        width: 100%;
+        display: block;
+      }
+      .editor-buttons{
+        display:flex;
+        width: fit-content;
+        gap: 8px;
+        margin-top: 8px;
+        padding-right: 11px;
+        position: relative;
+        margin-bottom: 4px;
+      }
+      .editor-buttons.output-box {
+        margin-top: 0px;
+      }
+      .editor-buttons.output-box button {
+        margin-bottom: 0 !important;
+      }
+        .output-box {
+            margin-left: 8px;
+        }
+      .code-button{
+        background: white;
+        margin-bottom: 10px;
+        border: 2px;
+        background: #e5e5e5;
+        border-radius: 50px;
+        width: 28px !important;
+        height: 28px !important;
+        cursor: pointer;
+        padding: 6px;
+      }
+        #expand-code-button{
+            margin-bottom: 0px;
+        }
+        #expand-driver-code {
+            transform: rotate(90deg);
+            transform-origin: center;
+        }
+      .code-output{
+        background: #efefef;
+        border-radius: 8px;
+        width: 100%;
+        margin: 10px 2px 5px 2px;
+      }
+      .close-output-button{
+        margin-bottom: 10px;
+      }
+      .code-output-content{
+        padding: 8px 16px;
+        margin: 0;
+        position: sticky;
+        position: -webkit-sticky;
+        margin-top: 10px;
+      }
+      .code-box {
+        display: flex;
+        flex-direction: column;
+        position: relative !important;
+      }
+      .code-output-box {
+        display: flex;
+        align-items: center;
+      }
+     .compiled-message-box {
+        background-color: #308d46;
+        border-radius: 6px;
+        color: white;
+        width: fit-content;
+        margin: 10px auto;
+        text-align: center;
+        flex-basis: 100%;
+        display: none;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: 700;
+        padding-inline: 10px;
+    }
+    .compiled-message-box p {
+        margin-block: 5px;
+    }
+    .compiled-message-box-active {
+        display: flex;
+    }
+    .compiled-mess-content {
+        font-size: 10px;
+        padding-left: 5px;
+    }
+      .generated-output{
+        font-size: 15px;
+        white-space: pre-wrap;
+      }
+      .row-output{
+        color: black;
+        font-size: 16px;
+        padding : 10px;
+      }
+      .border {
+        width: 28px !important;
+        height: 28px !important;
+        position: absolute;
+        background: transparent;
+        border-radius: 50%;
+        border: 2px dashed #000;
+        margin-left: -8px;
+        margin-top: -7px;
+        animation-name: rotate;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+      }
+      .codeblock-container[data-mode=dark] .border {
+        border-color: white !important;
+      }
+      #icon-tabler-copy{
+        margin-bottom: -4px;
+        cursor: pointer;
+      }
+      .gfg-icon{
+        margin-left: auto;
+        margin-right: auto;
+        display: block !important;
+      }
+      
+        @keyframes rotate {
+            from{ transform: rotate(-360deg); }
+            to{ transform: rotate(360deg); }
+        }
+        #code-output-element #jsFrame {
+            background-color: transparent;
+            border: unset;
+            width: 100%;
+        }
+        .loading-container.active {
+            width: 150px; 
+            height: 50px; 
+            background-color: lightgrey; 
+            opacity: 70%;
+            color: black; 
+            position: absolute; 
+            display: flex !important;
+            justify-content: center;
+            align-items: center;
+            top: 30%;
+            left: 40%;
+            z-index: 1;
+            white-space: nowrap !important;
+            text-align: center; 
+            font-size: 13px; 
+            border-radius: 8px; 
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            margin: 2rem;
+        }
+        .loading-container {
+            display: none;
+        }
+        .playground-loading {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+        }
+        
+    @media screen and (max-width: 700px) {
+        .editor-buttons-div {
+            position: sticky; 
+            top: 10px;  
+            z-index: 4;
+            width: fit-content;
+            margin-left: auto;
+            height: 38px;
+            padding-right: 5px;
+        }
+
+        .editor-buttons {
+            display: flex;
+            width: fit-content;
+            flex-direction: row;
+            gap: 8px;
+        }
+        .code-box {
+            position: relative;
+            flex-direction: column;
+        }
+        .code-button {
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        .compiled-message-box svg {
+            display: none;
+        }
+    }
+
+    @media screen and (max-width: 375px) {
+        .compiled-message-box {
+            margin-inline: 5px;
+        }
+    }
+    </style>
+
+    <div class="codeblock-container" data-mode="light">
+        <slot name="tab"></slot>
+        <div class="code-container">
+            <div class="code-box">    
+                <div id="editor-buttons-div" class="editor-buttons-div" style="top: 40px;">
+                    <div id="editor-buttons" class="editor-buttons">
+                        <button id="expand-driver-code" class="expand-driver-code code-button" title="Expand all Diver Codes" style="display: none;"><svg id="expand-icon" width="17" height="17" viewBox="1 5 47 6" stroke-width="1" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
+            <path d="M44.4507 7.91963C44.7062 8.18159 44.8496 8.53199 44.8496 8.89419C44.8496 9.25639 44.7062 9.60088 44.4507 9.8523L38.9862 15.2053C38.8593 15.3296 38.7087 15.4272 38.5429 15.4924C38.3771 15.5577 38.1995 15.5894 38.02 15.5857C37.6577 15.5782 37.3101 15.427 37.0539 15.1655C36.7977 14.9039 36.6537 14.5533 36.6537 14.1909C36.6537 13.8284 36.7977 13.4838 37.0539 13.2328L40.1862 10.1645L30.3697 9.96203C30.0073 9.95456 29.6599 9.80343 29.4037 9.54189C29.1475 9.28035 29.0035 8.92983 29.0035 8.56743C29.0035 8.20503 29.1475 7.86044 29.4037 7.60947C29.6599 7.3585 30.0073 7.22171 30.3697 7.22918L40.1862 7.4316L37.0539 4.23407C36.927 4.10455 36.8264 3.95182 36.7577 3.7846C36.6891 3.61738 36.6537 3.43894 36.6537 3.25948C36.6537 3.08001 36.6891 2.90304 36.7577 2.73865C36.8264 2.57426 36.927 2.42568 37.0539 2.30139C37.1808 2.17711 37.3314 2.07955 37.4972 2.01429C37.6629 1.94903 37.8406 1.91735 38.02 1.92105C38.1995 1.92475 38.3771 1.96376 38.5429 2.03586C38.7087 2.10795 38.8593 2.21172 38.9862 2.34124L44.4507 7.91963Z" fill="black"></path>
+            <rect x="24.5859" y="16.8309" width="3.31306" height="16.5653" rx="1.65653" transform="rotate(-180 24.5859 16.8309)" fill="black"></rect>
+            <path d="M0.884258 7.91957C0.62878 8.18152 0.485352 8.53193 0.485352 8.89413C0.485352 9.25632 0.62878 9.60082 0.884258 9.85224L6.3488 15.2053C6.47567 15.3295 6.6263 15.4271 6.79207 15.4924C6.95783 15.5576 7.1355 15.5893 7.31493 15.5856C7.6773 15.5781 8.02483 15.427 8.28106 15.1654C8.5373 14.9038 8.68125 14.5533 8.68125 14.1908C8.68125 13.8284 8.5373 13.4837 8.28106 13.2327L5.14879 10.1644L14.9653 9.96197C15.3276 9.9545 15.6751 9.80337 15.9313 9.54183C16.1875 9.28029 16.3314 8.92977 16.3314 8.56737C16.3314 8.20497 16.1875 7.86038 15.9313 7.60941C15.6751 7.35844 15.3276 7.22164 14.9653 7.22912L5.14879 7.43154L8.28106 4.23401C8.40794 4.10449 8.50858 3.95176 8.57724 3.78454C8.64591 3.61732 8.68125 3.43888 8.68125 3.25942C8.68125 3.07995 8.64591 2.90298 8.57724 2.73859C8.50858 2.5742 8.40794 2.42562 8.28106 2.30133C8.15419 2.17705 8.00357 2.07949 7.8378 2.01423C7.67203 1.94897 7.49436 1.91729 7.31493 1.92099C7.1355 1.92469 6.95783 1.9637 6.79207 2.03579C6.6263 2.10789 6.47567 2.21166 6.3488 2.34118L0.884258 7.91957Z" fill="black"></path>
+        </svg></button>
+                        <button class="code-button" id="edit-close-button" title="Close Editor" buttontype="edit"><svg xmlns="http://www.w3.org/2000/svg" id="edit-close-icon" class="gfg-icon" width="17" height="17" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+        <path d="M18 6l-12 12"></path>
+        <path d="M6 6l12 12"></path>
+    </svg></button>
+                        <button class="code-button" id="run-code-button" title="Run Code and See Output">
+                            <div class="border" id="run-code-loader" hidden=""></div>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="gfg-icon" width="17" height="17" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M7 4v16l13 -8z"></path>
+                            </svg>
+                        </button>
+                        <button class="code-button" id="copy-code-button" title="Copy Code"> <svg xmlns="http://www.w3.org/2000/svg" class="gfg-icon" width="17" height="17" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M8 8m0 2a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2z"></path>
+                                <path d="M16 8v-2a2 2 0 0 0 -2 -2h-8a2 2 0 0 0 -2 2v8a2 2 0 0 0 2 2h2"></path>
+                        </svg></button>
+                        <button class="code-button" id="mode-button" title="Dark Mode" hidden="true" mode="light"><svg xmlns="http://www.w3.org/2000/svg" class="gfg-icon" width="20" height="20" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+        <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z"></path>
+    </svg> </button>
+                        
+                    </div>
+                </div>
+                <div id="slot-panel" class="gfg-code" style="width: calc(100% + 0px); margin-top: -35px;">
+                     <div id="playground-loader" class="loading-container">
+                        <span class="playground-loading">Loading Playground...</span>
+                    </div>
+                    <slot name="panel"></slot>
+                </div>
+            </div>
+            <div class="code-output-box" id="code-output-box">
+                <div class="editor-buttons w-56 output-box" title="Close Output">
+                    <button class="code-button" id="close-output-button" hidden="">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="gfg-icon" width="17" height="17" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                            <path d="M9 12h-3.586a1 1 0 0 1 -.707 -1.707l6.586 -6.586a1 1 0 0 1 1.414 0l6.586 6.586a1 1 0 0 1 -.707 1.707h-3.586v6h-6v-6z"></path>
+                            <path d="M9 21h6"></path>
+                        </svg>
+                    </button>
+                </div> 
+                <div class="code-output" id="code-output" hidden="">
+                    <div class="row-output">
+                        <pre class="generated-output" id="code-output-element"></pre>
+                    </div> 
+                </div>
+            </div>
+            </div>
+        </div>
+    
+    </template>
+            <gfg-tab slot="tab" hidden="" role="tab" id="gfg-tab-generated-17" aria-selected="true" tabindex="0" aria-controls="gfg-panel-generated-17" selected="">Python</gfg-tab>
+<gfg-panel slot="panel" data-code-lang="python3" data-main-code-start="None" data-main-code-end="None" role="tabpanel" id="gfg-panel-generated-17" aria-labelledby="gfg-tab-generated-17">
+    <code class="language-python3"><div class="highlight"><pre hidden=""><span></span><span class="k">class</span> <span class="nc">Circle</span><span class="p">:</span>
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">radius</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">__radius</span> <span class="o">=</span> <span class="n">radius</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">radius</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">__radius</span>
+
+    <span class="nd">@radius</span><span class="o">.</span><span class="n">setter</span>
+    <span class="k">def</span> <span class="nf">radius</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">value</span><span class="p">):</span>
+        <span class="k">if</span> <span class="n">value</span> <span class="o">&gt;=</span> <span class="mi">0</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">__radius</span> <span class="o">=</span> <span class="n">value</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s2">"Radius cannot be negative"</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">area</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="mf">3.14159</span> <span class="o">*</span> <span class="bp">self</span><span class="o">.</span><span class="n">__radius</span> <span class="o">**</span> <span class="mi">2</span>
+
+<span class="c1"># Example usage:</span>
+<span class="n">circle</span> <span class="o">=</span> <span class="n">Circle</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"Area:"</span><span class="p">,</span> <span class="n">circle</span><span class="o">.</span><span class="n">area</span><span class="p">())</span>
+<span class="n">circle</span><span class="o">.</span><span class="n">radius</span> <span class="o">=</span> <span class="o">-</span><span class="mi">10</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"Radius:"</span><span class="p">,</span> <span class="n">circle</span><span class="o">.</span><span class="n">radius</span><span class="p">)</span>
+</pre></div></code>
+<div class="CodeMirror cm-s-default"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 4px; left: 15px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-vscrollbar" tabindex="-1" cm-not-content="true" style="bottom: 0px;"><div style="min-width: 1px; height: 0px;"></div></div><div class="CodeMirror-hscrollbar" tabindex="-1" cm-not-content="true"><div style="height: 100%; min-height: 1px; width: 0px;"></div></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; margin-bottom: -15px; border-right-width: 15px; min-height: 542px; min-width: 430.141px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-cursors"><div class="CodeMirror-cursor" style="left: 15px; top: 0px; height: 23.2188px;">&nbsp;</div></div><div class="CodeMirror-code" role="presentation" style=""><div class="CodeMirror-activeline" style="position: relative;"><div class="CodeMirror-activeline-background CodeMirror-linebackground"></div><div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" style="left: 0px; width: 0px;"></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-keyword">class</span> <span class="cm-def">Circle</span>:</span></pre></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">    <span class="cm-keyword">def</span> <span class="cm-def">__init__</span>(<span class="cm-variable-2">self</span>, <span class="cm-variable">radius</span>):</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-variable-2">self</span>.<span class="cm-property">__radius</span> <span class="cm-operator">=</span> <span class="cm-variable">radius</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">    <span class="cm-meta">@property</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">    <span class="cm-keyword">def</span> <span class="cm-def">radius</span>(<span class="cm-variable-2">self</span>):</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-keyword">return</span> <span class="cm-variable-2">self</span>.<span class="cm-property">__radius</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">    <span class="cm-meta">@radius</span>.<span class="cm-property">setter</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">    <span class="cm-keyword">def</span> <span class="cm-def">radius</span>(<span class="cm-variable-2">self</span>, <span class="cm-variable">value</span>):</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-keyword">if</span> <span class="cm-variable">value</span> <span class="cm-operator">&gt;=</span> <span class="cm-number">0</span>:</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">            <span class="cm-variable-2">self</span>.<span class="cm-property">__radius</span> <span class="cm-operator">=</span> <span class="cm-variable">value</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-keyword">else</span>:</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">            <span class="cm-builtin">print</span>(<span class="cm-string">"Radius cannot be negative"</span>)</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">    <span class="cm-keyword">def</span> <span class="cm-def">area</span>(<span class="cm-variable-2">self</span>):</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-keyword">return</span> <span class="cm-number">3.14159</span> <span class="cm-operator">*</span> <span class="cm-variable-2">self</span>.<span class="cm-property">__radius</span> <span class="cm-operator">**</span> <span class="cm-number">2</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-comment"># Example usage:</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">circle</span> <span class="cm-operator">=</span> <span class="cm-variable">Circle</span>(<span class="cm-number">5</span>)</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-builtin">print</span>(<span class="cm-string">"Area:"</span>, <span class="cm-variable">circle</span>.<span class="cm-property">area</span>())</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">circle</span>.<span class="cm-property">radius</span> <span class="cm-operator">=</span> <span class="cm-operator">-</span><span class="cm-number">10</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-builtin">print</span>(<span class="cm-string">"Radius:"</span>, <span class="cm-variable">circle</span>.<span class="cm-property">radius</span>)</span></pre></div></div></div></div></div><div style="position: absolute; height: 15px; width: 1px; border-bottom: 0px solid transparent; top: 542px;"></div><div class="CodeMirror-gutters" style="display: none; height: 557px;"></div></div></div></gfg-panel></gfg-tabs><div class="code-output"><br><strong>Output</strong><pre>Area: 78.53975
+Radius cannot be negative
+Radius: 5
+</pre></div><h3 style="text-align:left"><span>Exercise 20: Dynamic Attribute Addition Demonstrate dynamic attribute addition where a class Vehicle starts without defined attributes and properties are added later.</span></h3><gfg-tabs allow-code-exec="true" data-run-ide="true" data-mode="light" role="tablist"><template shadowrootmode="open">
+    <style>
+      :host {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      ::slotted(gfg-panel) {
+        flex-basis: 100%;
+      }
+      .codeblock-container[data-content]::after,
+      .codeblock-container[data-danger-content]::after {
+        content: attr(data-content);
+        display: block;
+        position: absolute;
+        bottom: 0px;
+        right: 0;
+        padding: 4px 12px;
+        font-size: 12px;
+        letter-spacing: 0.05em;
+        font-family: inherit;
+        background-color: rgb(217, 217, 217);
+        color: #424242 !important;
+      }
+      .codeblock-container[data-danger-content]::after {
+        color: rgb(132, 5, 5) !important;
+        content: attr(data-danger-content);
+      }
+      .codeblock-container{
+        position: relative;
+        width: 100%;
+        font-family: sans-serif;
+      }
+      .code-container{
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #ddd;
+        clear: left;
+      }
+      
+      #slot-panel::-webkit-scrollbar-track {
+        border-radius: 10px;
+        background-color: transparent;
+        width: 0px !important;
+      }
+
+      #slot-panel::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        background-color: #999;
+        width: 5px ; 
+      }
+      #slot-panel::-webkit-scrollbar {
+        width: 5px; 
+      }
+      #slot-panel::-webkit-scrollbar-thumb:hover {
+        cursor: pointer;
+      }
+      .editor-buttons-div,
+      .w-56 {
+        min-width: 46px;
+      }
+        .editor-buttons-div{
+            display: flex;
+            margin-left: auto;
+            height: 40px;
+            position: sticky; 
+            position: -webkit-sticky;
+            top: 60px;
+            z-index: 4;
+            width: fit-content;
+            justify-content: flex-end;
+            align-items: start;
+        }
+      .gfg-code{
+        padding: 0;
+        width: 100%;
+        display: block;
+      }
+      .editor-buttons{
+        display:flex;
+        width: fit-content;
+        gap: 8px;
+        margin-top: 8px;
+        padding-right: 11px;
+        position: relative;
+        margin-bottom: 4px;
+      }
+      .editor-buttons.output-box {
+        margin-top: 0px;
+      }
+      .editor-buttons.output-box button {
+        margin-bottom: 0 !important;
+      }
+        .output-box {
+            margin-left: 8px;
+        }
+      .code-button{
+        background: white;
+        margin-bottom: 10px;
+        border: 2px;
+        background: #e5e5e5;
+        border-radius: 50px;
+        width: 28px !important;
+        height: 28px !important;
+        cursor: pointer;
+        padding: 6px;
+      }
+        #expand-code-button{
+            margin-bottom: 0px;
+        }
+        #expand-driver-code {
+            transform: rotate(90deg);
+            transform-origin: center;
+        }
+      .code-output{
+        background: #efefef;
+        border-radius: 8px;
+        width: 100%;
+        margin: 10px 2px 5px 2px;
+      }
+      .close-output-button{
+        margin-bottom: 10px;
+      }
+      .code-output-content{
+        padding: 8px 16px;
+        margin: 0;
+        position: sticky;
+        position: -webkit-sticky;
+        margin-top: 10px;
+      }
+      .code-box {
+        display: flex;
+        flex-direction: column;
+        position: relative !important;
+      }
+      .code-output-box {
+        display: flex;
+        align-items: center;
+      }
+     .compiled-message-box {
+        background-color: #308d46;
+        border-radius: 6px;
+        color: white;
+        width: fit-content;
+        margin: 10px auto;
+        text-align: center;
+        flex-basis: 100%;
+        display: none;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: 700;
+        padding-inline: 10px;
+    }
+    .compiled-message-box p {
+        margin-block: 5px;
+    }
+    .compiled-message-box-active {
+        display: flex;
+    }
+    .compiled-mess-content {
+        font-size: 10px;
+        padding-left: 5px;
+    }
+      .generated-output{
+        font-size: 15px;
+        white-space: pre-wrap;
+      }
+      .row-output{
+        color: black;
+        font-size: 16px;
+        padding : 10px;
+      }
+      .border {
+        width: 28px !important;
+        height: 28px !important;
+        position: absolute;
+        background: transparent;
+        border-radius: 50%;
+        border: 2px dashed #000;
+        margin-left: -8px;
+        margin-top: -7px;
+        animation-name: rotate;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+      }
+      .codeblock-container[data-mode=dark] .border {
+        border-color: white !important;
+      }
+      #icon-tabler-copy{
+        margin-bottom: -4px;
+        cursor: pointer;
+      }
+      .gfg-icon{
+        margin-left: auto;
+        margin-right: auto;
+        display: block !important;
+      }
+      
+        @keyframes rotate {
+            from{ transform: rotate(-360deg); }
+            to{ transform: rotate(360deg); }
+        }
+        #code-output-element #jsFrame {
+            background-color: transparent;
+            border: unset;
+            width: 100%;
+        }
+        .loading-container.active {
+            width: 150px; 
+            height: 50px; 
+            background-color: lightgrey; 
+            opacity: 70%;
+            color: black; 
+            position: absolute; 
+            display: flex !important;
+            justify-content: center;
+            align-items: center;
+            top: 30%;
+            left: 40%;
+            z-index: 1;
+            white-space: nowrap !important;
+            text-align: center; 
+            font-size: 13px; 
+            border-radius: 8px; 
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            margin: 2rem;
+        }
+        .loading-container {
+            display: none;
+        }
+        .playground-loading {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+        }
+        
+    @media screen and (max-width: 700px) {
+        .editor-buttons-div {
+            position: sticky; 
+            top: 10px;  
+            z-index: 4;
+            width: fit-content;
+            margin-left: auto;
+            height: 38px;
+            padding-right: 5px;
+        }
+
+        .editor-buttons {
+            display: flex;
+            width: fit-content;
+            flex-direction: row;
+            gap: 8px;
+        }
+        .code-box {
+            position: relative;
+            flex-direction: column;
+        }
+        .code-button {
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        .compiled-message-box svg {
+            display: none;
+        }
+    }
+
+    @media screen and (max-width: 375px) {
+        .compiled-message-box {
+            margin-inline: 5px;
+        }
+    }
+    </style>
+
+    <div class="codeblock-container" data-mode="light">
+        <slot name="tab"></slot>
+        <div class="code-container">
+            <div class="code-box">    
+                <div id="editor-buttons-div" class="editor-buttons-div" style="top: 40px;">
+                    <div id="editor-buttons" class="editor-buttons">
+                        <button id="expand-driver-code" class="expand-driver-code code-button" title="Expand all Diver Codes" style="display: none;"><svg id="expand-icon" width="17" height="17" viewBox="1 5 47 6" stroke-width="1" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
+            <path d="M44.4507 7.91963C44.7062 8.18159 44.8496 8.53199 44.8496 8.89419C44.8496 9.25639 44.7062 9.60088 44.4507 9.8523L38.9862 15.2053C38.8593 15.3296 38.7087 15.4272 38.5429 15.4924C38.3771 15.5577 38.1995 15.5894 38.02 15.5857C37.6577 15.5782 37.3101 15.427 37.0539 15.1655C36.7977 14.9039 36.6537 14.5533 36.6537 14.1909C36.6537 13.8284 36.7977 13.4838 37.0539 13.2328L40.1862 10.1645L30.3697 9.96203C30.0073 9.95456 29.6599 9.80343 29.4037 9.54189C29.1475 9.28035 29.0035 8.92983 29.0035 8.56743C29.0035 8.20503 29.1475 7.86044 29.4037 7.60947C29.6599 7.3585 30.0073 7.22171 30.3697 7.22918L40.1862 7.4316L37.0539 4.23407C36.927 4.10455 36.8264 3.95182 36.7577 3.7846C36.6891 3.61738 36.6537 3.43894 36.6537 3.25948C36.6537 3.08001 36.6891 2.90304 36.7577 2.73865C36.8264 2.57426 36.927 2.42568 37.0539 2.30139C37.1808 2.17711 37.3314 2.07955 37.4972 2.01429C37.6629 1.94903 37.8406 1.91735 38.02 1.92105C38.1995 1.92475 38.3771 1.96376 38.5429 2.03586C38.7087 2.10795 38.8593 2.21172 38.9862 2.34124L44.4507 7.91963Z" fill="black"></path>
+            <rect x="24.5859" y="16.8309" width="3.31306" height="16.5653" rx="1.65653" transform="rotate(-180 24.5859 16.8309)" fill="black"></rect>
+            <path d="M0.884258 7.91957C0.62878 8.18152 0.485352 8.53193 0.485352 8.89413C0.485352 9.25632 0.62878 9.60082 0.884258 9.85224L6.3488 15.2053C6.47567 15.3295 6.6263 15.4271 6.79207 15.4924C6.95783 15.5576 7.1355 15.5893 7.31493 15.5856C7.6773 15.5781 8.02483 15.427 8.28106 15.1654C8.5373 14.9038 8.68125 14.5533 8.68125 14.1908C8.68125 13.8284 8.5373 13.4837 8.28106 13.2327L5.14879 10.1644L14.9653 9.96197C15.3276 9.9545 15.6751 9.80337 15.9313 9.54183C16.1875 9.28029 16.3314 8.92977 16.3314 8.56737C16.3314 8.20497 16.1875 7.86038 15.9313 7.60941C15.6751 7.35844 15.3276 7.22164 14.9653 7.22912L5.14879 7.43154L8.28106 4.23401C8.40794 4.10449 8.50858 3.95176 8.57724 3.78454C8.64591 3.61732 8.68125 3.43888 8.68125 3.25942C8.68125 3.07995 8.64591 2.90298 8.57724 2.73859C8.50858 2.5742 8.40794 2.42562 8.28106 2.30133C8.15419 2.17705 8.00357 2.07949 7.8378 2.01423C7.67203 1.94897 7.49436 1.91729 7.31493 1.92099C7.1355 1.92469 6.95783 1.9637 6.79207 2.03579C6.6263 2.10789 6.47567 2.21166 6.3488 2.34118L0.884258 7.91957Z" fill="black"></path>
+        </svg></button>
+                        <button class="code-button" id="edit-close-button" title="Close Editor" buttontype="edit"><svg xmlns="http://www.w3.org/2000/svg" id="edit-close-icon" class="gfg-icon" width="17" height="17" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+        <path d="M18 6l-12 12"></path>
+        <path d="M6 6l12 12"></path>
+    </svg></button>
+                        <button class="code-button" id="run-code-button" title="Run Code and See Output">
+                            <div class="border" id="run-code-loader" hidden=""></div>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="gfg-icon" width="17" height="17" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M7 4v16l13 -8z"></path>
+                            </svg>
+                        </button>
+                        <button class="code-button" id="copy-code-button" title="Copy Code"> <svg xmlns="http://www.w3.org/2000/svg" class="gfg-icon" width="17" height="17" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M8 8m0 2a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2z"></path>
+                                <path d="M16 8v-2a2 2 0 0 0 -2 -2h-8a2 2 0 0 0 -2 2v8a2 2 0 0 0 2 2h2"></path>
+                        </svg></button>
+                        <button class="code-button" id="mode-button" title="Dark Mode" hidden="true" mode="light"><svg xmlns="http://www.w3.org/2000/svg" class="gfg-icon" width="20" height="20" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+        <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z"></path>
+    </svg> </button>
+                        
+                    </div>
+                </div>
+                <div id="slot-panel" class="gfg-code" style="width: calc(100% + 0px); margin-top: -35px;">
+                     <div id="playground-loader" class="loading-container">
+                        <span class="playground-loading">Loading Playground...</span>
+                    </div>
+                    <slot name="panel"></slot>
+                </div>
+            </div>
+            <div class="code-output-box" id="code-output-box">
+                <div class="editor-buttons w-56 output-box" title="Close Output">
+                    <button class="code-button" id="close-output-button" hidden="">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="gfg-icon" width="17" height="17" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                            <path d="M9 12h-3.586a1 1 0 0 1 -.707 -1.707l6.586 -6.586a1 1 0 0 1 1.414 0l6.586 6.586a1 1 0 0 1 -.707 1.707h-3.586v6h-6v-6z"></path>
+                            <path d="M9 21h6"></path>
+                        </svg>
+                    </button>
+                </div> 
+                <div class="code-output" id="code-output" hidden="">
+                    <div class="row-output">
+                        <pre class="generated-output" id="code-output-element"></pre>
+                    </div> 
+                </div>
+            </div>
+            </div>
+        </div>
+    
+    </template>
+            <gfg-tab slot="tab" hidden="" role="tab" id="gfg-tab-generated-18" aria-selected="true" tabindex="0" aria-controls="gfg-panel-generated-18" selected="">Python</gfg-tab>
+<gfg-panel slot="panel" data-code-lang="python3" data-main-code-start="None" data-main-code-end="None" role="tabpanel" id="gfg-panel-generated-18" aria-labelledby="gfg-tab-generated-18">
+    <code class="language-python3"><div class="highlight"><pre hidden=""><span></span><span class="k">class</span> <span class="nc">Vehicle</span><span class="p">:</span>
+    <span class="k">pass</span>
+
+<span class="c1"># Example usage:</span>
+<span class="n">car</span> <span class="o">=</span> <span class="n">Vehicle</span><span class="p">()</span>
+<span class="n">car</span><span class="o">.</span><span class="n">make</span> <span class="o">=</span> <span class="s2">"Toyota"</span>
+<span class="n">car</span><span class="o">.</span><span class="n">model</span> <span class="o">=</span> <span class="s2">"Camry"</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Car: </span><span class="si">{</span><span class="n">car</span><span class="o">.</span><span class="n">make</span><span class="si">}</span><span class="s2"> </span><span class="si">{</span><span class="n">car</span><span class="o">.</span><span class="n">model</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+</pre></div></code>
+<div class="CodeMirror cm-s-default"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 4px; left: 15px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-vscrollbar" tabindex="-1" cm-not-content="true"><div style="min-width: 1px; height: 0px;"></div></div><div class="CodeMirror-hscrollbar" tabindex="-1" cm-not-content="true"><div style="height: 100%; min-height: 1px; width: 0px;"></div></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; margin-bottom: -15px; border-right-width: 15px; min-height: 194px; min-width: 349.625px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-cursors"><div class="CodeMirror-cursor" style="left: 15px; top: 0px; height: 23.2188px;">&nbsp;</div></div><div class="CodeMirror-code" role="presentation" style=""><div class="CodeMirror-activeline" style="position: relative;"><div class="CodeMirror-activeline-background CodeMirror-linebackground"></div><div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" style="left: 0px; width: 0px;"></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-keyword">class</span> <span class="cm-def">Vehicle</span>:</span></pre></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">    <span class="cm-keyword">pass</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-comment"># Example usage:</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">car</span> <span class="cm-operator">=</span> <span class="cm-variable">Vehicle</span>()</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">car</span>.<span class="cm-property">make</span> <span class="cm-operator">=</span> <span class="cm-string">"Toyota"</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">car</span>.<span class="cm-property">model</span> <span class="cm-operator">=</span> <span class="cm-string">"Camry"</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-builtin">print</span>(<span class="cm-string">f"Car: </span>{<span class="cm-variable">car</span>.<span class="cm-property">make</span>}<span class="cm-string"> </span>{<span class="cm-variable">car</span>.<span class="cm-property">model</span>}<span class="cm-string">"</span>)</span></pre></div></div></div></div></div><div style="position: absolute; height: 15px; width: 1px; border-bottom: 0px solid transparent; top: 194px;"></div><div class="CodeMirror-gutters" style="display: none; height: 209px;"></div></div></div></gfg-panel></gfg-tabs><div class="code-output"><br><strong>Output</strong><pre>Car: Toyota Camry
+</pre></div><h3 style="text-align:left"><span>Exercise 21: Interface Implementation Create an interface Shape with methods area() and perimeter(). Implement this interface in Rectangle and Circle classes.</span></h3><gfg-tabs allow-code-exec="true" data-run-ide="true" data-mode="light" role="tablist"><template shadowrootmode="open">
+    <style>
+      :host {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      ::slotted(gfg-panel) {
+        flex-basis: 100%;
+      }
+      .codeblock-container[data-content]::after,
+      .codeblock-container[data-danger-content]::after {
+        content: attr(data-content);
+        display: block;
+        position: absolute;
+        bottom: 0px;
+        right: 0;
+        padding: 4px 12px;
+        font-size: 12px;
+        letter-spacing: 0.05em;
+        font-family: inherit;
+        background-color: rgb(217, 217, 217);
+        color: #424242 !important;
+      }
+      .codeblock-container[data-danger-content]::after {
+        color: rgb(132, 5, 5) !important;
+        content: attr(data-danger-content);
+      }
+      .codeblock-container{
+        position: relative;
+        width: 100%;
+        font-family: sans-serif;
+      }
+      .code-container{
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #ddd;
+        clear: left;
+      }
+      
+      #slot-panel::-webkit-scrollbar-track {
+        border-radius: 10px;
+        background-color: transparent;
+        width: 0px !important;
+      }
+
+      #slot-panel::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        background-color: #999;
+        width: 5px ; 
+      }
+      #slot-panel::-webkit-scrollbar {
+        width: 5px; 
+      }
+      #slot-panel::-webkit-scrollbar-thumb:hover {
+        cursor: pointer;
+      }
+      .editor-buttons-div,
+      .w-56 {
+        min-width: 46px;
+      }
+        .editor-buttons-div{
+            display: flex;
+            margin-left: auto;
+            height: 40px;
+            position: sticky; 
+            position: -webkit-sticky;
+            top: 60px;
+            z-index: 4;
+            width: fit-content;
+            justify-content: flex-end;
+            align-items: start;
+        }
+      .gfg-code{
+        padding: 0;
+        width: 100%;
+        display: block;
+      }
+      .editor-buttons{
+        display:flex;
+        width: fit-content;
+        gap: 8px;
+        margin-top: 8px;
+        padding-right: 11px;
+        position: relative;
+        margin-bottom: 4px;
+      }
+      .editor-buttons.output-box {
+        margin-top: 0px;
+      }
+      .editor-buttons.output-box button {
+        margin-bottom: 0 !important;
+      }
+        .output-box {
+            margin-left: 8px;
+        }
+      .code-button{
+        background: white;
+        margin-bottom: 10px;
+        border: 2px;
+        background: #e5e5e5;
+        border-radius: 50px;
+        width: 28px !important;
+        height: 28px !important;
+        cursor: pointer;
+        padding: 6px;
+      }
+        #expand-code-button{
+            margin-bottom: 0px;
+        }
+        #expand-driver-code {
+            transform: rotate(90deg);
+            transform-origin: center;
+        }
+      .code-output{
+        background: #efefef;
+        border-radius: 8px;
+        width: 100%;
+        margin: 10px 2px 5px 2px;
+      }
+      .close-output-button{
+        margin-bottom: 10px;
+      }
+      .code-output-content{
+        padding: 8px 16px;
+        margin: 0;
+        position: sticky;
+        position: -webkit-sticky;
+        margin-top: 10px;
+      }
+      .code-box {
+        display: flex;
+        flex-direction: column;
+        position: relative !important;
+      }
+      .code-output-box {
+        display: flex;
+        align-items: center;
+      }
+     .compiled-message-box {
+        background-color: #308d46;
+        border-radius: 6px;
+        color: white;
+        width: fit-content;
+        margin: 10px auto;
+        text-align: center;
+        flex-basis: 100%;
+        display: none;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: 700;
+        padding-inline: 10px;
+    }
+    .compiled-message-box p {
+        margin-block: 5px;
+    }
+    .compiled-message-box-active {
+        display: flex;
+    }
+    .compiled-mess-content {
+        font-size: 10px;
+        padding-left: 5px;
+    }
+      .generated-output{
+        font-size: 15px;
+        white-space: pre-wrap;
+      }
+      .row-output{
+        color: black;
+        font-size: 16px;
+        padding : 10px;
+      }
+      .border {
+        width: 28px !important;
+        height: 28px !important;
+        position: absolute;
+        background: transparent;
+        border-radius: 50%;
+        border: 2px dashed #000;
+        margin-left: -8px;
+        margin-top: -7px;
+        animation-name: rotate;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+      }
+      .codeblock-container[data-mode=dark] .border {
+        border-color: white !important;
+      }
+      #icon-tabler-copy{
+        margin-bottom: -4px;
+        cursor: pointer;
+      }
+      .gfg-icon{
+        margin-left: auto;
+        margin-right: auto;
+        display: block !important;
+      }
+      
+        @keyframes rotate {
+            from{ transform: rotate(-360deg); }
+            to{ transform: rotate(360deg); }
+        }
+        #code-output-element #jsFrame {
+            background-color: transparent;
+            border: unset;
+            width: 100%;
+        }
+        .loading-container.active {
+            width: 150px; 
+            height: 50px; 
+            background-color: lightgrey; 
+            opacity: 70%;
+            color: black; 
+            position: absolute; 
+            display: flex !important;
+            justify-content: center;
+            align-items: center;
+            top: 30%;
+            left: 40%;
+            z-index: 1;
+            white-space: nowrap !important;
+            text-align: center; 
+            font-size: 13px; 
+            border-radius: 8px; 
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            margin: 2rem;
+        }
+        .loading-container {
+            display: none;
+        }
+        .playground-loading {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+        }
+        
+    @media screen and (max-width: 700px) {
+        .editor-buttons-div {
+            position: sticky; 
+            top: 10px;  
+            z-index: 4;
+            width: fit-content;
+            margin-left: auto;
+            height: 38px;
+            padding-right: 5px;
+        }
+
+        .editor-buttons {
+            display: flex;
+            width: fit-content;
+            flex-direction: row;
+            gap: 8px;
+        }
+        .code-box {
+            position: relative;
+            flex-direction: column;
+        }
+        .code-button {
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        .compiled-message-box svg {
+            display: none;
+        }
+    }
+
+    @media screen and (max-width: 375px) {
+        .compiled-message-box {
+            margin-inline: 5px;
+        }
+    }
+    </style>
+
+    <div class="codeblock-container" data-mode="light">
+        <slot name="tab"></slot>
+        <div class="code-container">
+            <div class="code-box">    
+                <div id="editor-buttons-div" class="editor-buttons-div" style="top: 40px;">
+                    <div id="editor-buttons" class="editor-buttons">
+                        <button id="expand-driver-code" class="expand-driver-code code-button" title="Expand all Diver Codes" style="display: none;"><svg id="expand-icon" width="17" height="17" viewBox="1 5 47 6" stroke-width="1" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
+            <path d="M44.4507 7.91963C44.7062 8.18159 44.8496 8.53199 44.8496 8.89419C44.8496 9.25639 44.7062 9.60088 44.4507 9.8523L38.9862 15.2053C38.8593 15.3296 38.7087 15.4272 38.5429 15.4924C38.3771 15.5577 38.1995 15.5894 38.02 15.5857C37.6577 15.5782 37.3101 15.427 37.0539 15.1655C36.7977 14.9039 36.6537 14.5533 36.6537 14.1909C36.6537 13.8284 36.7977 13.4838 37.0539 13.2328L40.1862 10.1645L30.3697 9.96203C30.0073 9.95456 29.6599 9.80343 29.4037 9.54189C29.1475 9.28035 29.0035 8.92983 29.0035 8.56743C29.0035 8.20503 29.1475 7.86044 29.4037 7.60947C29.6599 7.3585 30.0073 7.22171 30.3697 7.22918L40.1862 7.4316L37.0539 4.23407C36.927 4.10455 36.8264 3.95182 36.7577 3.7846C36.6891 3.61738 36.6537 3.43894 36.6537 3.25948C36.6537 3.08001 36.6891 2.90304 36.7577 2.73865C36.8264 2.57426 36.927 2.42568 37.0539 2.30139C37.1808 2.17711 37.3314 2.07955 37.4972 2.01429C37.6629 1.94903 37.8406 1.91735 38.02 1.92105C38.1995 1.92475 38.3771 1.96376 38.5429 2.03586C38.7087 2.10795 38.8593 2.21172 38.9862 2.34124L44.4507 7.91963Z" fill="black"></path>
+            <rect x="24.5859" y="16.8309" width="3.31306" height="16.5653" rx="1.65653" transform="rotate(-180 24.5859 16.8309)" fill="black"></rect>
+            <path d="M0.884258 7.91957C0.62878 8.18152 0.485352 8.53193 0.485352 8.89413C0.485352 9.25632 0.62878 9.60082 0.884258 9.85224L6.3488 15.2053C6.47567 15.3295 6.6263 15.4271 6.79207 15.4924C6.95783 15.5576 7.1355 15.5893 7.31493 15.5856C7.6773 15.5781 8.02483 15.427 8.28106 15.1654C8.5373 14.9038 8.68125 14.5533 8.68125 14.1908C8.68125 13.8284 8.5373 13.4837 8.28106 13.2327L5.14879 10.1644L14.9653 9.96197C15.3276 9.9545 15.6751 9.80337 15.9313 9.54183C16.1875 9.28029 16.3314 8.92977 16.3314 8.56737C16.3314 8.20497 16.1875 7.86038 15.9313 7.60941C15.6751 7.35844 15.3276 7.22164 14.9653 7.22912L5.14879 7.43154L8.28106 4.23401C8.40794 4.10449 8.50858 3.95176 8.57724 3.78454C8.64591 3.61732 8.68125 3.43888 8.68125 3.25942C8.68125 3.07995 8.64591 2.90298 8.57724 2.73859C8.50858 2.5742 8.40794 2.42562 8.28106 2.30133C8.15419 2.17705 8.00357 2.07949 7.8378 2.01423C7.67203 1.94897 7.49436 1.91729 7.31493 1.92099C7.1355 1.92469 6.95783 1.9637 6.79207 2.03579C6.6263 2.10789 6.47567 2.21166 6.3488 2.34118L0.884258 7.91957Z" fill="black"></path>
+        </svg></button>
+                        <button class="code-button" id="edit-close-button" title="Close Editor" buttontype="edit"><svg xmlns="http://www.w3.org/2000/svg" id="edit-close-icon" class="gfg-icon" width="17" height="17" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+        <path d="M18 6l-12 12"></path>
+        <path d="M6 6l12 12"></path>
+    </svg></button>
+                        <button class="code-button" id="run-code-button" title="Run Code and See Output">
+                            <div class="border" id="run-code-loader" hidden=""></div>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="gfg-icon" width="17" height="17" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M7 4v16l13 -8z"></path>
+                            </svg>
+                        </button>
+                        <button class="code-button" id="copy-code-button" title="Copy Code"> <svg xmlns="http://www.w3.org/2000/svg" class="gfg-icon" width="17" height="17" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M8 8m0 2a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2z"></path>
+                                <path d="M16 8v-2a2 2 0 0 0 -2 -2h-8a2 2 0 0 0 -2 2v8a2 2 0 0 0 2 2h2"></path>
+                        </svg></button>
+                        <button class="code-button" id="mode-button" title="Dark Mode" hidden="true" mode="light"><svg xmlns="http://www.w3.org/2000/svg" class="gfg-icon" width="20" height="20" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+        <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z"></path>
+    </svg> </button>
+                        
+                    </div>
+                </div>
+                <div id="slot-panel" class="gfg-code" style="width: calc(100% + 0px); margin-top: -35px;">
+                     <div id="playground-loader" class="loading-container">
+                        <span class="playground-loading">Loading Playground...</span>
+                    </div>
+                    <slot name="panel"></slot>
+                </div>
+            </div>
+            <div class="code-output-box" id="code-output-box">
+                <div class="editor-buttons w-56 output-box" title="Close Output">
+                    <button class="code-button" id="close-output-button" hidden="">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="gfg-icon" width="17" height="17" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                            <path d="M9 12h-3.586a1 1 0 0 1 -.707 -1.707l6.586 -6.586a1 1 0 0 1 1.414 0l6.586 6.586a1 1 0 0 1 -.707 1.707h-3.586v6h-6v-6z"></path>
+                            <path d="M9 21h6"></path>
+                        </svg>
+                    </button>
+                </div> 
+                <div class="code-output" id="code-output" hidden="">
+                    <div class="row-output">
+                        <pre class="generated-output" id="code-output-element"></pre>
+                    </div> 
+                </div>
+            </div>
+            </div>
+        </div>
+    
+    </template>
+            <gfg-tab slot="tab" hidden="" role="tab" id="gfg-tab-generated-19" aria-selected="true" tabindex="0" aria-controls="gfg-panel-generated-19" selected="">Python</gfg-tab>
+<gfg-panel slot="panel" data-code-lang="python3" data-main-code-start="None" data-main-code-end="None" role="tabpanel" id="gfg-panel-generated-19" aria-labelledby="gfg-tab-generated-19">
+    <code class="language-python3"><div class="highlight"><pre hidden=""><span></span><span class="kn">from</span> <span class="nn">abc</span> <span class="kn">import</span> <span class="n">ABC</span><span class="p">,</span> <span class="n">abstractmethod</span>
+
+<span class="k">class</span> <span class="nc">Shape</span><span class="p">(</span><span class="n">ABC</span><span class="p">):</span>
+    <span class="nd">@abstractmethod</span>
+    <span class="k">def</span> <span class="nf">area</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">pass</span>
+
+    <span class="nd">@abstractmethod</span>
+    <span class="k">def</span> <span class="nf">perimeter</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">pass</span>
+
+<span class="k">class</span> <span class="nc">Rectangle</span><span class="p">(</span><span class="n">Shape</span><span class="p">):</span>
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">width</span><span class="p">,</span> <span class="n">height</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">width</span> <span class="o">=</span> <span class="n">width</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">height</span> <span class="o">=</span> <span class="n">height</span>
+
+    <span class="k">def</span> <span class="nf">area</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">width</span> <span class="o">*</span> <span class="bp">self</span><span class="o">.</span><span class="n">height</span>
+
+    <span class="k">def</span> <span class="nf">perimeter</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="mi">2</span> <span class="o">*</span> <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">width</span> <span class="o">+</span> <span class="bp">self</span><span class="o">.</span><span class="n">height</span><span class="p">)</span>
+
+<span class="k">class</span> <span class="nc">Circle</span><span class="p">(</span><span class="n">Shape</span><span class="p">):</span>
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">radius</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">radius</span> <span class="o">=</span> <span class="n">radius</span>
+
+    <span class="k">def</span> <span class="nf">area</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="mf">3.14159</span> <span class="o">*</span> <span class="bp">self</span><span class="o">.</span><span class="n">radius</span> <span class="o">**</span> <span class="mi">2</span>
+
+    <span class="k">def</span> <span class="nf">perimeter</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="mi">2</span> <span class="o">*</span> <span class="mf">3.14159</span> <span class="o">*</span> <span class="bp">self</span><span class="o">.</span><span class="n">radius</span>
+
+<span class="c1"># Example usage:</span>
+<span class="n">rectangle</span> <span class="o">=</span> <span class="n">Rectangle</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">20</span><span class="p">)</span>
+<span class="n">circle</span> <span class="o">=</span> <span class="n">Circle</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"Rectangle Area:"</span><span class="p">,</span> <span class="n">rectangle</span><span class="o">.</span><span class="n">area</span><span class="p">())</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"Rectangle Perimeter:"</span><span class="p">,</span> <span class="n">rectangle</span><span class="o">.</span><span class="n">perimeter</span><span class="p">())</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"Circle Area:"</span><span class="p">,</span> <span class="n">circle</span><span class="o">.</span><span class="n">area</span><span class="p">())</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"Circle Perimeter:"</span><span class="p">,</span> <span class="n">circle</span><span class="o">.</span><span class="n">perimeter</span><span class="p">())</span>
+</pre></div></code>
+<div class="CodeMirror cm-s-default"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 4px; left: 15px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-vscrollbar" tabindex="-1" cm-not-content="true" style="bottom: 0px;"><div style="min-width: 1px; height: 0px;"></div></div><div class="CodeMirror-hscrollbar" tabindex="-1" cm-not-content="true"><div style="height: 100%; min-height: 1px; width: 0px;"></div></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; margin-bottom: -15px; border-right-width: 15px; min-height: 914px; min-width: 483.938px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-cursors"><div class="CodeMirror-cursor" style="left: 15px; top: 0px; height: 23.2188px;">&nbsp;</div></div><div class="CodeMirror-code" role="presentation" style=""><div class="CodeMirror-activeline" style="position: relative;"><div class="CodeMirror-activeline-background CodeMirror-linebackground"></div><div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" style="left: 0px; width: 0px;"></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-keyword">from</span> <span class="cm-variable">abc</span> <span class="cm-keyword">import</span> <span class="cm-variable">ABC</span>, <span class="cm-variable">abstractmethod</span></span></pre></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-keyword">class</span> <span class="cm-def">Shape</span>(<span class="cm-variable">ABC</span>):</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">    <span class="cm-meta">@abstractmethod</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">    <span class="cm-keyword">def</span> <span class="cm-def">area</span>(<span class="cm-variable-2">self</span>):</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-keyword">pass</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">    <span class="cm-meta">@abstractmethod</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">    <span class="cm-keyword">def</span> <span class="cm-def">perimeter</span>(<span class="cm-variable-2">self</span>):</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-keyword">pass</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-keyword">class</span> <span class="cm-def">Rectangle</span>(<span class="cm-variable">Shape</span>):</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">    <span class="cm-keyword">def</span> <span class="cm-def">__init__</span>(<span class="cm-variable-2">self</span>, <span class="cm-variable">width</span>, <span class="cm-variable">height</span>):</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-variable-2">self</span>.<span class="cm-property">width</span> <span class="cm-operator">=</span> <span class="cm-variable">width</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-variable-2">self</span>.<span class="cm-property">height</span> <span class="cm-operator">=</span> <span class="cm-variable">height</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">    <span class="cm-keyword">def</span> <span class="cm-def">area</span>(<span class="cm-variable-2">self</span>):</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-keyword">return</span> <span class="cm-variable-2">self</span>.<span class="cm-property">width</span> <span class="cm-operator">*</span> <span class="cm-variable-2">self</span>.<span class="cm-property">height</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">    <span class="cm-keyword">def</span> <span class="cm-def">perimeter</span>(<span class="cm-variable-2">self</span>):</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-keyword">return</span> <span class="cm-number">2</span> <span class="cm-operator">*</span> (<span class="cm-variable-2">self</span>.<span class="cm-property">width</span> <span class="cm-operator">+</span> <span class="cm-variable-2">self</span>.<span class="cm-property">height</span>)</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-keyword">class</span> <span class="cm-def">Circle</span>(<span class="cm-variable">Shape</span>):</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">    <span class="cm-keyword">def</span> <span class="cm-def">__init__</span>(<span class="cm-variable-2">self</span>, <span class="cm-variable">radius</span>):</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-variable-2">self</span>.<span class="cm-property">radius</span> <span class="cm-operator">=</span> <span class="cm-variable">radius</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">    <span class="cm-keyword">def</span> <span class="cm-def">area</span>(<span class="cm-variable-2">self</span>):</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-keyword">return</span> <span class="cm-number">3.14159</span> <span class="cm-operator">*</span> <span class="cm-variable-2">self</span>.<span class="cm-property">radius</span> <span class="cm-operator">**</span> <span class="cm-number">2</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">    <span class="cm-keyword">def</span> <span class="cm-def">perimeter</span>(<span class="cm-variable-2">self</span>):</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-keyword">return</span> <span class="cm-number">2</span> <span class="cm-operator">*</span> <span class="cm-number">3.14159</span> <span class="cm-operator">*</span> <span class="cm-variable-2">self</span>.<span class="cm-property">radius</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-comment"># Example usage:</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">rectangle</span> <span class="cm-operator">=</span> <span class="cm-variable">Rectangle</span>(<span class="cm-number">10</span>, <span class="cm-number">20</span>)</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">circle</span> <span class="cm-operator">=</span> <span class="cm-variable">Circle</span>(<span class="cm-number">5</span>)</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-builtin">print</span>(<span class="cm-string">"Rectangle Area:"</span>, <span class="cm-variable">rectangle</span>.<span class="cm-property">area</span>())</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-builtin">print</span>(<span class="cm-string">"Rectangle Perimeter:"</span>, <span class="cm-variable">rectangle</span>.<span class="cm-property">perimeter</span>())</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-builtin">print</span>(<span class="cm-string">"Circle Area:"</span>, <span class="cm-variable">circle</span>.<span class="cm-property">area</span>())</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-builtin">print</span>(<span class="cm-string">"Circle Perimeter:"</span>, <span class="cm-variable">circle</span>.<span class="cm-property">perimeter</span>())</span></pre></div></div></div></div></div><div style="position: absolute; height: 15px; width: 1px; border-bottom: 0px solid transparent; top: 914px;"></div><div class="CodeMirror-gutters" style="display: none; height: 929px;"></div></div></div></gfg-panel></gfg-tabs><div class="code-output"><br><strong>Output</strong><pre>Rectangle Area: 200
+Rectangle Perimeter: 60
+Circle Area: 78.53975
+Circle Perimeter: 31.4159
+</pre></div><h3 style="text-align:left"><span>Exercise 22: Composition Over Inheritance: Create a Book class with a Author class included within it, demonstrating composition over inheritance.</span></h3><gfg-tabs allow-code-exec="true" data-run-ide="true" data-mode="light" role="tablist"><template shadowrootmode="open">
+    <style>
+      :host {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      ::slotted(gfg-panel) {
+        flex-basis: 100%;
+      }
+      .codeblock-container[data-content]::after,
+      .codeblock-container[data-danger-content]::after {
+        content: attr(data-content);
+        display: block;
+        position: absolute;
+        bottom: 0px;
+        right: 0;
+        padding: 4px 12px;
+        font-size: 12px;
+        letter-spacing: 0.05em;
+        font-family: inherit;
+        background-color: rgb(217, 217, 217);
+        color: #424242 !important;
+      }
+      .codeblock-container[data-danger-content]::after {
+        color: rgb(132, 5, 5) !important;
+        content: attr(data-danger-content);
+      }
+      .codeblock-container{
+        position: relative;
+        width: 100%;
+        font-family: sans-serif;
+      }
+      .code-container{
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #ddd;
+        clear: left;
+      }
+      
+      #slot-panel::-webkit-scrollbar-track {
+        border-radius: 10px;
+        background-color: transparent;
+        width: 0px !important;
+      }
+
+      #slot-panel::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        background-color: #999;
+        width: 5px ; 
+      }
+      #slot-panel::-webkit-scrollbar {
+        width: 5px; 
+      }
+      #slot-panel::-webkit-scrollbar-thumb:hover {
+        cursor: pointer;
+      }
+      .editor-buttons-div,
+      .w-56 {
+        min-width: 46px;
+      }
+        .editor-buttons-div{
+            display: flex;
+            margin-left: auto;
+            height: 40px;
+            position: sticky; 
+            position: -webkit-sticky;
+            top: 60px;
+            z-index: 4;
+            width: fit-content;
+            justify-content: flex-end;
+            align-items: start;
+        }
+      .gfg-code{
+        padding: 0;
+        width: 100%;
+        display: block;
+      }
+      .editor-buttons{
+        display:flex;
+        width: fit-content;
+        gap: 8px;
+        margin-top: 8px;
+        padding-right: 11px;
+        position: relative;
+        margin-bottom: 4px;
+      }
+      .editor-buttons.output-box {
+        margin-top: 0px;
+      }
+      .editor-buttons.output-box button {
+        margin-bottom: 0 !important;
+      }
+        .output-box {
+            margin-left: 8px;
+        }
+      .code-button{
+        background: white;
+        margin-bottom: 10px;
+        border: 2px;
+        background: #e5e5e5;
+        border-radius: 50px;
+        width: 28px !important;
+        height: 28px !important;
+        cursor: pointer;
+        padding: 6px;
+      }
+        #expand-code-button{
+            margin-bottom: 0px;
+        }
+        #expand-driver-code {
+            transform: rotate(90deg);
+            transform-origin: center;
+        }
+      .code-output{
+        background: #efefef;
+        border-radius: 8px;
+        width: 100%;
+        margin: 10px 2px 5px 2px;
+      }
+      .close-output-button{
+        margin-bottom: 10px;
+      }
+      .code-output-content{
+        padding: 8px 16px;
+        margin: 0;
+        position: sticky;
+        position: -webkit-sticky;
+        margin-top: 10px;
+      }
+      .code-box {
+        display: flex;
+        flex-direction: column;
+        position: relative !important;
+      }
+      .code-output-box {
+        display: flex;
+        align-items: center;
+      }
+     .compiled-message-box {
+        background-color: #308d46;
+        border-radius: 6px;
+        color: white;
+        width: fit-content;
+        margin: 10px auto;
+        text-align: center;
+        flex-basis: 100%;
+        display: none;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: 700;
+        padding-inline: 10px;
+    }
+    .compiled-message-box p {
+        margin-block: 5px;
+    }
+    .compiled-message-box-active {
+        display: flex;
+    }
+    .compiled-mess-content {
+        font-size: 10px;
+        padding-left: 5px;
+    }
+      .generated-output{
+        font-size: 15px;
+        white-space: pre-wrap;
+      }
+      .row-output{
+        color: black;
+        font-size: 16px;
+        padding : 10px;
+      }
+      .border {
+        width: 28px !important;
+        height: 28px !important;
+        position: absolute;
+        background: transparent;
+        border-radius: 50%;
+        border: 2px dashed #000;
+        margin-left: -8px;
+        margin-top: -7px;
+        animation-name: rotate;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+      }
+      .codeblock-container[data-mode=dark] .border {
+        border-color: white !important;
+      }
+      #icon-tabler-copy{
+        margin-bottom: -4px;
+        cursor: pointer;
+      }
+      .gfg-icon{
+        margin-left: auto;
+        margin-right: auto;
+        display: block !important;
+      }
+      
+        @keyframes rotate {
+            from{ transform: rotate(-360deg); }
+            to{ transform: rotate(360deg); }
+        }
+        #code-output-element #jsFrame {
+            background-color: transparent;
+            border: unset;
+            width: 100%;
+        }
+        .loading-container.active {
+            width: 150px; 
+            height: 50px; 
+            background-color: lightgrey; 
+            opacity: 70%;
+            color: black; 
+            position: absolute; 
+            display: flex !important;
+            justify-content: center;
+            align-items: center;
+            top: 30%;
+            left: 40%;
+            z-index: 1;
+            white-space: nowrap !important;
+            text-align: center; 
+            font-size: 13px; 
+            border-radius: 8px; 
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            margin: 2rem;
+        }
+        .loading-container {
+            display: none;
+        }
+        .playground-loading {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+        }
+        
+    @media screen and (max-width: 700px) {
+        .editor-buttons-div {
+            position: sticky; 
+            top: 10px;  
+            z-index: 4;
+            width: fit-content;
+            margin-left: auto;
+            height: 38px;
+            padding-right: 5px;
+        }
+
+        .editor-buttons {
+            display: flex;
+            width: fit-content;
+            flex-direction: row;
+            gap: 8px;
+        }
+        .code-box {
+            position: relative;
+            flex-direction: column;
+        }
+        .code-button {
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        .compiled-message-box svg {
+            display: none;
+        }
+    }
+
+    @media screen and (max-width: 375px) {
+        .compiled-message-box {
+            margin-inline: 5px;
+        }
+    }
+    </style>
+
+    <div class="codeblock-container" data-mode="light">
+        <slot name="tab"></slot>
+        <div class="code-container">
+            <div class="code-box">    
+                <div id="editor-buttons-div" class="editor-buttons-div" style="top: 40px;">
+                    <div id="editor-buttons" class="editor-buttons">
+                        <button id="expand-driver-code" class="expand-driver-code code-button" title="Expand all Diver Codes" style="display: none;"><svg id="expand-icon" width="17" height="17" viewBox="1 5 47 6" stroke-width="1" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
+            <path d="M44.4507 7.91963C44.7062 8.18159 44.8496 8.53199 44.8496 8.89419C44.8496 9.25639 44.7062 9.60088 44.4507 9.8523L38.9862 15.2053C38.8593 15.3296 38.7087 15.4272 38.5429 15.4924C38.3771 15.5577 38.1995 15.5894 38.02 15.5857C37.6577 15.5782 37.3101 15.427 37.0539 15.1655C36.7977 14.9039 36.6537 14.5533 36.6537 14.1909C36.6537 13.8284 36.7977 13.4838 37.0539 13.2328L40.1862 10.1645L30.3697 9.96203C30.0073 9.95456 29.6599 9.80343 29.4037 9.54189C29.1475 9.28035 29.0035 8.92983 29.0035 8.56743C29.0035 8.20503 29.1475 7.86044 29.4037 7.60947C29.6599 7.3585 30.0073 7.22171 30.3697 7.22918L40.1862 7.4316L37.0539 4.23407C36.927 4.10455 36.8264 3.95182 36.7577 3.7846C36.6891 3.61738 36.6537 3.43894 36.6537 3.25948C36.6537 3.08001 36.6891 2.90304 36.7577 2.73865C36.8264 2.57426 36.927 2.42568 37.0539 2.30139C37.1808 2.17711 37.3314 2.07955 37.4972 2.01429C37.6629 1.94903 37.8406 1.91735 38.02 1.92105C38.1995 1.92475 38.3771 1.96376 38.5429 2.03586C38.7087 2.10795 38.8593 2.21172 38.9862 2.34124L44.4507 7.91963Z" fill="black"></path>
+            <rect x="24.5859" y="16.8309" width="3.31306" height="16.5653" rx="1.65653" transform="rotate(-180 24.5859 16.8309)" fill="black"></rect>
+            <path d="M0.884258 7.91957C0.62878 8.18152 0.485352 8.53193 0.485352 8.89413C0.485352 9.25632 0.62878 9.60082 0.884258 9.85224L6.3488 15.2053C6.47567 15.3295 6.6263 15.4271 6.79207 15.4924C6.95783 15.5576 7.1355 15.5893 7.31493 15.5856C7.6773 15.5781 8.02483 15.427 8.28106 15.1654C8.5373 14.9038 8.68125 14.5533 8.68125 14.1908C8.68125 13.8284 8.5373 13.4837 8.28106 13.2327L5.14879 10.1644L14.9653 9.96197C15.3276 9.9545 15.6751 9.80337 15.9313 9.54183C16.1875 9.28029 16.3314 8.92977 16.3314 8.56737C16.3314 8.20497 16.1875 7.86038 15.9313 7.60941C15.6751 7.35844 15.3276 7.22164 14.9653 7.22912L5.14879 7.43154L8.28106 4.23401C8.40794 4.10449 8.50858 3.95176 8.57724 3.78454C8.64591 3.61732 8.68125 3.43888 8.68125 3.25942C8.68125 3.07995 8.64591 2.90298 8.57724 2.73859C8.50858 2.5742 8.40794 2.42562 8.28106 2.30133C8.15419 2.17705 8.00357 2.07949 7.8378 2.01423C7.67203 1.94897 7.49436 1.91729 7.31493 1.92099C7.1355 1.92469 6.95783 1.9637 6.79207 2.03579C6.6263 2.10789 6.47567 2.21166 6.3488 2.34118L0.884258 7.91957Z" fill="black"></path>
+        </svg></button>
+                        <button class="code-button" id="edit-close-button" title="Close Editor" buttontype="edit"><svg xmlns="http://www.w3.org/2000/svg" id="edit-close-icon" class="gfg-icon" width="17" height="17" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+        <path d="M18 6l-12 12"></path>
+        <path d="M6 6l12 12"></path>
+    </svg></button>
+                        <button class="code-button" id="run-code-button" title="Run Code and See Output">
+                            <div class="border" id="run-code-loader" hidden=""></div>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="gfg-icon" width="17" height="17" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M7 4v16l13 -8z"></path>
+                            </svg>
+                        </button>
+                        <button class="code-button" id="copy-code-button" title="Copy Code"> <svg xmlns="http://www.w3.org/2000/svg" class="gfg-icon" width="17" height="17" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M8 8m0 2a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2z"></path>
+                                <path d="M16 8v-2a2 2 0 0 0 -2 -2h-8a2 2 0 0 0 -2 2v8a2 2 0 0 0 2 2h2"></path>
+                        </svg></button>
+                        <button class="code-button" id="mode-button" title="Dark Mode" hidden="true" mode="light"><svg xmlns="http://www.w3.org/2000/svg" class="gfg-icon" width="20" height="20" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+        <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z"></path>
+    </svg> </button>
+                        
+                    </div>
+                </div>
+                <div id="slot-panel" class="gfg-code" style="width: calc(100% + 0px); margin-top: -35px;">
+                     <div id="playground-loader" class="loading-container">
+                        <span class="playground-loading">Loading Playground...</span>
+                    </div>
+                    <slot name="panel"></slot>
+                </div>
+            </div>
+            <div class="code-output-box" id="code-output-box">
+                <div class="editor-buttons w-56 output-box" title="Close Output">
+                    <button class="code-button" id="close-output-button" hidden="">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="gfg-icon" width="17" height="17" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                            <path d="M9 12h-3.586a1 1 0 0 1 -.707 -1.707l6.586 -6.586a1 1 0 0 1 1.414 0l6.586 6.586a1 1 0 0 1 -.707 1.707h-3.586v6h-6v-6z"></path>
+                            <path d="M9 21h6"></path>
+                        </svg>
+                    </button>
+                </div> 
+                <div class="code-output" id="code-output" hidden="">
+                    <div class="row-output">
+                        <pre class="generated-output" id="code-output-element"></pre>
+                    </div> 
+                </div>
+            </div>
+            </div>
+        </div>
+    
+    </template>
+            <gfg-tab slot="tab" hidden="" role="tab" id="gfg-tab-generated-20" aria-selected="true" tabindex="0" aria-controls="gfg-panel-generated-20" selected="">Python</gfg-tab>
+<gfg-panel slot="panel" data-code-lang="python3" data-main-code-start="None" data-main-code-end="None" role="tabpanel" id="gfg-panel-generated-20" aria-labelledby="gfg-tab-generated-20">
+    <code class="language-python3"><div class="highlight"><pre hidden=""><span></span><span class="k">class</span> <span class="nc">Author</span><span class="p">:</span>
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">name</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="n">name</span>
+
+<span class="k">class</span> <span class="nc">Book</span><span class="p">:</span>
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">title</span><span class="p">,</span> <span class="n">author</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">title</span> <span class="o">=</span> <span class="n">title</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">author</span> <span class="o">=</span> <span class="n">Author</span><span class="p">(</span><span class="n">author</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">display</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Book: </span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">title</span><span class="si">}</span><span class="s2">, Author: </span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">author</span><span class="o">.</span><span class="n">name</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+
+<span class="c1"># Example usage:</span>
+<span class="n">book</span> <span class="o">=</span> <span class="n">Book</span><span class="p">(</span><span class="s2">"Python Programming"</span><span class="p">,</span> <span class="s2">"John Doe"</span><span class="p">)</span>
+<span class="n">book</span><span class="o">.</span><span class="n">display</span><span class="p">()</span>
+</pre></div></code>
+<div class="CodeMirror cm-s-default"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 4px; left: 15px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-vscrollbar" tabindex="-1" cm-not-content="true" style="bottom: 0px;"><div style="min-width: 1px; height: 0px;"></div></div><div class="CodeMirror-hscrollbar" tabindex="-1" cm-not-content="true"><div style="height: 100%; min-height: 1px; width: 0px;"></div></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; margin-bottom: -15px; border-right-width: 15px; min-height: 356px; min-width: 591.516px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-cursors"><div class="CodeMirror-cursor" style="left: 15px; top: 0px; height: 23.2188px;">&nbsp;</div></div><div class="CodeMirror-code" role="presentation" style=""><div class="CodeMirror-activeline" style="position: relative;"><div class="CodeMirror-activeline-background CodeMirror-linebackground"></div><div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" style="left: 0px; width: 0px;"></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-keyword">class</span> <span class="cm-def">Author</span>:</span></pre></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">    <span class="cm-keyword">def</span> <span class="cm-def">__init__</span>(<span class="cm-variable-2">self</span>, <span class="cm-variable">name</span>):</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-variable-2">self</span>.<span class="cm-property">name</span> <span class="cm-operator">=</span> <span class="cm-variable">name</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-keyword">class</span> <span class="cm-def">Book</span>:</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">    <span class="cm-keyword">def</span> <span class="cm-def">__init__</span>(<span class="cm-variable-2">self</span>, <span class="cm-variable">title</span>, <span class="cm-variable">author</span>):</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-variable-2">self</span>.<span class="cm-property">title</span> <span class="cm-operator">=</span> <span class="cm-variable">title</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-variable-2">self</span>.<span class="cm-property">author</span> <span class="cm-operator">=</span> <span class="cm-variable">Author</span>(<span class="cm-variable">author</span>)</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">    <span class="cm-keyword">def</span> <span class="cm-def">display</span>(<span class="cm-variable-2">self</span>):</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-builtin">print</span>(<span class="cm-string">f"Book: </span>{<span class="cm-variable-2">self</span>.<span class="cm-property">title</span>}<span class="cm-string">, Author: </span>{<span class="cm-variable-2">self</span>.<span class="cm-property">author</span>.<span class="cm-property">name</span>}<span class="cm-string">"</span>)</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-comment"># Example usage:</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">book</span> <span class="cm-operator">=</span> <span class="cm-variable">Book</span>(<span class="cm-string">"Python Programming"</span>, <span class="cm-string">"John Doe"</span>)</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">book</span>.<span class="cm-property">display</span>()</span></pre></div></div></div></div></div><div style="position: absolute; height: 15px; width: 1px; border-bottom: 0px solid transparent; top: 356px;"></div><div class="CodeMirror-gutters" style="display: none; height: 371px;"></div></div></div></gfg-panel></gfg-tabs><div class="code-output"><br><strong>Output</strong><pre>Book: Python Programming, Author: John Doe
+</pre></div><h3 style="text-align:left"><span>Exercise 23: Operator Overloading Create a Vector class that supports addition using the + operator, allowing you to add two vectors.</span></h3><gfg-tabs allow-code-exec="true" data-run-ide="true" data-mode="light" role="tablist"><template shadowrootmode="open">
+    <style>
+      :host {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      ::slotted(gfg-panel) {
+        flex-basis: 100%;
+      }
+      .codeblock-container[data-content]::after,
+      .codeblock-container[data-danger-content]::after {
+        content: attr(data-content);
+        display: block;
+        position: absolute;
+        bottom: 0px;
+        right: 0;
+        padding: 4px 12px;
+        font-size: 12px;
+        letter-spacing: 0.05em;
+        font-family: inherit;
+        background-color: rgb(217, 217, 217);
+        color: #424242 !important;
+      }
+      .codeblock-container[data-danger-content]::after {
+        color: rgb(132, 5, 5) !important;
+        content: attr(data-danger-content);
+      }
+      .codeblock-container{
+        position: relative;
+        width: 100%;
+        font-family: sans-serif;
+      }
+      .code-container{
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #ddd;
+        clear: left;
+      }
+      
+      #slot-panel::-webkit-scrollbar-track {
+        border-radius: 10px;
+        background-color: transparent;
+        width: 0px !important;
+      }
+
+      #slot-panel::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        background-color: #999;
+        width: 5px ; 
+      }
+      #slot-panel::-webkit-scrollbar {
+        width: 5px; 
+      }
+      #slot-panel::-webkit-scrollbar-thumb:hover {
+        cursor: pointer;
+      }
+      .editor-buttons-div,
+      .w-56 {
+        min-width: 46px;
+      }
+        .editor-buttons-div{
+            display: flex;
+            margin-left: auto;
+            height: 40px;
+            position: sticky; 
+            position: -webkit-sticky;
+            top: 60px;
+            z-index: 4;
+            width: fit-content;
+            justify-content: flex-end;
+            align-items: start;
+        }
+      .gfg-code{
+        padding: 0;
+        width: 100%;
+        display: block;
+      }
+      .editor-buttons{
+        display:flex;
+        width: fit-content;
+        gap: 8px;
+        margin-top: 8px;
+        padding-right: 11px;
+        position: relative;
+        margin-bottom: 4px;
+      }
+      .editor-buttons.output-box {
+        margin-top: 0px;
+      }
+      .editor-buttons.output-box button {
+        margin-bottom: 0 !important;
+      }
+        .output-box {
+            margin-left: 8px;
+        }
+      .code-button{
+        background: white;
+        margin-bottom: 10px;
+        border: 2px;
+        background: #e5e5e5;
+        border-radius: 50px;
+        width: 28px !important;
+        height: 28px !important;
+        cursor: pointer;
+        padding: 6px;
+      }
+        #expand-code-button{
+            margin-bottom: 0px;
+        }
+        #expand-driver-code {
+            transform: rotate(90deg);
+            transform-origin: center;
+        }
+      .code-output{
+        background: #efefef;
+        border-radius: 8px;
+        width: 100%;
+        margin: 10px 2px 5px 2px;
+      }
+      .close-output-button{
+        margin-bottom: 10px;
+      }
+      .code-output-content{
+        padding: 8px 16px;
+        margin: 0;
+        position: sticky;
+        position: -webkit-sticky;
+        margin-top: 10px;
+      }
+      .code-box {
+        display: flex;
+        flex-direction: column;
+        position: relative !important;
+      }
+      .code-output-box {
+        display: flex;
+        align-items: center;
+      }
+     .compiled-message-box {
+        background-color: #308d46;
+        border-radius: 6px;
+        color: white;
+        width: fit-content;
+        margin: 10px auto;
+        text-align: center;
+        flex-basis: 100%;
+        display: none;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: 700;
+        padding-inline: 10px;
+    }
+    .compiled-message-box p {
+        margin-block: 5px;
+    }
+    .compiled-message-box-active {
+        display: flex;
+    }
+    .compiled-mess-content {
+        font-size: 10px;
+        padding-left: 5px;
+    }
+      .generated-output{
+        font-size: 15px;
+        white-space: pre-wrap;
+      }
+      .row-output{
+        color: black;
+        font-size: 16px;
+        padding : 10px;
+      }
+      .border {
+        width: 28px !important;
+        height: 28px !important;
+        position: absolute;
+        background: transparent;
+        border-radius: 50%;
+        border: 2px dashed #000;
+        margin-left: -8px;
+        margin-top: -7px;
+        animation-name: rotate;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+      }
+      .codeblock-container[data-mode=dark] .border {
+        border-color: white !important;
+      }
+      #icon-tabler-copy{
+        margin-bottom: -4px;
+        cursor: pointer;
+      }
+      .gfg-icon{
+        margin-left: auto;
+        margin-right: auto;
+        display: block !important;
+      }
+      
+        @keyframes rotate {
+            from{ transform: rotate(-360deg); }
+            to{ transform: rotate(360deg); }
+        }
+        #code-output-element #jsFrame {
+            background-color: transparent;
+            border: unset;
+            width: 100%;
+        }
+        .loading-container.active {
+            width: 150px; 
+            height: 50px; 
+            background-color: lightgrey; 
+            opacity: 70%;
+            color: black; 
+            position: absolute; 
+            display: flex !important;
+            justify-content: center;
+            align-items: center;
+            top: 30%;
+            left: 40%;
+            z-index: 1;
+            white-space: nowrap !important;
+            text-align: center; 
+            font-size: 13px; 
+            border-radius: 8px; 
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            margin: 2rem;
+        }
+        .loading-container {
+            display: none;
+        }
+        .playground-loading {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+        }
+        
+    @media screen and (max-width: 700px) {
+        .editor-buttons-div {
+            position: sticky; 
+            top: 10px;  
+            z-index: 4;
+            width: fit-content;
+            margin-left: auto;
+            height: 38px;
+            padding-right: 5px;
+        }
+
+        .editor-buttons {
+            display: flex;
+            width: fit-content;
+            flex-direction: row;
+            gap: 8px;
+        }
+        .code-box {
+            position: relative;
+            flex-direction: column;
+        }
+        .code-button {
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        .compiled-message-box svg {
+            display: none;
+        }
+    }
+
+    @media screen and (max-width: 375px) {
+        .compiled-message-box {
+            margin-inline: 5px;
+        }
+    }
+    </style>
+
+    <div class="codeblock-container" data-mode="light">
+        <slot name="tab"></slot>
+        <div class="code-container">
+            <div class="code-box">    
+                <div id="editor-buttons-div" class="editor-buttons-div" style="top: 40px;">
+                    <div id="editor-buttons" class="editor-buttons">
+                        <button id="expand-driver-code" class="expand-driver-code code-button" title="Expand all Diver Codes" style="display: none;"><svg id="expand-icon" width="17" height="17" viewBox="1 5 47 6" stroke-width="1" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
+            <path d="M44.4507 7.91963C44.7062 8.18159 44.8496 8.53199 44.8496 8.89419C44.8496 9.25639 44.7062 9.60088 44.4507 9.8523L38.9862 15.2053C38.8593 15.3296 38.7087 15.4272 38.5429 15.4924C38.3771 15.5577 38.1995 15.5894 38.02 15.5857C37.6577 15.5782 37.3101 15.427 37.0539 15.1655C36.7977 14.9039 36.6537 14.5533 36.6537 14.1909C36.6537 13.8284 36.7977 13.4838 37.0539 13.2328L40.1862 10.1645L30.3697 9.96203C30.0073 9.95456 29.6599 9.80343 29.4037 9.54189C29.1475 9.28035 29.0035 8.92983 29.0035 8.56743C29.0035 8.20503 29.1475 7.86044 29.4037 7.60947C29.6599 7.3585 30.0073 7.22171 30.3697 7.22918L40.1862 7.4316L37.0539 4.23407C36.927 4.10455 36.8264 3.95182 36.7577 3.7846C36.6891 3.61738 36.6537 3.43894 36.6537 3.25948C36.6537 3.08001 36.6891 2.90304 36.7577 2.73865C36.8264 2.57426 36.927 2.42568 37.0539 2.30139C37.1808 2.17711 37.3314 2.07955 37.4972 2.01429C37.6629 1.94903 37.8406 1.91735 38.02 1.92105C38.1995 1.92475 38.3771 1.96376 38.5429 2.03586C38.7087 2.10795 38.8593 2.21172 38.9862 2.34124L44.4507 7.91963Z" fill="black"></path>
+            <rect x="24.5859" y="16.8309" width="3.31306" height="16.5653" rx="1.65653" transform="rotate(-180 24.5859 16.8309)" fill="black"></rect>
+            <path d="M0.884258 7.91957C0.62878 8.18152 0.485352 8.53193 0.485352 8.89413C0.485352 9.25632 0.62878 9.60082 0.884258 9.85224L6.3488 15.2053C6.47567 15.3295 6.6263 15.4271 6.79207 15.4924C6.95783 15.5576 7.1355 15.5893 7.31493 15.5856C7.6773 15.5781 8.02483 15.427 8.28106 15.1654C8.5373 14.9038 8.68125 14.5533 8.68125 14.1908C8.68125 13.8284 8.5373 13.4837 8.28106 13.2327L5.14879 10.1644L14.9653 9.96197C15.3276 9.9545 15.6751 9.80337 15.9313 9.54183C16.1875 9.28029 16.3314 8.92977 16.3314 8.56737C16.3314 8.20497 16.1875 7.86038 15.9313 7.60941C15.6751 7.35844 15.3276 7.22164 14.9653 7.22912L5.14879 7.43154L8.28106 4.23401C8.40794 4.10449 8.50858 3.95176 8.57724 3.78454C8.64591 3.61732 8.68125 3.43888 8.68125 3.25942C8.68125 3.07995 8.64591 2.90298 8.57724 2.73859C8.50858 2.5742 8.40794 2.42562 8.28106 2.30133C8.15419 2.17705 8.00357 2.07949 7.8378 2.01423C7.67203 1.94897 7.49436 1.91729 7.31493 1.92099C7.1355 1.92469 6.95783 1.9637 6.79207 2.03579C6.6263 2.10789 6.47567 2.21166 6.3488 2.34118L0.884258 7.91957Z" fill="black"></path>
+        </svg></button>
+                        <button class="code-button" id="edit-close-button" title="Close Editor" buttontype="edit"><svg xmlns="http://www.w3.org/2000/svg" id="edit-close-icon" class="gfg-icon" width="17" height="17" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+        <path d="M18 6l-12 12"></path>
+        <path d="M6 6l12 12"></path>
+    </svg></button>
+                        <button class="code-button" id="run-code-button" title="Run Code and See Output">
+                            <div class="border" id="run-code-loader" hidden=""></div>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="gfg-icon" width="17" height="17" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M7 4v16l13 -8z"></path>
+                            </svg>
+                        </button>
+                        <button class="code-button" id="copy-code-button" title="Copy Code"> <svg xmlns="http://www.w3.org/2000/svg" class="gfg-icon" width="17" height="17" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M8 8m0 2a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2z"></path>
+                                <path d="M16 8v-2a2 2 0 0 0 -2 -2h-8a2 2 0 0 0 -2 2v8a2 2 0 0 0 2 2h2"></path>
+                        </svg></button>
+                        <button class="code-button" id="mode-button" title="Dark Mode" hidden="true" mode="light"><svg xmlns="http://www.w3.org/2000/svg" class="gfg-icon" width="20" height="20" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+        <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z"></path>
+    </svg> </button>
+                        
+                    </div>
+                </div>
+                <div id="slot-panel" class="gfg-code" style="width: calc(100% + 0px); margin-top: -35px;">
+                     <div id="playground-loader" class="loading-container">
+                        <span class="playground-loading">Loading Playground...</span>
+                    </div>
+                    <slot name="panel"></slot>
+                </div>
+            </div>
+            <div class="code-output-box" id="code-output-box">
+                <div class="editor-buttons w-56 output-box" title="Close Output">
+                    <button class="code-button" id="close-output-button" hidden="">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="gfg-icon" width="17" height="17" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                            <path d="M9 12h-3.586a1 1 0 0 1 -.707 -1.707l6.586 -6.586a1 1 0 0 1 1.414 0l6.586 6.586a1 1 0 0 1 -.707 1.707h-3.586v6h-6v-6z"></path>
+                            <path d="M9 21h6"></path>
+                        </svg>
+                    </button>
+                </div> 
+                <div class="code-output" id="code-output" hidden="">
+                    <div class="row-output">
+                        <pre class="generated-output" id="code-output-element"></pre>
+                    </div> 
+                </div>
+            </div>
+            </div>
+        </div>
+    
+    </template>
+            <gfg-tab slot="tab" hidden="" role="tab" id="gfg-tab-generated-21" aria-selected="true" tabindex="0" aria-controls="gfg-panel-generated-21" selected="">Python</gfg-tab>
+<gfg-panel slot="panel" data-code-lang="python3" data-main-code-start="None" data-main-code-end="None" role="tabpanel" id="gfg-panel-generated-21" aria-labelledby="gfg-tab-generated-21">
+    <code class="language-python3"><div class="highlight"><pre hidden=""><span></span><span class="k">class</span> <span class="nc">Vector</span><span class="p">:</span>
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">x</span> <span class="o">=</span> <span class="n">x</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">y</span> <span class="o">=</span> <span class="n">y</span>
+
+    <span class="k">def</span> <span class="fm">__add__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">other</span><span class="p">):</span>
+        <span class="k">return</span> <span class="n">Vector</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">x</span> <span class="o">+</span> <span class="n">other</span><span class="o">.</span><span class="n">x</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">y</span> <span class="o">+</span> <span class="n">other</span><span class="o">.</span><span class="n">y</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="fm">__str__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="sa">f</span><span class="s2">"(</span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">x</span><span class="si">}</span><span class="s2">, </span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">y</span><span class="si">}</span><span class="s2">)"</span>
+
+<span class="c1"># Example usage:</span>
+<span class="n">v1</span> <span class="o">=</span> <span class="n">Vector</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">4</span><span class="p">)</span>
+<span class="n">v2</span> <span class="o">=</span> <span class="n">Vector</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"Vector Addition:"</span><span class="p">,</span> <span class="n">v1</span> <span class="o">+</span> <span class="n">v2</span><span class="p">)</span>
+</pre></div></code>
+<div class="CodeMirror cm-s-default"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 4px; left: 15px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-vscrollbar" tabindex="-1" cm-not-content="true" style="bottom: 0px;"><div style="min-width: 1px; height: 0px;"></div></div><div class="CodeMirror-hscrollbar" tabindex="-1" cm-not-content="true"><div style="height: 100%; min-height: 1px; width: 0px;"></div></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; margin-bottom: -15px; border-right-width: 15px; min-height: 356px; min-width: 528.875px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-cursors"><div class="CodeMirror-cursor" style="left: 15px; top: 0px; height: 23.2188px;">&nbsp;</div></div><div class="CodeMirror-code" role="presentation" style=""><div class="CodeMirror-activeline" style="position: relative;"><div class="CodeMirror-activeline-background CodeMirror-linebackground"></div><div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" style="left: 0px; width: 0px;"></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-keyword">class</span> <span class="cm-def">Vector</span>:</span></pre></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">    <span class="cm-keyword">def</span> <span class="cm-def">__init__</span>(<span class="cm-variable-2">self</span>, <span class="cm-variable">x</span>, <span class="cm-variable">y</span>):</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-variable-2">self</span>.<span class="cm-property">x</span> <span class="cm-operator">=</span> <span class="cm-variable">x</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-variable-2">self</span>.<span class="cm-property">y</span> <span class="cm-operator">=</span> <span class="cm-variable">y</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">    <span class="cm-keyword">def</span> <span class="cm-def">__add__</span>(<span class="cm-variable-2">self</span>, <span class="cm-variable">other</span>):</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-keyword">return</span> <span class="cm-variable">Vector</span>(<span class="cm-variable-2">self</span>.<span class="cm-property">x</span> <span class="cm-operator">+</span> <span class="cm-variable">other</span>.<span class="cm-property">x</span>, <span class="cm-variable-2">self</span>.<span class="cm-property">y</span> <span class="cm-operator">+</span> <span class="cm-variable">other</span>.<span class="cm-property">y</span>)</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">    <span class="cm-keyword">def</span> <span class="cm-def">__str__</span>(<span class="cm-variable-2">self</span>):</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-keyword">return</span> <span class="cm-string">f"(</span>{<span class="cm-variable-2">self</span>.<span class="cm-property">x</span>}<span class="cm-string">, </span>{<span class="cm-variable-2">self</span>.<span class="cm-property">y</span>}<span class="cm-string">)"</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-comment"># Example usage:</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">v1</span> <span class="cm-operator">=</span> <span class="cm-variable">Vector</span>(<span class="cm-number">2</span>, <span class="cm-number">4</span>)</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">v2</span> <span class="cm-operator">=</span> <span class="cm-variable">Vector</span>(<span class="cm-number">1</span>, <span class="cm-operator">-</span><span class="cm-number">1</span>)</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-builtin">print</span>(<span class="cm-string">"Vector Addition:"</span>, <span class="cm-variable">v1</span> <span class="cm-operator">+</span> <span class="cm-variable">v2</span>)</span></pre></div></div></div></div></div><div style="position: absolute; height: 15px; width: 1px; border-bottom: 0px solid transparent; top: 356px;"></div><div class="CodeMirror-gutters" style="display: none; height: 371px;"></div></div></div></gfg-panel></gfg-tabs><div class="code-output"><br><strong>Output</strong><pre>Vector Addition: (3, 3)
+</pre></div><h3 style="text-align:left"><span>Exercise 24: Static and Class Methods Demonstrate the use of static and class methods in a class Calculator with methods to add and multiply numbers.</span></h3><gfg-tabs allow-code-exec="true" data-run-ide="true" data-mode="light" role="tablist"><template shadowrootmode="open">
+    <style>
+      :host {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      ::slotted(gfg-panel) {
+        flex-basis: 100%;
+      }
+      .codeblock-container[data-content]::after,
+      .codeblock-container[data-danger-content]::after {
+        content: attr(data-content);
+        display: block;
+        position: absolute;
+        bottom: 0px;
+        right: 0;
+        padding: 4px 12px;
+        font-size: 12px;
+        letter-spacing: 0.05em;
+        font-family: inherit;
+        background-color: rgb(217, 217, 217);
+        color: #424242 !important;
+      }
+      .codeblock-container[data-danger-content]::after {
+        color: rgb(132, 5, 5) !important;
+        content: attr(data-danger-content);
+      }
+      .codeblock-container{
+        position: relative;
+        width: 100%;
+        font-family: sans-serif;
+      }
+      .code-container{
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #ddd;
+        clear: left;
+      }
+      
+      #slot-panel::-webkit-scrollbar-track {
+        border-radius: 10px;
+        background-color: transparent;
+        width: 0px !important;
+      }
+
+      #slot-panel::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        background-color: #999;
+        width: 5px ; 
+      }
+      #slot-panel::-webkit-scrollbar {
+        width: 5px; 
+      }
+      #slot-panel::-webkit-scrollbar-thumb:hover {
+        cursor: pointer;
+      }
+      .editor-buttons-div,
+      .w-56 {
+        min-width: 46px;
+      }
+        .editor-buttons-div{
+            display: flex;
+            margin-left: auto;
+            height: 40px;
+            position: sticky; 
+            position: -webkit-sticky;
+            top: 60px;
+            z-index: 4;
+            width: fit-content;
+            justify-content: flex-end;
+            align-items: start;
+        }
+      .gfg-code{
+        padding: 0;
+        width: 100%;
+        display: block;
+      }
+      .editor-buttons{
+        display:flex;
+        width: fit-content;
+        gap: 8px;
+        margin-top: 8px;
+        padding-right: 11px;
+        position: relative;
+        margin-bottom: 4px;
+      }
+      .editor-buttons.output-box {
+        margin-top: 0px;
+      }
+      .editor-buttons.output-box button {
+        margin-bottom: 0 !important;
+      }
+        .output-box {
+            margin-left: 8px;
+        }
+      .code-button{
+        background: white;
+        margin-bottom: 10px;
+        border: 2px;
+        background: #e5e5e5;
+        border-radius: 50px;
+        width: 28px !important;
+        height: 28px !important;
+        cursor: pointer;
+        padding: 6px;
+      }
+        #expand-code-button{
+            margin-bottom: 0px;
+        }
+        #expand-driver-code {
+            transform: rotate(90deg);
+            transform-origin: center;
+        }
+      .code-output{
+        background: #efefef;
+        border-radius: 8px;
+        width: 100%;
+        margin: 10px 2px 5px 2px;
+      }
+      .close-output-button{
+        margin-bottom: 10px;
+      }
+      .code-output-content{
+        padding: 8px 16px;
+        margin: 0;
+        position: sticky;
+        position: -webkit-sticky;
+        margin-top: 10px;
+      }
+      .code-box {
+        display: flex;
+        flex-direction: column;
+        position: relative !important;
+      }
+      .code-output-box {
+        display: flex;
+        align-items: center;
+      }
+     .compiled-message-box {
+        background-color: #308d46;
+        border-radius: 6px;
+        color: white;
+        width: fit-content;
+        margin: 10px auto;
+        text-align: center;
+        flex-basis: 100%;
+        display: none;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: 700;
+        padding-inline: 10px;
+    }
+    .compiled-message-box p {
+        margin-block: 5px;
+    }
+    .compiled-message-box-active {
+        display: flex;
+    }
+    .compiled-mess-content {
+        font-size: 10px;
+        padding-left: 5px;
+    }
+      .generated-output{
+        font-size: 15px;
+        white-space: pre-wrap;
+      }
+      .row-output{
+        color: black;
+        font-size: 16px;
+        padding : 10px;
+      }
+      .border {
+        width: 28px !important;
+        height: 28px !important;
+        position: absolute;
+        background: transparent;
+        border-radius: 50%;
+        border: 2px dashed #000;
+        margin-left: -8px;
+        margin-top: -7px;
+        animation-name: rotate;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+      }
+      .codeblock-container[data-mode=dark] .border {
+        border-color: white !important;
+      }
+      #icon-tabler-copy{
+        margin-bottom: -4px;
+        cursor: pointer;
+      }
+      .gfg-icon{
+        margin-left: auto;
+        margin-right: auto;
+        display: block !important;
+      }
+      
+        @keyframes rotate {
+            from{ transform: rotate(-360deg); }
+            to{ transform: rotate(360deg); }
+        }
+        #code-output-element #jsFrame {
+            background-color: transparent;
+            border: unset;
+            width: 100%;
+        }
+        .loading-container.active {
+            width: 150px; 
+            height: 50px; 
+            background-color: lightgrey; 
+            opacity: 70%;
+            color: black; 
+            position: absolute; 
+            display: flex !important;
+            justify-content: center;
+            align-items: center;
+            top: 30%;
+            left: 40%;
+            z-index: 1;
+            white-space: nowrap !important;
+            text-align: center; 
+            font-size: 13px; 
+            border-radius: 8px; 
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            margin: 2rem;
+        }
+        .loading-container {
+            display: none;
+        }
+        .playground-loading {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+        }
+        
+    @media screen and (max-width: 700px) {
+        .editor-buttons-div {
+            position: sticky; 
+            top: 10px;  
+            z-index: 4;
+            width: fit-content;
+            margin-left: auto;
+            height: 38px;
+            padding-right: 5px;
+        }
+
+        .editor-buttons {
+            display: flex;
+            width: fit-content;
+            flex-direction: row;
+            gap: 8px;
+        }
+        .code-box {
+            position: relative;
+            flex-direction: column;
+        }
+        .code-button {
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        .compiled-message-box svg {
+            display: none;
+        }
+    }
+
+    @media screen and (max-width: 375px) {
+        .compiled-message-box {
+            margin-inline: 5px;
+        }
+    }
+    </style>
+
+    <div class="codeblock-container" data-mode="light">
+        <slot name="tab"></slot>
+        <div class="code-container">
+            <div class="code-box">    
+                <div id="editor-buttons-div" class="editor-buttons-div" style="top: 40px;">
+                    <div id="editor-buttons" class="editor-buttons">
+                        <button id="expand-driver-code" class="expand-driver-code code-button" title="Expand all Diver Codes" style="display: none;"><svg id="expand-icon" width="17" height="17" viewBox="1 5 47 6" stroke-width="1" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
+            <path d="M44.4507 7.91963C44.7062 8.18159 44.8496 8.53199 44.8496 8.89419C44.8496 9.25639 44.7062 9.60088 44.4507 9.8523L38.9862 15.2053C38.8593 15.3296 38.7087 15.4272 38.5429 15.4924C38.3771 15.5577 38.1995 15.5894 38.02 15.5857C37.6577 15.5782 37.3101 15.427 37.0539 15.1655C36.7977 14.9039 36.6537 14.5533 36.6537 14.1909C36.6537 13.8284 36.7977 13.4838 37.0539 13.2328L40.1862 10.1645L30.3697 9.96203C30.0073 9.95456 29.6599 9.80343 29.4037 9.54189C29.1475 9.28035 29.0035 8.92983 29.0035 8.56743C29.0035 8.20503 29.1475 7.86044 29.4037 7.60947C29.6599 7.3585 30.0073 7.22171 30.3697 7.22918L40.1862 7.4316L37.0539 4.23407C36.927 4.10455 36.8264 3.95182 36.7577 3.7846C36.6891 3.61738 36.6537 3.43894 36.6537 3.25948C36.6537 3.08001 36.6891 2.90304 36.7577 2.73865C36.8264 2.57426 36.927 2.42568 37.0539 2.30139C37.1808 2.17711 37.3314 2.07955 37.4972 2.01429C37.6629 1.94903 37.8406 1.91735 38.02 1.92105C38.1995 1.92475 38.3771 1.96376 38.5429 2.03586C38.7087 2.10795 38.8593 2.21172 38.9862 2.34124L44.4507 7.91963Z" fill="black"></path>
+            <rect x="24.5859" y="16.8309" width="3.31306" height="16.5653" rx="1.65653" transform="rotate(-180 24.5859 16.8309)" fill="black"></rect>
+            <path d="M0.884258 7.91957C0.62878 8.18152 0.485352 8.53193 0.485352 8.89413C0.485352 9.25632 0.62878 9.60082 0.884258 9.85224L6.3488 15.2053C6.47567 15.3295 6.6263 15.4271 6.79207 15.4924C6.95783 15.5576 7.1355 15.5893 7.31493 15.5856C7.6773 15.5781 8.02483 15.427 8.28106 15.1654C8.5373 14.9038 8.68125 14.5533 8.68125 14.1908C8.68125 13.8284 8.5373 13.4837 8.28106 13.2327L5.14879 10.1644L14.9653 9.96197C15.3276 9.9545 15.6751 9.80337 15.9313 9.54183C16.1875 9.28029 16.3314 8.92977 16.3314 8.56737C16.3314 8.20497 16.1875 7.86038 15.9313 7.60941C15.6751 7.35844 15.3276 7.22164 14.9653 7.22912L5.14879 7.43154L8.28106 4.23401C8.40794 4.10449 8.50858 3.95176 8.57724 3.78454C8.64591 3.61732 8.68125 3.43888 8.68125 3.25942C8.68125 3.07995 8.64591 2.90298 8.57724 2.73859C8.50858 2.5742 8.40794 2.42562 8.28106 2.30133C8.15419 2.17705 8.00357 2.07949 7.8378 2.01423C7.67203 1.94897 7.49436 1.91729 7.31493 1.92099C7.1355 1.92469 6.95783 1.9637 6.79207 2.03579C6.6263 2.10789 6.47567 2.21166 6.3488 2.34118L0.884258 7.91957Z" fill="black"></path>
+        </svg></button>
+                        <button class="code-button" id="edit-close-button" title="Close Editor" buttontype="edit"><svg xmlns="http://www.w3.org/2000/svg" id="edit-close-icon" class="gfg-icon" width="17" height="17" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+        <path d="M18 6l-12 12"></path>
+        <path d="M6 6l12 12"></path>
+    </svg></button>
+                        <button class="code-button" id="run-code-button" title="Run Code and See Output">
+                            <div class="border" id="run-code-loader" hidden=""></div>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="gfg-icon" width="17" height="17" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M7 4v16l13 -8z"></path>
+                            </svg>
+                        </button>
+                        <button class="code-button" id="copy-code-button" title="Copy Code"> <svg xmlns="http://www.w3.org/2000/svg" class="gfg-icon" width="17" height="17" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M8 8m0 2a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2z"></path>
+                                <path d="M16 8v-2a2 2 0 0 0 -2 -2h-8a2 2 0 0 0 -2 2v8a2 2 0 0 0 2 2h2"></path>
+                        </svg></button>
+                        <button class="code-button" id="mode-button" title="Dark Mode" hidden="true" mode="light"><svg xmlns="http://www.w3.org/2000/svg" class="gfg-icon" width="20" height="20" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+        <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z"></path>
+    </svg> </button>
+                        
+                    </div>
+                </div>
+                <div id="slot-panel" class="gfg-code" style="width: calc(100% + 0px); margin-top: -35px;">
+                     <div id="playground-loader" class="loading-container">
+                        <span class="playground-loading">Loading Playground...</span>
+                    </div>
+                    <slot name="panel"></slot>
+                </div>
+            </div>
+            <div class="code-output-box" id="code-output-box">
+                <div class="editor-buttons w-56 output-box" title="Close Output">
+                    <button class="code-button" id="close-output-button" hidden="">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="gfg-icon" width="17" height="17" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                            <path d="M9 12h-3.586a1 1 0 0 1 -.707 -1.707l6.586 -6.586a1 1 0 0 1 1.414 0l6.586 6.586a1 1 0 0 1 -.707 1.707h-3.586v6h-6v-6z"></path>
+                            <path d="M9 21h6"></path>
+                        </svg>
+                    </button>
+                </div> 
+                <div class="code-output" id="code-output" hidden="">
+                    <div class="row-output">
+                        <pre class="generated-output" id="code-output-element"></pre>
+                    </div> 
+                </div>
+            </div>
+            </div>
+        </div>
+    
+    </template>
+            <gfg-tab slot="tab" hidden="" role="tab" id="gfg-tab-generated-22" aria-selected="true" tabindex="0" aria-controls="gfg-panel-generated-22" selected="">Python</gfg-tab>
+<gfg-panel slot="panel" data-code-lang="python3" data-main-code-start="None" data-main-code-end="None" role="tabpanel" id="gfg-panel-generated-22" aria-labelledby="gfg-tab-generated-22">
+    <code class="language-python3"><div class="highlight"><pre hidden=""><span></span><span class="k">class</span> <span class="nc">Calculator</span><span class="p">:</span>
+    <span class="nd">@staticmethod</span>
+    <span class="k">def</span> <span class="nf">add</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">):</span>
+        <span class="k">return</span> <span class="n">a</span> <span class="o">+</span> <span class="n">b</span>
+
+    <span class="nd">@classmethod</span>
+    <span class="k">def</span> <span class="nf">multiply</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">):</span>
+        <span class="k">return</span> <span class="n">a</span> <span class="o">*</span> <span class="n">b</span>
+
+<span class="c1"># Example usage:</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"Addition:"</span><span class="p">,</span> <span class="n">Calculator</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span> <span class="mi">3</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"Multiplication:"</span><span class="p">,</span> <span class="n">Calculator</span><span class="o">.</span><span class="n">multiply</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">))</span>
+</pre></div></code>
+<div class="CodeMirror cm-s-default"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 4px; left: 15px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-vscrollbar" tabindex="-1" cm-not-content="true" style="bottom: 0px;"><div style="min-width: 1px; height: 0px;"></div></div><div class="CodeMirror-hscrollbar" tabindex="-1" cm-not-content="true"><div style="height: 100%; min-height: 1px; width: 0px;"></div></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; margin-bottom: -15px; border-right-width: 15px; min-height: 287px; min-width: 474.984px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-cursors"><div class="CodeMirror-cursor" style="left: 15px; top: 0px; height: 23.2188px;">&nbsp;</div></div><div class="CodeMirror-code" role="presentation" style=""><div class="CodeMirror-activeline" style="position: relative;"><div class="CodeMirror-activeline-background CodeMirror-linebackground"></div><div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" style="left: 0px; width: 0px;"></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-keyword">class</span> <span class="cm-def">Calculator</span>:</span></pre></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">    <span class="cm-meta">@staticmethod</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">    <span class="cm-keyword">def</span> <span class="cm-def">add</span>(<span class="cm-variable">a</span>, <span class="cm-variable">b</span>):</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-keyword">return</span> <span class="cm-variable">a</span> <span class="cm-operator">+</span> <span class="cm-variable">b</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">    <span class="cm-meta">@classmethod</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">    <span class="cm-keyword">def</span> <span class="cm-def">multiply</span>(<span class="cm-variable-2">cls</span>, <span class="cm-variable">a</span>, <span class="cm-variable">b</span>):</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-keyword">return</span> <span class="cm-variable">a</span> <span class="cm-operator">*</span> <span class="cm-variable">b</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-comment"># Example usage:</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-builtin">print</span>(<span class="cm-string">"Addition:"</span>, <span class="cm-variable">Calculator</span>.<span class="cm-property">add</span>(<span class="cm-number">5</span>, <span class="cm-number">3</span>))</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-builtin">print</span>(<span class="cm-string">"Multiplication:"</span>, <span class="cm-variable">Calculator</span>.<span class="cm-property">multiply</span>(<span class="cm-number">4</span>, <span class="cm-number">5</span>))</span></pre></div></div></div></div></div><div style="position: absolute; height: 15px; width: 1px; border-bottom: 0px solid transparent; top: 287px;"></div><div class="CodeMirror-gutters" style="display: none; height: 302px;"></div></div></div></gfg-panel></gfg-tabs><div class="code-output"><br><strong>Output</strong><pre>Addition: 8
+Multiplication: 20
+</pre></div><h3 style="text-align:left"><span>Exercise 25: Managing Private Attributes Create a Person class with private attributes name and age and provide getter and setter methods to manage these attributes safely.</span></h3><gfg-tabs allow-code-exec="true" data-run-ide="true" data-mode="light" role="tablist"><template shadowrootmode="open">
+    <style>
+      :host {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      ::slotted(gfg-panel) {
+        flex-basis: 100%;
+      }
+      .codeblock-container[data-content]::after,
+      .codeblock-container[data-danger-content]::after {
+        content: attr(data-content);
+        display: block;
+        position: absolute;
+        bottom: 0px;
+        right: 0;
+        padding: 4px 12px;
+        font-size: 12px;
+        letter-spacing: 0.05em;
+        font-family: inherit;
+        background-color: rgb(217, 217, 217);
+        color: #424242 !important;
+      }
+      .codeblock-container[data-danger-content]::after {
+        color: rgb(132, 5, 5) !important;
+        content: attr(data-danger-content);
+      }
+      .codeblock-container{
+        position: relative;
+        width: 100%;
+        font-family: sans-serif;
+      }
+      .code-container{
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #ddd;
+        clear: left;
+      }
+      
+      #slot-panel::-webkit-scrollbar-track {
+        border-radius: 10px;
+        background-color: transparent;
+        width: 0px !important;
+      }
+
+      #slot-panel::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        background-color: #999;
+        width: 5px ; 
+      }
+      #slot-panel::-webkit-scrollbar {
+        width: 5px; 
+      }
+      #slot-panel::-webkit-scrollbar-thumb:hover {
+        cursor: pointer;
+      }
+      .editor-buttons-div,
+      .w-56 {
+        min-width: 46px;
+      }
+        .editor-buttons-div{
+            display: flex;
+            margin-left: auto;
+            height: 40px;
+            position: sticky; 
+            position: -webkit-sticky;
+            top: 60px;
+            z-index: 4;
+            width: fit-content;
+            justify-content: flex-end;
+            align-items: start;
+        }
+      .gfg-code{
+        padding: 0;
+        width: 100%;
+        display: block;
+      }
+      .editor-buttons{
+        display:flex;
+        width: fit-content;
+        gap: 8px;
+        margin-top: 8px;
+        padding-right: 11px;
+        position: relative;
+        margin-bottom: 4px;
+      }
+      .editor-buttons.output-box {
+        margin-top: 0px;
+      }
+      .editor-buttons.output-box button {
+        margin-bottom: 0 !important;
+      }
+        .output-box {
+            margin-left: 8px;
+        }
+      .code-button{
+        background: white;
+        margin-bottom: 10px;
+        border: 2px;
+        background: #e5e5e5;
+        border-radius: 50px;
+        width: 28px !important;
+        height: 28px !important;
+        cursor: pointer;
+        padding: 6px;
+      }
+        #expand-code-button{
+            margin-bottom: 0px;
+        }
+        #expand-driver-code {
+            transform: rotate(90deg);
+            transform-origin: center;
+        }
+      .code-output{
+        background: #efefef;
+        border-radius: 8px;
+        width: 100%;
+        margin: 10px 2px 5px 2px;
+      }
+      .close-output-button{
+        margin-bottom: 10px;
+      }
+      .code-output-content{
+        padding: 8px 16px;
+        margin: 0;
+        position: sticky;
+        position: -webkit-sticky;
+        margin-top: 10px;
+      }
+      .code-box {
+        display: flex;
+        flex-direction: column;
+        position: relative !important;
+      }
+      .code-output-box {
+        display: flex;
+        align-items: center;
+      }
+     .compiled-message-box {
+        background-color: #308d46;
+        border-radius: 6px;
+        color: white;
+        width: fit-content;
+        margin: 10px auto;
+        text-align: center;
+        flex-basis: 100%;
+        display: none;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: 700;
+        padding-inline: 10px;
+    }
+    .compiled-message-box p {
+        margin-block: 5px;
+    }
+    .compiled-message-box-active {
+        display: flex;
+    }
+    .compiled-mess-content {
+        font-size: 10px;
+        padding-left: 5px;
+    }
+      .generated-output{
+        font-size: 15px;
+        white-space: pre-wrap;
+      }
+      .row-output{
+        color: black;
+        font-size: 16px;
+        padding : 10px;
+      }
+      .border {
+        width: 28px !important;
+        height: 28px !important;
+        position: absolute;
+        background: transparent;
+        border-radius: 50%;
+        border: 2px dashed #000;
+        margin-left: -8px;
+        margin-top: -7px;
+        animation-name: rotate;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+      }
+      .codeblock-container[data-mode=dark] .border {
+        border-color: white !important;
+      }
+      #icon-tabler-copy{
+        margin-bottom: -4px;
+        cursor: pointer;
+      }
+      .gfg-icon{
+        margin-left: auto;
+        margin-right: auto;
+        display: block !important;
+      }
+      
+        @keyframes rotate {
+            from{ transform: rotate(-360deg); }
+            to{ transform: rotate(360deg); }
+        }
+        #code-output-element #jsFrame {
+            background-color: transparent;
+            border: unset;
+            width: 100%;
+        }
+        .loading-container.active {
+            width: 150px; 
+            height: 50px; 
+            background-color: lightgrey; 
+            opacity: 70%;
+            color: black; 
+            position: absolute; 
+            display: flex !important;
+            justify-content: center;
+            align-items: center;
+            top: 30%;
+            left: 40%;
+            z-index: 1;
+            white-space: nowrap !important;
+            text-align: center; 
+            font-size: 13px; 
+            border-radius: 8px; 
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            margin: 2rem;
+        }
+        .loading-container {
+            display: none;
+        }
+        .playground-loading {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+        }
+        
+    @media screen and (max-width: 700px) {
+        .editor-buttons-div {
+            position: sticky; 
+            top: 10px;  
+            z-index: 4;
+            width: fit-content;
+            margin-left: auto;
+            height: 38px;
+            padding-right: 5px;
+        }
+
+        .editor-buttons {
+            display: flex;
+            width: fit-content;
+            flex-direction: row;
+            gap: 8px;
+        }
+        .code-box {
+            position: relative;
+            flex-direction: column;
+        }
+        .code-button {
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        .compiled-message-box svg {
+            display: none;
+        }
+    }
+
+    @media screen and (max-width: 375px) {
+        .compiled-message-box {
+            margin-inline: 5px;
+        }
+    }
+    </style>
+
+    <div class="codeblock-container" data-mode="light">
+        <slot name="tab"></slot>
+        <div class="code-container">
+            <div class="code-box">    
+                <div id="editor-buttons-div" class="editor-buttons-div" style="top: 40px;">
+                    <div id="editor-buttons" class="editor-buttons">
+                        <button id="expand-driver-code" class="expand-driver-code code-button" title="Expand all Diver Codes" style="display: none;"><svg id="expand-icon" width="17" height="17" viewBox="1 5 47 6" stroke-width="1" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
+            <path d="M44.4507 7.91963C44.7062 8.18159 44.8496 8.53199 44.8496 8.89419C44.8496 9.25639 44.7062 9.60088 44.4507 9.8523L38.9862 15.2053C38.8593 15.3296 38.7087 15.4272 38.5429 15.4924C38.3771 15.5577 38.1995 15.5894 38.02 15.5857C37.6577 15.5782 37.3101 15.427 37.0539 15.1655C36.7977 14.9039 36.6537 14.5533 36.6537 14.1909C36.6537 13.8284 36.7977 13.4838 37.0539 13.2328L40.1862 10.1645L30.3697 9.96203C30.0073 9.95456 29.6599 9.80343 29.4037 9.54189C29.1475 9.28035 29.0035 8.92983 29.0035 8.56743C29.0035 8.20503 29.1475 7.86044 29.4037 7.60947C29.6599 7.3585 30.0073 7.22171 30.3697 7.22918L40.1862 7.4316L37.0539 4.23407C36.927 4.10455 36.8264 3.95182 36.7577 3.7846C36.6891 3.61738 36.6537 3.43894 36.6537 3.25948C36.6537 3.08001 36.6891 2.90304 36.7577 2.73865C36.8264 2.57426 36.927 2.42568 37.0539 2.30139C37.1808 2.17711 37.3314 2.07955 37.4972 2.01429C37.6629 1.94903 37.8406 1.91735 38.02 1.92105C38.1995 1.92475 38.3771 1.96376 38.5429 2.03586C38.7087 2.10795 38.8593 2.21172 38.9862 2.34124L44.4507 7.91963Z" fill="black"></path>
+            <rect x="24.5859" y="16.8309" width="3.31306" height="16.5653" rx="1.65653" transform="rotate(-180 24.5859 16.8309)" fill="black"></rect>
+            <path d="M0.884258 7.91957C0.62878 8.18152 0.485352 8.53193 0.485352 8.89413C0.485352 9.25632 0.62878 9.60082 0.884258 9.85224L6.3488 15.2053C6.47567 15.3295 6.6263 15.4271 6.79207 15.4924C6.95783 15.5576 7.1355 15.5893 7.31493 15.5856C7.6773 15.5781 8.02483 15.427 8.28106 15.1654C8.5373 14.9038 8.68125 14.5533 8.68125 14.1908C8.68125 13.8284 8.5373 13.4837 8.28106 13.2327L5.14879 10.1644L14.9653 9.96197C15.3276 9.9545 15.6751 9.80337 15.9313 9.54183C16.1875 9.28029 16.3314 8.92977 16.3314 8.56737C16.3314 8.20497 16.1875 7.86038 15.9313 7.60941C15.6751 7.35844 15.3276 7.22164 14.9653 7.22912L5.14879 7.43154L8.28106 4.23401C8.40794 4.10449 8.50858 3.95176 8.57724 3.78454C8.64591 3.61732 8.68125 3.43888 8.68125 3.25942C8.68125 3.07995 8.64591 2.90298 8.57724 2.73859C8.50858 2.5742 8.40794 2.42562 8.28106 2.30133C8.15419 2.17705 8.00357 2.07949 7.8378 2.01423C7.67203 1.94897 7.49436 1.91729 7.31493 1.92099C7.1355 1.92469 6.95783 1.9637 6.79207 2.03579C6.6263 2.10789 6.47567 2.21166 6.3488 2.34118L0.884258 7.91957Z" fill="black"></path>
+        </svg></button>
+                        <button class="code-button" id="edit-close-button" title="Close Editor" buttontype="edit"><svg xmlns="http://www.w3.org/2000/svg" id="edit-close-icon" class="gfg-icon" width="17" height="17" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+        <path d="M18 6l-12 12"></path>
+        <path d="M6 6l12 12"></path>
+    </svg></button>
+                        <button class="code-button" id="run-code-button" title="Run Code and See Output">
+                            <div class="border" id="run-code-loader" hidden=""></div>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="gfg-icon" width="17" height="17" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M7 4v16l13 -8z"></path>
+                            </svg>
+                        </button>
+                        <button class="code-button" id="copy-code-button" title="Copy Code"> <svg xmlns="http://www.w3.org/2000/svg" class="gfg-icon" width="17" height="17" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M8 8m0 2a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2z"></path>
+                                <path d="M16 8v-2a2 2 0 0 0 -2 -2h-8a2 2 0 0 0 -2 2v8a2 2 0 0 0 2 2h2"></path>
+                        </svg></button>
+                        <button class="code-button" id="mode-button" title="Dark Mode" hidden="true" mode="light"><svg xmlns="http://www.w3.org/2000/svg" class="gfg-icon" width="20" height="20" viewBox="0 0 24 24" stroke-width="2.0" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+        <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z"></path>
+    </svg> </button>
+                        
+                    </div>
+                </div>
+                <div id="slot-panel" class="gfg-code" style="width: calc(100% + 0px); margin-top: -35px;">
+                     <div id="playground-loader" class="loading-container">
+                        <span class="playground-loading">Loading Playground...</span>
+                    </div>
+                    <slot name="panel"></slot>
+                </div>
+            </div>
+            <div class="code-output-box" id="code-output-box">
+                <div class="editor-buttons w-56 output-box" title="Close Output">
+                    <button class="code-button" id="close-output-button" hidden="">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="gfg-icon" width="17" height="17" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                            <path d="M9 12h-3.586a1 1 0 0 1 -.707 -1.707l6.586 -6.586a1 1 0 0 1 1.414 0l6.586 6.586a1 1 0 0 1 -.707 1.707h-3.586v6h-6v-6z"></path>
+                            <path d="M9 21h6"></path>
+                        </svg>
+                    </button>
+                </div> 
+                <div class="code-output" id="code-output" hidden="">
+                    <div class="row-output">
+                        <pre class="generated-output" id="code-output-element"></pre>
+                    </div> 
+                </div>
+            </div>
+            </div>
+        </div>
+    
+    </template>
+            <gfg-tab slot="tab" hidden="" role="tab" id="gfg-tab-generated-23" aria-selected="true" tabindex="0" aria-controls="gfg-panel-generated-23" selected="">Python</gfg-tab>
+<gfg-panel slot="panel" data-code-lang="python3" data-main-code-start="None" data-main-code-end="None" role="tabpanel" id="gfg-panel-generated-23" aria-labelledby="gfg-tab-generated-23">
+    <code class="language-python3"><div class="highlight"><pre hidden=""><span></span><span class="k">class</span> <span class="nc">Person</span><span class="p">:</span>
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">name</span><span class="p">,</span> <span class="n">age</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">__name</span> <span class="o">=</span> <span class="n">name</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">__age</span> <span class="o">=</span> <span class="n">age</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">name</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">__name</span>
+
+    <span class="nd">@name</span><span class="o">.</span><span class="n">setter</span>
+    <span class="k">def</span> <span class="nf">name</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">value</span><span class="p">):</span>
+        <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">value</span><span class="p">,</span> <span class="nb">str</span><span class="p">)</span> <span class="ow">and</span> <span class="nb">len</span><span class="p">(</span><span class="n">value</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">__name</span> <span class="o">=</span> <span class="n">value</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s2">"Invalid name"</span><span class="p">)</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">age</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">__age</span>
+
+    <span class="nd">@age</span><span class="o">.</span><span class="n">setter</span>
+    <span class="k">def</span> <span class="nf">age</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">value</span><span class="p">):</span>
+        <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">value</span><span class="p">,</span> <span class="nb">int</span><span class="p">)</span> <span class="ow">and</span> <span class="n">value</span> <span class="o">&gt;=</span> <span class="mi">0</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">__age</span> <span class="o">=</span> <span class="n">value</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s2">"Invalid age"</span><span class="p">)</span>
+
+<span class="c1"># Example usage:</span>
+<span class="n">person</span> <span class="o">=</span> <span class="n">Person</span><span class="p">(</span><span class="s2">"John Doe"</span><span class="p">,</span> <span class="mi">30</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"Name:"</span><span class="p">,</span> <span class="n">person</span><span class="o">.</span><span class="n">name</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"Age:"</span><span class="p">,</span> <span class="n">person</span><span class="o">.</span><span class="n">age</span><span class="p">)</span>
+<span class="n">person</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="s2">""</span>
+<span class="n">person</span><span class="o">.</span><span class="n">age</span> <span class="o">=</span> <span class="o">-</span><span class="mi">5</span>
+</pre></div></code>
+<div class="CodeMirror cm-s-default"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 4px; left: 15px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-vscrollbar" tabindex="-1" cm-not-content="true" style="bottom: 0px;"><div style="min-width: 1px; height: 0px;"></div></div><div class="CodeMirror-hscrollbar" tabindex="-1" cm-not-content="true"><div style="height: 100%; min-height: 1px; width: 0px;"></div></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; margin-bottom: -15px; border-right-width: 15px; min-height: 774px; min-width: 492.969px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-cursors"><div class="CodeMirror-cursor" style="left: 15px; top: 0px; height: 23.2188px;">&nbsp;</div></div><div class="CodeMirror-code" role="presentation" style=""><div class="CodeMirror-activeline" style="position: relative;"><div class="CodeMirror-activeline-background CodeMirror-linebackground"></div><div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" style="left: 0px; width: 0px;"></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-keyword">class</span> <span class="cm-def">Person</span>:</span></pre></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">    <span class="cm-keyword">def</span> <span class="cm-def">__init__</span>(<span class="cm-variable-2">self</span>, <span class="cm-variable">name</span>, <span class="cm-variable">age</span>):</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-variable-2">self</span>.<span class="cm-property">__name</span> <span class="cm-operator">=</span> <span class="cm-variable">name</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-variable-2">self</span>.<span class="cm-property">__age</span> <span class="cm-operator">=</span> <span class="cm-variable">age</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">    <span class="cm-meta">@property</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">    <span class="cm-keyword">def</span> <span class="cm-def">name</span>(<span class="cm-variable-2">self</span>):</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-keyword">return</span> <span class="cm-variable-2">self</span>.<span class="cm-property">__name</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">    <span class="cm-meta">@name</span>.<span class="cm-property">setter</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">    <span class="cm-keyword">def</span> <span class="cm-def">name</span>(<span class="cm-variable-2">self</span>, <span class="cm-variable">value</span>):</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-keyword">if</span> <span class="cm-builtin">isinstance</span>(<span class="cm-variable">value</span>, <span class="cm-builtin">str</span>) <span class="cm-keyword">and</span> <span class="cm-builtin">len</span>(<span class="cm-variable">value</span>) <span class="cm-operator">&gt;</span> <span class="cm-number">0</span>:</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">            <span class="cm-variable-2">self</span>.<span class="cm-property">__name</span> <span class="cm-operator">=</span> <span class="cm-variable">value</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-keyword">else</span>:</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">            <span class="cm-builtin">print</span>(<span class="cm-string">"Invalid name"</span>)</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">    <span class="cm-meta">@property</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">    <span class="cm-keyword">def</span> <span class="cm-def">age</span>(<span class="cm-variable-2">self</span>):</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-keyword">return</span> <span class="cm-variable-2">self</span>.<span class="cm-property">__age</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">    <span class="cm-meta">@age</span>.<span class="cm-property">setter</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">    <span class="cm-keyword">def</span> <span class="cm-def">age</span>(<span class="cm-variable-2">self</span>, <span class="cm-variable">value</span>):</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-keyword">if</span> <span class="cm-builtin">isinstance</span>(<span class="cm-variable">value</span>, <span class="cm-builtin">int</span>) <span class="cm-keyword">and</span> <span class="cm-variable">value</span> <span class="cm-operator">&gt;=</span> <span class="cm-number">0</span>:</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">            <span class="cm-variable-2">self</span>.<span class="cm-property">__age</span> <span class="cm-operator">=</span> <span class="cm-variable">value</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">        <span class="cm-keyword">else</span>:</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">            <span class="cm-builtin">print</span>(<span class="cm-string">"Invalid age"</span>)</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-comment"># Example usage:</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">person</span> <span class="cm-operator">=</span> <span class="cm-variable">Person</span>(<span class="cm-string">"John Doe"</span>, <span class="cm-number">30</span>)</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-builtin">print</span>(<span class="cm-string">"Name:"</span>, <span class="cm-variable">person</span>.<span class="cm-property">name</span>)</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-builtin">print</span>(<span class="cm-string">"Age:"</span>, <span class="cm-variable">person</span>.<span class="cm-property">age</span>)</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">person</span>.<span class="cm-property">name</span> <span class="cm-operator">=</span> <span class="cm-string">""</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">person</span>.<span class="cm-property">age</span> <span class="cm-operator">=</span> <span class="cm-operator">-</span><span class="cm-number">5</span></span></pre></div></div></div></div></div><div style="position: absolute; height: 15px; width: 1px; border-bottom: 0px solid transparent; top: 774px;"></div><div class="CodeMirror-gutters" style="display: none; height: 789px;"></div></div></div></gfg-panel></gfg-tabs><div class="code-output"><br><strong>Output</strong><pre>Name: John Doe
+Age: 30
+Invalid name
+Invalid age
+</pre></div><p dir="ltr"><br></p>                                <script>
+                                    const rawVideoDataMap = null;
+
+                                    // Convert it into a JS Map
+                                    const videoDataMap = new Map(Object.entries(rawVideoDataMap));
+
+                                    document.addEventListener('DOMContentLoaded', function () {
+                                        let currentlySelectedTile = document.getElementById("video-info-container-title");
+                                        let firstVideoH2;
+                                        let firstSelectedVideo
+                                        var videoPlayer = document.getElementById('video-iframe-container');
+                                        if (!videoPlayer) return;
+
+                                        var videoIframe = videoPlayer.querySelector('iframe');
+                                        if (!videoIframe) return;
+
+                                        // Safely inject PHP data as JSON into JavaScript
+                                        var resp = null;
+
+                                        function postToIframeWhenReady(iframe, data, maxAttempts = 20, intervalTime = 100) {
+                                            let attempts = 0;
+                                            const interval = setInterval(() => {
+                                                if (iframe && iframe.contentWindow) {
+                                                    try {
+                                                        iframe.contentWindow.postMessage(data, '*');
+                                                        clearInterval(interval);
+                                                    } catch (err) {
+                                                        console.warn("❌ Failed to postMessage, retrying...");
+                                                    }
+                                                }
+                                                if (++attempts >= maxAttempts) {
+                                                    console.warn("⚠️ postMessage failed: iframe not ready after multiple attempts.");
+                                                    clearInterval(interval);
+                                                }
+                                            }, intervalTime);
+                                        }
+
+                                        // Call the function right after iframe is confirmed to exist
+                                        videoIframe.onload = function () {
+                                            postToIframeWhenReady(videoIframe, { resp: resp, inView: false });
+                                        };
+
+                                        const playlistContainer = document.getElementById("video-playlist-container");
+                                        if(playlistContainer) {
+                                            firstSelectedVideo = playlistContainer.querySelectorAll('.playlist-video-tile')[0];
+                                            if(firstSelectedVideo) {
+                                                firstVideoH2 = firstSelectedVideo.querySelector('h2');
+                                                firstVideoH2.style.setProperty('color', 'var(--discussion-button-color)', 'important');
+                                            }
+                                        }
+
+                                        function changeCurrentPlayingVideoTitle(tile, autoplayed = true) {
+                                            const playlistVideoTileHeading = tile.querySelector('h2');
+                                            if (playlistVideoTileHeading) {
+                                                if(!autoplayed && firstVideoH2.innerText !== playlistVideoTileHeading.innerText) {
+                                                    firstVideoH2.style.setProperty('color', '#EC4E20', 'important');
+                                                }
+                                                if(autoplayed) {
+                                                    let siblingElement = tile.previousElementSibling;
+                                                    const siblingElementH2 = siblingElement.querySelector('h2');
+                                                    siblingElementH2.style.setProperty('color', '#EC4E20', 'important');
+                                                    firstVideoH2 = playlistVideoTileHeading;
+                                                }
+                                                playlistVideoTileHeading.style.setProperty('color', 'var(--discussion-button-color)', 'important');
+                                                if (currentlySelectedTile) {
+                                                    currentlySelectedTile.innerText = playlistVideoTileHeading.innerText;
+                                                }
+                                            }
+                                        }
+                                        // Inject the video data map as a JS object
+                                        window.addEventListener('message', function (event) {
+                                            if (event.data.type === 'AUTOPLAYED_NEXT_VIDEO' && event.data.autoplayPlaylistEnabled) {
+
+                                                // Changing the current video index on autoplaying the next video from playlist
+                                                const allVideoTiles = Array.from(document.querySelectorAll('.playlist-video-tile'));
+                                                changeCurrentPlayingVideoTitle(allVideoTiles[event.data.currentVideoIndex]);
+                                            }
+                                        });
+
+                                        if(playlistContainer) {
+                                            playlistContainer.addEventListener('click', (event) => {
+                                                const tile = event.target.closest('.playlist-video-tile');
+
+                                                // Find the index of the clicked tile
+                                                const allTiles = Array.from(playlistContainer.querySelectorAll('.playlist-video-tile'));
+                                                const currentIndex = allTiles.findIndex((el) => el === tile);
+
+                                                if (tile) {
+                                                    const videoId = tile.getAttribute('data-video-id');
+                                                    const videoData = videoDataMap.get(videoId);
+                                                    videoIframe.contentWindow.postMessage({ playlist: [videoData], inView: true, clickedVideoFromPlaylist: true, currentIndex: currentIndex }, '*');
+
+                                                    // handleVideoTitle([videoData]);
+                                                    changeCurrentPlayingVideoTitle(tile, false);
+                                                    firstVideoH2 = tile.querySelector('h2');
+                                                }
+                                            });
+                                        }
+                                    });
+                                </script>
+                                
+
+                            <!-- Quiz Carousel -->
+                                                                                <div class="article_bottom_text"></div><br>
+                                                            <div id="video-tab-content">
+                                                    <script> 
+                        var video_api_response = JSON.parse("[]");
+                    </script>
+                                                </div>
+                                                        <div class="d-row content-bw " style="margin-top: 20px;">
+                            <div class="article-pgnavi_prev"><div class="comment_div" data-title="Comments"><button class="author_footer_btn" data-gfg-action="loadComments">
+    <div class="discussion_panel">
+        <i class="discussion_button">
+        </i>
+        Comment
+    </div></button></div><div class="trigger-div"><button class="author_footer_btn"><div class="more_info">More info<span class="more_info_uparrow gfg-icon gfg-icon_arrow-down-thin"></span></div></button></div><a href="https://www.geeksforgeeks.org/campus-training-program/" target="_blank" class="advertise-with-us-div"><button class="advertise-with-us-btn"><span class="advertise-with-us-text">Campus Training Program</span></button></a></div>                                    <div class="article-pgnavi_next">
+                                        <a href="https://www.geeksforgeeks.org/python-set-coding-practice-problems/" class="pg-head">
+                                            <span>Next Article</span>
+                                            <span class="gfg-icon gfg-icon_next"></span>
+                                        </a>
+                                        <!-- <div class="pg-meta">8 Min Read&ensp;|&ensp;<a href="#">Java</a></div> -->
+                                        <div class="pg-main">
+                                            <a href="https://www.geeksforgeeks.org/python-set-coding-practice-problems/">Python Set Coding Practice Problems</a>
+                                        </div>
+                                    </div>
+                                                            </div>
+                        <div class="more-info hidden-div ">
+                            <div class="article-meta-author-details ">
+                                        <div class="article-meta-author-details-block">
+                                            <div class="article-meta-author-details-profile-display">
+                                                <div class="author_info">
+                                                <div class="article-meta-author-details-profile-display-icon">
+                                                    <a href="https://www.geeksforgeeks.org/user/anuragtriarna/" style="text-decoration: none;"><div class="image-wrap" style="position: relative"><p class="profileCard-profile-picture" style="background-color:#B0DAFF;  margin:0px;">A</p>
+        <div style="position: absolute;top: -35px; left: -13px;">
+            <i class="gfg-badge-icon md scholar"></i>
+        </div>
+        </div>
+</a>                                                </div>
+                                                <div class="article-meta-author-details-profile-display-name">
+                                                    <a aria-label="author profile" href="https://www.geeksforgeeks.org/user/anuragtriarna/" style="display: block;overflow: hidden;width: 65px;text-decoration: none;text-overflow: ellipsis;color: var(--gfg-title-color);font-weight: bold;white-space: nowrap;">anuragtriarna</a>                                                </div>
+                                                </div>
+                                                <div class="author_follow_btn"><div class="article-meta-author-details-follow-button">
+            <div class="follow-container">
+            <div class="follow-btn">
+<button id="followAuthor" type="button" onclick="followOrUnfollowAuthor()" value="anuragtriarna">
+<span role="img" aria-label="plus" class="plus-icon"><svg viewBox="64 64 896 896" focusable="false" data-icon="plus" width="1em" height="1em" fill="currentColor" aria-hidden="true"><defs><style></style></defs><path d="M482 152h60q8 0 8 8v704q0 8-8 8h-60q-8 0-8-8V160q0-8 8-8z"></path><path d="M176 474h672q8 0 8 8v60q0 8-8 8H176q-8 0-8-8v-60q0-8 8-8z"></path></svg></span> <span>Follow</span></button></div></div></div></div>                                            </div>
+                                            
+                                        </div>
+                                        <div class="article_bottom_suggestion_wrapper">
+                                            <!-- <div class="article_bottom_suggestion" data-title="Follow">
+                                                <a href='https://news.google.com/publications/CAAqBwgKMLTrzwsw44bnAw?hl=en-IN&gl=IN&ceid=IN%3Aen' target="_blank">
+                                                    <img class="gfg-icon_Gnews no-zoom-in-cursor" src=https://media.geeksforgeeks.org/auth-dashboard-uploads/Google-news.svg  loading="lazy" alt="News"></img>
+                                                </a>
+                                            </div>  -->
+                                            <div pid="1359550" class="article--viewer_like tooltip tooltipBottom" data-title="Like Article">
+                                                <!-- <span class="tooltiptext likeTooltipBottom">Like Article</span> -->
+                                                <button id="likeButton" aria-label="like article" data-gfg-action="like-article" data-bookmark-value="0" data-liked="false" style="color: #5B5A5A !important; display: flex; align-items: center; background-color: unset; margin: 0px !important; padding: 5px 0px;">
+                                                    <i class="author-badge-like-button"></i>
+                                                    <figure id="likeCount" style="margin-left: 3px; margin-top: 4px; color: var(--like-count-color); font-size: 14px; font-weight: 600;" class="favoriteText">5</figure>
+                                                </button>
+                                            </div>
+                                            
+                                                                            <div class="article_bottom_suggestion" onclick="improveArticleCall()" data-title="Improve">
+                                    <span class="improveTooltipBottom">Improve</span>
+                                    <i class="author-badge-improvement-button"></i>
+                                </div>
+                            
+                                        </div>
+                        </div>
+                                                <div class="bottom-wrap" style="margin-top: 12px; margin-bottom: 25px;">
+                                                            <div class="improved">
+                                    <div class="t-head">Article Tags : </div>
+                                    <ul>
+                                        
+            <li style="border-radius: 25px;" class="">
+                <a href="https://www.geeksforgeeks.org/category/programming-language/python/">Python</a>
+            </li>
+            <li style="border-radius: 25px;" class="">
+                <a href="https://www.geeksforgeeks.org/category/programming-language/python/python-programs/">Python Programs</a>
+            </li>
+            <li style="border-radius: 25px;" class="">
+                <a href="https://www.geeksforgeeks.org/category/web-technologies/">Web Technologies</a>
+            </li>
+            <li style="border-radius: 25px;" class="">
+                <a href="https://www.geeksforgeeks.org/tag/python-oops-programs/">Python Oops-programs</a>
+            </li>                                    </ul>
+                                                                    </div>
+                                                                                        <div class="improved">
+                                    <div class="t-head">Practice Tags : </div>
+                                    <ul class="practice-tags">
+                                        <li><a href="https://www.geeksforgeeks.org/explore?category=python">python</a></li>                                    </ul>
+                                                                    </div>
+                                                    </div>
+                                                </div>
+
+                                                </div></article>
+                        
+                        
+                            
+
+
+                                                <div class="vote-wrap">
+                                <div style="display:none;align-items:center;justify-content:center;width:100%;">
+                                    <button aria-label="like" data-type="like" class="vote-this" style="margin-right: 0; margin-left:0 ;">
+                                        <i class="gfg-icon gfg-icon_like favoriteIcon"></i>
+                                        <span class="favoriteLike">Like</span>
+                                        <figure class="favoriteText">5</figure>
+                                    </button>
+                                                                    </div>
+                            </div>
+
+                        </div>
+                            <div class="article-meta">
+                                                                                    <div class="bottom-wrap">
+                              <div id="GFG_AD_InContent_Desktop_BTF_650x250" style="text-align:center;max-height: 300px;"></div>
+                            </div>
+                                                        <!-- end -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <div id="report_modal_content" class="report_modal_content" style="display:hidden;"></div>
+        <div class="onopen-discussion-panel">
+            <div class="discussion-tab">
+                <div class="discussion_heading">
+                    <div></div>
+                    <i class="gfg-icon close-tab-icon"></i>
+                </div> 
+                <div class="discussion_content">                            <div style="height:100%">
+                                <div style="height:100%" id="comment-system"></div>
+                            </div>
+
+                            
+</div>
+            </div>
+        </div>  
+
+        <div class="rightBar" style="padding-right: 5px;">
+                
+<style>
+	.article--container_content{
+		align-items: unset !important;
+	}
+	.sideBar {
+		position: sticky !important;
+	}
+	.gfg-icon_switch::after {
+		background-position: -40px -281px !important;
+	}
+	.gfg-icon_transaction::after {
+		background-position: -40px -321px !important;
+	}
+	.header-main__profile.selected+.mega-dropdown{
+		width: 225px !important;
+	}
+	#courses-container .course-price{
+		display:none;
+	}
+	/* .side--container_wscard .card-content .content .meta:empty, .practiceBannerFromPlugin{
+		display:none !important;
+	} */
+	.side--container_wscard .card-content .content .meta{
+		display:block !important;
+	}
+	.side--container_wscard .card-content .content .meta p{
+		background-color: rgba(254, 212, 91, 0.6);
+		font-size: 10pt;
+		font-weight: bold;
+		display: inline-block;
+		color: var(--color-black);
+		margin-top: 15px;
+		padding: 0px 5px;
+	}
+	#try-it{
+		display:initial !important;
+	}
+	#try-it .try-it-div{
+		line-height: 34px;
+	}
+	.gfg-icon_dark-mode::after {
+		background-position: -40px -680px;
+	}
+	.side--container_wscard .head{
+		font-size: 14px !important;
+	}
+	.nineDot-menu, .gfg-icon_ndot{
+		display: none;
+	}
+	#text-15{
+		flex-direction: column;
+	}
+	.mtq_correct_marker, .mtq_wrong_marker{
+		display: none;
+	}
+	.sidebar_wrapper > :last-child{
+		margin: unset !important;
+		margin-left: 5px !important;
+		margin-top: 20px !important;
+		top: 70px !important;
+	}
+	.darkMode-wrap{
+		bottom:1% !important;
+	}
+	#secondary .textwidget{
+		margin-left: auto;
+		margin-right: 0;
+		text-align: right;
+	}
+	#secondary .widget_text:last-child{
+		top: 70px !important;
+	}
+	@media(max-width:768px){
+		#scrollTopBtn{
+			display:none !important;
+		}
+	}
+	.rightbar_loggedin_promo_cta{
+		display:flex;
+		cursor:pointer;
+		margin-bottom:20px;
+	}
+</style>
+
+<div id="secondary" class="widget-area">
+	<div class="june2024SaleRightBarBanner" id="rightBarSaleBanner"></div>
+	<!------------------------ text-15 (for Ads) ------------------------ -->
+	<aside id="text-15" class="widget widget_text">
+		<div class="textwidget">
+					<div id="_GFG_ABP_Desktop_RightSideBar_ATF_300x600_2"></div>
+			<div id="GFG_AD_Desktop_RightSideBar_ATF_300x250_2" style="min-width: 300px; margin-bottom: 10px; max-width: 300px; max-height: 600px; overflow: hidden;" data-google-query-id="CNT0yujp1I4DFd6_SwUdJf0OPQ"><div id="google_ads_iframe_/27823234/GFG_Desktop_RightSideBar_ATF_300x250_2_0__container__" style="border: 0pt none; display: inline-block; width: 300px; height: 600px;"><iframe frameborder="0" src="./grade_files/container.html" id="google_ads_iframe_/27823234/GFG_Desktop_RightSideBar_ATF_300x250_2_0" title="3rd party ad content" name="" scrolling="no" marginwidth="0" marginheight="0" width="300" height="600" data-is-safeframe="true" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="private-state-token-redemption;attribution-reporting" aria-label="Advertisement" tabindex="0" data-google-container-id="1" style="border: 0px; vertical-align: bottom;" data-load-complete="true"></iframe></div></div>
+			<div id="GFG_AD_Desktop_RightSideBar_ATF_300x600" style="min-width: 300px; min-height: 600px; margin-bottom: 10px; max-width: 300px; max-height: 600px; overflow: hidden;" data-google-query-id="CKKb0-np1I4DFUBunQkdkE8i5g"><div id="google_ads_iframe_/27823234/22683361272_0__container__" style="border: 0pt none; display: inline-block; width: 300px; height: 600px;"><iframe frameborder="0" src="./grade_files/container(1).html" id="google_ads_iframe_/27823234/22683361272_0" title="3rd party ad content" name="" scrolling="no" marginwidth="0" marginheight="0" width="300" height="600" data-is-safeframe="true" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="private-state-token-redemption;attribution-reporting" aria-label="Advertisement" tabindex="0" data-google-container-id="2" style="border: 0px; vertical-align: bottom;" data-load-complete="true"></iframe></div></div>
+					</div>
+	</aside>
+
+	<!------------------------ text-16 (For Ads)------------------------ -->
+	<aside id="text-16" class="widget widget_text">
+		<div class="textwidget">
+					<div id="_GFG_ABP_Desktop_RightSideBar_MTF_300x600"></div>
+			<div id="GFG_AD_Desktop_RightSideBar_MTF_300x250" style="min-width: 300px;"></div>
+			<div id="_GFG_ABP_Desktop_RightSideBar_BTF_300x600"></div>
+			<div id="_GFG_ABP_Desktop_RightSideBar_BTF_300x600_3"></div>
+				</div>
+	</aside>
+	<!-- ---------------------- courses section ------------------------- -->
+	<div class="whats-new-section" style="position: sticky; top: 50px;"><div><div class="rba_all_pages" id="whatsNewCardContainer"><div class="card-layout-parent"> 
+						<div class="arrow-icon">
+							<i class="gfg-icon left-arrow-img"></i>
+							<i class="gfg-icon right-arrow-img"></i>
+						</div>
+						<div class="component">
+							<div class="carousel">
+					<div class="new-card-layout">
+							<div class="new-content-wrapper"> 
+								<a href="https://www.geeksforgeeks.org/courses/c-Programming-basic-to-advanced">
+									<div class="new-card-content">
+										<div class="new-card-thumbnail">
+											  <img src="./grade_files/c_1722949071.webp" alt="course-img" class="card-image">
+										</div>
+										<div class="card-description-grid">
+											<div class="grid1">
+												<div class="grid1-interested">
+													<span class="interested-text">203k+ interested Geeks </span>
+												</div>
+											</div>
+											<div class="grid2-div">
+												<strong class="grid2-description-heading">C Programming Course Online - Learn C with Data Structures </strong>
+											</div>
+											<div class="grid3">
+												<div class="grid3-course-explore">
+												<!-- <img src=https://media.geeksforgeeks.org/img-practice/Levels-1669283463.svg alt="" class="level-symbol"></img>
+													<span class="level-text">Beginner to Advance </span>   -->
+													<button class="explore-course">Explore</button> 
+												</div>
+											</div>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div><div class="new-card-layout">
+							<div class="new-content-wrapper"> 
+								<a href="https://www.geeksforgeeks.org/courses/gate-cse-2028-semester-placement">
+									<div class="new-card-content">
+										<div class="new-card-thumbnail">
+											  <img src="./grade_files/GATE-CSE--2028-semester-placement.webp" alt="course-img" class="card-image">
+										</div>
+										<div class="card-description-grid">
+											<div class="grid1">
+												<div class="grid1-interested">
+													<span class="interested-text">2k+ interested Geeks </span>
+												</div>
+											</div>
+											<div class="grid2-div">
+												<strong class="grid2-description-heading">GATE CSE 2028 [Semester &amp; Placement Preparation] </strong>
+											</div>
+											<div class="grid3">
+												<div class="grid3-course-explore">
+												<!-- <img src=https://media.geeksforgeeks.org/img-practice/Levels-1669283463.svg alt="" class="level-symbol"></img>
+													<span class="level-text"> </span>   -->
+													<button class="explore-course">Explore</button> 
+												</div>
+											</div>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div><div class="new-card-layout">
+							<div class="new-content-wrapper"> 
+								<a href="https://www.geeksforgeeks.org/courses/gate-rank-booster">
+									<div class="new-card-content">
+										<div class="new-card-thumbnail">
+											  <img src="./grade_files/GATE-Rank-Booster-with-Expert-Curated-Questions.webp" alt="course-img" class="card-image" loading="lazy">
+										</div>
+										<div class="card-description-grid">
+											<div class="grid1">
+												<div class="grid1-interested">
+													<span class="interested-text">35k+ interested Geeks </span>
+												</div>
+											</div>
+											<div class="grid2-div">
+												<strong class="grid2-description-heading">GATE CSE Rank Booster with Expert-Curated Questions </strong>
+											</div>
+											<div class="grid3">
+												<div class="grid3-course-explore">
+												<!-- <img src=https://media.geeksforgeeks.org/img-practice/Levels-1669283463.svg alt="" class="level-symbol"></img>
+													<span class="level-text"> </span>   -->
+													<button class="explore-course">Explore</button> 
+												</div>
+											</div>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div></div></div></div></div></div></div>    <!-- <script>
+        var rightBarExploreMoreList = ``
+	</script> -->
+
+	<!-------------------------------- Text-18 (explore more section + ads) --------------------------->
+	<aside id="text-18" class="widget widget_text">
+		<div class="textwidget">
+					<div id="GFG_AD_Desktop_RightSideBar_BTF_Sticky_300x250" style="min-width: 300px; margin-bottom: 10px; max-width: 320px; max-height: 600px; overflow: hidden;" data-google-query-id="CKzq_dPm1I4DFTAltwAdsWI24Q"><div id="google_ads_iframe_/27823234/GFG_Desktop_RightSideBar_BTF_Sticky_300x250_0__container__" style="border: 0pt none; display: inline-block; width: 300px; height: 600px;"><iframe frameborder="0" src="./grade_files/container(2).html" id="google_ads_iframe_/27823234/GFG_Desktop_RightSideBar_BTF_Sticky_300x250_0" title="3rd party ad content" name="" scrolling="no" marginwidth="0" marginheight="0" width="300" height="600" data-is-safeframe="true" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="private-state-token-redemption;attribution-reporting" aria-label="Advertisement" tabindex="0" data-google-container-id="3" style="border: 0px; vertical-align: bottom;" data-load-complete="true"></iframe></div></div>
+			<div id="GFG_AD_Desktop_RightSideBar_Docked_160x600" style="min-width: 160px;"></div><div id="GFG_AD_Desktop_RightSideBar_BTFdocked_300x600" style="min-width: 300px; max-width: 300px; max-height: 600px; overflow: hidden;" data-google-query-id="CK3q_dPm1I4DFTAltwAdsWI24Q"><div id="google_ads_iframe_/27823234/22683361281_0__container__" style="border: 0pt none; display: inline-block; width: 300px; height: 600px;"><iframe frameborder="0" src="./grade_files/container(3).html" id="google_ads_iframe_/27823234/22683361281_0" title="3rd party ad content" name="" scrolling="no" marginwidth="0" marginheight="0" width="300" height="600" data-is-safeframe="true" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="private-state-token-redemption;attribution-reporting" aria-label="Advertisement" tabindex="0" data-google-container-id="4" style="border: 0px; vertical-align: bottom;" data-load-complete="true"></iframe></div></div>
+			</div></aside>
+
+	<!-------------------------- Text -20 (For maintaining some CSS) ---------------------- -->
+	<aside id="text-20" class="widget widget_text">
+		<div class="textwidget">
+		 <!-- Please do not delete this div -->
+		</div>
+	</aside>
+</div>
+
+                <div id="user-personal-note" style="display: none;"></div>
+        </div>
+    </div>
+    <section class="disqus-section">
+        <div class="article-page_flex">
+            <div class="leftBar">
+            </div>
+        </div>
+    </section>
+</div>
+
+<div id="video-popup" style="display:none"></div>
+
+<link rel="stylesheet" href="./grade_files/articleList.min.css">
+
+<script>
+    var commentConfig = function () {
+    this.identifier = 'gfg_' + post_type + '_' + post_id;
+    this.title = encodeURIComponent(post_title);
+    this.domain = 'gfg';
+    this.pageURL = encodeURIComponent($(location).attr('href').replace('www.cdn.geeksforgeeks.org', 'www.geeksforgeeks.org'));
+    this.mode = (getThemeFromCookie() === 'gfgThemeDark') ? 'dark' : 'light';
+};
+$(function () {
+    if($('.main_wrapper').length){
+        var main_offset = $('.main_wrapper').offset().top;
+    }
+    var width = $(".main_wrapper").innerWidth() + 10;
+
+    jQuery("#comment").on("click", function () {
+
+        jQuery(this).hide();
+    });
+
+    $(document).on("click", "[data-gfg-action='loadComments']", function (e) {
+        if ($("#comment-system").length === 0) {
+            var commentSectionTemplate = ` <div class="disqus--viewer">
+                                                <div style="height:100%" class="comment-section" hidden>
+                                                    <div style="height:100%">
+                                                        <div style="height:100%" id="comment-system"></div>
+                                                    </div>
+                                                </div>
+                                            </div`;
+            $(commentSectionTemplate).insertBefore(".article--recommended");
+        }
+        loadComments();
+    });
+});
+
+function loadComments() {
+    if ($("iframe[id*='discuss-iframe']").length < 1) {
+        (function () {
+            var d = document,
+                s = d.createElement("script");
+            s.src = commentSysUrl;
+            (d.head || d.body).appendChild(s);
+        })();
+
+    }
+
+    if (!$('.comment-section').is(':visible')) {
+        $('.comment-section').show();
+    }
+}
+function improveArticleCall() {
+    $('.improve-modal--overlay').show();
+    $('.improve-modal--improvement').show();
+    $('.locked-status--impove-modal').css("display", "none");
+    $('.improve-modal--improvement').attr("status", "unlocked");
+    $('.unlocked-status--improve-modal-content').css("display", "block");
+}
+function showDropdown() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+$(window).click(function (e) {
+    if ($('.three_dot_dropdown_content').hasClass("show") && !(e.target.matches('.dropbtn') || (e.target.closest('#myDropdown') && e.target.closest('#myDropdown').matches('#myDropdown')))) {
+        $('.three_dot_dropdown_content').removeClass("show");
+    }
+});
+
+
+function suggestionArticleCall() {
+    $('.improve-modal--overlay').show();
+    $('.improve-modal--improvement').css("display", "none");
+    $('.thank-you-message').css("display","none");  
+    $('.improve-modal--suggestion').show();
+    $('#suggestion-section-textarea').show();
+    if(suggestEditorInstance !== null){
+        suggestEditorInstance.setEditorValue("");
+    }
+    $('.suggestion-section').css('display', 'block');
+    jQuery('.suggest-bottom-btn').css("display","block");
+    $('.suggest-bottom-btn').html("Suggest changes");
+    $('.left-arrow-icon_wrapper').hide();
+    $('.locked-status--impove-modal').css("display", "none");
+    $('.improve-modal--improvement').attr("status", "unlocked");
+    $('.unlocked-status--improve-modal-content').css("display", "block");
+    return;
+}
+$(document).ready(function() {
+    var isfollowingApiCall = false;
+    if ($('.follow-btn').length) {
+        var articleRecommendedTop = $(".article--recommended").offset().top;
+        var articleRecommendedBottom = articleRecommendedTop + $(".article--recommended").outerHeight();
+        $(window).scroll(function() {
+            var top_of_element = $(".article--recommended").offset().top;
+            var bottom_of_element = $(".article--recommended").offset().top + $(".article--recommended").outerHeight();
+            var bottom_of_screen = $(window).scrollTop() + $(window).innerHeight();
+            var top_of_screen = $(window).scrollTop();
+            if ((bottom_of_screen > top_of_element && top_of_screen < bottom_of_element) || 
+                (bottom_of_screen > articleRecommendedTop && top_of_screen < articleRecommendedBottom) ||
+                (top_of_screen > articleRecommendedBottom)) {
+                if (!isfollowingApiCall) {
+                    isfollowingApiCall = true;
+                    setTimeout(function(){
+                        if (loginData && loginData.isLoggedIn) {
+                            if (loginData.userName !== $('#followAuthor').val()) {
+                                is_following();
+                            } else {
+                                $('.profileCard-profile-picture').css('background-color', '#E7E7E7');
+                            }
+                        } else {
+                            $('.follow-btn').removeClass('hideIt');
+                        }
+                    }, 3000);
+                }
+            }
+        });
+    }
+    
+    $(".accordion-header").click(function() {
+        var arrowIcon = $(this).find('.bottom-arrow-icon');
+        arrowIcon.toggleClass('rotate180');
+    });
+
+});
+
+window.isReportArticle = false;
+function report_article(){
+    if (!loginData || !loginData.isLoggedIn) {
+        const loginModalButton = $('.login-modal-btn')
+            if (loginModalButton.length) {
+                loginModalButton.click();
+            }
+    return;
+}
+
+    if(!window.isReportArticle){
+            //to add loader
+            $('.report-loader').addClass('spinner');
+            jQuery('#report_modal_content').load(gfgSiteUrl+'wp-content/themes/iconic-one/report-modal.php', {
+                PRACTICE_API_URL: practiceAPIURL,
+                PRACTICE_URL:practiceURL
+            },function(responseTxt, statusTxt, xhr){
+                if(statusTxt == "error"){
+                    alert("Error: " + xhr.status + ": " + xhr.statusText);
+                }
+            });
+    }else{
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+        $("#report_modal_content").show();
+    }
+} 
+
+function closeShareModal() {
+    const shareOption = document.querySelector('[data-gfg-action="share-article"]');
+    shareOption.classList.remove("hover_share_menu");
+    let shareModal = document.querySelector(".hover__share-modal-container");
+    shareModal && shareModal.remove();
+}
+
+function openShareModal() {
+    closeShareModal(); // Remove existing modal if any
+
+    let shareModal = document.querySelector(".three_dot_dropdown_share");
+    shareModal.appendChild(Object.assign(document.createElement("div"), { className: "hover__share-modal-container" }));
+
+    document.querySelector(".hover__share-modal-container").append(
+        Object.assign(document.createElement('div'), { className: "share__modal" }),
+    );
+
+    document.querySelector(".share__modal").append(Object.assign(document.createElement('h1'), { className: "share__modal-heading" }, { textContent: "Share to" }));
+    const socialOptions = ["LinkedIn", "WhatsApp","Twitter", "Copy Link"];
+
+    socialOptions.forEach((socialOption) => {
+        const socialContainer = Object.assign(document.createElement('div'), { className: "social__container" });
+        const icon = Object.assign(document.createElement("div"), { className: `share__icon share__${socialOption.split(" ").join("")}-icon` });
+        const socialText = Object.assign(document.createElement("span"), { className: "share__option-text" }, { textContent: `${socialOption}` });
+        const shareLink = (socialOption === "Copy Link") ? 
+            Object.assign(document.createElement('div'), { role: "button", className: "link-container CopyLink" }) : 
+            Object.assign(document.createElement('a'), { className: "link-container" });
+
+       
+        if (socialOption === "LinkedIn") {
+            shareLink.setAttribute('href', `https://www.linkedin.com/sharing/share-offsite/?url=${window.location.href}`);
+            shareLink.setAttribute('target', '_blank');
+        }
+        if (socialOption === "WhatsApp") {
+            shareLink.setAttribute('href', `https://api.whatsapp.com/send?text=${window.location.href}`); 
+            shareLink.setAttribute('target', "_blank");
+        }
+        if (socialOption === "Twitter") {
+            shareLink.setAttribute('href', `https://twitter.com/intent/tweet?url=${window.location.href}`); 
+            shareLink.setAttribute('target', "_blank");
+        }
+
+        shareLink.append(icon, socialText);
+        socialContainer.append(shareLink);
+        document.querySelector(".share__modal").appendChild(socialContainer);
+
+        //adding copy url functionality
+        if(socialOption === "Copy Link") {
+            shareLink.addEventListener("click", function() {
+                var tempInput = document.createElement("input");
+                tempInput.value = window.location.href; 
+                document.body.appendChild(tempInput); 
+                tempInput.select();
+                tempInput.setSelectionRange(0, 99999); // For mobile devices
+                document.execCommand('copy');
+                document.body.removeChild(tempInput);
+                this.querySelector(".share__option-text").textContent = "Copied"
+            })
+        }
+    });
+    // document.querySelector(".hover__share-modal-container").addEventListener("mouseover", () => document.querySelector('[data-gfg-action="share-article"]').classList.add("hover_share_menu"));
+}
+function toggleLikeElementVisibility(selector, show) {
+    document.querySelector(`.${selector}`).style.display = show ? "block" : "none";
+}
+
+function closeKebabMenu(){
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+</script>
+<!-- Script for the new design of similar read  -->
+<script>
+$(document).ready(function() {
+
+    $("#showMoreTagsBtn").click(function() {
+        $('.articles-hidden-tags').show();
+        $(this).hide();
+    });
+
+    $("#showMorePracticeTagsBtn").click(function() {
+        $(".practice-tags li:nth-child(n+5)").show();
+        $(this).hide();
+    });
+});
+</script>
+<!-- Script end for similar read -->
+
+<style>
+        .grecaptcha-badge {
+            visibility: hidden !important;
+        }
+        .thank-you-message {
+            height: 100%;
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .thank-you-message-content {
+            margin-top: 17px;
+            font: 400 20px var(--font-secondary);
+            color: var(--improve-modal-text);
+            line-height: 180%;
+            text-align: center;
+        }
+        .thank-you-message-content h2{
+          font-family: var(--font-secondary);
+        }
+        .all-footer-information{
+          width: 100% !important;;
+        }
+        .footer-wrapper_links-list{
+           margin-block-start: 0em !important;
+           width: 16% !important; 
+           padding-inline-start: 18px !important;
+        }
+        .link-head{
+               margin-bottom: 0px;
+        }
+        @media only screen and (max-width:1340px) {
+              .footer-wrapper_links-list{
+              overflow-wrap: break-word;
+          }
+        }
+        @media screen and (min-width: 991px)  {
+              .all-footer-information{
+                padding-left:15px;
+          }
+        }
+        @media only screen and (max-width:980px) {
+          .footer-wrapper_branding-address{
+               padding-top: 10px;
+          }
+        }
+        @media (max-width: 750px) {
+            .thank-you-message-content{
+                font-size: 14px;
+                line-height: 170%;
+            }
+        }
+
+        /* CSS variable meant to handle the dark and light mode icon for three 90 event in header courses dropdown */
+        :root{
+          --three90headericon : url('https://media.geeksforgeeks.org/auth-dashboard-uploads/three90daylogocompressed.svg');
+          --three90headericonposition : 0px -40px;
+          --three90leftbarimggrid : url('https://media.geeksforgeeks.org/auth-dashboard-uploads/three90leftbarspritecompressed.svg');
+          --three90leftbarimgposition : -5px -55px;
+          --three90leftbarbgcolour : #b3abd0;
+        }
+
+        body[data-dark-mode="true"]{
+          --three90leftbarimgposition : -6px 1px;
+          --three90headericonposition : 0px 0px;
+          --three90leftbarbgcolour: #8c82b9;
+        }
+
+        .three90leftbarimg{
+          margin-left: -5px;
+          height: 30px;
+          background-image: var(--three90leftbarimggrid);
+          background-repeat: no-repeat;
+          background-position: var(--three90leftbarimgposition);
+          background-size: 212px;
+        }
+
+        .courseTabShimmer{
+          position: absolute;
+          height: 110%;
+          width: 0;
+          opacity: .7;
+          -webkit-animation: courseShimmer 2s cubic-bezier(0,0,.07,.61) infinite;
+          animation: courseShimmer 2s cubic-bezier(0,0,.07,.61) infinite;
+          box-shadow: 0 0 25px 5px #dddcdc;
+          -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+          padding:0px !important;
+          border:unset !important;
+        }
+
+        @keyframes courseShimmer{
+          0% {
+              left: 0;
+          }
+          55% {
+              left: 100%;
+          }
+          99% {
+              left: 110%;
+          }
+        }
+
+</style>
+
+
+	</div><!-- #main .wrapper -->
+  <div id="displayModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+      <!-- <div class="upper-box">
+        <h3 style="font: normal normal bold 18px/31px var(--font-primary); color: var(--color-black);">Improve your Coding Skills with Practice</h3>
+        <button class="upper-box-btn"><a style="color: white !important;" href="https://practice.geeksforgeeks.org/explore?page=1&sortBy=submissions">Try It!</a></button>
+      </div> -->
+      <div class="modal-content">
+        <div class="error-message"></div>
+        <!-- <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" data-modal="displayModal">&times;</button>
+          <h2 class="modal-title" id="dmTitle"></h2>
+        </div> -->
+        <div class="modal-body" id="dmBody">
+            <div id="modal-dm-content"></div>
+              <div class="modal-overlay" aria-hidden="true">
+                <span class="loader__animation"></span>
+              </div>
+            <!-- body -->
+        </div>
+      </div>
+    </div>
+  </div>  
+  <div id="displayModalBackdrop" class="backdrop"></div>
+  <!-- Footer start -->
+  <footer class="gfg-footer" id="gfg-footer">
+      <div class="footer-wrapper">
+          <div class="footer-wrapper_branding">
+              <a class="footer-wrapper_branding-anchor" aria-label="GeeksforGeeks Logo" href="https://www.geeksforgeeks.org/">
+                <img loading="lazy" style="height: 32px; width: 230px; max-width: fit-content;" class="footer-wrapper_branding-nlogo" src="./grade_files/gfgFooterLogo.png" alt="geeksforgeeks-footer-logo">
+              </a>
+              <div class="footer-wrapper_branding-address">
+                  <div class="address_section">
+                    <div class="address-icon-wrapper">
+                      <i class="gfg-icon gfg-icon_pin"></i> 
+                    <div class="address_div">
+                     
+                      <div class="address_name">Corporate &amp; Communications Address:</div>
+                                            <div class="footer-address">
+                      A-143, 7th Floor, Sovereign Corporate Tower, Sector- 136, Noida, Uttar Pradesh (201305)                    </div>
+                    </div>
+                  </div>
+                     
+                      <div class="address-icon-wrapper">
+                      <i class="gfg-icon gfg-icon_pin"></i>  
+                      <div class="address_div">
+                        <div class="address_name">Registered Address:</div>
+                        K 061, Tower K, Gulshan Vivante Apartment, Sector 137, Noida, Gautam Buddh Nagar, Uttar Pradesh, 201305                      </div>
+                    </div>
+                                      </div>
+              </div>
+              <div class="footer-wrapper_branding-social">
+                  <a href="https://www.facebook.com/geeksforgeeks.org/" rel="noopener noreferrer" aria-label="GeeksforGeeks Facebook" target="_blank">
+                      <div class="facebook"></div>
+                  </a>
+                  <a href="https://www.instagram.com/geeks_for_geeks/" rel="noopener noreferrer" aria-label="GeeksforGeeks Instagram" target="_blank">
+                      <div class="instagram"></div>
+                  </a>
+                  <a href="https://in.linkedin.com/company/geeksforgeeks" rel="noopener noreferrer" aria-label="GeeksforGeeks LinkedIn" target="_blank">
+                      <div class="linkedin"></div>
+                  </a>
+                  <a href="https://twitter.com/geeksforgeeks" rel="noopener noreferrer" aria-label="GeeksforGeeks Twitter" target="_blank">
+                      <div class="twitter"></div>
+                  </a>
+                  <a href="https://www.youtube.com/geeksforgeeksvideos" rel="noopener noreferrer" aria-label="GeeksforGeeks YouTube" target="_blank">
+                      <div class="youtube"></div>
+                  </a>
+              </div>
+              <div class="footer-wrapper_branding-app">
+                  <a aria-label="GeeksforGeeks App Link" href="https://geeksforgeeksapp.page.link/gfg-app" target="_blank"><img src="./grade_files/googleplay.png" alt="GFG App on Play Store" id="gplay" loading="lazy"></a>
+                  <a aria-label="GeeksforGeeks App Link" href="https://geeksforgeeksapp.page.link/gfg-app" target="_blank"><img src="./grade_files/appstore.png" alt="GFG App on App Store" id="appstore" loading="lazy"></a>
+              </div>
+              <div class="footer_advertise_btn_box">
+                <a href="https://www.geeksforgeeks.org/advertise-with-us/" target="_blank" class="footer_advertise_btn">Advertise with us</a>
+              </div> 
+          </div>
+        <div class="all-footer-information">
+          <div class="footer-wrapper_links" style="justify-content: space-between; text-align: -webkit-left;"><ul class="footer-wrapper_links-list"><li>Company</li><li><a href="https://www.geeksforgeeks.org/about/">About Us</a></li><li><a href="https://www.geeksforgeeks.org/legal/">Legal</a></li><li><a href="https://www.geeksforgeeks.org/legal/privacy-policy/">Privacy Policy</a></li><li><a href="https://geeksforgeeks.zohorecruit.in/careers">Careers</a></li><li><a href="https://www.geeksforgeeks.org/press-release/">In Media</a></li><li><a href="https://www.geeksforgeeks.org/about/contact-us/">Contact Us</a></li><li><a href="https://www.geeksforgeeks.org/gfg-corporate-solution/">Corporate Solution</a></li><li><a href="https://www.geeksforgeeks.org/campus-training-program/">Campus Training Program</a></li></ul><ul class="footer-wrapper_links-list"><li>Explore</li><li><a href="https://practice.geeksforgeeks.org/events/rec/job-a-thon/">Job-A-Thon</a></li><li><a href="https://www.geeksforgeeks.org/courses/category/all?courseType=offline&amp;courseFeeType=all">Offline Classroom Program</a></li><li><a href="https://www.geeksforgeeks.org/courses/dsa-self-paced">DSA in JAVA/C++</a></li><li><a href="https://www.geeksforgeeks.org/courses/mastering-system-design-low-level-to-high-level-solutions">Master System Design</a></li><li><a href="https://www.geeksforgeeks.org/courses/competitive-programming-cp">Master CP</a></li><li><a href="https://www.geeksforgeeks.org/videos/">Videos</a></li></ul><ul class="footer-wrapper_links-list"><li>Tutorials</li><li><a href="https://www.geeksforgeeks.org/python-programming-language/">Python</a></li><li><a href="https://www.geeksforgeeks.org/java/">Java</a></li><li><a href="https://www.geeksforgeeks.org/c-plus-plus/">C++</a></li><li><a href="https://www.geeksforgeeks.org/php-tutorials/">PHP</a></li><li><a href="https://www.geeksforgeeks.org/golang/">GoLang</a></li><li><a href="https://www.geeksforgeeks.org/sql-tutorial/">SQL</a></li><li><a href="https://www.geeksforgeeks.org/r-tutorial/">R Language</a></li><li><a href="https://www.geeksforgeeks.org/android-tutorial/">Android</a></li></ul><ul class="footer-wrapper_links-list"><li><a class="link-head" href="https://www.geeksforgeeks.org/learn-data-structures-and-algorithms-dsa-tutorial/">DSA</a></li><li><a href="https://www.geeksforgeeks.org/data-structures/">Data Structures</a></li><li><a href="https://www.geeksforgeeks.org/fundamentals-of-algorithms/">Algorithms</a></li><li><a href="https://www.geeksforgeeks.org/dsa-tutorial-learn-data-structures-and-algorithms/">DSA for Beginners</a></li><li><a href="https://www.geeksforgeeks.org/basic-coding-problems-in-dsa-for-beginners/">Basic DSA Problems</a></li><li><a href="https://www.geeksforgeeks.org/complete-roadmap-to-learn-dsa-from-scratch/">DSA Roadmap</a></li><li><a href="https://www.geeksforgeeks.org/top-100-data-structure-and-algorithms-dsa-interview-questions-topic-wise/">DSA Interview Questions</a></li><li><a href="https://www.geeksforgeeks.org/competitive-programming-a-complete-guide/">Competitive Programming</a></li></ul><ul class="footer-wrapper_links-list"><li><a class="link-head" href="https://www.geeksforgeeks.org/ai-ml-ds/">Data Science &amp; ML</a></li><li><a href="https://www.geeksforgeeks.org/data-science-tutorial/">Data Science With Python</a></li><li><a href="https://www.geeksforgeeks.org/machine-learning/">Machine Learning</a></li><li><a href="https://www.geeksforgeeks.org/machine-learning-mathematics/">ML Maths</a></li><li><a href="https://www.geeksforgeeks.org/python-data-visualization-tutorial/">Data Visualisation</a></li><li><a href="https://www.geeksforgeeks.org/pandas-tutorial/">Pandas</a></li><li><a href="https://www.geeksforgeeks.org/numpy-tutorial/">NumPy</a></li><li><a href="https://www.geeksforgeeks.org/natural-language-processing-nlp-tutorial/">NLP</a></li><li><a href="https://www.geeksforgeeks.org/deep-learning-tutorial/">Deep Learning</a></li></ul><ul class="footer-wrapper_links-list"><li><a class="link-head" href="https://www.geeksforgeeks.org/web-technology/">Web Technologies</a></li><li><a href="https://www.geeksforgeeks.org/html/">HTML</a></li><li><a href="https://www.geeksforgeeks.org/css/">CSS</a></li><li><a href="https://www.geeksforgeeks.org/javascript/">JavaScript</a></li><li><a href="https://www.geeksforgeeks.org/typescript/">TypeScript</a></li><li><a href="https://www.geeksforgeeks.org/learn-reactjs/">ReactJS</a></li><li><a href="https://www.geeksforgeeks.org/nextjs/">NextJS</a></li><li><a href="https://www.geeksforgeeks.org/nodejs/">NodeJs</a></li><li><a href="https://www.geeksforgeeks.org/bootstrap/">Bootstrap</a></li><li><a href="https://www.geeksforgeeks.org/tailwind-css/">Tailwind CSS</a></li></ul></div><div class="footer-wrapper_links" style="justify-content: space-between; text-align: -webkit-left;"><ul class="footer-wrapper_links-list" style="margin-block-start: 0em; width:16%; padding-inline-start: 18px;"><li><a class="link-head" href="https://www.geeksforgeeks.org/python-programming-language/">Python Tutorial</a></li><li><a href="https://www.geeksforgeeks.org/python-programming-examples/">Python Examples</a></li><li><a href="https://www.geeksforgeeks.org/django-tutorial/">Django Tutorial</a></li><li><a href="https://www.geeksforgeeks.org/python-projects-beginner-to-advanced/">Python Projects</a></li><li><a href="https://www.geeksforgeeks.org/python-tkinter-tutorial/">Python Tkinter</a></li><li><a href="https://www.geeksforgeeks.org/python-web-scraping-tutorial/">Web Scraping</a></li><li><a href="https://www.geeksforgeeks.org/opencv-python-tutorial/">OpenCV Tutorial</a></li><li><a href="https://www.geeksforgeeks.org/python-interview-questions/">Python Interview Question</a></li></ul><ul class="footer-wrapper_links-list"><li>Computer Science</li><li><a href="https://www.geeksforgeeks.org/gate-cs-notes-gq/">GATE CS Notes</a></li><li><a href="https://www.geeksforgeeks.org/operating-systems/">Operating Systems</a></li><li><a href="https://www.geeksforgeeks.org/computer-network-tutorials/">Computer Network</a></li><li><a href="https://www.geeksforgeeks.org/dbms/">Database Management System</a></li><li><a href="https://www.geeksforgeeks.org/software-engineering/">Software Engineering</a></li><li><a href="https://www.geeksforgeeks.org/digital-electronics-logic-design-tutorials/">Digital Logic Design</a></li><li><a href="https://www.geeksforgeeks.org/engineering-mathematics-tutorials/">Engineering Maths</a></li></ul><ul class="footer-wrapper_links-list"><li><a class="link-head" href="https://www.geeksforgeeks.org/devops-tutorial/">DevOps</a></li><li><a href="https://www.geeksforgeeks.org/git-tutorial/">Git</a></li><li><a href="https://www.geeksforgeeks.org/aws-tutorial/">AWS</a></li><li><a href="https://www.geeksforgeeks.org/docker-tutorial/">Docker</a></li><li><a href="https://www.geeksforgeeks.org/kubernetes-tutorial/">Kubernetes</a></li><li><a href="https://www.geeksforgeeks.org/microsoft-azure/">Azure</a></li><li><a href="https://www.geeksforgeeks.org/google-cloud-platform-tutorial/">GCP</a></li><li><a href="https://www.geeksforgeeks.org/devops-roadmap/">DevOps Roadmap</a></li></ul><ul class="footer-wrapper_links-list"><li><a class="link-head" href="https://www.geeksforgeeks.org/system-design-tutorial/">System Design</a></li><li><a href="https://www.geeksforgeeks.org/what-is-high-level-design-learn-system-design/">High Level Design</a></li><li><a href="https://www.geeksforgeeks.org/what-is-low-level-design-or-lld-learn-system-design/">Low Level Design</a></li><li><a href="https://www.geeksforgeeks.org/unified-modeling-language-uml-introduction/">UML Diagrams</a></li><li><a href="https://www.geeksforgeeks.org/system-design-interview-guide/">Interview Guide</a></li><li><a href="https://www.geeksforgeeks.org/software-design-patterns/">Design Patterns</a></li><li><a href="https://www.geeksforgeeks.org/object-oriented-analysis-and-design/">OOAD</a></li><li><a href="https://www.geeksforgeeks.org/system-design-interview-bootcamp-guide/">System Design Bootcamp</a></li><li><a href="https://www.geeksforgeeks.org/most-commonly-asked-system-design-interview-problems-questions/">Interview Questions</a></li></ul><ul class="footer-wrapper_links-list"><li>School Subjects</li><li><a href="https://www.geeksforgeeks.org/maths/">Mathematics</a></li><li><a href="https://www.geeksforgeeks.org/physics/">Physics</a></li><li><a href="https://www.geeksforgeeks.org/chemistry/">Chemistry</a></li><li><a href="https://www.geeksforgeeks.org/biology/">Biology</a></li><li><a href="https://www.geeksforgeeks.org/social-science/">Social Science</a></li><li><a href="https://www.geeksforgeeks.org/english-grammar/">English Grammar</a></li></ul><ul class="footer-wrapper_links-list"><li><a class="link-head" href="https://www.geeksforgeeks.org/getting-started-with-database-management-system/">Databases</a></li><li><a href="https://www.geeksforgeeks.org/sql-tutorial/">SQL</a></li><li><a href="https://www.geeksforgeeks.org/mysql-tutorial/">MYSQL</a></li><li><a href="https://www.geeksforgeeks.org/postgresql-tutorial/">PostgreSQL</a></li><li><a href="https://www.geeksforgeeks.org/pl-sql-tutorial/">PL/SQL</a></li><li><a href="https://www.geeksforgeeks.org/mongodb-tutorial/">MongoDB</a></li></ul></div><div class="footer-wrapper_links" style="justify-content: space-between; text-align: -webkit-left;"><ul class="footer-wrapper_links-list" style="margin-block-start: 0em; width:16%; padding-inline-start: 18px;"><li><a class="link-head" href="https://www.geeksforgeeks.org/technical-interview-preparation/">Preparation Corner</a></li><li><a href="https://www.geeksforgeeks.org/company-wise-recruitment-process/">Company-Wise Recruitment Process</a></li><li><a href="https://www.geeksforgeeks.org/aptitude-questions-and-answers/">Aptitude Preparation</a></li><li><a href="https://www.geeksforgeeks.org/puzzles/">Puzzles</a></li><li><a href="https://www.geeksforgeeks.org/company-preparation/">Company-Wise Preparation</a></li></ul><ul class="footer-wrapper_links-list"><li><a class="link-head" href="https://www.geeksforgeeks.org/geeksforgeeks-online-tutorials-free/">More Tutorials</a></li><li><a href="https://www.geeksforgeeks.org/software-development/">Software Development</a></li><li><a href="https://www.geeksforgeeks.org/software-testing-tutorial/">Software Testing</a></li><li><a href="https://www.geeksforgeeks.org/product-management/">Product Management</a></li><li><a href="https://www.geeksforgeeks.org/project-management-tutorial/">Project Management</a></li><li><a href="https://www.geeksforgeeks.org/linux-tutorial/">Linux</a></li><li><a href="https://www.geeksforgeeks.org/excel-tutorial/">Excel</a></li><li><a href="https://www.geeksforgeeks.org/geeksforgeeks-master-sheet-list-of-all-cheat-sheets/">All Cheat Sheets</a></li></ul><ul class="footer-wrapper_links-list"><li>Courses</li><li><a href="https://www.geeksforgeeks.org/courses/category/ibm-certification">IBM Certification Courses</a></li><li><a href="https://www.geeksforgeeks.org/courses/category/dsa-placements">DSA and Placements</a></li><li><a href="https://www.geeksforgeeks.org/courses/category/development-testing">Web Development</a></li><li><a href="https://www.geeksforgeeks.org/courses/category/machine-learning-data-science">Data Science</a></li><li><a href="https://www.geeksforgeeks.org/courses/category/programming-languages">Programming Languages</a></li><li><a href="https://www.geeksforgeeks.org/courses/category/cloud-devops">DevOps &amp; Cloud</a></li></ul><ul class="footer-wrapper_links-list"><li>Programming Languages</li><li><a href="https://www.geeksforgeeks.org/courses/c-Programming-basic-to-advanced">C Programming with Data Structures</a></li><li><a href="https://www.geeksforgeeks.org/courses/cpp-programming-basic-to-advanced">C++ Programming Course</a></li><li><a href="https://www.geeksforgeeks.org/courses/java-online-course-complete-beginner-to-advanced">Java Programming Course</a></li><li><a href="https://www.geeksforgeeks.org/courses/master-python-complete-beginner-to-advanced">Python Full Course</a></li></ul><ul class="footer-wrapper_links-list"><li>Clouds/<wbr>Devops</li><li><a href="https://www.geeksforgeeks.org/courses/devops-live">DevOps Engineering</a></li><li><a href="https://www.geeksforgeeks.org/courses/AWS-solutions-architect-certification-training-program-live">AWS Solutions Architect Certification</a></li><li><a href="https://www.geeksforgeeks.org/courses/salesforce-certified-administrator">Salesforce Certified Administrator Course</a></li></ul><ul class="footer-wrapper_links-list"><li><a class="link-head" href="https://www.geeksforgeeks.org/courses/category/gate">GATE 2026</a></li><li><a href="https://www.geeksforgeeks.org/courses/gate-rank-booster">GATE CS Rank Booster</a></li><li><a href="https://www.geeksforgeeks.org/courses/gate-da-rank-booster">GATE DA Rank Booster</a></li><li><a href="https://www.geeksforgeeks.org/courses/gate-2026-csit">GATE CS &amp; IT Course - 2026</a></li><li><a href="https://www.geeksforgeeks.org/courses/gate-da-2026">GATE DA Course 2026</a></li><li><a href="https://www.geeksforgeeks.org/gate-rank-predictor">GATE Rank Predictor</a></li></ul></div>        </div> 
+      </div>
+            <!-- Jobs Fair 2024 related CSS changes -->
+
+<style>
+  :root{
+    --home-jobs-section-jf-logo: url('https://media.geeksforgeeks.org/auth-dashboard-uploads/JobFair2024Logo.svg');
+  }
+
+  body[data-dark-mode="true"]
+  {
+    --home-jobs-section-jf-logo: url('https://media.geeksforgeeks.org/auth-dashboard-uploads/JobFair2024LogoDark.svg');
+  }
+
+  .hp_job_section_jf_logo, .job-a-thon-jf-sticky-header-logo{
+    background: var(--home-jobs-section-jf-logo);
+    height: 50px;
+    background-repeat: no-repeat;
+    width: 105px;
+    background-size: 100px;
+  }
+
+  @keyframes challenge {
+	0%{
+		transform: scale(1);
+	}
+	50%{
+		transform: scale(1.03);
+	}
+	100%{
+		transform: scale(1);
+	}
+  }
+
+  .job-a-thon-jf-sticky-header-logo{
+    height: 45px;
+  }
+
+</style>
+
+<!-- ---------------------------------- -->
+      <div class="footer-strip">
+          <div class="copyright">
+              <a href="https://www.geeksforgeeks.org/" rel="noopener noreferrer" target="_blank">@GeeksforGeeks, Sanchhaya Education Private Limited</a><span>, <a href="https://www.geeksforgeeks.org/copyright-information/">All rights reserved</a></span>
+          </div>
+          <div class="social-links">
+          </div>
+      </div>
+  </footer>
+<!-- #page -->
+<script type="text/javascript" src="./grade_files/wp-embed.min.js.download"></script>
+
+<!-- Cookie Consent Div-->
+<div class="cookie-consent hide-consent show-consent">
+    <span class="cookie-text">
+        We use cookies to ensure you have the best browsing experience on our website. By using our site, you
+        acknowledge that you have read and understood our
+        <a href="https://www.geeksforgeeks.org/cookie-policy/" target="_blank"><u>Cookie Policy</u></a> &amp;
+        <a href="https://www.geeksforgeeks.org/privacy-policy/" target="_blank"><u>Privacy Policy</u></a>
+            </span>
+    <button class="consent-btn">
+        Got It !
+    </button>
+</div>
+<!-- Cookie Consent Div ends -->
+
+<!--Light Box Div starts-->
+<div class="lightbox-target">
+   <img id="lightbox-image" src="https://www.geeksforgeeks.org/python/python-oops-exercise-questions/" alt="Lightbox">
+   <span class="lightbox-close"></span>
+</div>
+<!--Light Box Div ends-->
+
+<!-- <link rel="stylesheet" href="https://use.typekit.net/mrg0hpc.css"/> -->
+<link href="./grade_files/css2" rel="stylesheet">
+<script>
+  if(post_slug.includes('premium-plans-payment/') || post_slug.includes('premium-plans/')){
+    $('.darkMode-wrap').remove();
+    $('.toggle-darkMode').remove(); 
+  }
+
+function setGoogleRecaptcha() {
+    var captchaSiteKey = '6LdMFNUZAAAAAIuRtzg0piOT-qXCbDF-iQiUi9KY';
+    grecaptcha.ready(function() {
+        grecaptcha.execute(captchaSiteKey).then(function(token) {
+            document.getElementById('g-recaptcha-response-suggestion-form').value = token;
+            suggestionCall();
+        });
+    });
+}
+
+</script>
+
+        <div class="improve-modal--overlay" style="display: none;">
+            <div class="improve-modal--improvement" status="locked">
+                <div class="improve-modal--improve-header">
+                    <div class="improve-header-fst-child">Improvement</div>
+                    <div class="improve-header-sec-child">
+                        <i class="gfg-icon improve-cross-icon"></i>
+                    </div>
+                </div>
+                <div class="locked-status--impove-modal">
+                    <div class="improve-modal--improve-content error-message"></div>                    
+                    <div class="improve-modal--improve-bottom">
+                        <button class="improve-bottom-btn" type="button">Suggest changes</button>
+                    </div>
+                </div>
+                <div class="unlocked-status--improve-modal-content">
+                  <div class="suggest-change_wrapper">
+                    <div class="suggest-change-content_wrapper">
+                      <div class="suggest-change">Suggest Changes</div>
+                      <div class="suggest-changes-about">Help us improve. Share your suggestions to enhance the article. Contribute your expertise and make a difference in the GeeksforGeeks portal.</div>
+                    </div>
+                    <div class="suggest-change-icon_wrapper">
+                      <img loading="lazy" class="suggest-change-icon" src="./grade_files/suggestChangeIcon.png" alt="geeksforgeeks-suggest-icon">
+                    </div>
+                  </div>
+                  <div class="create-improvement_wrapper">
+                    <div class="create-improvement-content_wrapper">
+                      <div class="create-improvement">Create Improvement</div>
+                      <div class="create-improvements-about">Enhance the article with your expertise. Contribute to the GeeksforGeeks community and help create better learning resources for all.</div>
+                    </div>
+                    <div class="create-improvement-icon_wrapper">
+                    <img loading="lazy" class="create-improvement-icon" src="./grade_files/createImprovementIcon.png" alt="geeksforgeeks-improvement-icon">
+                    </div>
+                  </div>
+                  <div class="error-status"></div>
+                </div>
+            </div>
+            <div class="improve-modal--suggestion" style="display: none;">
+                <!-- Header of improve-modal--improvement and improve-modal--suggestion have same CSS rule that's why I use same class name -->
+                <div class="improve-modal--improve-header">
+                  <div class="left-arrow-icon_suggest_wrapper">
+                    <div class="left-arrow-icon_wrapper">
+                      <i class="gfg-icon improve-left-arrow-icon"></i>
+                    </div>
+                    <div class="improve-header-fst-child">Suggest Changes</div>
+                  </div>
+                  <div class="improve-header-sec-child">
+                        <i class="gfg-icon improve-cross-icon"></i>
+                  </div>
+                </div>
+                <div class="suggestion-modal-section">
+                        <div class="suggestion-section">min 4 words, max Words Limit:1000</div>
+                        <div id="suggestion-section-textarea">
+                        </div>
+                        <input type="hidden" name="g-recaptcha-suggestion-response" id="g-recaptcha-response-suggestion-form">
+                        <div class="thank-you-message" style="text-align: center; display:none">
+                              <h2>Thank You!</h2>
+                              <div class="thank-you-message-content">Your suggestions are valuable to us.</div>
+                        </div>
+                </div> 
+                <!-- Button of improve-modal--improvement and improve-modal--suggestion have same CSS rule that's why I use same class name -->
+                <div class="improve-modal--improve-bottom suggestion-btn">
+                    <p><span id="suggestion-modal-alert" style="display: none;"></span></p>
+                    <button class="suggest-bottom-btn" type="button"></button>
+                </div>
+            </div>
+            <a href="https://www.geeksforgeeks.org/python/python-oops-exercise-questions/#" style="visibility:hidden" class="create-improvement-redirection-to-write" target="_blank"></a>
+        </div>
+        <script>
+
+            //code to add text editor on click in suggestion modal in improvements
+            let suggestEditorInstance=null; //global variable to access editor instance
+            let editorLoaded = false;
+            $('.suggest-change_wrapper,.improve_dot_dropdown_inner_div, .locked-status--impove-modal .improve-bottom-btn ,#user-personal-note ').one('click',function() {
+            //editor already loaded then return
+            if(editorLoaded){
+            return;
+            }
+            // if($('.spinner-loading-overlay:eq(0)').length){
+            // $('.spinner-loading-overlay:eq(0)').remove();
+            // }
+            // $('body').append('<div class="spinner-loading-overlay"></div>');
+            // $('.spinner-loading-overlay').show();
+            let script = document.createElement('script');
+            script.src = 'https://assets.geeksforgeeks.org/v2/editor-prod/static/js/bundle.min.js';
+            script.defer = true
+            document.head.appendChild(script);
+            script.onload = function() {
+            suggestionModalEditor() //to add editor in suggestion modal
+            if(loginData && loginData.premiumConsent){
+              personalNoteEditor() //to load editor in personal note
+            }
+            }
+            script.onerror = function() {
+            if($('.editorError').length){
+            $('.editorError').remove();
+            }
+            var messageDiv = $('<div class="editorError"></div>').text('Editor not loaded due to some issues');
+            $('#suggestion-section-textarea').append(messageDiv);
+            $('.suggest-bottom-btn').hide();
+            $('.suggestion-section').hide();
+            editorLoaded = false;
+            }
+            });
+            //suggestion modal editor
+            function suggestionModalEditor(){
+            // editor params
+            const params = {
+            data: undefined,
+            plugins: ["BOLD", "ITALIC", "UNDERLINE", "PREBLOCK"],
+            }
+            // loading editor
+            try {
+            suggestEditorInstance = new GFGEditorWrapper("suggestion-section-textarea", params, { appNode: true })
+            suggestEditorInstance._createEditor("")
+            $('.spinner-loading-overlay:eq(0)').remove();
+            editorLoaded = true;
+            }
+            catch (error) {
+            $('.spinner-loading-overlay:eq(0)').remove();
+            editorLoaded = false;
+            }
+            }
+            //personal note editor
+            function personalNoteEditor(){
+            // editor params
+            const params = {
+            data: undefined,
+            plugins: ["UNDO", "REDO", "BOLD", "ITALIC", "NUMBERED_LIST", "BULLET_LIST", "TEXTALIGNMENTDROPDOWN"],
+            placeholderText: "Description to be......",
+            }
+            // loading editor
+            try {
+            let notesEditorInstance = new GFGEditorWrapper("pn-editor", params, { appNode: true })
+            notesEditorInstance._createEditor(loginData&&loginData.user_personal_note?loginData.user_personal_note:"")
+            $('.spinner-loading-overlay:eq(0)').remove();
+            editorLoaded = true;
+            }
+            catch (error) {
+            $('.spinner-loading-overlay:eq(0)').remove();
+            editorLoaded = false;
+            }
+}
+
+            var lockedCasesHtml = `<span class="improve-modal--improve-content-modified"></span><span>You can suggest the changes for now and it will be under 'My Suggestions' Tab on Write.</span><br><br><span>You will be notified via email once the article is available for improvement. Thank you for your valuable feedback!</span>`;
+            var badgesRequiredHtml = `<span>It seems that you do not meet the eligibility criteria to create improvements for this article, as only users who have earned specific badges are permitted to do so.</span><br><br><span>However, you can still create improvements through the <a href="https://write.geeksforgeeks.org/pick-improvements/pick" target='_blank'>Pick for Improvement</a> section.</span>`;
+            jQuery('.improve-header-sec-child').on('click', function(){
+                jQuery('.improve-modal--overlay').hide();
+                $('.improve-modal--suggestion').hide();
+                jQuery('#suggestion-modal-alert').hide();
+            });
+
+            $('.suggest-change_wrapper, .locked-status--impove-modal .improve-bottom-btn').on('click',function(){ // when suggest changes option is clicked
+              $('.ContentEditable__root').text("");
+              $('.suggest-bottom-btn').html("Suggest changes");
+              $('.thank-you-message').css("display","none");  
+              $('.improve-modal--improvement').hide();
+              $('.improve-modal--suggestion').show();
+              $('#suggestion-section-textarea').show();
+              jQuery('#suggestion-modal-alert').hide();
+              if(suggestEditorInstance !== null){
+                suggestEditorInstance.setEditorValue("");
+                }
+              $('.suggestion-section').css('display', 'block');
+              jQuery('.suggest-bottom-btn').css("display","block");
+            });
+
+            $('.create-improvement_wrapper').on('click',function(){  // when create improvement option clicked then improvement reason will be shown
+              if(loginData && loginData.isLoggedIn) {
+                $('body').append('<div class="spinner-loading-overlay"></div>');
+                $('.spinner-loading-overlay').show();
+                jQuery.ajax({
+                  url: writeApiUrl + 'create-improvement-post/?v=1',
+                  type: "POST",
+                  contentType: 'application/json; charset=utf-8',
+                  dataType: 'json',
+                  xhrFields: {
+                    withCredentials: true
+                  },
+                  data: JSON.stringify({
+                    gfg_id: post_id
+                  }),
+                  success:function(result) {
+                    $('.spinner-loading-overlay:eq(0)').remove();
+                    $('.improve-modal--overlay').hide();
+                    $('.unlocked-status--improve-modal-content').css("display","none");
+                    $('.create-improvement-redirection-to-write').attr('href',writeUrl + 'improve-post/' + `${result.id}` + '/', '_blank');
+                    $('.create-improvement-redirection-to-write')[0].click();
+                  },
+                  error:function(e) {
+                    showErrorMessage(e.responseJSON,e.status)
+                  },
+                });
+              }
+              else {
+               if(loginData && !loginData.isLoggedIn) {
+                   $('.improve-modal--overlay').hide();
+                if ($('.header-main__wrapper').find('.header-main__signup.login-modal-btn').length) {
+                $('.header-main__wrapper').find('.header-main__signup.login-modal-btn').click();
+                 }
+                return;
+                }
+              }
+            });
+            $('.left-arrow-icon_wrapper').on('click',function(){
+              if($('.improve-modal--suggestion').is(":visible"))
+              $('.improve-modal--suggestion').hide();
+              else{
+              }
+
+              $('.improve-modal--improvement').show();
+            });
+            const showErrorMessage = (result,statusCode) => {
+                if(!result)
+                return;
+                $('.spinner-loading-overlay:eq(0)').remove();
+                if(statusCode == 403) {
+                    $('.improve-modal--improve-content.error-message').html(result.message);
+                    jQuery('.improve-modal--overlay').show();
+                    jQuery('.improve-modal--improvement').show();
+                    $('.locked-status--impove-modal').css("display","block");
+                    $('.unlocked-status--improve-modal-content').css("display","none");
+                    $('.improve-modal--improvement').attr("status","locked");
+                    return;
+                }
+                            }
+            function suggestionCall() {   
+                var editorValue = suggestEditorInstance.getValue();
+                var suggest_val = $(".ContentEditable__root").find("[data-lexical-text='true']").map(function() {
+                                    return $(this).text().trim();
+                                    }).get().join(' ');
+                suggest_val = suggest_val.replace(/\s+/g, ' ').trim();     
+                var array_String= suggest_val.split(" ") //array of words
+                var gCaptchaToken = $("#g-recaptcha-response-suggestion-form").val();
+                var error_msg = false;
+                if(suggest_val != "" && array_String.length >=4){
+                    if(editorValue.length <= 2000){
+                        var payload = {
+                                    "gfg_post_id" : `${post_id}`,
+                                    "suggestion" : `${editorValue}`,
+                                }
+                        if(!loginData || !loginData.isLoggedIn)                  // User is not logged in
+                        payload["g-recaptcha-token"] = gCaptchaToken
+                        jQuery.ajax({
+                            type:'post',
+                            url:  "https://apiwrite.geeksforgeeks.org/suggestions/auth/create/",
+                            xhrFields: {
+                                withCredentials: true
+                            },
+                            crossDomain: true,
+                            contentType:'application/json',
+                            data: JSON.stringify(payload),
+                            success:function(data) {
+                                if(!loginData || !loginData.isLoggedIn) {
+                                  grecaptcha.reset();
+                                }
+                                jQuery('.spinner-loading-overlay:eq(0)').remove();
+                                jQuery('.suggest-bottom-btn').css("display","none");
+                                $('#suggestion-section-textarea').hide()
+                                $('.thank-you-message').css('display', 'flex');
+                                $('.suggestion-section').css('display', 'none');
+                                jQuery('#suggestion-modal-alert').hide();
+                            },
+                            error:function(data) {
+                                if(!loginData || !loginData.isLoggedIn) {
+                                  grecaptcha.reset();
+                                }
+                                jQuery('.spinner-loading-overlay:eq(0)').remove();
+                                jQuery('#suggestion-modal-alert').html("Something went wrong.");
+                                jQuery('#suggestion-modal-alert').show();
+                                error_msg = true;
+                            }
+                        });
+                    }
+                    else{
+                        jQuery('.spinner-loading-overlay:eq(0)').remove();
+                        jQuery('#suggestion-modal-alert').html("Minimum 4 Words and Maximum Words limit is 1000.");
+                        jQuery('#suggestion-modal-alert').show();
+                        jQuery('.ContentEditable__root').focus();
+                        error_msg = true;
+                    }
+                }
+                else{
+                    jQuery('.spinner-loading-overlay:eq(0)').remove();
+                    jQuery('#suggestion-modal-alert').html("Enter atleast four words !");
+                    jQuery('#suggestion-modal-alert').show();
+                    jQuery('.ContentEditable__root').focus();
+                    error_msg = true;
+                }
+                if(error_msg){
+                    setTimeout(() => {
+                        jQuery('.ContentEditable__root').focus();
+                        jQuery('#suggestion-modal-alert').hide();
+                    }, 3000);
+                }
+            }
+            
+            document.querySelector('.suggest-bottom-btn').addEventListener('click', function(){
+              jQuery('body').append('<div class="spinner-loading-overlay"></div>');
+              jQuery('.spinner-loading-overlay').show();
+              if(loginData && loginData.isLoggedIn) {
+                 suggestionCall();
+                 return;
+              }
+              // script for grecaptcha loaded in loginmodal.html and call function to set the token
+              setGoogleRecaptcha();
+            });
+            $('.improvement-bottom-btn.create-improvement-btn').click(function() {  //create improvement button is clicked
+              $('body').append('<div class="spinner-loading-overlay"></div>');
+              $('.spinner-loading-overlay').show();
+              // send this option via create-improvement-post api
+              jQuery.ajax({
+                url: writeApiUrl + 'create-improvement-post/?v=1',
+                type: "POST",
+                contentType: 'application/json; charset=utf-8',
+                dataType: 'json',
+                xhrFields: {
+                  withCredentials: true
+                },
+                data: JSON.stringify({
+                  gfg_id: post_id
+                }),
+                success:function(result) {
+                  $('.spinner-loading-overlay:eq(0)').remove();
+                  $('.improve-modal--overlay').hide();
+                  $('.create-improvement-redirection-to-write').attr('href',writeUrl + 'improve-post/' + `${result.id}` + '/', '_blank');
+                  $('.create-improvement-redirection-to-write')[0].click();
+                },
+                error:function(e) {
+                  showErrorMessage(e.responseJSON,e.status);
+                },
+              });
+            });
+        </script>
+    <script>
+var AdblockPlus = new function() {
+     this.detect = function(px, callback) {
+         var detected = false;
+         var checksRemain = 2;
+         var error1 = false;
+         var error2 = false;
+         if (typeof callback != "function") return;
+         px += "?ch=*&rn=*";
+
+         function beforeCheck(callback, timeout) {
+             if (checksRemain == 0 || timeout > 1E3) callback(checksRemain == 0 && detected);
+             else setTimeout(function() {
+                 beforeCheck(callback, timeout * 2)
+             }, timeout * 2)
+         }
+
+         function checkImages() {
+             if (--checksRemain) return;
+             detected = !error1 && error2
+         }
+         var random = Math.random() * 11;
+         var img1 = new Image;
+         img1.onload = checkImages;
+         img1.onerror = function() {
+             error1 = true;
+             checkImages()
+         };
+         img1.src = px.replace(/\*/, 1).replace(/\*/, random);
+         var img2 = new Image;
+         img2.onload = checkImages;
+         img2.onerror = function() {
+             error2 = true;
+             checkImages()
+         };
+         img2.src = px.replace(/\*/, 2).replace(/\*/, random);
+         beforeCheck(callback, 250)
+     }
+ };
+
+/*
+AdblockPlus.detect("https://cdnads.geeksforgeeks.org/res/px.gif", function(abp){
+    window.googletag = window.googletag || {cmd: []};
+    window.abp=abp;
+    var elms = [...document.querySelectorAll('div[id^=_GFG_ABP_]')];
+    const units=elms.map(elem=>elem.id)
+    if(abp) {
+        for(let curr_unit of units) {
+            const iframe = document.createElement('iframe');
+            iframe.setAttribute('src',"https://aa.geeksforgeeks.org/iframe.html?code="+curr_unit.substr(1))
+            const elem = document.getElementById(curr_unit)
+            const div = document.createElement('div');
+            div.setAttribute('id',curr_unit.substr(1))
+            let sizes = curr_unit.split("_");
+            sizes = sizes.filter(val => val.includes('x'));
+            let [width, height] = sizes[0].split("x");
+            iframe.style.width = `${+width+20}px`
+            iframe.style.height = `${+height+20}px`
+            if(elem) {
+                elem.appendChild(iframe);
+            }
+        }
+        var gfgAdDivs = [...document.querySelectorAll('div[id^=GFG_AD_]')];
+        gfgAdDivs.forEach(gfgDiv => document.getElementById(gfgDiv.id).removeAttribute("style"));
+        jQuery('#secondary .widget_text:last-child').css({"position": "unset"});
+    }
+});*/
+    AdblockPlus.detect("https://cdnads.geeksforgeeks.org/res/px.gif", function(abp){
+    window.googletag = window.googletag || {cmd: []};
+    window.abp=abp;
+    var elms = [...document.querySelectorAll('div[id^=_GFG_ABP_]')];
+    //const units=elms.map(elem=>elem.id)
+    const units = elms
+      .filter(elem => !(window.innerWidth < 1500 && elem.id === "_GFG_ABP_Incontent_728x90"))
+      .map(elem => elem.id);
+    if(abp) {
+        isAdBlockerPresent = true;
+        for(let curr_unit of units) {
+            const iframe = document.createElement('iframe');
+            iframe.addEventListener("load", () => {
+              iframe.contentWindow.postMessage(JSON.stringify({host: window.location.host,category: window.arrPostCatName,parentWidth: window.innerWidth}),'https://aa.geeksforgeeks.org');
+            });
+            iframe.setAttribute('src',"https://aa.geeksforgeeks.org/iframe.html?code="+curr_unit.substr(1))
+            const elem = document.getElementById(curr_unit)
+            const div = document.createElement('div');
+            div.setAttribute('id',curr_unit.substr(1))
+            let sizes = curr_unit.split("_");
+            sizes = sizes.filter(val => val.includes('x'));
+            let [width, height] = sizes[0].split("x");
+            iframe.style.width = `${+width+20}px`
+            iframe.style.height = `${+height+20}px`
+            if(elem) {
+                elem.appendChild(iframe);
+            }
+        }
+        var gfgAdDivs = [...document.querySelectorAll('div[id^=GFG_AD_]')];
+        gfgAdDivs.forEach(gfgDiv => document.getElementById(gfgDiv.id).removeAttribute("style"));
+        jQuery('#secondary .widget_text:last-child').css({"position": "unset"});
+    }
+    else{
+      try {
+        var isAdblockEnabled = t =>
+            fetch(
+                new Request('https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js', {
+                    method: 'HEAD',
+                    mode: 'no-cors'
+                })
+            ).catch(t);
+          isAdblockEnabled(() => {
+            // here goes modal pop-up code
+            isAdBlockerPresent = true;
+          });
+      } catch (err) {console.error(err);}
+    }
+});
+
+  function closeAdBlockPopupModal(){
+    const modal = document.getElementById("adBlockerModal");
+    $('body').removeClass('body-for-ad-blocker');
+    $('#adBlockerModal').remove()
+    localStorage.setItem('gfgAdBlockPopup',new Date())
+  }
+  function showAdblockerModal(){
+    let randomNumberForButtonText = Math.round(Math.random()); 
+    let currTime = new Date();
+    let lastTime = new Date(localStorage.getItem('gfgAdBlockPopup'));
+    if(((currTime-lastTime)/(1000*60*60))<1)
+    {
+      return;
+    }
+    const adBlockerModal = `<div id="adBlockerModal" class="ad-blocker-modal">
+      <div id="ad-blocker-modal-overlay">
+        <div id="ad-blocker-outer-div">
+          <div id="ad-blocker-div">
+          <p id="ad-blocker-div-warning" style="margin-bottom: 30px;">It seems that you are using an ad blocker.<br><span style="font-size: 22px;font-weight: normal;">Please disable it to support us!</span></p>
+              <div id="ad-blocker-div-btns">
+                  <button id="ad-blocker-div-button1" onclick="handleAdBlockerClick('disabled')">
+                      I disabled my ad blocker
+                  </button>
+                  <a href="https://www.geeksforgeeks.org/geeksforgeeks-premium-subscription" target="_blank">
+                      <button
+                          id="ad-blocker-div-button2"
+                          style="
+                              background: linear-gradient(45deg, #f0bd36, #bf873f);
+                              border: 1px solid transparent;
+                              color: white;
+                          "
+                      >
+                          ${randomNumberForButtonText === 1 ? "Go Ad-Free with Premium" : "Upgrade for No Ads"}
+                      </button>
+                  </a>
+              </div>
+              <div id="ad-blocker-div-continue-premium-promo-text">
+                  "For an ad-free experience and exclusive features, subscribe to our Premium Plan!"<br>
+              </div>
+              <div id="ad-blocker-div-continue-btn-div">
+                  <a id="ad-blocker-div-continue-btn" href="#" onclick="closeAdBlockPopupModal()">Continue without supporting</a>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>`;
+    $('body').append(adBlockerModal);
+    $('body').addClass('body-for-ad-blocker');
+    const modal = document.getElementById("adBlockerModal");
+    modal.style.display = "block";
+  }
+  function handleAdBlockerClick(type){
+      if(type == 'disabled'){
+        window.location.reload();
+      }
+      else if(type == 'info'){
+        document.getElementById("ad-blocker-div").style.display = "none";
+        document.getElementById("ad-blocker-info-div").style.display = "flex";
+        handleAdBlockerIconClick(0);
+      }
+  }
+  var lastSelected= null;
+  //Mapping of name and video URL with the index.
+  const adBlockerVideoMap = [
+    ['Ad Block Plus','https://media.geeksforgeeks.org/auth-dashboard-uploads/abp-blocker-min.mp4'],
+    ['Ad Block','https://media.geeksforgeeks.org/auth-dashboard-uploads/Ad-block-min.mp4'],
+    ['uBlock Origin','https://media.geeksforgeeks.org/auth-dashboard-uploads/ub-blocke-min.mp4'],
+    ['uBlock','https://media.geeksforgeeks.org/auth-dashboard-uploads/U-blocker-min.mp4'],
+  ]
+  function handleAdBlockerIconClick(currSelected){
+    const videocontainer = document.getElementById('ad-blocker-info-div-gif');
+    const videosource = document.getElementById('ad-blocker-info-div-gif-src');
+    if(lastSelected != null){
+      document.getElementById("ad-blocker-info-div-icons-"+lastSelected).style.backgroundColor = "white";  
+      document.getElementById("ad-blocker-info-div-icons-"+lastSelected).style.borderColor = "#D6D6D6";
+    }
+    document.getElementById("ad-blocker-info-div-icons-"+currSelected).style.backgroundColor = "#D9D9D9";
+    document.getElementById("ad-blocker-info-div-icons-"+currSelected).style.borderColor = "#848484";
+    document.getElementById('ad-blocker-info-div-name-span').innerHTML = adBlockerVideoMap[currSelected][0]
+    videocontainer.pause();
+    videosource.setAttribute('src', adBlockerVideoMap[currSelected][1]);
+    videocontainer.load();
+    videocontainer.play();
+    lastSelected = currSelected;
+  }
+</script>
+<!-- <script async src="https://www.googleoptimize.com/optimize.js?id=OPT-5PGZ8MN"></script> -->
+
+<style>
+/* Temporary CSS for Three90 pop up modal (START)*/
+    .three90popup__container {
+      width: 100vw;
+      height: 100vh; 
+      position: fixed;
+      top:0px;
+      background: var(--job-tab-faded-background);
+      z-index: 1024;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .three90modal__wrapper{
+      background-color: white;
+      max-width: 350px;
+      display: flex;
+      flex-direction: column;
+      border-radius: 10px;
+      overflow: hidden;
+
+    }
+    .three90modal__message-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-family: var(--font-primary);
+    }
+    .three90modal__subheading {
+      margin-top: 20px;
+      font-size: 22px;
+      font-weight: 600;
+    }
+    .three90modal__text-message {
+      margin-top: 20px;
+      font-size: 15px;
+      font-weight: 400;
+      text-align: center;
+      padding: 0 5px;
+    }
+    .three90__modal__button-wrapper {
+      width: 100%;
+      padding: 20px 0px;
+      display: flex;
+      justify-content: space-evenly;
+    }
+    .three90__modal__button-wrapper > button {
+      width: 105px;
+      height: 35px;
+      border-radius: 13px;
+      border:none;
+      font-weight: 600;
+      cursor: pointer;
+    } 
+    #three90__modal-close-btn:hover {
+      background-color: #cacbcd;
+    }
+    #three90__modal-explore-btn {
+      background-color: #0a0727;
+      color: white
+    }
+
+    @media screen and (max-width: 441px) {
+      .three90modal__wrapper {
+        max-width: 300px;
+      }
+    }
+
+  /* Temporary CSS for Three90 pop up modal (END)*/
+</style>
+
+<script type="text/javascript">
+    const coursePromotionCities = JSON.parse(`{"NCR":{"LOCATIONS":["Noida","Greater Noida","Ghaziabad","Faridabad","Delhi","New Delhi"],"COURSES":[{"name":"Data Science Course","url":"https:\/\/www.geeksforgeeks.org\/courses\/data-science-classroom-program?itm_source=geeksforgeeks&itm_medium=main_header&itm_campaign=courses"},{"name":"Data Analytics Course","url":"https:\/\/www.geeksforgeeks.org\/courses\/complete-data-analytics-program?itm_source=geeksforgeeks&itm_medium=main_header&itm_campaign=courses"},{"name":"Complete Backend Development Course","url":"https:\/\/www.geeksforgeeks.org\/courses\/complete-java-backend-development-program?itm_source=geeksforgeeks&itm_medium=main_header&itm_campaign=courses"},{"name":"DSA for Interview Preparation","url":"https:\/\/www.geeksforgeeks.org\/courses\/dsa-interview-preparation-classroom?itm_source=geeksforgeeks&itm_medium=main_header&itm_campaign=courses"},{"name":"MERN Full Stack Web Development Course","url":"https:\/\/www.geeksforgeeks.org\/courses\/mern-full-stack-development-classroom?itm_source=geeksforgeeks&itm_medium=main_header&itm_campaign=courses"},{"name":"All Courses","url":"https:\/\/www.geeksforgeeks.org\/courses\/offline-courses?city=noida?itm_source=geeksforgeeks&itm_medium=main_header&itm_campaign=courses"}]},"NON_NCR":{"Bengaluru":[{"name":"Data Science Course","url":"https:\/\/www.geeksforgeeks.org\/courses\/data-science-classroom-program?itm_source=geeksforgeeks&itm_medium=main_header&itm_campaign=courses"},{"name":"Complete Data Analytics Program","url":"https:\/\/www.geeksforgeeks.org\/courses\/complete-data-analytics-program?itm_source=geeksforgeeks&itm_medium=main_header&itm_campaign=courses"},{"name":"Complete Backend Development Course","url":"https:\/\/www.geeksforgeeks.org\/courses\/complete-java-backend-development-program?itm_source=geeksforgeeks&itm_medium=main_header&itm_campaign=courses"},{"name":"DSA For Interview Preparation","url":"https:\/\/www.geeksforgeeks.org\/courses\/dsa-interview-preparation-classroom?itm_source=geeksforgeeks&itm_medium=main_header&itm_campaign=courses"},{"name":"MERN Full Stack Web Development Course","url":"https:\/\/www.geeksforgeeks.org\/courses\/mern-full-stack-development-classroom?itm_source=geeksforgeeks&itm_medium=main_header&itm_campaign=courses"},{"name":"All Courses","url":"https:\/\/www.geeksforgeeks.org\/courses\/offline-courses?city=bengaluru?itm_source=geeksforgeeks&itm_medium=main_header&itm_campaign=courses"}],"Pune":[{"name":"Data Analytics Course","url":"https:\/\/www.geeksforgeeks.org\/courses\/complete-data-analytics-program?itm_source=geeksforgeeks&itm_medium=main_header&itm_campaign=courses"},{"name":"DSA For Interview Preparation","url":"https:\/\/www.geeksforgeeks.org\/courses\/dsa-interview-preparation-classroom?itm_source=geeksforgeeks&itm_medium=main_header&itm_campaign=courses"},{"name":"MERN Full Stack Web Development Course","url":"https:\/\/www.geeksforgeeks.org\/courses\/mern-full-stack-development-classroom?itm_source=geeksforgeeks&itm_medium=main_header&itm_campaign=courses"},{"name":"All Courses","url":"https:\/\/www.geeksforgeeks.org\/courses\/offline-courses?city=pune?itm_source=geeksforgeeks&itm_medium=main_header&itm_campaign=courses"}],"Hyderabad":[{"name":"Complete Data Analytics Program","url":"https:\/\/www.geeksforgeeks.org\/courses\/complete-data-analytics-program?itm_source=geeksforgeeks&itm_medium=main_header&itm_campaign=courses"},{"name":"Complete Backend Development Course","url":"https:\/\/www.geeksforgeeks.org\/courses\/complete-java-backend-development-program?itm_source=geeksforgeeks&itm_medium=main_header&itm_campaign=courses"},{"name":"DSA for Interview Preparation","url":"https:\/\/www.geeksforgeeks.org\/courses\/dsa-interview-preparation-classroom?itm_source=geeksforgeeks&itm_medium=main_header&itm_campaign=courses"},{"name":"MERN Full Stack Web Development Course","url":"https:\/\/www.geeksforgeeks.org\/courses\/mern-full-stack-development-classroom?itm_source=geeksforgeeks&itm_medium=main_header&itm_campaign=courses"},{"name":"All Courses","url":"https:\/\/www.geeksforgeeks.org\/courses\/offline-courses?city=hyderabad?itm_source=geeksforgeeks&itm_medium=main_header&itm_campaign=courses"}]}}`);
+    const offlineCourseTermMapper = JSON.parse(`{"ALL_TERMIDS":["2058","6263","2628","1745","1789","2601","2057","5037","2971","2023","2162","2795"],"COURSE_TERMID_MAP":{"JAVA":["2058"],"DATA_ANALYTICS":["1745","1789","2601","2057","5037","2971","2023","2162","2795"],"DSA":["6263"],"MERN":["2628"]}}`);
+</script>
+
+<script async="" src="./grade_files/event-promotion.min.js.download"></script>
+  
+<!-- gfg tabs compatablity bundled js -->
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KDVRCT5');</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async="" src="./grade_files/js(1)"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+//  gtag('config', 'AW-474915276');
+  gtag('config', 'G-DWCCJLKX3X');
+  gtag('config', 'AW-796001856');
+</script>
+
+<!-- fancybar ad code start -->
+<div id="GFG_AD_Desktop_Stickyunit_1x1" data-google-query-id="CMyI-9Pm1I4DFTAltwAdsWI24Q" style=""><div id="google_ads_iframe_/27823234/bottomsticky_direct_728x90_0__container__" style="border: 0pt none; width: 728px; height: 90px;"></div></div>
+<!-- fancybar ad code ends -->
+<!-- <div id="GFG_AD_gfg_mobile_320x50"></div> -->
+<style>
+    :root {
+        --com-extra-icons-mobile-image: url(https://media.geeksforgeeks.org/auth-dashboard-uploads/Com-Extra-Icons13.svg);
+        --write-experience-card-1: #ECF5F5;
+        --write-experience-card-icon-1: #21898C;
+        --write-experience-card-2: #EAF2F7;
+        --write-experience-card-icon-2: #3079AC;
+        --write-experience-card-3: #FDEFE6;
+        --write-experience-card-icon-3: #F5A572;
+        --write-experience-card-4: #F1F8F5;
+        --write-experience-card-icon-4: #91C4AD;
+        --write-experience-card-5: #EEE7FF;
+        --write-experience-card-icon-5: #8B72C9;
+        --write-experience-card-6: #F2F8E6;
+        --write-experience-card-icon-6: #78C57F;
+        --editor-button-text-color: #6E6E73;
+        --write-modal-background: #fefefe;
+        --experience-sidebar: #000;
+        --left-bar-background: #FFFFFF;
+        --write-redirect-container:#EAF2F7;
+        --write-redirect-container-hover:#d6e7f2;
+        
+    }
+
+    /* Dark Mode */
+    body[data-dark-mode="true"] {
+        --write-modal-background: #161c23;
+        --experience-sidebar: #000;
+        --left-bar-background: #F0F3F5;
+    }
+
+    .popup-main {
+        padding: 20px 18px 20px 18px;
+        border-radius: 8px;
+    }
+
+    .popup-main .popup-heading {
+        display: flex;
+        align-items: center;
+        color: #E9E9EA;
+        margin-bottom: 10px;
+        justify-content: space-between;
+    }
+
+    .popup-main .close-icon {
+        background-image: var(--com-extra-icons-mobile-image);background-position: -15px -1651px;height: 22px;width: 22px;transform: scale(1);
+        margin-bottom: 12px;
+        cursor: pointer;
+    }
+
+    .popup-main .experience-card {
+        color: #000;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+        /* margin-bottom:10px; */
+    }
+
+    .popup-main a:hover,
+    .popup-main a:active,
+    .popup-main a:visited {
+        color: inherit;
+        text-decoration: none;
+    }
+
+    .popup-main .exp-card1,
+    .popup-main .exp-card2,
+    .popup-main .exp-card3,
+    .popup-main .exp-card4,
+    .popup-main .exp-card5,
+    .popup-main .exp-card6 {
+        display: flex;
+        align-items: center;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+    .popup-main .exp-card1 .icon1,
+    .popup-main .exp-card2 .icon2,
+    .popup-main .exp-card3 .icon3,
+    .popup-main .exp-card4 .icon4,
+    .popup-main .exp-card5 .icon5,
+    .popup-main .exp-card6 .icon6 {
+        width: 80px;
+        height: 80px;
+        border-radius: 10px 0px 0px 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: var(--write-experience-card-icon-1);
+    }
+
+    .popup-main .exp-card1 .icon1,
+    .popup-main .exp-card2 .icon2,
+    .popup-main .exp-card3 .icon3,
+    .popup-main .exp-card4 .icon4,
+    .popup-main .exp-card5 .icon5,
+    .popup-main .exp-card6 .icon6 {
+        width: 80px;
+        height: 80px;
+        border-radius: 10px 0px 0px 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .popup-main .exp-card1 .icon1 {
+        background: var(--write-experience-card-icon-1);
+    }
+
+    .popup-main .exp-card2 .icon2 {
+        background: var(--write-experience-card-icon-2);
+    }
+
+    .popup-main .exp-card3 .icon3 {
+        background: var(--write-experience-card-icon-3);
+    }
+
+    .popup-main .exp-card4 .icon4 {
+        background: var(--write-experience-card-icon-4);
+    }
+
+    .popup-main .exp-card5 .icon5 {
+        background: var(--write-experience-card-icon-5);
+    }
+
+    .popup-main .exp-card6 .icon6 {
+        background: var(--write-experience-card-icon-6);
+    }
+
+    .popup-main .exp-card6 .icon6-image {
+        background-image: url(https://media.geeksforgeeks.org/auth-dashboard-uploads/compass.svg);
+        width: 46px;
+        height: 30px;
+        background-size: 30px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .popup-main .exp-card1 .icon1-image {
+        background-image: var(--com-extra-icons-mobile-image);
+        width: 46px;
+        height: 28px;
+        background-position: -4px -812px;
+    }
+
+    .popup-main .exp-card2 .icon2-image {
+        background-image: var(--com-extra-icons-mobile-image);
+        width: 46px;
+        height: 28px;
+        background-position: -4px -888px;
+    }
+
+    .popup-main .exp-card3 .icon3-image {
+        background-image: var(--com-extra-icons-mobile-image);
+        width: 46px;
+        height: 28px;
+        background-position: -4px -848px;
+    }
+
+    .popup-main .exp-card4 .icon4-image {
+        background-image: url(https://media.geeksforgeeks.org/auth-dashboard-uploads/competitive.svg);
+        width: 46px;
+        height: 30px;
+        background-size: 30px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .popup-main .exp-card5 .icon5-image {
+        background-image: var(--com-extra-icons-mobile-image);
+        width: 46px;
+        height: 33px;
+        background-position: -4px -1217px;
+    }
+
+
+    .popup-main .exp-card1 .exp-card1-text,
+    .popup-main .exp-card2 .exp-card2-text,
+    .popup-main .exp-card3 .exp-card3-text,
+    .popup-main .exp-card4 .exp-card4-text,
+    .popup-main .exp-card5 .exp-card5-text,
+    .popup-main .exp-card6 .exp-card6-text {
+        display: flex;
+        align-items: center;
+        border-radius: 0px 10px 10px 0px;
+        height: 80px;
+        width: calc(100% - 80px);
+    }
+
+    .popup-main .exp-card1 {
+        justify-content: flex-start;
+        background: var(--write-experience-card-1);
+    }
+
+    .popup-main .exp-card2 {
+        justify-content: flex-start;
+        background: var(--write-experience-card-2);
+    }
+
+    .popup-main .exp-card3 {
+        justify-content: flex-start;
+        background: var(--write-experience-card-3);
+    }
+
+    .popup-main .exp-card4 {
+        justify-content: flex-start;
+        background: var(--write-experience-card-4);
+    }
+
+    .popup-main .exp-card5 {
+        justify-content: flex-start;
+        background: var(--write-experience-card-5);
+    }
+
+    .popup-main .exp-card6 {
+        justify-content: flex-start;
+        background: var(--write-experience-card-6);
+    }
+
+    .popup-main span {
+        font-family: var(--font-primary);
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    #popup {
+        display: none;
+        background-color: var(--write-modal-background);
+        padding: 20px;
+        text-align: center;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 1026;
+        width: min(650px, calc(100% - 20px));
+    }
+    .link-container-write{
+        display:flex;
+        flex-direction:column;
+    }
+    .link-container-write > a {
+        margin:7px 0px;
+    }
+    .phrase__container{
+        color:var(--color-gfg);
+        border-radius: 6px;
+        width: 100%;
+        background-color:var(--write-redirect-container);
+        padding: 15px;
+        text-align: justify;
+        font-size:14px;
+    }
+    .phrase__container:hover {
+        color:var(--color-gfg) !important;
+        background-color:var(--write-redirect-container-hover);
+    }
+</style>
+<div class="popup-container">
+        <div id="popup" accesskey="" class="popup-main">
+            <div class="popup-heading">
+                <h2>What kind of Experience do you want to share?</h2>
+                <div class="close-icon share-experience-modal-close"></div>
+            </div>
+            <!-- <span class="description"style="color: #BEBEC2;">Tell us your type of experiences which can help other fellow Geeks for their future events and preparations.</span> -->
+            <div class="experience-card">
+                <a class="exp-card5" href="https://write.geeksforgeeks.org/posts-new?cid=e8fc46fe-75e7-4a4b-be3c-0c862d655ed0" target="_blank">
+                    <div class="icon5">
+                        <div class="icon5-image"></div>
+                    </div>
+                    <div class="exp-card5-text">
+                        <span style="color: #000;">Interview Experiences</span>
+                    </div>
+                </a>
+                <a class="exp-card1" href="https://write.geeksforgeeks.org/posts-new?cid=82536bdb-84e6-4661-87c3-e77c3ac04ede" target="_blank">
+                    <div class="icon1">
+                        <div class="icon1-image"></div>
+                    </div>
+                    <div class="exp-card1-text">
+                        <span style="color: #000;">Admission Experiences</span>
+                    </div>
+                </a>
+                <a class="exp-card6" href="https://write.geeksforgeeks.org/posts-new?cid=5219b0b2-7671-40a0-9bda-503e28a61c31" target="_blank">
+                    <div class="icon6">
+                        <div class="icon6-image"></div>
+                    </div>
+                    <div class="exp-card6-text">
+                        <span style="color: #000;">Career Journeys</span>
+                    </div>
+                </a>
+                <a class="exp-card2" href="https://write.geeksforgeeks.org/posts-new?cid=22ae3354-15b6-4dd4-a5b4-5c7a105b8a8f" target="_blank">
+                    <div class="icon2">
+                        <div class="icon2-image"></div>
+                    </div>
+                    <div class="exp-card2-text">
+                        <span style="color: #000;">Work Experiences</span>
+                    </div>
+                </a>
+                <a class="exp-card3" href="https://write.geeksforgeeks.org/posts-new?cid=c5e1ac90-9490-440a-a5fa-6180c87ab8ae" target="_blank">
+                    <div class="icon3">
+                        <div class="icon3-image"></div>
+                    </div>
+                    <div class="exp-card3-text">
+                        <span style="color: #000;">Campus Experiences</span>
+                    </div>
+                </a>
+                <a class="exp-card4" href="https://write.geeksforgeeks.org/posts-new?cid=5ebb8fe9-b980-4891-af07-f2d62a9735f2" target="_blank">
+                    <div class="icon4">
+                        <div class="icon4-image"></div>
+                    </div>
+                    <div class="exp-card4-text">
+                        <span style="color: #000;">Competitive Exam Experiences</span>
+                    </div>
+                </a>
+            </div>
+        <!--    <div class="link-container-write">
+                <a href="https://write.geeksforgeeks.org/pick-article?taxonomy=10261&page=1">
+                    <div role="span" class="phrase__container">
+                        Can't choose a topic to write? click here for suggested topics
+                    </div>
+                </a>
+                <a href="https://write.geeksforgeeks.org/posts-new">
+                    <div role="span" class="phrase__container">
+                       Write and publish your own Article
+                    </div>
+                </a>
+            </div> -->
+        </div>
+        <div id="overlay" onclick="toggleExperiencePopup()" style="display: block;min-height: 100vh;min-width: 100vw;position: fixed;top: 0;bottom: 0;right: 0;left: 0;display: none;justify-content: center;align-items: center;background: rgba(0,0,0,.702);z-index: 1025 !important;backdrop-filter: blur(4px); -webkit-backdrop-filter: blur(4px);word-break: keep-all;"></div>
+    </div>
+
+    <script>
+        $('.share-experience-modal').click(function(e){
+            e.preventDefault();
+            var link = $(this).attr('href');
+            toggleExperiencePopup(link);
+        });
+        function toggleExperiencePopup(link) {
+            var popup = document.getElementById("popup");
+            var overlay = document.getElementById("overlay");
+
+            if (window.innerWidth < 992) {
+                window.location.href = link;
+            } else {
+                popup.style.display = (popup.style.display === "block") ? "none" : "block";
+                overlay.style.display = (overlay.style.display === "block") ? "none" : "block";
+            }
+        }
+        $('.share-experience-modal-close').click(function(e){
+            var popup = document.getElementById("popup");
+            popup.style.display = 'none';
+            var overlay = document.getElementById("overlay");
+            overlay.style.display = 'none';
+        });
+</script>
+<!-- Chat bot is being shown for these category articles (8 -> linked-list 9172 -> AI-ML-DS, 1789 -> python  4667 -> math)  -->
+
+   <!--script to load push notification related js-->
+   <script defer="" src="./grade_files/gfgnotification.min.js.download"></script>
+
+  <!--loading push notification css-->
+  <link rel="stylesheet" href="./grade_files/gfgnotification.min.css" type="text/css">
+
+
+
+
+
+
+
+
+<iframe marginwidth="0" marginheight="0" scrolling="no" frameborder="0" id="1d58ebd75f830a8" width="0" height="0" src="./grade_files/saved_resource(5).html" name="__pb_locator__" style="display: none; height: 0px; width: 0px; border: 0px;"></iframe><iframe allow="join-ad-interest-group" data-tagging-id="AW-796001856" data-load-time="1753336279791" height="0" width="0" src="./grade_files/796001856.html" style="display: none; visibility: hidden;"></iframe><iframe height="0" width="0" style="display: none; visibility: hidden;" src="./grade_files/saved_resource(6).html"></iframe><iframe name="googlefcPresent" style="display: none; width: 0px; height: 0px; border: none; z-index: -1000; left: -1000px; top: -1000px;" src="./grade_files/saved_resource(7).html"></iframe><iframe name="__tcfapiLocator" src="./grade_files/saved_resource(8).html" style="display: none; width: 0px; height: 0px; border: none; z-index: -1000; left: -1000px; top: -1000px;"></iframe><iframe name="__uspapiLocator" src="./grade_files/saved_resource(9).html" style="display: none; width: 0px; height: 0px; border: none; z-index: -1000; left: -1000px; top: -1000px;"></iframe><iframe name="__gppLocator" src="./grade_files/saved_resource(10).html" style="display: none; width: 0px; height: 0px; border: none; z-index: -1000; left: -1000px; top: -1000px;"></iframe><iframe name="googlefcInactive" src="./grade_files/saved_resource(11).html" style="display: none; width: 0px; height: 0px; border: none; z-index: -1000; left: -1000px; top: -1000px;"></iframe><iframe name="googlefcLoaded" src="./grade_files/saved_resource(12).html" style="display: none; width: 0px; height: 0px; border: none; z-index: -1000; left: -1000px; top: -1000px;"></iframe><script type="text/javascript" id="" charset="">var terms=google_tag_manager["rm"]["58768136"](34);Array.isArray(terms)&&terms.forEach(function(a){window.dataLayer=window.dataLayer||[];window.dataLayer.push({event:"termEvent",termName:a})});</script><iframe src="./grade_files/iu3.html" style="display: none;"></iframe><iframe src="./grade_files/aframe.html" width="0" height="0" style="display: none;"></iframe></body><iframe name="goog_topics_frame" src="./grade_files/topics_frame.html" style="display: none;"></iframe><iframe sandbox="allow-scripts allow-same-origin" id="57c5ba5452c9afd" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height:0px;width:0px;display:none;" scrolling="no" src="./grade_files/pd.html">
+    </iframe><iframe sandbox="allow-scripts allow-same-origin" id="58d9f0570c07f618" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height:0px;width:0px;display:none;" scrolling="no" src="./grade_files/async_usersync.html">
+    </iframe><iframe sandbox="allow-scripts allow-same-origin" id="590eee782548ead" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height:0px;width:0px;display:none;" scrolling="no" src="./grade_files/iframe.html">
+    </iframe><iframe sandbox="allow-scripts allow-same-origin" id="608f9d6cb1065028" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height:0px;width:0px;display:none;" scrolling="no" src="./grade_files/sync.html">
+    </iframe><iframe sandbox="allow-scripts allow-same-origin" id="6133086764f666d" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height:0px;width:0px;display:none;" scrolling="no" src="./grade_files/user_sync.html">
+    </iframe><iframe sandbox="allow-scripts allow-same-origin" id="62cf1826e71ae6e8" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height:0px;width:0px;display:none;" scrolling="no" src="./grade_files/ixmatch.html">
+    </iframe></html>
